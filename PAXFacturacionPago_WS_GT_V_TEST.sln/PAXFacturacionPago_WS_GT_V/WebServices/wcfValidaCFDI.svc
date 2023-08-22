@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="wcfValidaCFDI" CodeBehind="~/App_Code/WebServices/wcfValidaCFDI.cs" %>

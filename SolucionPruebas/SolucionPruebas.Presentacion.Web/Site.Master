@@ -1,0 +1,96 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SolucionPruebas.Presentacion.Web.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/webGlobalStyle.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/menu_style.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Dynamic_Style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <asp:ScriptManager ID="ScriptManager" runat="server" EnableScriptGlobalization="True" EnableScriptLocalization="True" AjaxFrameworkMode="Enabled">
+    </asp:ScriptManager>
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    My ASP.NET Application
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                        <asp:MenuItem Text="Ventas" Value="Ventas">
+                            <asp:MenuItem NavigateUrl="~/Ventas/VentasArchivos.aspx" Text="Archivos" 
+                                Value="Archivos"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Ventas/VentasPersonas.aspx" Text="Persona" 
+                                Value="Persona"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Sistema Cobro" Value="Sistema Cobro">
+                            <asp:MenuItem Text="Timbrado" Value="Timbrado"
+                                NavigateUrl="~/Timbrado/TimbradoEnviar.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Timbrado/TimbradoOpenSSL.aspx" 
+                                Text="Sello (Open SSL)" Value="Sello (Open SSL)"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Timbrado/TimbradoChilkat.aspx" 
+                                Text="Sello (Chilkat)" Value="Sello (Chilkat)"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Addendas/GenerarAddenda.aspx" 
+                                Text="GenerarAddenda" Value="GenerarAddenda"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Timbrado/TimbradoHash.aspx" 
+                                Text="Hash" Value="Hash"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Timbrado/TimbradoGeneracion.aspx" 
+                                Text="Generacion y Timbrado" Value="Generacion y Timbrado"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Complementos/ComplementoCadenaOriginal.aspx"
+                                Text="Complementos" Value="Complementos"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Plantillas" Value="Plantillas">
+                            <asp:MenuItem NavigateUrl="~/Plantillas/Plantillas.aspx" 
+                                Text="Generar Plantilla" Value="Generar Plantilla"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Transacciones" Value="Transacciones">
+                            <asp:MenuItem NavigateUrl="~/Transacciones/Transacciones.aspx" 
+                                Text="Transaccion" Value="Transaccion"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Cancelacion" Value="Cancelacion">
+                            <asp:MenuItem NavigateUrl="~/Cancelacion/webCancelacion.aspx" 
+                                Text="Mandar Cancelación" Value="Mandar Cancelación"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Cancelacion/webCancelacionDistribuidor.aspx" 
+                                Text="Cancelacion Distribuidor" Value="Cancelacion Distribuidor">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Servicios" Value="Servicios">
+                            <asp:MenuItem NavigateUrl="~/Services/ServiciosConsumirCodigo.aspx"
+                                Text="Consumir Código" Value="Consumir Código"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                <p>
+                </p>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    </form>
+</body>
+</html>

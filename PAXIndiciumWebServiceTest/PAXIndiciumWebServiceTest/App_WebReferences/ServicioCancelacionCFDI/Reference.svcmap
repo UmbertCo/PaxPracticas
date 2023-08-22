@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="812fc05e-811d-4c81-8aeb-b7de4fe21ed3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://pruebacfdicancelacion.cloudapp.net/Cancelacion/CancelaCFDService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CancelaCFDService.xsd" MetadataType="Schema" ID="46cbfe7f-4105-4935-af7c-71bebaf049d9" SourceId="1" SourceUrl="https://pruebacfdicancelacion.cloudapp.net/Cancelacion/CancelaCFDService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CancelaCFDService1.xsd" MetadataType="Schema" ID="8b2a9f2e-7bef-4316-ac6f-92448d35f0c9" SourceId="1" SourceUrl="https://pruebacfdicancelacion.cloudapp.net/Cancelacion/CancelaCFDService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CancelaCFDService.disco" MetadataType="Disco" ID="e91eac91-48a1-4cf7-b152-05155ddf697d" SourceId="1" SourceUrl="https://pruebacfdicancelacion.cloudapp.net/Cancelacion/CancelaCFDService.svc?disco" />
+    <MetadataFile FileName="CancelaCFDService.wsdl" MetadataType="Wsdl" ID="7e8f3e2b-9623-44dd-896b-9a06c81d6f1c" SourceId="1" SourceUrl="https://pruebacfdicancelacion.cloudapp.net/Cancelacion/CancelaCFDService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

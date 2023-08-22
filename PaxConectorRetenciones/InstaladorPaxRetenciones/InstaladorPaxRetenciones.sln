@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstaladorPaxRetenciones", "InstaladorPaxRetenciones\InstaladorPaxRetenciones.vdproj", "{BA7AA9AD-ED3F-48C4-8C56-027EF936E3FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaxConectorRetenciones", "..\..\..\..\..\..\ARCHIVOS\RETENCIONES\PaxRet\PaxConectorRetenciones\PaxConectorRetenciones\PaxConectorRetenciones.csproj", "{B0660285-855C-42BC-87B1-EF463B52ADF4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.3.105:8080/tfs/team-practicas
+		SccProjectUniqueName0 = ..\\..\\..\\..\\..\\..\\ARCHIVOS\\RETENCIONES\\PaxRet\\PaxConectorRetenciones\\PaxConectorRetenciones\\PaxConectorRetenciones.csproj
+		SccProjectName0 = ../PaxConectorRetenciones
+		SccLocalPath0 = ..\\..\\..\\..\\..\\..\\ARCHIVOS\\RETENCIONES\\PaxRet\\PaxConectorRetenciones\\PaxConectorRetenciones
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = InstaladorPaxRetenciones\\InstaladorPaxRetenciones.vdproj
+		SccProjectName2 = InstaladorPaxRetenciones
+		SccLocalPath2 = InstaladorPaxRetenciones
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA7AA9AD-ED3F-48C4-8C56-027EF936E3FD}.Debug|x86.ActiveCfg = Debug
+		{BA7AA9AD-ED3F-48C4-8C56-027EF936E3FD}.Debug|x86.Build.0 = Debug
+		{BA7AA9AD-ED3F-48C4-8C56-027EF936E3FD}.Release|x86.ActiveCfg = Release
+		{BA7AA9AD-ED3F-48C4-8C56-027EF936E3FD}.Release|x86.Build.0 = Release
+		{B0660285-855C-42BC-87B1-EF463B52ADF4}.Debug|x86.ActiveCfg = Debug|x86
+		{B0660285-855C-42BC-87B1-EF463B52ADF4}.Debug|x86.Build.0 = Debug|x86
+		{B0660285-855C-42BC-87B1-EF463B52ADF4}.Release|x86.ActiveCfg = Release|x86
+		{B0660285-855C-42BC-87B1-EF463B52ADF4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

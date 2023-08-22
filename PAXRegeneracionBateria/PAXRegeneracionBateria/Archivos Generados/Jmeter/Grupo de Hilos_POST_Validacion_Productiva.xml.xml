@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="2.7" jmeter="2.12 r1636949">
+  <hashTree>
+    <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Fiel(Vigente)_OK" enabled="true">
+      <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+      <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="" elementType="HTTPArgument">
+            <boolProp name="HTTPArgument.always_encode">false</boolProp>
+            <stringProp name="Argument.value">&lt;cfdi:Comprobante xmlns:cfdi=&quot;http://www.sat.gob.mx/cfd/3&quot; noCertificado=&quot;00001000000104287303&quot; sello=&quot;fnqYaSl9ABy0OffVpenEs6EsbjxzQW5K4bhb4LfwojkhzXjR8A0l926CbEsS9YcR1P2bA4FC52RFABm0hSvyX53q3GMGf5oXnX3iwlOYyEQqjNlG2IeMsIiKcqi7tkGssCW9ye3Fj12M+tsVv2074Hd8spj7vUMr4Fzt7Vlr8d8=&quot; certificado=&quot;MIIENzCCAx+gAwIBAgIUMDAwMDEwMDAwMDAxMDQyODczMDMwDQYJKoZIhvcNAQEFBQAwggE2MTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExHzAdBgkqhkiG9w0BCQEWEGFjb2RzQHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxEzARBgNVBAcMCkN1YXVodGVtb2MxMzAxBgkqhkiG9w0BCQIMJFJlc3BvbnNhYmxlOiBGZXJuYW5kbyBNYXJ0w61uZXogQ29zczAeFw0xMTA5MDExNzI1NTJaFw0xNTA5MDExNzI2MzJaMIGlMR8wHQYDVQQDExZEQVZJRCBIRVJOQU5ERVogRkxPUkVTMR8wHQYDVQQpExZEQVZJRCBIRVJOQU5ERVogRkxPUkVTMR8wHQYDVQQKExZEQVZJRCBIRVJOQU5ERVogRkxPUkVTMQswCQYDVQQGEwJNWDEWMBQGA1UELRMNSEVGRDY2MDcxOFNDMzEbMBkGA1UEBRMSSEVGRDY2MDcxOEhERlJMVjAzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBmRB4J/BHcz3xA4MNrOQ5lIJ0ZrQtPbcebg0iBaNJdrcdtyozoeLn4Gz0DJZztSW+1BX4xBia1913M4VikY8tEc1jTptjbDzkn7Nuec1wSfUPLYCJwYAhAzQjA+jK86CwZheGIE7Pd2qhTQpsKARX5Q3IzddTNrzNHHDKgeG4GQIDAQABo08wTTAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwID2DARBglghkgBhvhCAQEEBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwQGCCsGAQUFBwMCMA0GCSqGSIb3DQEBBQUAA4IBAQBJSVSdFZOgUGUEt7ULZe1ahUFZKsZJG7GhaUthHLe/FSPzll/vLg9aa40wQsupTK6LxDB2bfknYuY3Umua4jVaxGiZtbokSsd6cioFQmHwFdvAP8Z6WG7WL1NHOTWi0uZLB1zZzEIdvOJbzbPyauxo0jy3cpyHmvhQ2vz1Q08/tW9jvr33s9WC9GSmD71al2Ji2LGQdJ1MIvuk4ldzHKvXR1SvCAtM8UM0KMLvBkGiJ16qXe8l9tzI9+HqWjP9GYKHRsetLZHUKH4wv8Ph6YsQ1rSdw0eZjQMGRTgQYdYIhKkh090IKaHF82MPveB+oyeK5zu6J5QUkneRFBWp5mC+&quot; fecha=&quot;2015-05-18T11:19:57&quot; LugarExpedicion=&quot;ECATEPEC DE MORELOS&quot; serie=&quot;A&quot; folio=&quot;225&quot; tipoDeComprobante=&quot;ingreso&quot; Moneda=&quot;M/N&quot; formaDePago=&quot;UNA SOLA EXIBICION&quot; metodoDePago=&quot;CHEQUE&quot; NumCtaPago=&quot;7513&quot; subTotal=&quot;1750.00&quot; total=&quot;2030.00&quot; version=&quot;3.2&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd&quot;&gt;&lt;cfdi:Emisor rfc=&quot;HEFD660718SC3&quot; nombre=&quot;DAVID HERNANDEZ FLORES&quot;&gt;&lt;cfdi:DomicilioFiscal calle=&quot;AV. MOCTEZUMA MZ.8 LT.6&quot; colonia=&quot;MEXICO INDEPENDIENTE&quot; localidad=&quot;ESTADO DE MEXICO&quot; referencia=&quot;ENTRE CALLES DE R. PURUAPAN Y VALLADOLID&quot; municipio=&quot;ECATEPEC DE MORELOS&quot; estado=&quot;Estado de México&quot; pais=&quot;MEXICO&quot; codigoPostal=&quot;55245&quot; /&gt;&lt;cfdi:RegimenFiscal Regimen=&quot;Actividad Empresarial y Profesional&quot; /&gt;&lt;/cfdi:Emisor&gt;&lt;cfdi:Receptor rfc=&quot;GSE720216JJ6&quot; nombre=&quot;GENERAL DE SEGUROS, S.A.B&quot;&gt;&lt;cfdi:Domicilio calle=&quot;AV. PATRIOTISMO&quot; noExterior=&quot;266&quot; colonia=&quot;SAN PEDRO DE LOS PINOS&quot; municipio=&quot;BENITO JUAREZ&quot; estado=&quot;Distrito Federal&quot; pais=&quot;MEXICO&quot; codigoPostal=&quot;03800&quot; /&gt;&lt;/cfdi:Receptor&gt;&lt;cfdi:Conceptos&gt;&lt;cfdi:Concepto cantidad=&quot;1&quot; unidad=&quot;PIEZA&quot; noIdentificacion=&quot;N/A&quot; descripcion=&quot;SILLON EJECUTIVO TAPIZADO EN PLIANA COLOR NEGRO MODELO LUBLIN CON RESPALDO ERGONOMICO&quot; valorUnitario=&quot;1750.00&quot; importe=&quot;1750.00&quot; /&gt;&lt;/cfdi:Conceptos&gt;&lt;cfdi:Impuestos totalImpuestosTrasladados=&quot;280.00&quot;&gt;&lt;cfdi:Traslados&gt;&lt;cfdi:Traslado impuesto=&quot;IVA&quot; tasa=&quot;16.00&quot; importe=&quot;280.00&quot; /&gt;&lt;/cfdi:Traslados&gt;&lt;/cfdi:Impuestos&gt;&lt;cfdi:Complemento xmlns:cfdi=&quot;http://www.sat.gob.mx/cfd/3&quot;&gt;&lt;tfd:TimbreFiscalDigital xmlns:tfd=&quot;http://www.sat.gob.mx/TimbreFiscalDigital&quot; xsi:schemaLocation=&quot;http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd&quot; version=&quot;1.0&quot; UUID=&quot;38E41639-1C3A-45D4-A227-2A92889C4BB2&quot; FechaTimbrado=&quot;2015-05-18T11:23:27&quot; selloCFD=&quot;fnqYaSl9ABy0OffVpenEs6EsbjxzQW5K4bhb4LfwojkhzXjR8A0l926CbEsS9YcR1P2bA4FC52RFABm0hSvyX53q3GMGf5oXnX3iwlOYyEQqjNlG2IeMsIiKcqi7tkGssCW9ye3Fj12M+tsVv2074Hd8spj7vUMr4Fzt7Vlr8d8=&quot; noCertificadoSAT=&quot;00001000000201748120&quot; selloSAT=&quot;CapqAVrAZk78DrOocRLFshVB3V1zjh8FQB+RkxrZCmkwEHPYm0hYZV4QDa3QXOvX5OuTTlVxjwCwnn635r6oi5aowrNCo6kxw7vKvNXK3rIhiouCjR8Aez1Jfsl0umnbDVFDJicoxt9WJt1YDYMUiKoy+jo9wfsZq7cGMpreMqM=&quot; /&gt;&lt;/cfdi:Complemento&gt;&lt;/cfdi:Comprobante&gt;</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="HTTPSampler.domain">10.61.96.200</stringProp>
+      <stringProp name="HTTPSampler.port">5555</stringProp>
+      <stringProp name="HTTPSampler.connect_timeout">           </stringProp>
+      <stringProp name="HTTPSampler.response_timeout">           </stringProp>
+      <stringProp name="HTTPSampler.protocol"></stringProp>
+      <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
+      <stringProp name="HTTPSampler.path">/RecepcionValidacion</stringProp>
+      <stringProp name="HTTPSampler.method">POST</stringProp>
+      <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+      <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+      <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+      <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+      <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
+      <boolProp name="HTTPSampler.monitor">false</boolProp>
+      <stringProp name="HTTPSampler.embedded_url_re">           </stringProp>
+    </HTTPSamplerProxy>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>

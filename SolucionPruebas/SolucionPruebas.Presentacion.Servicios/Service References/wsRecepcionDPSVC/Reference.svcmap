@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="67f54f11-0595-4d35-99ed-b7d44a0e43e4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://ws.paxfacturacion.com.mx:453/webservices/wcfRecepcion.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="wcfRecepcion.wsdl" MetadataType="Wsdl" ID="3948488f-835b-4537-9f6c-a8ae77080056" SourceId="1" SourceUrl="https://ws.paxfacturacion.com.mx:453/webservices/wcfRecepcion.svc?ns1.wsdl" />
+    <MetadataFile FileName="wcfRecepcion1.wsdl" MetadataType="Wsdl" ID="a6e7583b-373a-472f-9cc8-fd18798612e7" SourceId="1" SourceUrl="https://ws.paxfacturacion.com.mx:453/webservices/wcfRecepcion.svc?wsdl" />
+    <MetadataFile FileName="wcfRecepcion.xsd" MetadataType="Schema" ID="142c8477-0d54-4b44-b29e-794ea79776aa" SourceId="1" SourceUrl="https://ws.paxfacturacion.com.mx:453/webservices/wcfRecepcion.svc.xsd2.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

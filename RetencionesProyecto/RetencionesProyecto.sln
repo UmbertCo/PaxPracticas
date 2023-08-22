@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetencionesProyecto", "RetencionesProyecto\RetencionesProyecto.csproj", "{B0660285-855C-42BC-87B1-EF463B52ADF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSSL_Lib", "OpenSSL_Lib\OpenSSL_Lib.csproj", "{2E4F70A6-6294-44E0-8C73-27174CFC54D8}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.3.105:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OpenSSL_Lib\\OpenSSL_Lib.csproj
+		SccProjectName1 = OpenSSL_Lib
+		SccLocalPath1 = OpenSSL_Lib
+		SccProjectUniqueName2 = RetencionesProyecto\\RetencionesProyecto.csproj
+		SccProjectName2 = RetencionesProyecto
+		SccLocalPath2 = RetencionesProyecto
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0660285-855C-42BC-87B1-EF463B52ADF4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B0660285-855C-42BC-87B1-EF463B52ADF4}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B0660285-855C-42BC-87B1-EF463B52ADF4}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B0660285-855C-42BC-87B1-EF463B52ADF4}.Debug|x86.ActiveCfg = Debug|x86
+		{B0660285-855C-42BC-87B1-EF463B52ADF4}.Debug|x86.Build.0 = Debug|x86
+		{B0660285-855C-42BC-87B1-EF463B52ADF4}.Release|Any CPU.ActiveCfg = Release|x86
+		{B0660285-855C-42BC-87B1-EF463B52ADF4}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B0660285-855C-42BC-87B1-EF463B52ADF4}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B0660285-855C-42BC-87B1-EF463B52ADF4}.Release|x86.ActiveCfg = Release|x86
+		{B0660285-855C-42BC-87B1-EF463B52ADF4}.Release|x86.Build.0 = Release|x86
+		{2E4F70A6-6294-44E0-8C73-27174CFC54D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4F70A6-6294-44E0-8C73-27174CFC54D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4F70A6-6294-44E0-8C73-27174CFC54D8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2E4F70A6-6294-44E0-8C73-27174CFC54D8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2E4F70A6-6294-44E0-8C73-27174CFC54D8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E4F70A6-6294-44E0-8C73-27174CFC54D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4F70A6-6294-44E0-8C73-27174CFC54D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4F70A6-6294-44E0-8C73-27174CFC54D8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2E4F70A6-6294-44E0-8C73-27174CFC54D8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2E4F70A6-6294-44E0-8C73-27174CFC54D8}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

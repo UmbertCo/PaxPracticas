@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="www.paxfacturacion.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="www.paxfacturacion.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="www.paxfacturacion.com">
+      <s:element name="fnRecibeFacturas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sNombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sContrasena" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hash_peticion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hash_timbrado" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="xml_timbrado" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tipo_documento" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="id_estructura" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="fecha" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnRecibeFacturasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="fnRecibeFacturasResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnRecibeFacturasArray">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlArray" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="fnRecibeFacturasArrayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="fnRecibeFacturasArrayResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="fnRecibeFacturasSoapIn">
+    <wsdl:part name="parameters" element="tns:fnRecibeFacturas" />
+  </wsdl:message>
+  <wsdl:message name="fnRecibeFacturasSoapOut">
+    <wsdl:part name="parameters" element="tns:fnRecibeFacturasResponse" />
+  </wsdl:message>
+  <wsdl:message name="fnRecibeFacturasArraySoapIn">
+    <wsdl:part name="parameters" element="tns:fnRecibeFacturasArray" />
+  </wsdl:message>
+  <wsdl:message name="fnRecibeFacturasArraySoapOut">
+    <wsdl:part name="parameters" element="tns:fnRecibeFacturasArrayResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceNadroSoap">
+    <wsdl:operation name="fnRecibeFacturas">
+      <wsdl:input message="tns:fnRecibeFacturasSoapIn" />
+      <wsdl:output message="tns:fnRecibeFacturasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="fnRecibeFacturasArray">
+      <wsdl:input message="tns:fnRecibeFacturasArraySoapIn" />
+      <wsdl:output message="tns:fnRecibeFacturasArraySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceNadroSoap" type="tns:ServiceNadroSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnRecibeFacturas">
+      <soap:operation soapAction="www.paxfacturacion.com/fnRecibeFacturas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnRecibeFacturasArray">
+      <soap:operation soapAction="www.paxfacturacion.com/fnRecibeFacturasArray" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceNadroSoap12" type="tns:ServiceNadroSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnRecibeFacturas">
+      <soap12:operation soapAction="www.paxfacturacion.com/fnRecibeFacturas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnRecibeFacturasArray">
+      <soap12:operation soapAction="www.paxfacturacion.com/fnRecibeFacturasArray" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceNadro">
+    <wsdl:port name="ServiceNadroSoap" binding="tns:ServiceNadroSoap">
+      <soap:address location="http://10.54.57.204:8082/ServiceNadro.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceNadroSoap12" binding="tns:ServiceNadroSoap12">
+      <soap12:address location="http://10.54.57.204:8082/ServiceNadro.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

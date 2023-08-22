@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SolucionPruebas.Presentacion.Servicios.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SolucionPruebas_Presentacion_Servicios_mx_com_paxfacturacion_test_wcfRecepcionASMX" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://test.paxfacturacion.com.mx:453/webservices/wcfRecepcionasmx.asmx</Value>
+    </Setting>
+    <Setting Name="SolucionPruebas_Presentacion_Servicios_LCO_wcfRecuperaLCO" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.3.106:8080/wcfRecuperaLCO.asmx</Value>
+    </Setting>
+    <Setting Name="SolucionPruebas_Presentacion_Servicios_wcfRecepcionManifiesto_wcfRecepcionManifiesto" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://test.paxfacturacion.com.mx:467/webservices/wcfRecepcionManifiesto.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

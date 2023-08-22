@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="755171ed-6070-4411-99d0-a5b2a891f6a3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://recepcion.facturaelectronica.sat.gob.mx/Recepcion/RecibeCFDIService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RecibeCFDIService.xsd" MetadataType="Schema" ID="285e1a6b-9dfe-412f-beed-4ef8e3a5ee0a" SourceId="1" SourceUrl="https://recepcion.facturaelectronica.sat.gob.mx/Recepcion/RecibeCFDIService.svc?xsd=xsd2" />
+    <MetadataFile FileName="RecibeCFDIService22.xsd" MetadataType="Schema" ID="55f55a4a-9f9f-4c3c-8749-5b4fe9efa813" SourceId="1" SourceUrl="https://recepcion.facturaelectronica.sat.gob.mx/Recepcion/RecibeCFDIService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RecibeCFDIService1.disco" MetadataType="Disco" ID="5d638725-4504-491c-942f-ed21db4ba4be" SourceId="1" SourceUrl="https://recepcion.facturaelectronica.sat.gob.mx/Recepcion/RecibeCFDIService.svc?disco" />
+    <MetadataFile FileName="RecibeCFDIService22.wsdl" MetadataType="Wsdl" ID="9b3abfcb-5f11-425e-b811-4edadca64779" SourceId="1" SourceUrl="https://recepcion.facturaelectronica.sat.gob.mx/Recepcion/RecibeCFDIService.svc?wsdl" />
+    <MetadataFile FileName="RecibeCFDIService2.wsdl" MetadataType="Wsdl" ID="046c0cc7-23df-43e4-96c1-bd2ac70db5aa" SourceId="1" SourceUrl="https://recepcion.facturaelectronica.sat.gob.mx/Recepcion/RecibeCFDIService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="RecibeCFDIService2.xsd" MetadataType="Schema" ID="819b706b-10d8-4ea8-82b4-2f976f998b12" SourceId="1" SourceUrl="https://recepcion.facturaelectronica.sat.gob.mx/Recepcion/RecibeCFDIService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

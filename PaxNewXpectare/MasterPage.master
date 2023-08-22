@@ -1,0 +1,170 @@
+﻿<%@ Master Language="C#"  EnableViewState="false" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <title>Pax Facturación</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=9" />
+        <meta http-equiv="X-UA-Compatible" content="IE=8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta name="description" content="">
+        <!--<meta name="viewport" content="width=device-width">-->
+		<link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/flexslider.css">
+        <!--[if IE 9]>  <link rel="stylesheet" href="css/ie9.css">  <![endif]-->
+        <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />    
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/prefixfree.min.js"></script>
+<!--[if lt IE 9]>
+  <script src="js/respond.min.js"></script>
+<![endif]-->
+            <link rel="stylesheet" href="css/modificaciones.css" />    
+</head>
+<body>
+     <header>
+        	<div class="container">
+            	<div class="row">
+                    <div class="span3">
+                        <a href="acerca-de.aspx" id="about-us">Acerca de <strong>PAX</strong></a>
+                    </div>
+                	<div class="span3 offset6">
+                    	<a href="inicio-sesion.aspx" id="login">Iniciar sesión <strong>Sistema PAX</strong></a>
+                    </div><!-- .span3 -->
+                </div><!-- .row -->
+                <div class="row">
+                
+                	<div class="span2">
+                    	<a href="/"><img src="img/logo.png" alt="Pax Facturación" title="Pax Facturación" id="logo"/></a>
+                    </div><!-- .span2 -->
+                    
+                    <div class="span10">
+                    <div class="row">
+                    	<div class="links span5 offset5">
+                        	<a href="contacto.aspx">01 800 00 PAX 00 <img src="img/llamanos.png" alt=""/></a>
+                        	<a href="contacto.aspx">Pregúntanos <img src="img/preguntanos.png" alt=""/></a>
+                        </div>
+                        </div>
+                      <div class="row">
+                      <div  class="span10">
+                    	<nav>
+                        	<ul>
+                            	<li class="one"><a href="/">Inicio</a></li>
+                                <li><a href="personas-fisicas.aspx">Personas Físicas</a></li>
+                                <li><a href="pymes.aspx">Pymes</a></li>
+                                <li><a href="grandes-empresas.aspx">Grandes empresas</a></li>
+                                <li><a href="haz-dinero.aspx">Oportunidades de negocios</a></li>
+                                <li><a href="integracion.aspx">Integrate con Pax</a></li>
+                                <li><a href="contacto.aspx">Contacto</a></li>
+                            </ul>
+                        </nav>
+                        </div>
+                        </div>
+                    </div><!-- .span10 -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </header>
+
+                       
+                            <asp:ContentPlaceHolder id="Main" runat="server">
+        
+                            </asp:ContentPlaceHolder>
+                
+
+     <footer>
+        	<img src="img/logo-footer.png" alt=""/>
+        	<div class="container">
+            	<div class="row">
+                	<div class="span10">
+                    	<nav>
+                        	<ul>
+                            	<li><a href="/">Inicio</a></li>
+                                <li><a href="personas-fisicas.aspx">Personas Físicas</a></li>
+                                <li><a href="pymes.aspx">Pymes</a></li>
+                                <li><a href="grandes-empresas.aspx">Grandes empresas</a></li>
+                                <li><a href="haz-dinero.aspx">Oportunidades de negocios</a></li>
+                                <li><a href="integracion.aspx">Integrate con Pax</a></li>
+                                <li><a href="contacto.aspx">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div><!-- .span10 -->
+                    <div class="span2">
+                    	<a href="http://www.sat.gob.mx/sitio_internet/asistencia_contribuyente/principiantes/comprobantes_fiscales/66_22033.html" target="_blank" id="corpus">Corpus Facturación</a>
+                    </div><!-- .span2 -->
+                </div><!-- .row -->
+                <div class="row">
+                	<div class="span9">
+                    	<p id="footer-tel">01 800 00 PAX 00<br/>(614) 424 04 44</p>
+                        <p id="direccion">Av. Heroico Colegio Militar Núm. 4709-2<br/>Col. Nombre de Dios / C.P. 31105 / Chihuahua, Chih.</p>
+                    </div><!-- .span9 -->
+                    <div class="span3">
+                    	<img src="img/redes.jpg" alt="" usemap="#redesMap" id="redes"/>
+                        <map name="redesMap">
+                          <area shape="rect" coords="1,2,25,25" href="http://www.youtube.com/PAXFacturacion" alt="">
+                          <area shape="rect" coords="34,2,59,25" href="https://twitter.com/PAXFacturacion" alt="">
+                          <area shape="rect" coords="68,2,93,24" href="https://plus.google.com/104619770027385036964/posts" alt="">
+                          <area shape="rect" coords="103,2,127,25" href="https://www.facebook.com/PAXFacturacion" alt="">
+                          <area shape="rect" coords="145,2,225,83">
+                        </map>
+                    </div><!-- .span3 -->
+                </div><!-- .row -->
+                <div class="row" id="copyright">
+                	<div class="span6">
+                    	<p><span>®</span> Todos los Derechos Reservados 2013.</p>
+                    </div><!-- .span6 -->
+                    <div class="span6 last">
+                    	<p><a href="terminos-y-condiciones.aspx">Términos y Condiciones</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="aviso-de-privacidad.aspx">Aviso de Privacidad</a></p>
+                    </div><!-- .span6 -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </footer>
+
+        <!--Start of Zopim Live Chat Script-->
+        <script type="text/javascript">
+            window.$zopim || (function (d, s) {
+                var z = $zopim = function (c) { z._.push(c) }, $ = z.s =
+                d.createElement(s), e = d.getElementsByTagName(s)[0]; z.set = function (o) {
+                    z.set.
+                    _.push(o)
+                }; z._ = []; z.set._ = []; $.async = !0; $.setAttribute('charset', 'utf-8');
+                $.src = '//v2.zopim.com/?1ZlLZGtqiqDCvpOP4vZoneHiKkEfERDY'; z.t = +new Date; $.
+                type = 'text/javascript'; e.parentNode.insertBefore($, e)
+            })(document, 'script');
+        </script>
+        <!--End of Zopim Live Chat Script-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <!--[if (gte IE 6)&(lte IE 8)]>
+          <script src="js/vendor/selectivizr.min.js"></script>
+        <![endif]--> 
+        <script src="js/vendor/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.validate.min.js"></script>       
+        <script src="js/jquery.flexslider-min.js"></script>
+        <script src="js/jquery.accordion.2.0.min.js"></script>
+        <!-- Add fancyBox -->
+        <!-- Add mousewheel plugin (this is optional) -->
+        <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <script src="js/main.js"></script>
+        <script>
+            var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+            (function (d, t) {
+                var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                g.src = '//www.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g, s)
+            }(document, 'script'));
+        </script>
+</body>
+</html>

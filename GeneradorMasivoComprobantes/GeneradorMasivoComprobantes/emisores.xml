@@ -1,0 +1,1906 @@
+﻿<Emisores>
+  <emisor nombre="WIFI MOVIL S.A. DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="36889" municipio="ZACATERCAS"  colonia="CENTRO"  numero_exterior="4562" calle="DE LA MINA" localidad="ZACATECAS" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Zacatecas" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Usuario107Fiel" rfc="BAÑI7902011Y4">
+    <DomicilioFiscal codigo_postal="31160" municipio="Chihuahua" referencia="asdasdas" colonia="col" numero_interior="123" numero_exterior="123" calle="calle" localidad="loc" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Usuario107 " rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31160" municipio="Chihuahua" referencia="123" colonia="asdas" numero_interior="123" numero_exterior="123" calle="asdasd" localidad="asdasd" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA EJEMPLO DIS2" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="EDO. DE MÉXICO"  colonia="NORTE"  numero_exterior="2" calle="SEGUNDA"  regimen_fiscal="PERSONA MORAL">
+      <pais pais="México">
+        <estado estado="Distrito Federal" />
+        <estado estado="Distrito Federal" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA EJEMPLO HIJO" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="EDO. DE MEXICO"  colonia="NORTE"  numero_exterior="2" calle="SEGUNDA"  regimen_fiscal="PERSONA MORAL">
+      <pais pais="México">
+        <estado estado="Distrito Federal" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Chihuahua" rfc="AAD990814BP7">
+    <DomicilioFiscal codigo_postal="31110" municipio="Chihuahua" calle="5" regimen_fiscal="No aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="empresa3" rfc="AIAC460603S40">
+    <DomicilioFiscal codigo_postal="31111" municipio="Chihuahua"  colonia="centro"  numero_exterior="1313" calle="3ra"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="INKTECH S.A. DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31200" municipio="CHIHUAHUA"  colonia="SANTO NIÑO"  numero_exterior="3316" calle="J. DE LA LUZ CORRAL"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="INKTECH S.A. DE C.V." rfc="AAQM610917QJA">
+    <DomicilioFiscal codigo_postal="31200" municipio="CHIHUAHUA" colonia="SANTO NIÑO" numero_exterior="3316" calle="J. DE LA LUZ CORRAL" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="lucreciagonzalez" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31600" municipio="Chihuahua" referencia="edificio verde" colonia="Nombre de Dios" numero_interior="1234" numero_exterior="2900" calle="quinta" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="GONZALO DIAZ VAZQUEZ" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31102" municipio="CHIHUAHUA" referencia="CASA ROSA" colonia="GRANJAS" numero_interior="2101" numero_exterior="0000" calle="CEDRO " localidad="CHIHUAHUA" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="GUSTAVO CRUZ" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31105" municipio="CHIHUAHUA"  colonia="NOMBRE DE DIOS"  numero_exterior="123" calle="AV SIEMPRE VIVA"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Tester Pax jordimax" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="23355" municipio="Hidalgo" colonia="REforma" numero_exterior="2345" calle="Paseo de la Reforma" localidad="Distrito Federal" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Distrito Federal" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Jaime Andujo" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="11111" municipio="Chihuahua"     calle="1"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA XTREME SA DE CV" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="CHIHUAHUA"  colonia="CENTRO"  numero_exterior="1" calle="PRIMERA"  regimen_fiscal="GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PAOLA BERENICE GRANILLO VALENZUELA" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31120" municipio="CHIHUAHUA"  colonia="OLIVOS"  numero_exterior="159" calle="OLIVAR DE ANTIOCA" localidad="CHIHUAHUA" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="brissa eden torres chacon" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="03110" municipio="chihuahua"  colonia="fracccionamiento reforma"  numero_exterior="3900" calle="roberto cantoral" localidad="chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Oscar Aguirre" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31200" municipio="Chihuahua"  colonia="Panamericana"  numero_exterior="206" calle="Rep. de Argentina" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="elizabeth gonzalez saldaña" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31170" municipio="chihuahua" referencia="TEL.417-67-25 CEL(614)1-91-54-68 y CEL(614)17566-85" colonia="nombre de dios" numero_exterior="4702" calle="av. heroico colegio militar" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA CVS" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="CHIHUAHUA"  colonia="CENTRO"  numero_exterior="1" calle="PRIMERA"  regimen_fiscal="GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="AGRO MAACSAA CONSTRUCCIONES Y TECNOLOGÍA RENTABLES EN INVERNADEROS Y CASA SOMBRA S. DE R.L. DE C.V. " rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="CHIHUAHUA" referencia="ENFRENTE DE EL MUSEO SEMILLA. TEL. (614) 123 45 67" colonia="CENTRO" numero_interior="A" numero_exterior="1" calle="PRIMERA" localidad="RANCHO GRANDE DE CHIHUAHUA" regimen_fiscal="GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA CAPACITACION" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="CHIHUAHUA"  colonia="CENTRO"  numero_exterior="1" calle="PRIMERA"  regimen_fiscal="GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empresa2 S.A. DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="Chihuahua"  colonia="CRUZ"  numero_exterior="123" calle="1"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Mi empresa" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31109" municipio="Chihuahua" colonia="Quintas Quijjote" numero_exterior="15326" calle="Alcatifa " localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA EJEMPLO SA DE CV" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="MADERA" colonia="CENTRO" numero_exterior="2" calle="PRIMERA" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="MI EMPRESA 3 S.A. DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31200" municipio="Chihuahua"  colonia="Santo Niño"  numero_exterior="3316" calle="J. de la luz Corral "  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="empresa1 S.A DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="chihuahua" colonia="ARBOLEDAS" numero_exterior="1610" calle="ALBATROS" regimen_fiscal="actividad empresarial">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="MI EMPRESA SA DE CV" rfc="AAD990814BP7">
+    <DomicilioFiscal codigo_postal="31320" municipio="chihuahua"  colonia="santo niño"  numero_exterior="3316" calle="J de la luz corral"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="CLIENTE EJEMPLO SA DE CV" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="CHIHUAHUA" colonia="SUR" numero_exterior="1" calle="PRIMERA" regimen_fiscal="REGIMEN GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="LA NeT@ Computación" rfc="AAD990814BP7">
+    <DomicilioFiscal codigo_postal="31200" municipio="CHIHUAHUA"  colonia="SANTO NIÑO"  numero_exterior="3316" calle="J. DE LA LUZ CORRAL"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="GRUPO FOR SA DE CV" rfc="AAD990814BP7">
+    <DomicilioFiscal codigo_postal="31112" municipio="CHIHUAHUA" referencia="A Y D" colonia="NORTE" numero_interior="1" numero_exterior="2" calle="SEGUDA" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empres aEjemplo sa de c.v" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31330" municipio="Chihuahua" referencia="Niños Heroes" colonia="Centro"  numero_exterior="1245" calle="20"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA DE EJEMPLO" rfc="V&amp;V051004D19">
+    <DomicilioFiscal codigo_postal="31100" municipio="CHIHUAHUA" colonia="CENTRO" numero_exterior="1" calle="PRIMERA" regimen_fiscal="GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA DE EJEMPLO" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="CHIHUAHUA"  colonia="CENTRO"  numero_exterior="1" calle="PRIMERA"  regimen_fiscal="GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Ink S.A de C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31200" municipio="Chihuahua" referencia="LUIS CARLOS MENDOZA OLAGUE" colonia="Santo Niño" numero_exterior="3316" calle="J. de la luz Corral " localidad="Chihuahua" regimen_fiscal="Regimen de Incorporación">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="z" rfc="AAD990814BP7">
+    <DomicilioFiscal codigo_postal="00001" municipio="1" referencia="1" colonia="1" numero_interior="1" numero_exterior="1" calle="z" localidad="1" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="ADDENDA AUTOZONE" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="CHIHUAHUA"  colonia="CENTRO"  numero_exterior="1" calle="PRIMERA"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="Chihuahua" referencia="6144547852" colonia="Colonia" numero_interior="1" numero_exterior="1" calle="Calle" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empresa Ejemplo 12" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31130" municipio="Chihuahua" referencia="Mercurio y Agustin Melgar" colonia="Nombre de Dios"  numero_exterior="1245" calle="Heroico colegio"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empresa 20" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31130" municipio="Chihuahua" referencia="2 de abril" colonia="centro"  numero_exterior="1245" calle="24"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="hexehell" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31315" municipio="CHIHUAHUA" referencia="ENTRE AQUI Y HALLA " colonia="POR AHI"   calle="ESA MERA" localidad="CHIHUAHUA" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="empresa ejemplo" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31130" municipio="Chihuahua" referencia="4a y 6a" colonia="CENTRO" numero_exterior="124" calle="20 DE NOVIEMBRE" localidad="ChihuHU" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="usuario308" rfc="AAQM610917QJA">
+    <DomicilioFiscal codigo_postal="03100" municipio="Chihuhua"     calle="Primera"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="usuarioHijo" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="03100" municipio="Chihuahua"     calle="Primera"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="asfasfasdas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="11111" municipio="PRUEBAS"  colonia="PRUEBAS" numero_interior="2" numero_exterior="1" calle="PRUEBAS" localidad="PRUEBAS" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Veterinaria Chihuahua S.A de C.V" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31145" municipio="Chihuahua" referencia="Tel 481-11-13 y 482- 41-74  vetchih@hotmail.com" colonia="Quintas Quijote" numero_exterior="2145" calle="Av. Dostoyevsky" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="RICARDO IVAN HERNANDEZ PEREGRINO" rfc="SUL010720JN8">
+    <DomicilioFiscal codigo_postal="31063" municipio="CHIHUAHUA"  colonia="MARMOL III"  numero_exterior="8243" calle="FELIPE II"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="IVAN HERNANDEZ" rfc="AAD990814BP7">
+    <DomicilioFiscal codigo_postal="31063" municipio="CHIHUAHUA"  colonia="MARMOL III"  numero_exterior="8243" calle="FELIPE II"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="dasdasdasdasdas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="22222" municipio="sdfsd"  colonia="sdfsdf" numero_interior="23" numero_exterior="asd" calle="asdasd" localidad="sdfsdf" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA TREVIZO" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="CHIHUAHUA" colonia="sur" numero_exterior="1" calle="PRIMERA" regimen_fiscal="GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Gerardo´s" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31050" municipio="Chihuahua"  colonia="Santa Rosa" numero_interior="S/N" numero_exterior="8505" calle="Urquidi y samaniego " localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="CARITAS S.A DE C.V" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="CHIHUAHUA"  colonia="SACRAMENTO"  numero_exterior="47" calle="TIPOGRAFOS" localidad="CHIHUAHUA" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="L" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31124" municipio="Chihuahua" colonia="Granjas" numero_exterior="4437" calle="Montes de Toledo" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="DELPHI S.A DE C.V" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31120" municipio="Chihuahua" colonia="Pacifico" numero_exterior="3020" calle="20 de Noviembre" localidad="Chihuahua" regimen_fiscal="Intermedio">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EJEMPLO2" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="CHIHUAHUA" colonia="CENTRO" numero_exterior="456" calle="LIBERTAD" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="ALEJANDRO HERNANDEZ" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="CHIHUAHUA" colonia="CENTRO" numero_exterior="2" calle="PRIMERA" regimen_fiscal="GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba Generacion" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="Chihuahua"     calle="Uno"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="userGary100" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="Chihuahua"     calle="Uno"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="ejemplo empresa" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="11111" municipio="CHIHUAHUA" colonia="CENTRO" numero_exterior="1" calle="PRIMERA" regimen_fiscal="GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="ElectricBaboon" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31040" municipio="CHIHUAHUA" referencia="NADA" colonia="VILLA JUAREZ"  numero_exterior="23" calle="PINO" localidad="CHIHUAHUA" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Puros S.A de C.V" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31050" municipio="Chihuahua"  colonia="Centro"  numero_exterior="2" calle="dos" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA EJEMPLO S.A. DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31200" municipio="CHIHUAHUA" colonia="CENTRO" numero_exterior="1234" calle="LIBERTAD" regimen_fiscal="REGIMEN GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="22222" municipio="delegacion"  colonia="colonia"  numero_exterior="2" calle="calle" localidad="localidad" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="userGary100" rfc="AEOS830302Q1A">
+    <DomicilioFiscal codigo_postal="00001" municipio="1"     calle="1"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="userGary100" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="00001" municipio="1"     calle="1"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="userGary100" rfc="AEOS830302Q1A">
+    <DomicilioFiscal codigo_postal="00001" municipio="1"     calle="1"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Corpus" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31120" municipio="Chihuahua"  colonia="Paz" numero_interior="1" numero_exterior="1" calle="Libertad"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="RICARDO IVAN HERNANDEZ PEREGRINO" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31063" municipio="CHIHUAHUA"  colonia="MARMOL III"  numero_exterior="8243" calle="FELIPE II" localidad="CHIHUAHUA" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Monica Bueno" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31410" municipio="Chihuahua" referencia="6144124578" colonia="Tal"  numero_exterior="1" calle="Allende" localidad="Chihuuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Las Alitas S.A de C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="54785" municipio="Chihuahua" referencia="Esquina con Bermudez" colonia="San Felipe" numero_interior="A" numero_exterior="1" calle="Venustiano C" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA MONTERREY" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="PUEBLA" colonia="COLONIA sur" numero_exterior="1" calle="CALLE EJEMPLO" regimen_fiscal="REGIMEN GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Puebla" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Rafael Chávez Carrillo" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="Chihuahua"  colonia="Roma"  numero_exterior="3412" calle="prima" localidad="Chihuahua" regimen_fiscal="Regimen de Personas Fisicas">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Ismael Hidalgo" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31030" municipio="Chihuahua" colonia="Rosario" numero_exterior="2540" calle="58" localidad="Chihuahua" regimen_fiscal="NA">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PRUEBITA.3" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="CHIHUAHUA"  colonia="CENTRO"  numero_exterior="1" calle="UNO"  regimen_fiscal="GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="02341" municipio="dd"     calle="dfgdfg"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="11111" municipio="Chihuahua" referencia="Chihuahua" colonia="Chihuahua" numero_interior="1" numero_exterior="1" calle="Chihuahua" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Ariana Acevedo Cordero" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="Chihuahua"  colonia="Lomas del Sol"  numero_exterior="2401" calle="Canguro"  regimen_fiscal="Persona Fisica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="SABRITAS" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="22222" municipio="Chihuahua" referencia="6142231142" colonia="Nombre de Dios"  numero_exterior="1" calle="Heroico Colegio Militar" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="IVAN HERNANDEZ PEREGRINO" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31063" municipio="CHIHUAHUA" colonia="San Jose Jajalpa" numero_exterior="LT 49" calle="Fuentes del Salto" regimen_fiscal="Régimen General de Ley Personas Morales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="MADEROS" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31200" municipio="CHIHUAHUA"  colonia="PANAMERICANA" numero_interior="A" numero_exterior="333" calle="BOLIVIA " localidad="CHIHUAHUA" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="ventas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31200" municipio="Chihuahua" colonia="centro" numero_interior="3" numero_exterior="2" calle="independencia" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="ENSAYO, SA DE CV" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31050" municipio="CHIHUAHUA" referencia="(614)4106740" colonia="DALE" numero_exterior="4411" calle="32" localidad="CHIHUAHUA" regimen_fiscal="GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Industria Quimica Celta S.A. de C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="55090" municipio="Ecatepec de Morelos" colonia="San Jose Jajalpa" numero_exterior="49" calle="Fuentes del Salto L.T" regimen_fiscal="Persona Moral">
+      <pais pais="México">
+        <estado estado="México" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA PRUEBA S.A. DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="CHIHUAHUA"  colonia="CENTRO"  numero_exterior="1" calle="PRIMERA"  regimen_fiscal="REGIMEN GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="A" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="00001" municipio="A"  colonia="1" numero_interior="1" numero_exterior="1" calle="A" localidad="A" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Eduardo's" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="55090" municipio="Ecatepec " colonia="Colonia San Jose Jajalpa" numero_interior="2" numero_exterior="7905" calle="Fuentes del Salto No. LT 49 dsdsff dfffsf sfdqsdsdad" localidad="Chihuahua" regimen_fiscal="Régimen General de Ley Personas Morales">
+      <pais pais="México">
+        <estado estado="México" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Beatriz Eugenia Ruiz Ochoa" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31216" municipio="Chihuahua" referencia="Tel y Fax.(614) 541 5525 " colonia="Fuentes del Valle" numero_interior="35" numero_exterior="6101" calle="Av Vallarta" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="RICARDO IVAN HERNANDEZ PEREGRINO" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31063" municipio="CHIHUAHUA"  colonia="MARMOL III"  numero_exterior="8243" calle="MEXICO" localidad="CHIHUAHUA" regimen_fiscal="PERSONA FISICA CON ACTIVIDAD EMPRESARIAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA VENTAS" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="CHIHUAHUA" colonia="CENTRO" numero_exterior="1" calle="LIBERTAD" regimen_fiscal="REGIMEN GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA EJEMPLO S.A. DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="CHIHUAHUA" referencia="TEL. 614 424 04 44" colonia="CENTRO" numero_interior="PISO 2" numero_exterior="3" calle="LIBERTAD" regimen_fiscal="REGIMEN GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="RICARDO IVAN HERNANDEZ PEREGRINO" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31063" municipio="CHIHUAHUA" colonia="MARMOL III" numero_exterior="8243" calle="FELIPE II" localidad="CHIHUAHUA" regimen_fiscal="PERSONA FISICA CON ACTIVIDAD EMPRESARIAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Ariana Acevedo Cordero" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="Chihuahua"  colonia="Nombre de Dios"  numero_exterior="1325" calle="Colegio Militar" localidad="Chihuahua" regimen_fiscal="Personas Morales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="CLIENTE DEMO S.A. DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="CHIHUAHUA" referencia="TEL. 123 45 67" colonia="SUR" numero_exterior="1" calle="PRIMERA" regimen_fiscal="REGIMEN GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="ARAGONES S.A. DE CV." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="CHIHUAHUA"  colonia="CENTRO"  numero_exterior="1" calle="PRIMERA"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="CIBELES S.A. DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="CHIHUAHUA" colonia="CENTRO" numero_exterior="12345" calle="LIBERTAD" regimen_fiscal="REGIMEN GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PAX" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="42344" municipio="dsfs"  colonia="dfsf" numero_interior="1" numero_exterior="1" calle="dfdsf"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="23112" municipio="fdg"  colonia="fgsf" numero_interior="1" numero_exterior="1" calle="hjk"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31130" municipio="Chihuahua"  colonia="Paz"  numero_exterior="1" calle="Libertad"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="1" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="00001" municipio="1"     calle="1"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="123" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="00001" municipio="123"     calle="123"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PAX" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="12132" municipio="jk"  colonia="fdg" numero_interior="1" numero_exterior="1" calle="hjk"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="sdfdsf" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="12121" municipio="ghj"  colonia="sdfs"  numero_exterior="1" calle="hj" localidad="gh" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PAX" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="21123" municipio="jhk"  colonia="dsfg" numero_interior="1" numero_exterior="1" calle="hkj" localidad="hkj" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31100" municipio="hfskj"  colonia="dfgfd" numero_interior="1" numero_exterior="1" calle="lilas" localidad="hjk" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="12212" municipio="hkj"  colonia="f" numero_interior="1" numero_exterior="1" calle="hjk"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="12122" municipio="hjk"  colonia="fdh" numero_interior="1" numero_exterior="1" calle="hkj"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="21212" municipio="kljl"  colonia="sdf" numero_interior="1" numero_exterior="1" calle="fsds"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PAXI" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="21112" municipio="dfhjk"  colonia="paz" numero_interior="2" numero_exterior="2" calle="hjk" localidad="jhjk" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Campeche" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="12132" municipio="fd"  colonia="fds" numero_interior="1" numero_exterior="1" calle="j" localidad="j" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="23212" municipio="fshj"  colonia="pax" numero_interior="1" numero_exterior="1" calle="hjk" localidad="hjk" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="12121" municipio="hjkh"  colonia="sdfg" numero_interior="1" numero_exterior="1" calle="hj" localidad="jkh" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Hidalgo" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="12231" municipio="sdhfk"  colonia="sad" numero_interior="2" numero_exterior="2" calle="hk" localidad="hjkh" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="pax" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31133" municipio="Chihuahua"  colonia="Paz" numero_interior="1" numero_exterior="1" calle="Lilas" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="a" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="00001" municipio="a"  colonia="a"  numero_exterior="a" calle="a" localidad="a" regimen_fiscal="a">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Productores Orgánicos de la Costa Grande, S.P.R. de R.L" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="40834" municipio="PETATLAN"  colonia="JULUCHUCA"  numero_exterior="SIN NUMERO" calle="CALLE SIN NOMBRE" localidad="PETATLÁN" regimen_fiscal="Régimen General de Ley Personas Morales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Productores Orgánicos de la Costa Grande, S.P.R. de R.L." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="40834" municipio="13"  colonia="JULUCHUCA"  numero_exterior="123" calle="CALLE SIN NOMBRE" localidad="PETATLAN" regimen_fiscal="Régimen General de Ley Personas Morales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="DAVID OCHOA QUINTANA" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31080" municipio="CHIHUAHUA"  colonia="DESARROLLO URBANO"  numero_exterior="6607" calle="9"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="DAVID OCHOA" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="CHIHUAHUA" referencia="TEL. 424 04 44" colonia="CENTRO" numero_exterior="1" calle="LIBERTAD" regimen_fiscal="REGIMEN GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="CONALEP CHIHUAHUA" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="CHIHUAHUA" referencia="TEL. 424 04 44" colonia="CENTRO"  numero_exterior="1000" calle="PRIMERA"  regimen_fiscal="REGIMEN GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Emmanuel Dávila" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31107" municipio="Chihuahua" colonia="Panoramica" numero_interior="4" numero_exterior="818" calle="Fujiyama" localidad="Chihuahua" regimen_fiscal="PERSONA MORAL CON RÉGIMEN GENERAL ">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="DISTRI ADMIN9" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="33333" municipio="SONORA"  colonia="NORTESIN"  numero_exterior="4" calle="CUARTA" localidad="CUARTA" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Sonora" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="DISTRI ADMIN8" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="32222" municipio="SAN LUIS POTOSI"  colonia="SUR"  numero_exterior="3" calle="TERCERA"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="San Luis Potosí" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PAX" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31130" municipio="Chihuahua"  colonia="PAZ" numero_interior="1" numero_exterior="1" calle="Libertad"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31130" municipio="Chihuahua"  colonia="PZ" numero_interior="1" numero_exterior="1" calle="Libertad"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="DIS 5" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31130" municipio="Chihuahua"  colonia="PAZ" numero_interior="1" numero_exterior="1" calle="Libertad"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="DISTRI ADMIN2" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="MEXICO"  colonia="NORTE"  numero_exterior="2" calle="SEGUNDA"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="México" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="DISTRI ADMIN" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="CHIHUAHUA"  colonia="CENTRO"  numero_exterior="1" calle="PRIMERA"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="RUBA S.A. DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31222" municipio="CHIHUAHUA" colonia="NORTE" numero_exterior="1" calle="CUARTA" regimen_fiscal="GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PAX" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31129" municipio="chihuahua"  colonia="Libertad" numero_interior="1" numero_exterior="1" calle="Libertad" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="NO APLICA" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31200" municipio="CHIHUAHUA"  colonia="VENCEREMOS"  numero_exterior="5" calle="VENCEREMOS"  regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PAX" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="03120" municipio="Chihuahua" colonia="Libertad" numero_exterior="1" calle="Libertad" localidad="Chihuahua" regimen_fiscal="DONATARIA AUTORIZADA">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Alfredo Mariscal" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31400" municipio="Chihuahua"  colonia="Nombre de Dios" numero_interior="2" numero_exterior="4709" calle="Heroico Colegio Militar" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Moises Camacho" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31400" municipio="Chihuahua" colonia="Nombre de Dios" numero_interior="2" numero_exterior="4709" calle="Heroico Colegio Militar" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="DOMINOS S.A. DE C.V" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="CHIHUAHUA" referencia="TEL. 4155056" colonia="CENTRO" numero_exterior="101" calle="LIBERTAD" localidad="CHIHUAHUA" regimen_fiscal="PERSONA MORAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="AGROBAF S.A. DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="CHIHUAHUA" referencia="TEL. 424 04 44" colonia="NORTE"  numero_exterior="1000" calle="HEROICO COLEGIO MILITAR"  regimen_fiscal="REGIMEN GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Registro Capacidades Tecnicas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31105" municipio="Chihuahua"  colonia="Nombre de Dios" numero_interior="2" numero_exterior="4709" calle="Heroico Colegio Militar" localidad="Chihuahaua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PRUEBAS FIDEAPECH" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31105" municipio="CHIHUAHUA" referencia="PIT2" colonia="NOMBRE DE DIOS" numero_interior="2" numero_exterior="4709" calle="HEROICO COLEGIO MILITAR" localidad="CHIHUAHUA" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="CEMENTOS S.A. DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="CHIHUAHUA"  colonia="NOMBRE DE DIOS"  numero_exterior="S/N" calle="VICENTE SUAREZ Y 6TA" localidad="CHIHUAHUA" regimen_fiscal="REGIMEN DE CONSOLIDACION">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Josel Moreno SA de CV" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31107" municipio="Chihuahua" colonia="Panorámico" numero_exterior="5731" calle="Irazú" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="COMERCIAL FERRETERA" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31100" municipio="CHIHUAHUA" referencia="TEL. 424 04 44" colonia="IGNACIO ALLENDE" numero_exterior="2000" calle="N. ARTILLERO" localidad="CHIHUAHUA" regimen_fiscal="REGIMEN GENERAL DE LEY PERSONAS MORALES">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Net-Electronics" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="10234" municipio="Polanco" referencia="Londres y Amburgo" colonia="Benito Juarez" numero_interior="32" numero_exterior="4000" calle="Amberes" localidad="Polanco" regimen_fiscal="personas morales del regimen general">
+      <pais pais="México">
+        <estado estado="Distrito Federal" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="CERVECERIA CUAUHTEMOC-MOCTEZUMA, S.A. DE C.V. " rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua"  colonia="Centro" numero_interior="S/N" numero_exterior="S/N" calle="Carlos pacheco y Ave. Juarez" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="CIIC" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="51150" municipio="Chihuahua" referencia="No sabe" colonia="Santo Niño" numero_interior="B" numero_exterior="12" calle="Tecnologico" regimen_fiscal="Privado">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Sergio Loera SA de CV" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="CHIHUAHUA" referencia="TEL. 111 22 33" colonia="CENTRO" numero_exterior="1" calle="PRIMERA" localidad="CHIHUAHUA" regimen_fiscal="REGIMEN GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="88888" municipio="Chihuahau" referencia="Chihuahau" colonia="Chihuahau"  numero_exterior="2" calle="Chihuahau" localidad="Chihuahau" regimen_fiscal="Chihuahau">
+      <pais pais="México">
+        <estado estado="Chiapas" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31410" municipio="Chihuahua" referencia="PIT2" colonia="Nombre de Dios"  numero_exterior="2" calle="Av. Heroico Colegio Militar" localidad="Chihuahua" regimen_fiscal="No Aplica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Carla Iveth" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" colonia="Norte" numero_exterior="1" calle="Primera" localidad="Chihuahua" regimen_fiscal="Regimen General de Ley">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EMPRESA EJEMPLO" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="CHIHUAHUA" colonia="SUR" numero_exterior="1" calle="PRIMERA" localidad="CHIHUAHUA" regimen_fiscal="GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PAX Facturacion" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31105" municipio="Chihuahua"  colonia="Nombre de Dios"   calle="Heorico Colegio militar"  regimen_fiscal="132156465">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Balatas y Embragues S.A. de C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="CHIHUAHUA" referencia="TEL. 4 15 46 74" colonia="Centro" numero_exterior="2502" calle="Teófilo borunda" localidad="CHIHUAHUA" regimen_fiscal="Persona Moral">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="GSEGUROS" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="MEXICO"  colonia="CENTRO"  numero_exterior="1" calle="PRIMERA" localidad="MEXICO" regimen_fiscal="REGIMEN GENERAL">
+      <pais pais="México">
+        <estado estado="México" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="ANA LAURA" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="11111" municipio="CHIHUAHUA" colonia="COLONIA MATRIZ" numero_exterior="1" calle="CALLE MATRIZ" localidad="CHIHUAHUA" regimen_fiscal="REGIMEN GENERAL">
+      <pais pais="México">
+        <estado estado="Chiapas" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Anonimo" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="33333" municipio="Chihuahua"  colonia="centro"  numero_exterior="1000" calle="av norte sur" localidad="Chihuahua" regimen_fiscal="Privado">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="OSCAR MONTOYA ZENTENO" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31200" municipio="CHIHUAHUA"  colonia="PANAMERICANA"  numero_exterior="519" calle="GUATEMALA" localidad="CHIHUAHUA" regimen_fiscal="GENERAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PRUEBAS S.A DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31410" municipio="CHIHUAHUA" colonia="NOMBRE DE DIOS" numero_exterior="2" calle="HEROICO COLEGIO MILITAR" localidad="CHIHUAHUA" regimen_fiscal="REGIMEN GENERAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Arturo Salinas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="33333" municipio="Chihuahua" colonia="centro" numero_exterior="1000" calle="centro" localidad="Chihuahua" regimen_fiscal="Privado">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PRUEBITAS" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="CHIHUAHUA" colonia="CENTRO" numero_exterior="EXT. 1" calle="PRIMERA" regimen_fiscal="REGIMEN GENERAL DE LEY">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Razon Social" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31400" municipio="Chihuahua" colonia="Nombre de Dios" numero_exterior="3" calle="Heroico Colegio Militr" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="SERVICIOS EMPRESARIALES" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31050" municipio="Chihuahua" colonia="GRANJAS" numero_exterior="3910" calle="MANUEL GONZALEZ COSSIO" localidad="Chihuahua" regimen_fiscal="REGIMEN GENERAL DE LEY PERSONA FISICA CON ACTIVIDAD EMPRESARIAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Ariana Acevedo Cordero" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="Chihuahua"  colonia="Lomas del Sol"  numero_exterior="345" calle="Av. Aguilas" localidad="Chihuahua" regimen_fiscal="Persona Fisica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="REFACCIONES HERNANDEZ" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="CHIHUAHUA"  colonia="LOMAS DEL SOL"  numero_exterior="3001" calle="JIRAFA" localidad="CHIHUAHUA" regimen_fiscal="PERSONA MORAL CON ACTIVIDAD EMPRESARIAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="ARIANA ACEVEDO CORDERO" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="CHIHUAHUA"  colonia="LOMAS DEL SOL"  numero_exterior="2601" calle="CANGURO" localidad="CHIHUAHUA" regimen_fiscal="PERSONA FISICA">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PAx" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31129" municipio="Chihuahua"  colonia="paz" numero_interior="1" numero_exterior="1" calle="Lilas" localidad="Chihuahua" regimen_fiscal="Corpus">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="22222" municipio="Pruebas"  colonia="PAXSTE239"  numero_exterior="2" calle="Pruebas" localidad="Pruebas" regimen_fiscal="PAXSTE239">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31410" municipio="Chihuahua"  colonia="Guadalupe"  numero_exterior="23" calle="14 de Julio" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Ariana Acevedo Cordero" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="Chihuahua"  colonia="Lomas del Sol"  numero_exterior="2601" calle="Canguro " localidad="Chihuahua" regimen_fiscal="Persona Fisica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Usuario de Prueba S.A de C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31105" municipio="Chihuahua" colonia="Nombre de dios" numero_interior="2" numero_exterior="4709" calle="Av. Heroico Colegio Militar" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="22222" municipio="Prueba" referencia="Prueba"   numero_exterior="w" calle="Prueba" localidad="Prueba" regimen_fiscal="Prueba">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Jordi Espinosa" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31105" municipio="Chihuahua" colonia="Lomas del Sol" numero_exterior="4534" calle="Lomas Verdes" regimen_fiscal="Persona Fisica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Lince" rfc="CGA030903UC3">
+    <DomicilioFiscal codigo_postal="11000" municipio="Chihuahua"  colonia="campestre"  numero_exterior="4100" calle="Mirador y Ortiz Mena" localidad="Chihuahua" regimen_fiscal="Privado">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="USUARIO PARA DEMO S.A DE C.V" rfc="AAQM610917QJA">
+    <DomicilioFiscal codigo_postal="31105" municipio="CHIHUAHUA"  colonia="NOMBRE DE DIOS" numero_interior="2" numero_exterior="4709" calle="AV. HEROICO COLEGIO MILITAR" localidad="CHIHUAHUA" regimen_fiscal="REGIMEN GENERAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="AAQM610917QJA" rfc="AAQM610917QJA">
+    <DomicilioFiscal codigo_postal="44444" municipio="AAQM610917QJA"  colonia="AAQM610917QJA"  numero_exterior="5" calle="AAQM610917QJA" localidad="AAQM610917QJA" regimen_fiscal="lllllllll">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="21222" municipio="AAQM610917QJA"  colonia="AAQM610917QJA"  numero_exterior="21" calle="AAQM610917QJA" localidad="AAQM610917QJA" regimen_fiscal="AAQM610917QJA">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba" rfc="AAQM610917QJA">
+    <DomicilioFiscal codigo_postal="23333" municipio="Pruebas"  colonia="Pruebas"  numero_exterior="3" calle="Prueba" localidad="Pruebas" regimen_fiscal="Pruebas">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas" rfc="AAQM610917QJA">
+    <DomicilioFiscal codigo_postal="45342" municipio="Chihuahua" referencia="23" colonia="Pacifico" numero_interior="2" numero_exterior="3" calle="20 de noviembre" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="LABORATORIO INTERNACIONAL DE ANALISIS CLINICOS, S.A. DE C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31240" municipio="CHIHUAHUA" colonia="Col. San Felipe" numero_exterior="905" calle="HEROICO COLEGIO MILITAR" regimen_fiscal="PERSONA MORAL CON ACTIVIDAD EMPRESARIAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="CLIENTE S.A DE C.V" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31410" municipio="CHIHUAHUA" colonia="GUADALUPE" numero_interior="A" numero_exterior="3407" calle="14 DE JULIO" localidad="CHIHUAHUA" regimen_fiscal="REGIMEN GENERAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="66666" municipio="Prueba" referencia="Prueba" colonia="Prueba"  numero_exterior="23" calle="Prueba" localidad="Prueba" regimen_fiscal="Prueba">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="44444" municipio="Prueba"  colonia="Prueba"  numero_exterior="2" calle="Prueba" localidad="Prueba" regimen_fiscal="Prueba">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="qwe" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="12312" municipio="ad" referencia="123" colonia="123" numero_interior="123" numero_exterior="123" calle="asd" localidad="asd" regimen_fiscal="asd">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="asd" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="12312" municipio="asd" referencia="1231" colonia="123" numero_interior="123" numero_exterior="123" calle="asd" localidad="asd" regimen_fiscal="asd">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="qew" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="12312" municipio="qwe" referencia="123123" colonia="123" numero_interior="123" numero_exterior="123" calle="qwe" localidad="qwe" regimen_fiscal="qwe">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="qwe" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="12312" municipio="qwe" referencia="123" colonia="123" numero_interior="123" numero_exterior="123" calle="qwe" localidad="qwe" regimen_fiscal="qwe">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="12312" municipio="ds" referencia="123" colonia="123" numero_interior="123" numero_exterior="123" calle="asd" localidad="asd" regimen_fiscal="asd">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="12312" municipio="qe" referencia="123" colonia="123" numero_interior="123" numero_exterior="13" calle="qwe" localidad="qwe" regimen_fiscal="qwe">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="22222" municipio="Prueba"  colonia="Prueba"  numero_exterior="1" calle="Prueba" localidad="Prueba" regimen_fiscal="Prueba">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Razon Social S.A de C.V" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31400" municipio="Chihuahua" colonia="Nombre de Dios" numero_interior="2" numero_exterior="4902" calle="Heroico Colegio Militar" localidad="Chihuahua" regimen_fiscal="Regimen Intermedio">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="4444444444" municipio="Prueba" referencia="Prueba" colonia="Prueba"  numero_exterior="44" calle="Prueba" localidad="Prueba" regimen_fiscal="Prueba">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31244" municipio="Chihuahua" referencia="PRueba" colonia="Nombre de Dios"  numero_exterior="2" calle="Heroico Colegio Militar" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="pax" rfc="AAA000000AAA">
+    <DomicilioFiscal codigo_postal="31105" municipio="chihuahua"  colonia="paz" numero_interior="13" numero_exterior="13" calle="militars" localidad="Chihuahua" regimen_fiscal="jh">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Paxi" rfc="AAA000000AAA">
+    <DomicilioFiscal codigo_postal="31120" municipio="chihuas"  colonia="paz" numero_interior="12" numero_exterior="12" calle="militar" localidad="chihuas" regimen_fiscal="pax">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31400" municipio="Chihuahua"  colonia="Nombre de Dios" numero_interior="2" numero_exterior="409" calle="Heroico Colegio Militar" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="22222" municipio="Chihuahua"  colonia="Colonia" numero_interior="11" numero_exterior="1" calle="Calle" localidad="Chihuahua" regimen_fiscal="Regimen">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="as" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31130" municipio="a" referencia="haya" colonia="paz" numero_interior="1" numero_exterior="1" calle="a" localidad="a" regimen_fiscal="a">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="pax" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="32323" municipio="agua" referencia="ads" colonia="bahin¡a" numero_interior="12" numero_exterior="12" calle="paz" localidad="agua" regimen_fiscal="12">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="ser yo " rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="12312" municipio="q"  colonia="12" numero_interior="12" numero_exterior="12" calle="q" localidad="qq" regimen_fiscal="sasas">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Paxfacturacion" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31130" municipio="aguas" referencia="123" colonia="paz" numero_interior="12" numero_exterior="12" calle="aguas" localidad="aguas" regimen_fiscal="edd">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pax Facturacion S.A de C.V" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31210" municipio="Chihuahua" referencia="edificio PIT 2" colonia="Nombre de Dios" numero_interior="2" numero_exterior="4709" calle="Heroico Colegio Militar" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Briss" rfc="CGA030903UC3">
+    <DomicilioFiscal codigo_postal="33000" municipio="Chihuahua"  colonia="centro"  numero_exterior="915" calle="calle san francisco"  regimen_fiscal="Privado">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+        <estado estado="Chihuahua" />
+        <estado estado="Chihuahua" />
+        <estado estado="Chihuahua" />
+        <estado estado="Chihuahua" />
+        <estado estado="Chihuahua" />
+        <estado estado="Chihuahua" />
+        <estado estado="Chihuahua" />
+        <estado estado="Chihuahua" />
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="33000" municipio="Chihuahua"  colonia="centro"  numero_exterior="915" calle="calle 34"  regimen_fiscal="Privado">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="corpus" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31300" municipio="Chihuahua" referencia="Javier" colonia="Dale" numero_interior="4" numero_exterior="5600" calle="Centro" localidad="Chihuahua" regimen_fiscal="Regimen ">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="ACTIVIVIENDA PROMOCION SA DE CV " rfc="AAD990814BP7">
+    <DomicilioFiscal codigo_postal="31130" municipio="Chihuahua"     calle="Primera" localidad="Chihuahua" regimen_fiscal="Regimen Empresarial">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="11111" municipio="Chihuahua" colonia="Colonia 1" numero_exterior="1" calle="Calle 1" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Paxi" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31120" municipio="juarez"  colonia="paz" numero_interior="2" numero_exterior="2" calle="juarez" localidad="juarez" regimen_fiscal="general">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="11111" municipio="a"  colonia="a"  numero_exterior="23" calle="as"  regimen_fiscal="asas">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Carcarita" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="asdfg"  colonia="12" numero_interior="12" numero_exterior="12" calle="poiu" localidad="qwer" regimen_fiscal="ajfdddd">
+      <pais pais="México">
+        <estado estado="Coahuila de Zaragoza" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="asd" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31313" municipio="ch" referencia="df" colonia="centro"  numero_exterior="123" calle="asd" localidad="sdf" regimen_fiscal="servicios profesionales">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Central" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="Centro" colonia="Centro"  numero_exterior="31" calle="Centro12" localidad="Chihuahua" regimen_fiscal="Ejemplo">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Corpus" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31130" municipio="Chihuahua"  colonia="Pass" numero_interior="2" numero_exterior="2" calle="AV. Heorico" localidad="Chihuahua" regimen_fiscal="general">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="11111" municipio="Pruebas"  colonia="PAXSTE239"  numero_exterior="2" calle="Pruebas" localidad="Pruebas" regimen_fiscal="General">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Centro" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="Centro" colonia="Centro"  numero_exterior="31" calle="Centro" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="Centro" colonia="Centro"  numero_exterior="123" calle="centro" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31222" municipio="Chihuahua" referencia="123" colonia="213"  numero_exterior="12" calle="Centro" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="centro" colonia="Centro"  numero_exterior="12" calle="asd" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="Centro" colonia="Centro"  numero_exterior="20" calle="Centro" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="33333" municipio="Prueba"  colonia="PAXSTE239"  numero_exterior="2" calle="Prueba" localidad="Prueba" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empresin" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="Centro" colonia="Centro"  numero_exterior="1" calle="Centro" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Cento" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="Centro" colonia="Centro"  numero_exterior="31" calle="Centro" localidad="Chihuahua" regimen_fiscal="Centro">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empresa" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="centro" colonia="centro"  numero_exterior="1" calle="31" localidad="Chihuahua" regimen_fiscal="servicios profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="21111" municipio="Chihuahua"  colonia="PAXSTE239"  numero_exterior="3" calle="Chihuahua" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="21111" municipio="Chihuahua"  colonia="Colonia"  numero_exterior="23" calle="Calle"  regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empresin" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="centro" colonia="Centro"  numero_exterior="31000" calle="Central 1" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empresa" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="Empresa" colonia="Centro"  numero_exterior="3100" calle="31a" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas Cliente Distribuidor" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="11111" municipio="Chihuahua"  colonia="Pruebita"  numero_exterior="3" calle="Venustiano" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Alejandro Sandoval " rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="11111" municipio="Delicias" colonia="Jardines" numero_exterior="12" calle="MArgaritas" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="LAGUNITA SA" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="CHIHUAHUA"  colonia="GU" numero_interior="2" numero_exterior="1" calle="CHIH" localidad="CHIHUAHUA" regimen_fiscal="REP">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Chachitos S.A. de C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="32455" municipio="Chihuahua"  colonia="Nombre de Dios"  numero_exterior="2" calle="20 de noviembre" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="12321" municipio="Chihuahua"  colonia="Prueba"  numero_exterior="2" calle="Prueba1" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Cert" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="Chihuahua" referencia="123" colonia="centro"  numero_exterior="3100" calle="Central" localidad="Chihuahua" regimen_fiscal="Servicios">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empresa" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="centro" colonia="Centro"  numero_exterior="21" calle="Centro" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="32222" municipio="Chihuahua"  colonia="Prueba"  numero_exterior="12" calle="Privada" localidad="Chihuahua" regimen_fiscal="General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empresa" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="Centro" colonia="Centro"  numero_exterior="321" calle="34" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Centro" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="centro" colonia="Centro"  numero_exterior="3100" calle="35" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empresa 3" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="central" colonia="centro"  numero_exterior="12" calle="Centro1" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Central" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="centro" colonia="centro"  numero_exterior="2" calle="Centro" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empresa de Prueba" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="Centro" colonia="Centro"  numero_exterior="3100" calle="31a" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Socialmedia" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="Centro" colonia="Centro"  numero_exterior="123" calle="central 1" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Cervecero" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="Centro" colonia="Centro"  numero_exterior="3100" calle="Central1" localidad="Chihuahua" regimen_fiscal="Servicio Profesional">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empresa" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="Centro" colonia="Centro"  numero_exterior="3100" calle="31a" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PRUEBAS" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="CHIHUAHUA"  colonia="LOMAS DEL SOL"  numero_exterior="3001" calle="JIRAFA" localidad="CHIHUAHUA" regimen_fiscal="SERVICIO">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31110" municipio="CHIHUAHUA"  colonia="LOMAS DEL SOL"  numero_exterior="2401" calle="JIRAFA" localidad="CHIHUAHUA" regimen_fiscal="SERVICIO">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31110" municipio="Chihuahua"  colonia="Lomas del Sol"  numero_exterior="2401" calle="Gaviota" localidad="Chihuahua" regimen_fiscal="General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31110" municipio="CHIHUAHUA"  colonia="LOMAS DEL SOL"  numero_exterior="2601" calle="LOMAS DEL SOL" localidad="CHIHUAHUA" regimen_fiscal="GENERAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Ejemplo" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="12" colonia="Centro"  numero_exterior="31" calle="Centro" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PRUEBAS" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="CHIHUAHUA"  colonia="LOMAS DEL SOL"  numero_exterior="3052" calle="JIRAFA" localidad="CHIHUAHUA" regimen_fiscal="GENERAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31110" municipio="CHIHUAHUA"  colonia="LOMAS DEL SOL"  numero_exterior="2601" calle="CANGURO"  regimen_fiscal="GENERAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31115" municipio="Chihuahua"  colonia="Lomas del Sol"  numero_exterior="3001" calle="Jirafa" localidad="Chihuahua" regimen_fiscal="General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31110" municipio="CHIHUAHUA"  colonia="LOMAS DEL SOL"  numero_exterior="2601" calle="CANGURO" localidad="CHIHUAHUA" regimen_fiscal="GENERAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31110" municipio="CHIHUAHUA"  colonia="LOMAS DEL SOL"  numero_exterior="2401" calle="CANGURO" localidad="CHIHUAHUA" regimen_fiscal="GENERAL">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+    <DomicilioFiscal codigo_postal="31110" municipio="Chihuahua"  colonia="Lomas del Sol"  numero_exterior="2601" calle="Canguro" localidad="Chihuahua" regimen_fiscal="General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EmpresaResp" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="12343" municipio="Chihuahua" referencia="1" colonia="centro"  numero_exterior="12" calle="Central" localidad="Chihuahua" regimen_fiscal="Profesional">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="EmpresaY" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="q" colonia="centro"  numero_exterior="31" calle="31" localidad="Chihuahua" regimen_fiscal="Social">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empresa" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="12312" municipio="Chihuahua" referencia="31" colonia="centro"  numero_exterior="123" calle="239" localidad="Chihuahua" regimen_fiscal="Profesional">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PAX Facturacion S.A de C.v" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31105" municipio="Chihuahua" colonia="Nombre de Dios" numero_interior="2" numero_exterior="4709" calle="Av. Heroico Colegio Militar " localidad="Chihuahua" regimen_fiscal="PAx">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba Cliente Distribuidor" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="64777" municipio="Chihuahua"  colonia="Vazquez"  numero_exterior="54" calle="Venustiano Carranza" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="Chihuahua"  colonia="Lomas del Sol"  numero_exterior="2601" calle="Canguro" localidad="Chihuahua" regimen_fiscal="General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="ejemplo" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="centro" colonia="centro"  numero_exterior="321" calle="Central" localidad="Chihuahua" regimen_fiscal="Empresa social">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Pruebas.Creditos2" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="12312" municipio="Chihuahua"  colonia="Pacifico"  numero_exterior="455" calle="Plutarco Elias" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Queseria Martinez S.A de C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="64777" municipio="Chihuahua"  colonia="Valladolid"  numero_exterior="23" calle="20 de Noviembre" localidad="Chihuahua" regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Raul Dominguez" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31111" municipio="Chihuahua"  colonia="Zarco"  numero_exterior="2601" calle="Jirafa"  regimen_fiscal="General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Ariana Acevedo" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="Chihuahua"  colonia="Lomas del Sol"  numero_exterior="2401" calle="Canguro"  regimen_fiscal="General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Operadora S.A de C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="23333" municipio="Chihuahua"  colonia="Santo Niño"  numero_exterior="23" calle="20 de Noviembre"  regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Jorge Rios" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31444" municipio="Chihuahua" colonia="Nombre de Dios" numero_exterior="23" calle="Heroico Colegio Militar" regimen_fiscal="Persona Fisica">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="22222" municipio="Chihuahua"  colonia="Prueba"  numero_exterior="1" calle="Prueba"  regimen_fiscal="Regimen General">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="asd" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="12321" municipio="Chihuahua" referencia="123" colonia="Centro"  numero_exterior="123" calle="21" localidad="Chihuahua" regimen_fiscal="Servicios Profesionales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="chapits sa de cv" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31000" municipio="Chihuahua" referencia="sdfasfd12" colonia="Centro" numero_interior="B" numero_exterior="1000" calle="Independencia" localidad="Chihuahua" regimen_fiscal="repeco">
+      <pais pais="México">
+        <estado estado="Zacatecas" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba de registro" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="22222" municipio="Chihuahua"  colonia="Pruebas"  numero_exterior="2" calle="Prueba 7"  regimen_fiscal="Prueba de regimen fiscal largo para captura de uno o varios dentro de la pantalla de registro">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Sucursal Norte S.A de C.V. " rfc="CAY100623984">
+    <DomicilioFiscal codigo_postal="31400" municipio="Chihuahua" colonia="Centro" numero_exterior="23" calle="Venustiano Carranza" regimen_fiscal="General Empresarial">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Refacciones Motors" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31110" municipio="Chihuahua" colonia="Guadalupe" numero_exterior="2392" calle="Rosales" localidad="Chihuahua" regimen_fiscal="Servicio">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="22222" municipio="Chihuahua"  colonia="Colonia"  numero_exterior="3" calle="Calle"  regimen_fiscal="General Distribuidor">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="FRUTITAS" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="36000" municipio="Parral"     calle="juan luis" localidad="Parral" regimen_fiscal="PERES">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="REFE" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="34000" municipio="c"     calle="c" localidad="c" regimen_fiscal="">
+      <pais pais="México">
+        <estado estado="Aguascalientes" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PREBES" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="33000" municipio="Chihuahua"  colonia="Benito"  numero_exterior="1021" calle="San lucas" localidad="Chihuahua" regimen_fiscal="Sesnos">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="PAX Facturacion S.A de C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31105" municipio="Chihuahua" colonia="Nombre de Dios" numero_interior="2" numero_exterior="4709" calle="Heroico Colegio Militar" localidad="Chihuahua" regimen_fiscal="General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Ochoa Service S.A. de C.V." rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31114" municipio="Chihuahua" colonia="Nombre de Dios" numero_exterior="2701" calle="Pino" localidad="Chihuahua" regimen_fiscal="General">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Sucursal 2" rfc="APR0412108C5">
+    <DomicilioFiscal codigo_postal="22222" municipio="Campeche" colonia="Fastidio" numero_exterior="2" calle="Segovian" localidad="Campeche" regimen_fiscal="Regimen">
+      <pais pais="México">
+        <estado estado="Campeche" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Prueba" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="55090" municipio="Ecatepec de Morelos" colonia="San Jose Jajalpa" numero_exterior="49" calle="Fuentes del Salto L.T." regimen_fiscal="Actividad Empresarial y Profesional">
+      <pais pais="México">
+        <estado estado="México" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="ESPUMAS" rfc="AAQM610917QJA">
+    <DomicilioFiscal codigo_postal="44000" municipio="camargo" colonia="sur" numero_exterior="3090" calle="50 san juan" localidad="camargo" regimen_fiscal="Registros">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+  <emisor nombre="Empresa" rfc="AAA010101AAA">
+    <DomicilioFiscal codigo_postal="31105" municipio="Chihuahua" colonia="Nombre de Dios" numero_interior="2" numero_exterior="4709" calle="HEROICO COLEGIO MILITAR" localidad="Chihuahua" regimen_fiscal="Régimen General de Ley Personas Morales">
+      <pais pais="México">
+        <estado estado="Chihuahua" />
+      </pais>
+    </DomicilioFiscal>
+  </emisor>
+</Emisores>

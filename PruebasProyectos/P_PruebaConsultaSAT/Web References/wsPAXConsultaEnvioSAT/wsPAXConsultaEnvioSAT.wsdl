@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://paxfacturacion.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://paxfacturacion.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://paxfacturacion.com/">
+      <s:element name="fnConsultaEnvioSAT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="psUsuarioPAX" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psContraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psRFCEmisor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psReceptor" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pnTotal" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="psUUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnConsultaEnvioSATResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fnConsultaEnvioSATResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="fnConsultaEnvioSATSoapIn">
+    <wsdl:part name="parameters" element="tns:fnConsultaEnvioSAT" />
+  </wsdl:message>
+  <wsdl:message name="fnConsultaEnvioSATSoapOut">
+    <wsdl:part name="parameters" element="tns:fnConsultaEnvioSATResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wsPAXConsultaEnvioSATSoap">
+    <wsdl:operation name="fnConsultaEnvioSAT">
+      <wsdl:input message="tns:fnConsultaEnvioSATSoapIn" />
+      <wsdl:output message="tns:fnConsultaEnvioSATSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsPAXConsultaEnvioSATSoap" type="tns:wsPAXConsultaEnvioSATSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnConsultaEnvioSAT">
+      <soap:operation soapAction="http://paxfacturacion.com/fnConsultaEnvioSAT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsPAXConsultaEnvioSATSoap12" type="tns:wsPAXConsultaEnvioSATSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnConsultaEnvioSAT">
+      <soap12:operation soapAction="http://paxfacturacion.com/fnConsultaEnvioSAT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wsPAXConsultaEnvioSAT">
+    <wsdl:port name="wsPAXConsultaEnvioSATSoap" binding="tns:wsPAXConsultaEnvioSATSoap">
+      <soap:address location="http://localhost:57159/PAXConsultaEnvioSAT/wsPAXConsultaEnvioSAT.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsPAXConsultaEnvioSATSoap12" binding="tns:wsPAXConsultaEnvioSATSoap12">
+      <soap12:address location="http://localhost:57159/PAXConsultaEnvioSAT/wsPAXConsultaEnvioSAT.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

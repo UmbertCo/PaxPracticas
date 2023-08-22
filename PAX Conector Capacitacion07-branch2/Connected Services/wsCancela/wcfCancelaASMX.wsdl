@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://test.paxfacturacion.com.mx:476" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="https://test.paxfacturacion.com.mx:476" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="https://test.paxfacturacion.com.mx:476">
+      <s:element name="fnCancelarXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sListaUUID" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="psRFCEmisor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psRFCReceptor" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sListaTotales" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sContrasena" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="fnCancelarXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fnCancelarXMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnCancelarDistribuidoresXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sListaUUID" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="psRFCEmisor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psRFCReceptor" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sListaTotales" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="signature" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sContrasena" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnCancelarDistribuidoresXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fnCancelarDistribuidoresXMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnCancelarXMLMP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sListaUUID" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="psRFCEmisor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sContrasena" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnCancelarXMLMPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fnCancelarXMLMPResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnCancelarDistribuidoresXMLMP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sListaUUID" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="psRFCEmisor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="signature" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sContrasena" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnCancelarDistribuidoresXMLMPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fnCancelarDistribuidoresXMLMPResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="fnCancelarXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:fnCancelarXML" />
+  </wsdl:message>
+  <wsdl:message name="fnCancelarXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:fnCancelarXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="fnCancelarDistribuidoresXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:fnCancelarDistribuidoresXML" />
+  </wsdl:message>
+  <wsdl:message name="fnCancelarDistribuidoresXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:fnCancelarDistribuidoresXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="fnCancelarXMLMPSoapIn">
+    <wsdl:part name="parameters" element="tns:fnCancelarXMLMP" />
+  </wsdl:message>
+  <wsdl:message name="fnCancelarXMLMPSoapOut">
+    <wsdl:part name="parameters" element="tns:fnCancelarXMLMPResponse" />
+  </wsdl:message>
+  <wsdl:message name="fnCancelarDistribuidoresXMLMPSoapIn">
+    <wsdl:part name="parameters" element="tns:fnCancelarDistribuidoresXMLMP" />
+  </wsdl:message>
+  <wsdl:message name="fnCancelarDistribuidoresXMLMPSoapOut">
+    <wsdl:part name="parameters" element="tns:fnCancelarDistribuidoresXMLMPResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wcfCancelaASMXSoap">
+    <wsdl:operation name="fnCancelarXML">
+      <wsdl:input message="tns:fnCancelarXMLSoapIn" />
+      <wsdl:output message="tns:fnCancelarXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="fnCancelarDistribuidoresXML">
+      <wsdl:input message="tns:fnCancelarDistribuidoresXMLSoapIn" />
+      <wsdl:output message="tns:fnCancelarDistribuidoresXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="fnCancelarXMLMP">
+      <wsdl:input message="tns:fnCancelarXMLMPSoapIn" />
+      <wsdl:output message="tns:fnCancelarXMLMPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="fnCancelarDistribuidoresXMLMP">
+      <wsdl:input message="tns:fnCancelarDistribuidoresXMLMPSoapIn" />
+      <wsdl:output message="tns:fnCancelarDistribuidoresXMLMPSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wcfCancelaASMXSoap" type="tns:wcfCancelaASMXSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnCancelarXML">
+      <soap:operation soapAction="https://test.paxfacturacion.com.mx:476/fnCancelarXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnCancelarDistribuidoresXML">
+      <soap:operation soapAction="https://test.paxfacturacion.com.mx:476/fnCancelarDistribuidoresXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnCancelarXMLMP">
+      <soap:operation soapAction="https://test.paxfacturacion.com.mx:476/fnCancelarXMLMP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnCancelarDistribuidoresXMLMP">
+      <soap:operation soapAction="https://test.paxfacturacion.com.mx:476/fnCancelarDistribuidoresXMLMP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wcfCancelaASMXSoap12" type="tns:wcfCancelaASMXSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnCancelarXML">
+      <soap12:operation soapAction="https://test.paxfacturacion.com.mx:476/fnCancelarXML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnCancelarDistribuidoresXML">
+      <soap12:operation soapAction="https://test.paxfacturacion.com.mx:476/fnCancelarDistribuidoresXML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnCancelarXMLMP">
+      <soap12:operation soapAction="https://test.paxfacturacion.com.mx:476/fnCancelarXMLMP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnCancelarDistribuidoresXMLMP">
+      <soap12:operation soapAction="https://test.paxfacturacion.com.mx:476/fnCancelarDistribuidoresXMLMP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wcfCancelaASMX">
+    <wsdl:port name="wcfCancelaASMXSoap" binding="tns:wcfCancelaASMXSoap">
+      <soap:address location="https://test.paxfacturacion.com.mx:476/webservices/wcfCancelaASMX.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wcfCancelaASMXSoap12" binding="tns:wcfCancelaASMXSoap12">
+      <soap12:address location="https://test.paxfacturacion.com.mx:476/webservices/wcfCancelaASMX.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

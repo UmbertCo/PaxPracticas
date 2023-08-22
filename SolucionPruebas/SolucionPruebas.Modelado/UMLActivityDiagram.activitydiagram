@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="9e001905-99e2-4146-a02d-658e39643754" name="Activity" linkedPackageId="e1baabc4-8a7c-41f4-8c75-69b3edf8e71d" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="a732b9b1-27f9-400f-a56f-020e514b99e0">
+      <elementDefinition Id="18c6132f-5599-4286-adb9-10680c5cebc2" />
+      <body>Los documentos se dejan en la carpeta de entrada.
+
+El servicio espera a que todos los datos son entregados.</body>
+      <annotatedElements>
+        <opaqueActionMoniker Id="11839cc3-6754-4db5-bb13-b0262267caf9" LastKnownName="Entrada" />
+      </annotatedElements>
+    </comment>
+    <comment Id="d05b1699-01cb-4ff5-98f4-f4c81a05ff49">
+      <elementDefinition Id="2920c864-dddb-4e3c-b4c8-1abadaf1f9c9" />
+      <body>Tiene una extensión .zip</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="d8c5a16c-8eba-4450-b5c1-313184d0fa16" LastKnownName="Decision1" />
+      </annotatedElements>
+    </comment>
+    <comment Id="e3f868f6-f5e4-48c2-bed9-07eb865cca2a">
+      <elementDefinition Id="20197c19-bc78-435b-9ae9-6ecfdc3c2d22" />
+      <body>Se valida si se ha procesado el Zip</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="68382f67-2984-4414-91ee-cff5140ffcd4" LastKnownName="Decision2" />
+      </annotatedElements>
+    </comment>
+    <comment Id="18c8bc50-4de1-4059-b8af-8cffba977435">
+      <elementDefinition Id="4a490e55-1d91-463d-9d77-e0646084ef14" />
+      <body>Se revisa si esta encriptado, si es una carpeta o si no es un archivo, por comprobante</body>
+      <annotatedElements>
+        <opaqueActionMoniker Id="b6551a80-fdf8-4745-b947-18e38a8049e1" LastKnownName="Validación del contenido" />
+      </annotatedElements>
+    </comment>
+    <comment Id="20d6586e-d214-4dfa-91d4-b49b76129d1f">
+      <elementDefinition Id="5688cfb4-cc20-4c38-93e0-a79e5247a24e" />
+      <body>Se valida si el comprobante ya ha sido timbrado</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="58172767-01b7-4dbd-bc38-89a498f14cce" LastKnownName="Decision4" />
+      </annotatedElements>
+    </comment>
+    <comment Id="970c1a01-4d46-4b00-a014-fa2406acc81c">
+      <elementDefinition Id="43ea6822-b7bb-464b-8a65-ccec3ee549f3" />
+      <body>Al consumir el HSM devuelve el comprobante timbrado o un error</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="107151ec-c936-49fd-8099-e921078c3614" LastKnownName="Decision5" />
+      </annotatedElements>
+    </comment>
+    <comment Id="93037cc9-5966-443c-899e-ed6c5baa458d">
+      <elementDefinition Id="86bf5c6d-e72d-4dd0-95cb-e7bfddd078d5" />
+      <body>Se registra que llego el Zip</body>
+      <annotatedElements>
+        <opaqueActionMoniker Id="1d58bd9b-2cca-4e1e-8182-3c6a3c41639c" LastKnownName="Log Text Plano" />
+      </annotatedElements>
+    </comment>
+    <comment Id="1e239a3b-ac2b-46a6-8e84-cc3ee3b8f553">
+      <elementDefinition Id="8e8636b5-eb9c-41f0-8364-35479be21625" />
+      <body>Se revisa que el Zip de salida tenga algun comprobante adjunto</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="825eebbb-2fe6-46d8-b0d4-c4d0d6fb08ac" LastKnownName="Decision51" />
+      </annotatedElements>
+    </comment>
+    <comment Id="5d211aef-72ba-4094-8a46-2d831221dd1a">
+      <elementDefinition Id="931a1001-488b-47c8-b92e-c071a926c45f" />
+      <body>Se registra en el Log que ya se termino de procesar todo el Zip</body>
+      <annotatedElements>
+        <opaqueActionMoniker Id="090df111-379b-4caa-812f-07ec756eb339" LastKnownName="Log Texto Plano" />
+      </annotatedElements>
+    </comment>
+    <comment Id="91e03f93-bfdf-41c4-b8f4-e53d03378895">
+      <elementDefinition Id="51c9be41-413e-4838-955a-bf91d9304a8d" />
+      <body>Se crea el Zip de salida</body>
+      <annotatedElements>
+        <opaqueActionMoniker Id="63221ecb-a64c-4b2e-83b0-52a07691caf2" LastKnownName="Zip Salida" />
+      </annotatedElements>
+    </comment>
+    <comment Id="20b83243-5fe5-4103-9dfa-702467a99a0a">
+      <elementDefinition Id="f9560bc7-a768-4723-96cb-d971c875cc12" />
+      <body>Se revisa comprobante por comprobante</body>
+      <annotatedElements>
+        <opaqueActionMoniker Id="c18e9690-e1ea-4f1c-b3ba-97a651d0b670" LastKnownName="Errores" />
+        <opaqueActionMoniker Id="6e5156e1-b583-4994-9d33-1322eb0db392" LastKnownName="Errores" />
+      </annotatedElements>
+    </comment>
+    <comment Id="66a729da-ba33-4138-b291-db87e23c7e9c">
+      <elementDefinition Id="bbd112de-4c1f-45a2-afa9-c0e86f2aed2f" />
+      <body>Todo este bloque es por comprobante dentro del Zip</body>
+      <annotatedElements>
+        <opaqueActionMoniker Id="f960f92b-803c-4c7c-bb46-86bfa3623368" LastKnownName="Se agrega a la lista" />
+      </annotatedElements>
+    </comment>
+    <comment Id="fc16fc5f-cefd-4931-962b-a1a35727f74e">
+      <elementDefinition Id="66aad682-2b62-494c-bc27-c90e79bf94c3" />
+      <body>Todo este bloque es por comprobante agregado a la lista en el Hilo de trabajo</body>
+      <annotatedElements>
+        <opaqueActionMoniker Id="db8b28f9-2f07-4a85-b5cc-adc3e6d53e02" LastKnownName="Registro" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="12fd9901-91cf-4028-88cf-76eafbefab35" name="Activity" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="92c83c50-0da5-46b8-b55a-17fb7dd30334" />
+        <nodes>
+          <opaqueAction Id="11839cc3-6754-4db5-bb13-b0262267caf9" name="Entrada" isLeaf="false">
+            <elementDefinition Id="052fa12a-8516-4a93-bac3-0abefc5a1ecc" />
+            <flowNodeTargets>
+              <controlFlow Id="d62066ee-e934-42bb-84f6-2ccb2592fcbe" isLeaf="false">
+                <opaqueActionMoniker Id="d3eeaeba-82ce-4043-bb48-beba8b6faa19" LastKnownName="Validación Zip" />
+                <elementDefinition Id="6cdfd941-8021-4868-9b4b-1c7a435d2ae0" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <initialNode Id="b76235ca-34f8-4c15-91f0-9b0e3c1a8729" name="Initial1" isLeaf="false">
+            <elementDefinition Id="4908164a-152a-4db9-84e3-a52977253162" />
+            <flowNodeTargets>
+              <controlFlow Id="31f24d17-733c-488c-977a-6b374c5f5b8d" isLeaf="false">
+                <opaqueActionMoniker Id="11839cc3-6754-4db5-bb13-b0262267caf9" LastKnownName="Entrada" />
+                <elementDefinition Id="61ca495b-a709-461d-9c1d-e198d5ef8753" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="d3eeaeba-82ce-4043-bb48-beba8b6faa19" name="Validación Zip" isLeaf="false">
+            <elementDefinition Id="da4906ad-91ed-45a4-bac5-bc259869f77f" />
+            <flowNodeTargets>
+              <controlFlow Id="63bb911f-45c1-4a2c-96bd-15bf8a929499" isLeaf="false">
+                <decisionNodeMoniker Id="d8c5a16c-8eba-4450-b5c1-313184d0fa16" LastKnownName="Decision1" />
+                <elementDefinition Id="4e348dda-0d5a-4fc5-9a62-f3a9630439e6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="1d58bd9b-2cca-4e1e-8182-3c6a3c41639c" name="Log Text Plano" isLeaf="false">
+            <elementDefinition Id="a5c18415-9617-45d4-b142-ce3316e501a5" />
+            <flowNodeTargets>
+              <controlFlow Id="9046a83f-7b96-4400-b38c-4f34b7fc87a1" isLeaf="false">
+                <opaqueActionMoniker Id="9cb3b824-0489-4d0b-9d2a-e01b43e68bd0" LastKnownName="Generacion Hash Zip" />
+                <elementDefinition Id="537e1016-ce92-4d34-bffc-256c676c7235" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="4287d763-abe4-401f-bbb8-7b1f22bd845a" name="LogXml" isLeaf="false">
+            <elementDefinition Id="7bccd9f6-ab10-43ab-8ac2-cdd59eeec569" />
+            <flowNodeTargets>
+              <controlFlow Id="f8a93ff9-b77c-41d7-8fb3-9ba4f5bf4689" isLeaf="false">
+                <opaqueActionMoniker Id="b07dd2db-47a4-4ea9-a790-0461d4de2593" LastKnownName="Borra Zip" />
+                <elementDefinition Id="268fbef0-e8a2-4446-80f6-0243b47520c6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b07dd2db-47a4-4ea9-a790-0461d4de2593" name="Borra Zip" isLeaf="false">
+            <elementDefinition Id="c782246e-ebc4-4fe3-a202-f8e0f24b6350" />
+            <flowNodeTargets>
+              <controlFlow Id="43696349-f541-4949-8767-a17cd06f5c5c" isLeaf="false">
+                <activityFinalNodeMoniker Id="78e58db3-6294-4ddf-ac1b-361254cb4494" />
+                <elementDefinition Id="ce19ee9a-5010-457a-a7ad-19122cb4128b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="9cb3b824-0489-4d0b-9d2a-e01b43e68bd0" name="Generacion Hash Zip" isLeaf="false">
+            <elementDefinition Id="4b5ebdaf-0457-4c34-9903-2ae4031b34f6" />
+            <flowNodeTargets>
+              <controlFlow Id="76329b48-e08b-438e-b3fd-db88bca6de28" isLeaf="false">
+                <opaqueActionMoniker Id="1b053001-b017-48c6-bbd2-d3852a64d6df" LastKnownName="Busqueda Hash Zip" />
+                <elementDefinition Id="58ee5476-a71d-421f-956d-b14eb0000834" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="1b053001-b017-48c6-bbd2-d3852a64d6df" name="Busqueda Hash Zip" isLeaf="false">
+            <elementDefinition Id="ae8eca37-268d-430d-a37e-391005a73ef1" />
+            <flowNodeTargets>
+              <controlFlow Id="e8c9655a-e861-4a91-886d-5c9cdaf0e870" isLeaf="false">
+                <opaqueActionMoniker Id="a114584a-9a05-4a3b-80fe-3d97be4a3f30" LastKnownName="BD" />
+                <elementDefinition Id="1fbdf8fd-b8fa-4689-9c25-de962bf68ef8" />
+              </controlFlow>
+              <controlFlow Id="6f350764-bf31-425c-a6cc-c5cc8d06b5c5" isLeaf="false">
+                <decisionNodeMoniker Id="68382f67-2984-4414-91ee-cff5140ffcd4" LastKnownName="Decision2" />
+                <elementDefinition Id="6166afb5-8150-4209-9716-8e89eb2e1c78" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="d8c5a16c-8eba-4450-b5c1-313184d0fa16" name="Decision1" isLeaf="false">
+            <elementDefinition Id="c0d18099-3a04-4e44-be42-c83384480109" />
+            <flowNodeTargets>
+              <controlFlow Id="baca7324-fb23-473b-ac41-5a1e98363ada" guard="Si" isLeaf="false">
+                <opaqueActionMoniker Id="1d58bd9b-2cca-4e1e-8182-3c6a3c41639c" LastKnownName="Log Text Plano" />
+                <elementDefinition Id="becde63b-9faa-49d9-994d-2a23c73f65fd" />
+              </controlFlow>
+              <controlFlow Id="00f84d3c-57a6-46cc-b93e-6e2d5851db8b" guard="No" isLeaf="false">
+                <opaqueActionMoniker Id="4287d763-abe4-401f-bbb8-7b1f22bd845a" LastKnownName="LogXml" />
+                <elementDefinition Id="92653ac4-4e3b-40a6-8e6d-5dd5903f982f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <activityFinalNode Id="78e58db3-6294-4ddf-ac1b-361254cb4494" isLeaf="false">
+            <elementDefinition Id="de5a83af-cf69-431d-b57e-d11fcdee42d8" />
+          </activityFinalNode>
+          <opaqueAction Id="a114584a-9a05-4a3b-80fe-3d97be4a3f30" name="BD" isLeaf="false">
+            <elementDefinition Id="733861b3-96c1-483e-801d-39ceb597649b" />
+          </opaqueAction>
+          <opaqueAction Id="9d144c24-0de9-4b3f-9326-7eb9c7264d86" name="LogXml" isLeaf="false">
+            <elementDefinition Id="85af29a1-af5e-4bbf-9975-55b57ba3a06f" />
+            <flowNodeTargets>
+              <controlFlow Id="1c831bbf-6dd3-40a6-8af4-575b9cc2d79b" isLeaf="false">
+                <opaqueActionMoniker Id="e23f364b-dea9-4253-8ba7-37b1e5ca9f5b" LastKnownName="Log Texto Plano" />
+                <elementDefinition Id="4d828d97-3323-46be-8e6e-d3d65c8bafaf" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="e23f364b-dea9-4253-8ba7-37b1e5ca9f5b" name="Log Texto Plano" isLeaf="false">
+            <elementDefinition Id="1e4bc682-773e-4b1f-b231-ba8df72a0e3e" />
+            <flowNodeTargets>
+              <controlFlow Id="6301d977-8438-459d-b94b-725dd822e0c2" isLeaf="false">
+                <opaqueActionMoniker Id="9232a4d1-6cf2-4876-8ea4-4ad625e4d058" LastKnownName="Errores" />
+                <elementDefinition Id="23730fc2-6a2d-4b0e-86e1-f5f47c7a7742" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="68382f67-2984-4414-91ee-cff5140ffcd4" name="Decision2" isLeaf="false">
+            <elementDefinition Id="9a2307d2-e7d1-45ee-8b31-daa6aa904002" />
+            <flowNodeTargets>
+              <controlFlow Id="12103c1a-503f-4c20-9afc-8d7425ce77f1" guard="Si" isLeaf="false">
+                <opaqueActionMoniker Id="9d144c24-0de9-4b3f-9326-7eb9c7264d86" LastKnownName="LogXml" />
+                <elementDefinition Id="51d11ee9-632d-4d82-bbd8-aa31a6c82019" />
+              </controlFlow>
+              <controlFlow Id="b32920df-0876-44e2-a03a-0d0cb76ee74c" guard="No" isLeaf="false">
+                <opaqueActionMoniker Id="be808ec2-8dea-4b44-b861-f1f398dd2e6e" LastKnownName="Se registra el Zip" />
+                <elementDefinition Id="acbba484-1a0b-4b0a-9805-ea93b6931866" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="be808ec2-8dea-4b44-b861-f1f398dd2e6e" name="Se registra el Zip" isLeaf="false">
+            <elementDefinition Id="5cdc10c4-4467-4613-a613-7289727554f8" />
+            <flowNodeTargets>
+              <controlFlow Id="adb8a396-377e-4c9e-9a67-c4c8f1e55f28" isLeaf="false">
+                <opaqueActionMoniker Id="b6551a80-fdf8-4745-b947-18e38a8049e1" LastKnownName="Validación del contenido" />
+                <elementDefinition Id="56d8fd4a-35ae-4c3d-9ce7-31bd6a16639e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b6551a80-fdf8-4745-b947-18e38a8049e1" name="Validación del contenido" isLeaf="false">
+            <elementDefinition Id="fabffd36-b3d9-4fe4-a365-82e24205d4f7" />
+            <flowNodeTargets>
+              <controlFlow Id="3dd09d5f-2277-45ff-a4b2-aeaf1cff0fd3" isLeaf="false">
+                <decisionNodeMoniker Id="29d85bf6-9ece-43fb-9355-0488bb811424" LastKnownName="Decision3" />
+                <elementDefinition Id="e9020661-8881-4a57-9fc1-157bf6055943" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="e113b1b9-1ecd-43b9-ba2c-6a358ba69f1f" name="Genera Hash emisor" isLeaf="false">
+            <elementDefinition Id="a9d1fe5e-96f7-4b85-89dd-3a89304a2a67" />
+            <flowNodeTargets>
+              <controlFlow Id="fcb885e8-1904-46d3-b207-2dd12e9fc121" isLeaf="false">
+                <opaqueActionMoniker Id="bbac0226-add4-4a54-b649-c32ddd1a92fb" LastKnownName="Busqueda Hash emisor" />
+                <elementDefinition Id="5c39cb07-db47-489e-bd5a-bd39f2aa3291" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="bbac0226-add4-4a54-b649-c32ddd1a92fb" name="Busqueda Hash emisor" isLeaf="false">
+            <elementDefinition Id="30138313-442c-426f-87ae-672c48c7fd93" />
+            <flowNodeTargets>
+              <controlFlow Id="adbca7ae-18b5-4912-9a55-306df9c09b1f" isLeaf="false">
+                <opaqueActionMoniker Id="d3c3003d-5bc5-46f7-ae8e-ae09b1ed0ecc" LastKnownName="BD" />
+                <elementDefinition Id="1084fa5d-780d-404e-8470-97762d7bf462" />
+              </controlFlow>
+              <controlFlow Id="4d57f5f1-4baa-4d1b-b36f-784911903cd7" isLeaf="false">
+                <decisionNodeMoniker Id="58172767-01b7-4dbd-bc38-89a498f14cce" LastKnownName="Decision4" />
+                <elementDefinition Id="42b47882-2a0a-4e9d-8a98-3c741a55231d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="a5a0626c-ba0f-408f-8361-7726aa0eb58d" name="Borra Zip" isLeaf="false">
+            <elementDefinition Id="03551a7c-102f-4c59-aecd-ab3f6d509067" />
+            <flowNodeTargets>
+              <controlFlow Id="f947f3b9-d82e-462f-9346-1eb385816400" isLeaf="false">
+                <activityFinalNodeMoniker Id="922a81a4-9d02-4f5f-a3da-520c29014edd" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="7a3cd68d-42a2-4542-88ec-0b5266290267" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="922a81a4-9d02-4f5f-a3da-520c29014edd" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="5ba00161-94d9-4191-87de-92f71b0cf7cb" />
+          </activityFinalNode>
+          <decisionNode Id="29d85bf6-9ece-43fb-9355-0488bb811424" name="Decision3" isLeaf="false">
+            <elementDefinition Id="aff8a74d-4062-46d1-b855-36fa8dc598a0" />
+            <flowNodeTargets>
+              <controlFlow Id="3cf42b41-9da8-432f-8141-6992619e8abb" guard="No" isLeaf="false">
+                <opaqueActionMoniker Id="a3b43f2c-8a69-47e5-98f2-82bed27e3220" LastKnownName="LogXml" />
+                <elementDefinition Id="5fac3e7b-20e2-4e17-be9a-f368ec56e433" />
+              </controlFlow>
+              <controlFlow Id="a6d290a3-b60b-4222-8015-5b8f40db08a9" guard="Si" isLeaf="false">
+                <opaqueActionMoniker Id="e113b1b9-1ecd-43b9-ba2c-6a358ba69f1f" LastKnownName="Genera Hash emisor" />
+                <elementDefinition Id="d71d789e-ab22-41d2-ae45-cfc15828c4b3" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="a3b43f2c-8a69-47e5-98f2-82bed27e3220" name="LogXml" isLeaf="false">
+            <elementDefinition Id="589af8f8-cfd9-474a-86e2-92d356661be2" />
+            <flowNodeTargets>
+              <controlFlow Id="fee739ff-e790-440b-9deb-afd751302a32" isLeaf="false">
+                <opaqueActionMoniker Id="0f1ca16a-abd9-42c0-8933-fa9ec0957213" LastKnownName="Log Texto Plano" />
+                <elementDefinition Id="6dde1ac9-0df6-4944-afab-7c636d40bba3" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="0f1ca16a-abd9-42c0-8933-fa9ec0957213" name="Log Texto Plano" isLeaf="false">
+            <elementDefinition Id="b5a89a55-a6c1-4d03-843c-cf0abf364c12" />
+            <flowNodeTargets>
+              <controlFlow Id="a030c2fa-66cf-4d92-9a3e-256feb3b3f5e" isLeaf="false">
+                <opaqueActionMoniker Id="6e5156e1-b583-4994-9d33-1322eb0db392" LastKnownName="Errores" />
+                <elementDefinition Id="661eff80-b9a3-49ff-adc2-68ae723943c9" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="6e5156e1-b583-4994-9d33-1322eb0db392" name="Errores" isLeaf="false">
+            <elementDefinition Id="ce1a2074-2afc-42e8-93ab-93ec3650a340" />
+            <flowNodeTargets>
+              <controlFlow Id="054b1753-983a-4675-92fd-f6ace4c24dea" isLeaf="false">
+                <opaqueActionMoniker Id="b6551a80-fdf8-4745-b947-18e38a8049e1" LastKnownName="Validación del contenido" />
+                <elementDefinition Id="65123156-3527-4d60-9eea-6162e7c72b9c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="9232a4d1-6cf2-4876-8ea4-4ad625e4d058" name="Errores" isLeaf="false">
+            <elementDefinition Id="2b0ed2f0-c90e-41a6-a20a-e89c86aca856" />
+            <flowNodeTargets>
+              <controlFlow Id="67f2f45a-32fc-4959-b253-1ae240de5f32" isLeaf="false">
+                <opaqueActionMoniker Id="a5a0626c-ba0f-408f-8361-7726aa0eb58d" LastKnownName="Borra Zip" />
+                <elementDefinition Id="04bad25c-5dd9-4a58-be2b-d7792e02ad2a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="d3c3003d-5bc5-46f7-ae8e-ae09b1ed0ecc" name="BD" isLeaf="false">
+            <elementDefinition Id="39ad0ea7-40c8-4a79-a225-cbb16e45bc09" />
+          </opaqueAction>
+          <opaqueAction Id="f960f92b-803c-4c7c-bb46-86bfa3623368" name="Se agrega a la lista" isLeaf="false">
+            <elementDefinition Id="fdb600e6-32e5-479c-b926-32aeaa86458d" />
+            <flowNodeTargets>
+              <controlFlow Id="39010cb7-bffc-4929-a7f1-1a6d12391258" isLeaf="false">
+                <opaqueActionMoniker Id="63221ecb-a64c-4b2e-83b0-52a07691caf2" LastKnownName="Zip Salida" />
+                <elementDefinition Id="3ca216a9-0635-4dc2-a035-bc66328c17b5" />
+              </controlFlow>
+              <controlFlow Id="439b7d32-9eee-489b-aabe-5e16d5269d96" isLeaf="false">
+                <opaqueActionMoniker Id="b6551a80-fdf8-4745-b947-18e38a8049e1" LastKnownName="Validación del contenido" />
+                <elementDefinition Id="d186080a-e113-401e-ae6f-3641f7ac5585" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="dd95539d-f2f2-4a9b-b582-89ecf6c58425" name="División en hilos de trabajo" isLeaf="false">
+            <elementDefinition Id="8c9ade2b-be71-4878-af4a-0e6ccf680c9e" />
+            <flowNodeTargets>
+              <controlFlow Id="2b176caf-d404-4761-9297-7ea5d9f7b175" isLeaf="false">
+                <opaqueActionMoniker Id="bba6f720-8dc7-4ea3-8d2b-f48d4af770c3" LastKnownName="Servicio HSM" />
+                <elementDefinition Id="061b3be6-fefc-4061-a967-1403d8d8b033" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="58172767-01b7-4dbd-bc38-89a498f14cce" name="Decision4" isLeaf="false">
+            <elementDefinition Id="bf4c8a81-b490-460c-bc4c-da335249a8a3" />
+            <flowNodeTargets>
+              <controlFlow Id="b967c8f6-31f9-403a-9089-1f12aa426b72" guard="Si" isLeaf="false">
+                <opaqueActionMoniker Id="b341fc18-e04c-4416-bc5e-2a99cabfd6c9" LastKnownName="LogXml" />
+                <elementDefinition Id="660af63b-6e17-45ba-9bd6-d9c14e89c5d6" />
+              </controlFlow>
+              <controlFlow Id="611e501f-39d3-4ef5-9c34-41bcf3737074" guard="No" isLeaf="false">
+                <opaqueActionMoniker Id="f960f92b-803c-4c7c-bb46-86bfa3623368" LastKnownName="Se agrega a la lista" />
+                <elementDefinition Id="e30b75f7-251b-4725-b3cc-a9f4249b0eb2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="b341fc18-e04c-4416-bc5e-2a99cabfd6c9" name="LogXml" isLeaf="false">
+            <elementDefinition Id="18baa8c6-dd01-43bd-a88f-899cfddf9883" />
+            <flowNodeTargets>
+              <controlFlow Id="65c52f21-a843-4535-85c5-7d4f2f0d363a" isLeaf="false">
+                <opaqueActionMoniker Id="4e3ec78a-547f-43e8-b147-4a03e8392722" LastKnownName="Log Texto Plano" />
+                <elementDefinition Id="4503feab-a594-4eae-a4ba-8dcdae87147e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="4e3ec78a-547f-43e8-b147-4a03e8392722" name="Log Texto Plano" isLeaf="false">
+            <elementDefinition Id="030f2b08-c8c3-4246-9083-15106fea68b9" />
+            <flowNodeTargets>
+              <controlFlow Id="aae3f1b7-61e7-41e9-b0ff-cef3d332a53b" isLeaf="false">
+                <opaqueActionMoniker Id="c18e9690-e1ea-4f1c-b3ba-97a651d0b670" LastKnownName="Errores" />
+                <elementDefinition Id="79f7de2c-0dfa-4bfc-a668-afcf27032a48" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="c18e9690-e1ea-4f1c-b3ba-97a651d0b670" name="Errores" isLeaf="false">
+            <elementDefinition Id="c91e10a9-bfd0-423f-901d-aa257968fddf" />
+            <flowNodeTargets>
+              <controlFlow Id="df1979c8-4441-43f4-8fda-2adbe78229bf" isLeaf="false">
+                <opaqueActionMoniker Id="b6551a80-fdf8-4745-b947-18e38a8049e1" LastKnownName="Validación del contenido" />
+                <elementDefinition Id="ee566a2b-d8b6-48be-9d53-bcc4e51542d8" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="bba6f720-8dc7-4ea3-8d2b-f48d4af770c3" name="Servicio HSM" isLeaf="false">
+            <elementDefinition Id="49c8a824-834a-4301-b14a-1fac6972dd7e" />
+            <flowNodeTargets>
+              <controlFlow Id="1b22ae71-3f50-4aa7-961a-0028bbebc760" isLeaf="false">
+                <decisionNodeMoniker Id="107151ec-c936-49fd-8099-e921078c3614" LastKnownName="Decision5" />
+                <elementDefinition Id="ca554c9c-081b-4294-977c-cdb739c63249" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="630a9512-b032-4ba9-9fb4-824997fb7a22" name="Se adjunta al Zip" isLeaf="false">
+            <elementDefinition Id="1169451d-20e7-40a0-a04f-e41717d7a593" />
+            <flowNodeTargets>
+              <controlFlow Id="fc99be0a-5ec6-4ae8-ba0f-3100b84f2fc5" isLeaf="false">
+                <opaqueActionMoniker Id="db8b28f9-2f07-4a85-b5cc-adc3e6d53e02" LastKnownName="Registro" />
+                <elementDefinition Id="b5db7b45-608f-40a9-b208-46cda454bf1a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="db8b28f9-2f07-4a85-b5cc-adc3e6d53e02" name="Registro" isLeaf="false">
+            <elementDefinition Id="8f8f4357-e50d-4b37-aa08-0315e84d168d" />
+            <flowNodeTargets>
+              <controlFlow Id="7369dec3-33fe-4e80-a5ef-4d883caff570" isLeaf="false">
+                <opaqueActionMoniker Id="c861b9e2-7ce3-45b9-b394-134512187887" LastKnownName="BD" />
+                <elementDefinition Id="5a2329ef-c9f5-4cd3-a923-74a99408b4aa" />
+              </controlFlow>
+              <controlFlow Id="00fb7f32-92da-46a9-a84a-314a7d7c880e" isLeaf="false">
+                <opaqueActionMoniker Id="7a81198c-795b-46e9-99c0-0d9c9dd40fc8" LastKnownName="Cierre Zip" />
+                <elementDefinition Id="30103b2b-3dbe-4a64-8235-38b7591660b0" />
+              </controlFlow>
+              <controlFlow Id="71a3b2d9-3bc0-4ccf-b7a5-e63ad2200798" isLeaf="false">
+                <opaqueActionMoniker Id="bba6f720-8dc7-4ea3-8d2b-f48d4af770c3" LastKnownName="Servicio HSM" />
+                <elementDefinition Id="7063c4cc-b2b5-461c-bdfd-3612f9d0fd41" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="107151ec-c936-49fd-8099-e921078c3614" name="Decision5" isLeaf="false">
+            <elementDefinition Id="cadb3834-26b1-42bc-ad1d-ef8e68969e4c" />
+            <flowNodeTargets>
+              <controlFlow Id="7d248aa8-40b9-4ab9-b127-3335804416a8" guard="No" isLeaf="false">
+                <opaqueActionMoniker Id="7e1a3a2b-c760-4375-88cc-0442bb7d5ff2" LastKnownName="LogXml" />
+                <elementDefinition Id="a74d0fcd-d77a-460a-a692-73ab38f9d169" />
+              </controlFlow>
+              <controlFlow Id="21d58170-348a-4272-b6d7-8acd37f9b0df" guard="Si" isLeaf="false">
+                <opaqueActionMoniker Id="630a9512-b032-4ba9-9fb4-824997fb7a22" LastKnownName="Se adjunta al Zip" />
+                <elementDefinition Id="acbe6602-bb6d-4093-bc10-43f0fe7641a8" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="7e1a3a2b-c760-4375-88cc-0442bb7d5ff2" name="LogXml" isLeaf="false">
+            <elementDefinition Id="c5fe196b-c0ec-48cb-9c77-af288dabaf37" />
+            <flowNodeTargets>
+              <controlFlow Id="03abd794-aefd-4ddc-863f-1b44e0e9baf4" isLeaf="false">
+                <opaqueActionMoniker Id="86aa6283-7e09-4387-a00f-69ec2be88b37" LastKnownName="Log Texto Plano" />
+                <elementDefinition Id="dcea0299-61b6-4a7b-8af1-7aae777c0cb6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="86aa6283-7e09-4387-a00f-69ec2be88b37" name="Log Texto Plano" isLeaf="false">
+            <elementDefinition Id="25396fb9-d42b-4e1c-8fa2-47f86b2f736a" />
+            <flowNodeTargets>
+              <controlFlow Id="3332bf20-56b3-49b3-aa2c-5d056284a260" isLeaf="false">
+                <opaqueActionMoniker Id="a4e70671-5b85-4dd2-b3d8-f69d075287e8" LastKnownName="Errores" />
+                <elementDefinition Id="a3723f43-33c0-4a74-a862-c4e42d823e64" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="a4e70671-5b85-4dd2-b3d8-f69d075287e8" name="Errores" isLeaf="false">
+            <elementDefinition Id="baebd056-c684-4812-950d-9ced801b9f05" />
+          </opaqueAction>
+          <opaqueAction Id="c861b9e2-7ce3-45b9-b394-134512187887" name="BD" isLeaf="false">
+            <elementDefinition Id="631383f4-9f08-410b-8b7c-0c4cb59d2d9d" />
+          </opaqueAction>
+          <opaqueAction Id="63221ecb-a64c-4b2e-83b0-52a07691caf2" name="Zip Salida" isLeaf="false">
+            <elementDefinition Id="467d04f4-e5cf-45cb-8178-248006aadda1" />
+            <flowNodeTargets>
+              <controlFlow Id="b24f151c-5147-45e5-80fd-297446890aec" isLeaf="false">
+                <opaqueActionMoniker Id="dd95539d-f2f2-4a9b-b582-89ecf6c58425" LastKnownName="División en hilos de trabajo" />
+                <elementDefinition Id="6fd5f0fc-65fc-4503-9198-e7c46f3b059e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="090df111-379b-4caa-812f-07ec756eb339" name="Log Texto Plano" isLeaf="false">
+            <elementDefinition Id="afdc65df-ea6e-4842-b444-42499d640cc3" />
+            <flowNodeTargets>
+              <controlFlow Id="70bd429f-2719-4502-b365-e46a4c0b58b0" isLeaf="false">
+                <activityFinalNodeMoniker Id="1054daa3-3887-41a4-b0d5-19724b525e16" LastKnownName="ActivityFinal2" />
+                <elementDefinition Id="04a904dc-0463-4c11-b955-acec46f8acf6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="7a81198c-795b-46e9-99c0-0d9c9dd40fc8" name="Cierre Zip" isLeaf="false">
+            <elementDefinition Id="1f05af54-d935-4940-8a9d-7a336e28571c" />
+            <flowNodeTargets>
+              <controlFlow Id="652a383a-9501-4732-bd7b-99c803547bc8" isLeaf="false">
+                <decisionNodeMoniker Id="825eebbb-2fe6-46d8-b0d4-c4d0d6fb08ac" LastKnownName="Decision51" />
+                <elementDefinition Id="7fdf2b5e-3fad-40ed-9df6-67b50156bf1f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="1054daa3-3887-41a4-b0d5-19724b525e16" name="ActivityFinal2" isLeaf="false">
+            <elementDefinition Id="76070906-6d72-44d2-bc9a-a02c47f79ff2" />
+          </activityFinalNode>
+          <opaqueAction Id="155cdc69-6ed6-46ff-8239-e7c56de1df74" name="Borra Zip Salida" isLeaf="false">
+            <elementDefinition Id="b3c9109b-a6f6-4fa1-9586-10059ae63d64" />
+          </opaqueAction>
+          <decisionNode Id="825eebbb-2fe6-46d8-b0d4-c4d0d6fb08ac" name="Decision51" isLeaf="false">
+            <elementDefinition Id="62488a4a-15f2-4a05-ad70-64f36b2362c1" />
+            <flowNodeTargets>
+              <controlFlow Id="f63d5349-eb7f-45f5-a004-faf2ac730672" guard="Si" isLeaf="false">
+                <opaqueActionMoniker Id="090df111-379b-4caa-812f-07ec756eb339" LastKnownName="Log Texto Plano" />
+                <elementDefinition Id="7a934e8f-bc20-4479-b0c7-8c94fe53b1fa" />
+              </controlFlow>
+              <controlFlow Id="068e79fc-613d-4514-b070-6c793d333d39" guard="No" isLeaf="false">
+                <opaqueActionMoniker Id="155cdc69-6ed6-46ff-8239-e7c56de1df74" LastKnownName="Borra Zip Salida" />
+                <elementDefinition Id="c26053a2-2e6b-4eea-a483-b55e0a62c80c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="e1baabc4-8a7c-41f4-8c75-69b3edf8e71d" name="SolucionPruebas.Modelado">
+    <elementDefinition Id="b3816110-c7ee-4fcc-a3f9-383517ee2f9d" />
+    <profileInstances>
+      <packageHasProfileInstances Id="cb2c54f8-b14a-4cef-b5c2-7b2802fa8b53">
+        <profileInstance Id="559aac63-114c-4b33-b745-5f762aaea584" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="6ff0f1de-6dba-417b-a7b4-368f9681da4c">
+        <profileInstance Id="de84b34f-bce4-460c-9160-f0520bf5c87c" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

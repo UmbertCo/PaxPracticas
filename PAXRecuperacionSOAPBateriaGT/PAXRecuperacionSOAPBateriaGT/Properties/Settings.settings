@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PAXRecuperacionSOAPBateriaGT.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="rutaArchivos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">H:\ObtenerSOAPGT\Archivos</Value>
+    </Setting>
+    <Setting Name="RutaSOAP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">H:\ObtenerSOAPGT\LogSOAP\</Value>
+    </Setting>
+    <Setting Name="LogError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">H:\ObtenerSOAPGT\LogError\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAXConectorCapacitacion07", "PAXConectorCapacitacion07.csproj", "{FA217E08-9D54-4EC7-963C-28133AA254E7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD529371-38E8-4394-BFFF-524FAD8848D8} = {FD529371-38E8-4394-BFFF-524FAD8848D8}
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupPAXConectorCapacitacion07", "..\SetupPAXConectorCapacitacion06\SetupPAXConectorCapacitacion06.vdproj", "{A21B48FE-18D0-4C08-809F-035FAD0F3D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "..\Test\Test.csproj", "{06539ED6-DBC5-4D7C-B2B8-1CCA9A993CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wsXML", "..\WcfService1\WcfService1\wsXML.csproj", "{FD529371-38E8-4394-BFFF-524FAD8848D8}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.3.105:8080/tfs/team-practicas
+		SccLocalPath0 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA217E08-9D54-4EC7-963C-28133AA254E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA217E08-9D54-4EC7-963C-28133AA254E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA217E08-9D54-4EC7-963C-28133AA254E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA217E08-9D54-4EC7-963C-28133AA254E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21B48FE-18D0-4C08-809F-035FAD0F3D1C}.Debug|Any CPU.ActiveCfg = Debug
+		{A21B48FE-18D0-4C08-809F-035FAD0F3D1C}.Release|Any CPU.ActiveCfg = Release
+		{06539ED6-DBC5-4D7C-B2B8-1CCA9A993CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06539ED6-DBC5-4D7C-B2B8-1CCA9A993CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06539ED6-DBC5-4D7C-B2B8-1CCA9A993CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06539ED6-DBC5-4D7C-B2B8-1CCA9A993CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD529371-38E8-4394-BFFF-524FAD8848D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD529371-38E8-4394-BFFF-524FAD8848D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD529371-38E8-4394-BFFF-524FAD8848D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD529371-38E8-4394-BFFF-524FAD8848D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3D91E8D-B27A-495D-BE93-BE3BEEA510B1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,171 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PAXRegeneracionBateria.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="passwordFiel_F" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">12345678a</Value>
+    </Setting>
+    <Setting Name="passwordFiel_M" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">12345678a</Value>
+    </Setting>
+    <Setting Name="password256" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">12345678a</Value>
+    </Setting>
+    <Setting Name="rutaArchivos" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Archivos Generados</Value>
+    </Setting>
+    <Setting Name="archivoXML" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Archivos XML\</Value>
+    </Setting>
+    <Setting Name="certificadoFiel_M" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\sul010720jn8.cer</Value>
+    </Setting>
+    <Setting Name="llaveFiel_M" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\SUL010720JN8.key</Value>
+    </Setting>
+    <Setting Name="certificadoAAQ" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\SOGJ700308AT8_1210231420S.cer</Value>
+    </Setting>
+    <Setting Name="llaveAAQ" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\SOGJ700308AT8_1210231420S.key</Value>
+    </Setting>
+    <Setting Name="certificadosSHA256" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="certificado2012" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\2012.cer</Value>
+    </Setting>
+    <Setting Name="llave2012" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\2012.key</Value>
+    </Setting>
+    <Setting Name="password2012" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">12345678a</Value>
+    </Setting>
+    <Setting Name="certificadoPAC2012" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\PAC2012.cer</Value>
+    </Setting>
+    <Setting Name="llavePAC2012" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\PAC2012.key</Value>
+    </Setting>
+    <Setting Name="passwordPAC2012" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">a0123456789</Value>
+    </Setting>
+    <Setting Name="version30" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">-41</Value>
+    </Setting>
+    <Setting Name="version22" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">-24</Value>
+    </Setting>
+    <Setting Name="version20" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">-48</Value>
+    </Setting>
+    <Setting Name="FielVigente" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">-10</Value>
+    </Setting>
+    <Setting Name="PACSPKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CSD_AHO0505163C7.key</Value>
+    </Setting>
+    <Setting Name="PACSPCert" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CSD_AHO0505163C7.cer</Value>
+    </Setting>
+    <Setting Name="SPKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CACX871014U63.key</Value>
+    </Setting>
+    <Setting Name="SPCert" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\cacx871014u63.cer</Value>
+    </Setting>
+    <Setting Name="PAXRegeneracionBateria_HSM_xmCryptoService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://IP:8080/xmc/services/xmCryptoService</Value>
+    </Setting>
+    <Setting Name="certificadoBAJ" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\FIEL_Pruebas_BAJF541014RB3.cer</Value>
+    </Setting>
+    <Setting Name="llaveBAJ" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\FIEL_Pruebas_BAJF541014RB3.key</Value>
+    </Setting>
+    <Setting Name="certificadoPZA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CSD_Pruebas_CFDI_PZA000413788.cer</Value>
+    </Setting>
+    <Setting Name="llavePZA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CSD_Pruebas_CFDI_PZA000413788.key</Value>
+    </Setting>
+    <Setting Name="certificadoLAN" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CSD_Pruebas_CFDI_LAN7008173R5.cer</Value>
+    </Setting>
+    <Setting Name="llaveLAN" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CSD_Pruebas_CFDI_LAN7008173R5.key</Value>
+    </Setting>
+    <Setting Name="certificadoMAR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CSD_Pruebas_CFDI_MSE061107IA8.cer</Value>
+    </Setting>
+    <Setting Name="llaveMAR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CSD_Pruebas_CFDI_MSE061107IA8.key</Value>
+    </Setting>
+    <Setting Name="certificadoMSE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CSD_Pruebas_CFDI_MSE061107IA8.cer</Value>
+    </Setting>
+    <Setting Name="llaveMSE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CSD_Pruebas_CFDI_MSE061107IA8.key</Value>
+    </Setting>
+    <Setting Name="Productivos" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="passwordñ" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">12345678a</Value>
+    </Setting>
+    <Setting Name="passwordAMP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">12345678a</Value>
+    </Setting>
+    <Setting Name="password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CORPUSfacturacion2017+</Value>
+    </Setting>
+    <Setting Name="certificadoAMP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\AB010822TW7.cer</Value>
+    </Setting>
+    <Setting Name="llaveAMP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\AB010822TW7.key</Value>
+    </Setting>
+    <Setting Name="certificadoñ" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\bani7902011y4a.cer</Value>
+    </Setting>
+    <Setting Name="llaveñ" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\bani7902011y4a.key</Value>
+    </Setting>
+    <Setting Name="certificadoPac" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CSD_PAC_CFDI_PRUEBAS.cer</Value>
+    </Setting>
+    <Setting Name="llavePac" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CSD_PAC_CFDI_PRUEBAS.key</Value>
+    </Setting>
+    <Setting Name="puerto" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">6555</Value>
+    </Setting>
+    <Setting Name="certificado256" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\00001000000406474473.cer</Value>
+    </Setting>
+    <Setting Name="llave256" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\00001000000406474473.key</Value>
+    </Setting>
+    <Setting Name="certificadoFiel_F" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\FIEL_Pruebas_AAQM610917QJA.cer</Value>
+    </Setting>
+    <Setting Name="llaveFiel_F" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\FIEL_Pruebas_AAQM610917QJA.key</Value>
+    </Setting>
+    <Setting Name="certificadoSLU" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CSD_Pruebas_CFDI_SUL010720JN8.cer</Value>
+    </Setting>
+    <Setting Name="llaveSLU" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\CSD_Pruebas_CFDI_SUL010720JN8.key</Value>
+    </Setting>
+    <Setting Name="certificado" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\00001000000406474473.cer</Value>
+    </Setting>
+    <Setting Name="llave" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\Certificados\00001000000406474473.key</Value>
+    </Setting>
+    <Setting Name="servicio" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">10.61.96.200</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

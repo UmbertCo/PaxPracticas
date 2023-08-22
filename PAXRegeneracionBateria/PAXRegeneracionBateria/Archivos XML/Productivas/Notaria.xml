@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:implocal="http://www.sat.gob.mx/implocal" xmlns:notariospublicos="http://www.sat.gob.mx/notariospublicos" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/notariospublicos http://www.sat.gob.mx/sitio_internet/cfd/notariospublicos/notariospublicos.xsd"
+version="3.2"
+folio="575086"
+fecha="2014-04-08T15:02:47"
+formaDePago="PAGO EN UNA SOLA EXHIBICION"
+subTotal="10.00"
+TipoCambio="1.0000"
+Moneda="MXN"
+total="11.60"
+metodoDePago="NO IDENTIFICADO"
+LugarExpedicion="MÉXICO, D.F."
+tipoDeComprobante="ingreso"
+noCertificado=""
+certificado=""
+sello=""
+>
+<cfdi:Emisor rfc=""
+nombre="NOTARIA 201, S.C.">
+<cfdi:DomicilioFiscal calle="AV. INSURGENTES SUR"
+noExterior="2453"
+noInterior="302"
+colonia="TIZAPAN"
+localidad="MEXICO, D.F."
+municipio="ALVARO OBREGON"
+estado="DISTRITO FEDERAL"
+pais="MEXICO"
+codigoPostal="01090"/>
+<cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES"/>
+</cfdi:Emisor>
+<cfdi:Receptor rfc="XAXX010101000"
+nombre="CLIENTES EN GENERAL">
+<cfdi:Domicilio calle="CALLE PAJARES NO 252"
+colonia="VALLE DEL SUR"
+municipio="IZTAPALAPA"
+estado="DISTRITO FEDERAL"
+pais="MEXICO"
+codigoPostal="09819"/>
+</cfdi:Receptor>
+<cfdi:Conceptos>
+<cfdi:Concepto cantidad="1" unidad="SERVICIOS" descripcion="HONORARIOS" valorUnitario="10.00" importe="10.00" />
+</cfdi:Conceptos>
+<cfdi:Impuestos totalImpuestosTrasladados="1.60" >
+<cfdi:Traslados>
+<cfdi:Traslado impuesto="IVA" tasa="16.00" importe="1.60" />
+</cfdi:Traslados>
+</cfdi:Impuestos>
+<cfdi:Complemento>
+<notariospublicos:NotariosPublicos Version="1.0">
+<notariospublicos:DescInmuebles>
+<notariospublicos:DescInmueble TipoInmueble="03"
+Calle="FRANCISCO JAVIER MINA"
+NoExterior="70"
+NoInterior="201"
+Colonia="GUADALUPE DEL MORAL"
+Localidad="MEXICO, D.F."
+Referencia="EDIFICIO 5"
+Municipio="IZTAPALAPA"
+Estado="09"
+Pais="MEX"
+CodigoPostal="09300" />
+</notariospublicos:DescInmuebles>
+<notariospublicos:DatosOperacion NumInstrumentoNotarial="47719" FechaInstNotarial="2014-04-07" MontoOperacion="632000.00" Subtotal="0.00" IVA="0.00" />
+<notariospublicos:DatosNotario CURP="CAVH650512HDFRLC08" NumNotaria="201" EntidadFederativa="09" />
+<notariospublicos:DatosEnajenante CoproSocConyugalE="Si">
+<notariospublicos:DatosEnajenantesCopSC>
+<notariospublicos:DatosEnajenanteCopSC Nombre="BENITO" ApellidoPaterno="MACIAS" ApellidoMaterno="PERALTA" RFC="MAPB660905T18" CURP="MAPB660905HDFCRN09" Porcentaje="50.00" />
+<notariospublicos:DatosEnajenanteCopSC Nombre="GRACIELA" ApellidoPaterno="FRIAS" ApellidoMaterno="ALVARADO" RFC="FIAG670606B58" CURP="FIAG670606MDFRLR04" Porcentaje="50.00" />
+</notariospublicos:DatosEnajenantesCopSC>
+</notariospublicos:DatosEnajenante>
+<notariospublicos:DatosAdquiriente CoproSocConyugalE="No">
+<notariospublicos:DatosUnAdquiriente Nombre="AURORA" ApellidoPaterno="VAZQUEZ" ApellidoMaterno="DE JESUS" RFC="VAJA731215AE0" CURP="VAJA731215MDFZSR07" />
+</notariospublicos:DatosAdquiriente>
+</notariospublicos:NotariosPublicos>
+</cfdi:Complemento>
+</cfdi:Comprobante>
+
+

@@ -1,0 +1,55 @@
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="3.3" Serie="ATF" CondicionesDePago="OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOAAAAAAAB" Folio="101" Confirmacion="12345" Fecha="2017-05-18T12:00:00" Sello="VB7uKVe3dpuyPYfWOTWK4db/SFIgJkHN9iSZsVmKATfIOaYF22dv/uHSu6KZlzQdZASnoNMKjueRzHK72Y+I150ROADii42yE+yg4ijgQNXMPZpxytICjLj24CC38VI6DRUgNrzaU0o2afSJWvVdZkOg3TMTb+XjpIpravjbpcwti2GCv8mTRiVmjMr+Xl76WihBD/RqWSLxwooRMcRWwF+i0zfAfO1XIr1Bs522K3xY0/a5ZN/i6UyYKB1W8yUI793BaHtD/LyCct9FMfasLSZpFAXzYUyIdoXgxDRjym+EDxb0pLLh393Kid+6aY79vTxYSrb3r5eh9VkuvwD+GA==" FormaPago="01" NoCertificado="20001000000300022763" Certificado="MIIFzDCCA7SgAwIBAgIUMjAwMDEwMDAwMDAzMDAwMjI3NjMwDQYJKoZIhvcNAQELBQAwggFmMSAwHgYDVQQDDBdBLkMuIDIgZGUgcHJ1ZWJhcyg0MDk2KTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxITAfBgkqhkiG9w0BCQIMElJlc3BvbnNhYmxlOiBBQ0RNQTAeFw0xNjEwMjEyMDU0MDFaFw0yMDEwMjEyMDU0MDFaMIG4MRwwGgYDVQQDExNJTk1PQiBFRE1BIFNBIERFIENWMRwwGgYDVQQpExNJTk1PQiBFRE1BIFNBIERFIENWMRwwGgYDVQQKExNJTk1PQiBFRE1BIFNBIERFIENWMSUwIwYDVQQtExxUTUU5NjA3MDlMUjIgLyBIRUdUNzYxMDAzNFMyMR4wHAYDVQQFExUgLyBIRUdUNzYxMDAzTURGUk5OMDkxFTATBgNVBAsUDFBydWViYXNfQ0ZESTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJgqZ+ezJyeJXACMK8ehFp64ecAl8jfYKB4xMJy0RRb+qXKRewxtLojiTFECWdCx283tEkdHUj8bLzsCfFAMnsP2G4CS2aE2/1LLCHoZpdImaasLX1YJL2bUzxKQKi+RlL63M49yyfvGBjEgG7f6TMwVSUSbgDFpYAFHqx4LK+p2GVHuUUzoiIm8xRYaW1YPMa457be5W8wsjw0nGRLfo8hRIjPHedkwtcqYPj57xsPXMfxWP45vOlW7GuLkMq/ECccHxJiPitiThcDFKlf/mAR0kaux9LTffvWilA2uQAlyVyNVjqfdpvDdq4ycTaoIMYKrv/9R31dQ0AmdXT8cfbcCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBAF5kwvyBUp7Ad99DktzEhrJwnMQyhA79sVc4Ns2SpLON/cV244ZnG5hgXk2awKbHEiSj/ke7EhgEpGS818ERsj7eW/wRgugBZraVn48GOn6qX0uV9EjwWEGK5uT6IDN25igeXxVJHP3hn40fX2BPqsaqRP49YMxcOWD7mhWRh2E6BnoKYjgHVJbavUN6pjCBLmy4hKwfitbjqtUiiWOmBDvvmLFpEGXG8OXn2xladBUkfC4sfgMBpVZVuEV7RqAgCSCZ2xo6UEyd4KKpTjbdp0Tj5gw+NmiovAZHwU/NPRojN95f/ibj7268LBr2DcO5rlmr7szwJ3dtwu86N7HkUxW3vo3qGHTVK2HRBArda9VN4pEyIL0Qt46ci5rFYXB2cCWU8XAh8gaZnxJoNTSY4A4yMJG9UfM/2rHC+YvOouIZ2kJZ2h+SwKOYGJOX749P/QeF4Z/L/ODs3E08bV7IQna1ZHmd6ydYhZVpheMgNoNnIG6jdzfyuo8NZAIIW/JGmPTANPCwTSHqBY1lmnp/oZNrkxGWtGhbltRfBoFQfTqCZALm6fsVeQqHQ6a7W45FJ2RD1nltPSdniMo3Iz/t4eHCjFvM3aORvA9oJEPr5ZzzBV2fQOXkyS8QdsSVb5ZmJG+FqZKKlsiaX6xhqK6gqTLyJN+7/yr9T/ZZ4M7VrRoL" SubTotal="100.00" Moneda="MXN" TipoCambio="1.00" Total="100.00" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="01000" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/donat http://www.sat.gob.mx/sitio_internet/cfd/donat/donat11.xsd http://www.sat.gob.mx/terceros http://www.sat.gob.mx/sitio_internet/cfd/terceros/terceros11.xsd" xmlns:donat="http://www.sat.gob.mx/donat" xmlns:terceros="http://www.sat.gob.mx/terceros" xmlns:cfdi="http://www.sat.gob.mx/cfd/3">
+<cfdi:CfdiRelacionados TipoRelacion="OOOOOOOOOOOOOOOOOOOOOOAAABB">
+	<cfdi:CfdiRelacionado UUID="48fbd274-b60e-41d7-802a-8c91f3fb589e"/>
+	<cfdi:CfdiRelacionado UUID="bbb1d5bb-c1b6-49c9-ae38-df7d5bd9dd33"/>
+</cfdi:CfdiRelacionados>
+	<cfdi:Emisor Rfc="TME960709LR2" Nombre="OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" RegimenFiscal="OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOAAAB" />
+	<cfdi:Receptor Rfc="XEXX010101000" Nombre="OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" UsoCFDI="OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOAAAB" ResidenciaFiscal="USA" NumRegIdTrib="123456789" />
+	<cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="01010101" NoIdentificacion="1" Cantidad="1.00" ClaveUnidad="C81" Unidad="PZ" Descripcion="Producto con texto" ValorUnitario="100.00" Importe="100.00" Descuento="0.00">
+			  <cfdi:ImpuestosConcepto>
+				  <cfdi:TrasladosConcepto>
+					  <cfdi:TrasladoConcepto Base="3000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="480" />
+				  </cfdi:TrasladosConcepto>
+				  <cfdi:RetencionesConcepto>
+					  <cfdi:RetencionConcepto Base="1500" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00" />
+					  <cfdi:RetencionConcepto Base="1500" Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="240.00" />
+				  </cfdi:RetencionesConcepto>
+			  </cfdi:ImpuestosConcepto>
+        <cfdi:InformacionAduanera NumeroPedimento="17  40  4098  7123456" />
+		    <cfdi:InformacionAduanera NumeroPedimento="18  40  4098  7123456" />
+        <cfdi:CuentaPredial Numero="0123456789" />
+        <cfdi:ComplementoConcepto>
+          <terceros:PorCuentadeTerceros version="1.1" rfc="AAA010101AAA" nombre="PRUEBAS">
+            <terceros:InformacionFiscalTercero calle="XXXXXX" noExterior="1" municipio="XXXXX" estado="XXXXX" pais="XXXXX" codigoPostal="11111" localidad="XXXXX" noInterior="1" colonia="CXXXXX" referencia="XXXXX" />
+            <terceros:Parte cantidad="1.00" unidad="1.00" descripcion="1" valorUnitario="1.00" noIdentificacion="1" importe="1.00">
+              <terceros:InformacionAduanera numero="123456789" fecha="2012-04-15" aduana="El Paso" />
+              <terceros:InformacionAduanera numero="214544148" fecha="2012-04-29" aduana="El Paso Texas" />
+            </terceros:Parte>
+            <terceros:ImpuestosTerceros>
+              <terceros:RetencionesTerceros>
+                <terceros:Retencion impuesto="IVA" importe="1.00" />
+                <terceros:Retencion impuesto="ISR" importe="1.00" />
+              </terceros:RetencionesTerceros>
+              <terceros:TrasladosTerceros>
+                <terceros:Traslado impuesto="IVA" tasa="0.16" importe="1.00" />
+                <terceros:Traslado impuesto="IEPS" tasa="0.10" importe="1.00" />
+              </terceros:TrasladosTerceros>
+            </terceros:ImpuestosTerceros>
+          </terceros:PorCuentadeTerceros>
+        </cfdi:ComplementoConcepto>
+	  </cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Impuestos TotalImpuestosRetenidos="240.00" TotalImpuestosTrasladados="480.00">
+		<cfdi:Retenciones>
+			<cfdi:Retencion Impuesto="001" Importe="240.00" />
+		</cfdi:Retenciones>
+		<cfdi:Traslados>
+			<cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="480.00" />
+		</cfdi:Traslados>
+	</cfdi:Impuestos>
+	<cfdi:Complemento>
+		<tfd:TimbreFiscalDigital Version="1.1" UUID="0DC11AA5-7071-46AF-B6AB-260FA0056329" FechaTimbrado="2017-05-24T15:53:00" SelloCFD="VB7uKVe3dpuyPYfWOTWK4db/SFIgJkHN9iSZsVmKATfIOaYF22dv/uHSu6KZlzQdZASnoNMKjueRzHK72Y+I150ROADii42yE+yg4ijgQNXMPZpxytICjLj24CC38VI6DRUgNrzaU0o2afSJWvVdZkOg3TMTb+XjpIpravjbpcwti2GCv8mTRiVmjMr+Xl76WihBD/RqWSLxwooRMcRWwF+i0zfAfO1XIr1Bs522K3xY0/a5ZN/i6UyYKB1W8yUI793BaHtD/LyCct9FMfasLSZpFAXzYUyIdoXgxDRjym+EDxb0pLLh393Kid+6aY79vTxYSrb3r5eh9VkuvwD+GA==" NoCertificadoSAT="20001000000300022323" RfcProvCertif="MCO000823CK3" SelloSAT="rJYiuCbQ1KEJ2/04Hu/1jK64gkomlAQPWIQ0yJpCWzInIF9fyLKXGppPVkzyT767akazUzx1mGvQbfId3XS3/kQgcu4Moiu3cKaoIvEHM2V1FJfbBvh9t4++OO8AHh5ctHiuw7M95zSpk2g800+D7TM/M8x4rFdRunOv3sDr6M8iik4uzD8Trv6fG9wGSzzeEQ+QzOYBnE8PRkbKG8PD/7EdB9qcVJmLMu3daF7v8VfiQWtynrDCGcuqPkCcIyLqev/B8BQfcF/I8u6AuOwHPkXCDNNnMRJTKksf9x/ANq7wC9+2/Mxr2x+8GfwT0C/g+2aZkzn8JV45SIzuFjo87w==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/timbrefiscaldigital/TimbreFiscalDigitalv11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+    <donat:Donatarias version="1.1" noAutorizacion="100TC34" fechaAutorizacion="2015-01-12" leyenda="Atributo requerido para señalar de manera expresa que el comprobante que se expide se deriva de un donativo." />
+	</cfdi:Complemento>
+</cfdi:Comprobante>

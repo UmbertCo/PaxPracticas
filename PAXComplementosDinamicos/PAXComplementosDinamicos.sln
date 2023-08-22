@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PAXComplementosDinamicos", "PAXComplementosDinamicos", "{D7EE72B6-C6B8-4EA4-8399-22E30CCA3826}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/PAXComplementosDinamicos"
+		Debug.AspNetCompiler.PhysicalPath = "PAXComplementosDinamicos\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PAXComplementosDinamicos\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PAXComplementosDinamicos"
+		Release.AspNetCompiler.PhysicalPath = "PAXComplementosDinamicos\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PAXComplementosDinamicos\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "19196"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.3.105:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = PAXComplementosDinamicos
+		SccProjectName1 = PAXComplementosDinamicos
+		SccLocalPath1 = PAXComplementosDinamicos
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7EE72B6-C6B8-4EA4-8399-22E30CCA3826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7EE72B6-C6B8-4EA4-8399-22E30CCA3826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

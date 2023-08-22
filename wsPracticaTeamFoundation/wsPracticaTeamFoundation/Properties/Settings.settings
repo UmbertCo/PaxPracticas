@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="wsPracticaTeamFoundation.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Correo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">gabriel.reyes@paxfacturacion.com</Value>
+    </Setting>
+    <Setting Name="rutaEntrada" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PracticaTeamFoundation\Entrada\</Value>
+    </Setting>
+    <Setting Name="rutaXml" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Temp\PracticaTeamFoundation\</Value>
+    </Setting>
+    <Setting Name="rutaTemporal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Temp\</Value>
+    </Setting>
+    <Setting Name="rutaSalida" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PracticaTeamFoundation\Salida\</Value>
+    </Setting>
+    <Setting Name="rutaErrores" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PracticaTeamFoundation\Errores\</Value>
+    </Setting>
+    <Setting Name="rutaLog" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PracticaTeamFoundation\Log\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

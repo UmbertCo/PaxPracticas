@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://10.54.57.194:8080" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://10.54.57.194:8080" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://10.54.57.194:8080">
+      <s:element name="fnRecuperaLCO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sRFC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNoCertificado" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnRecuperaLCOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fnRecuperaLCOResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="fnRecuperaLCOSoapIn">
+    <wsdl:part name="parameters" element="tns:fnRecuperaLCO" />
+  </wsdl:message>
+  <wsdl:message name="fnRecuperaLCOSoapOut">
+    <wsdl:part name="parameters" element="tns:fnRecuperaLCOResponse" />
+  </wsdl:message>
+  <wsdl:message name="fnRecuperaLCOHttpGetIn">
+    <wsdl:part name="sRFC" type="s:string" />
+    <wsdl:part name="sNoCertificado" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="fnRecuperaLCOHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="fnRecuperaLCOHttpPostIn">
+    <wsdl:part name="sRFC" type="s:string" />
+    <wsdl:part name="sNoCertificado" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="fnRecuperaLCOHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="wcfRecuperaLCOSoap">
+    <wsdl:operation name="fnRecuperaLCO">
+      <wsdl:input message="tns:fnRecuperaLCOSoapIn" />
+      <wsdl:output message="tns:fnRecuperaLCOSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="wcfRecuperaLCOHttpGet">
+    <wsdl:operation name="fnRecuperaLCO">
+      <wsdl:input message="tns:fnRecuperaLCOHttpGetIn" />
+      <wsdl:output message="tns:fnRecuperaLCOHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="wcfRecuperaLCOHttpPost">
+    <wsdl:operation name="fnRecuperaLCO">
+      <wsdl:input message="tns:fnRecuperaLCOHttpPostIn" />
+      <wsdl:output message="tns:fnRecuperaLCOHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wcfRecuperaLCOSoap" type="tns:wcfRecuperaLCOSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnRecuperaLCO">
+      <soap:operation soapAction="http://10.54.57.194:8080/fnRecuperaLCO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wcfRecuperaLCOSoap12" type="tns:wcfRecuperaLCOSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnRecuperaLCO">
+      <soap12:operation soapAction="http://10.54.57.194:8080/fnRecuperaLCO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wcfRecuperaLCOHttpGet" type="tns:wcfRecuperaLCOHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="fnRecuperaLCO">
+      <http:operation location="/fnRecuperaLCO" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wcfRecuperaLCOHttpPost" type="tns:wcfRecuperaLCOHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="fnRecuperaLCO">
+      <http:operation location="/fnRecuperaLCO" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wcfRecuperaLCO">
+    <wsdl:port name="wcfRecuperaLCOSoap" binding="tns:wcfRecuperaLCOSoap">
+      <soap:address location="http://192.168.3.106:8080/wcfRecuperaLCO.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wcfRecuperaLCOSoap12" binding="tns:wcfRecuperaLCOSoap12">
+      <soap12:address location="http://192.168.3.106:8080/wcfRecuperaLCO.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wcfRecuperaLCOHttpGet" binding="tns:wcfRecuperaLCOHttpGet">
+      <http:address location="http://192.168.3.106:8080/wcfRecuperaLCO.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wcfRecuperaLCOHttpPost" binding="tns:wcfRecuperaLCOHttpPost">
+      <http:address location="http://192.168.3.106:8080/wcfRecuperaLCO.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

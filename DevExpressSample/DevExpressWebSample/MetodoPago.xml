@@ -1,0 +1,15 @@
+﻿<mp:ListaMetodosPago xmlns:mp="mp:ListaMetodosPago">
+	<mp:MetodosPago>
+		<mp:MetodoPago Clave="01" Descripcion="Efectivo" Estatus="A"/>
+		<mp:MetodoPago Clave="02" Descripcion="Cheque nominativo" Estatus="A"/>
+		<mp:MetodoPago Clave="03" Descripcion="Transferencia electrónica de fondos" Estatus="A"/>
+		<mp:MetodoPago Clave="04" Descripcion="Tarjeta de crédito" Estatus="A"/>
+		<mp:MetodoPago Clave="05" Descripcion="Monedero electrónico" Estatus="A"/>
+		<mp:MetodoPago Clave="06" Descripcion="Dinero eletrónico" Estatus="A"/>
+		<mp:MetodoPago Clave="08" Descripcion="Vales de despensa" Estatus="A"/>
+		<mp:MetodoPago Clave="28" Descripcion="Tarjeta de débito" Estatus="A"/>
+		<mp:MetodoPago Clave="29" Descripcion="Tarjeta de servicio" Estatus="A"/>
+    <mp:MetodoPago Clave="NA" Descripcion="No Aplica" Estatus="A"/>
+		<mp:MetodoPago Clave="99" Descripcion="Otros" Estatus="A"/>
+	</mp:MetodosPago>
+</mp:ListaMetodosPago>

@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SolucionPruebas.WindowsService.GeneradorComprobantesHilos.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Intervalo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3600000</Value>
+    </Setting>
+    <Setting Name="LogError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\GeneradorComprobantes\LogErrores\</Value>
+    </Setting>
+    <Setting Name="RutaArchivos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\GeneradorComprobantes\Entrada\</Value>
+    </Setting>
+    <Setting Name="ArregloArchivos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1500, 2000, 3000, 5000, 10000, 20000, 30000, 50000, 100000, 200000</Value>
+    </Setting>
+    <Setting Name="RutaLlave" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\GeneradorComprobantes\XML\Certificados\aaa010101aaa__csd_01.key</Value>
+    </Setting>
+    <Setting Name="RutaCertificado" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\GeneradorComprobantes\XML\Certificados\aaa010101aaa__csd_01.cer</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12345678a</Value>
+    </Setting>
+    <Setting Name="RutaPfx" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\GeneradorComprobantes\Certificados\RutaPfx\</Value>
+    </Setting>
+    <Setting Name="RutaSalida" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\GeneradorComprobantes\Salida\</Value>
+    </Setting>
+    <Setting Name="DiasDiferencia" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="AlgoritmoDigestion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sha-1</Value>
+    </Setting>
+    <Setting Name="Version" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3.2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="wslGuardaXML.asmx.cs" Class="ServicioXML.TimbrarFactura" %>

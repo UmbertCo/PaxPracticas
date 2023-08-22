@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante version="3.2" serie="A" folio="35" fecha="2016-01-19T06:00:00" sello="Y+lzAo3FqgPyyAzlglv8BoBe6HSlvTGmihR8NTF4z/HddvgWTl76TBdwEDxenB5YHYRQggAgnTpZnGpja3RIbgf9NeYsqH8MPOg6HlkPBscfLdvYo6p3n1sKDFnb99bsqI4qwgMwsCQ9CcSAUN0weM5upuoBl1AbdJZ6p3tFs6M=" formaDePago="Pago en una sola exhibicion" noCertificado="20001000000100005867" certificado="MIIEdDCCA1ygAwIBAgIUMjAwMDEwMDAwMDAxMDAwMDU4NjcwDQYJKoZIhvcNAQEFBQAwggFvMRgwFgYDVQQDDA9BLkMuIGRlIHBydWViYXMxLzAtBgNVBAoMJlNlcnZpY2lvIGRlIEFkbWluaXN0cmFjacOzbiBUcmlidXRhcmlhMTgwNgYDVQQLDC9BZG1pbmlzdHJhY2nDs24gZGUgU2VndXJpZGFkIGRlIGxhIEluZm9ybWFjacOzbjEpMCcGCSqGSIb3DQEJARYaYXNpc25ldEBwcnVlYmFzLnNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxEjAQBgNVBAcMCUNveW9hY8OhbjEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTIwMAYJKoZIhvcNAQkCDCNSZXNwb25zYWJsZTogSMOpY3RvciBPcm5lbGFzIEFyY2lnYTAeFw0xMjA3MjcxNzAyMDBaFw0xNjA3MjcxNzAyMDBaMIHbMSkwJwYDVQQDEyBBQ0NFTSBTRVJWSUNJT1MgRU1QUkVTQVJJQUxFUyBTQzEpMCcGA1UEKRMgQUNDRU0gU0VSVklDSU9TIEVNUFJFU0FSSUFMRVMgU0MxKTAnBgNVBAoTIEFDQ0VNIFNFUlZJQ0lPUyBFTVBSRVNBUklBTEVTIFNDMSUwIwYDVQQtExxBQUEwMTAxMDFBQUEgLyBIRUdUNzYxMDAzNFMyMR4wHAYDVQQFExUgLyBIRUdUNzYxMDAzTURGUk5OMDkxETAPBgNVBAsTCFVuaWRhZCAxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2TTQSPONBOVxpXv9wLYo8jezBrb34i/tLx8jGdtyy27BcesOav2c1NS/Gdv10u9SkWtwdy34uRAVe7H0a3VMRLHAkvp2qMCHaZc4T8k47Jtb9wrOEh/XFS8LgT4y5OQYo6civfXXdlvxWU/gdM/e6I2lg6FGorP8H4GPAJ/qCNwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEATxMecTpMbdhSHo6KVUg4QVF4Op2IBhiMaOrtrXBdJgzGotUFcJgdBCMjtTZXSlq1S4DG1jr8p4NzQlzxsdTxaB8nSKJ4KEMgIT7E62xRUj15jI49qFz7f2uMttZLNThipunsN/NF1XtvESMTDwQFvas/Ugig6qwEfSZc0MDxMpKLEkEePmQwtZD+zXFSMVa6hmOu4M+FzGiRXbj4YJXn9Myjd8xbL/c+9UIcrYoZskxDvMxc6/6M3rNNDY3OFhBK+V/sPMzWWGt8S1yjmtPfXgFs1t65AZ2hcTwTAuHrKwDatJ1ZPfa482ZBROAAX1waz7WwXp0gso7sDCm2/yUVww==" subTotal="1.00" descuento="2" motivoDescuento="NINGUNO" TipoCambio="DOLLAR" Moneda="MXN" total="0.87" tipoDeComprobante="ingreso" metodoDePago="Efectivo" LugarExpedicion="Mexico,Chihuahua" NumCtaPago="0123" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfdi:Emisor rfc="AAA010101AAA" nombre="CORPUS FACTURACION SA DE CV">
+    <cfdi:DomicilioFiscal calle="36 1/2" noExterior="5617" noInterior="3" colonia="Dale" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31384"/>
+    <cfdi:ExpedidoEn calle="36 1/2" noExterior="5617" noInterior="3" colonia="Dale" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31384"/>
+    <cfdi:RegimenFiscal Regimen="Regimen General de Ley Personas Morales"/>
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="FUBC720407N12" nombre="Pruebas Recupera">
+    <cfdi:Domicilio calle="36 1/2" noExterior="5617" noInterior="3" colonia="Dale" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="00023"/>
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1" unidad="A" noIdentificacion="B" descripcion="10-10INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="2" unidad="A" noIdentificacion="B" descripcion="10-11INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="3" unidad="A" noIdentificacion="B" descripcion="10-12INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="4" unidad="A" noIdentificacion="B" descripcion="10-13INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="5" unidad="A" noIdentificacion="B" descripcion="10-14INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="6" unidad="A" noIdentificacion="B" descripcion="10-15INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="7" unidad="A" noIdentificacion="B" descripcion="10-16INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="8" unidad="A" noIdentificacion="B" descripcion="10-17INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="9" unidad="A" noIdentificacion="B" descripcion="10-18INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="10" unidad="A" noIdentificacion="B" descripcion="10-19INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="11" unidad="A" noIdentificacion="B" descripcion="10-20INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="12" unidad="A" noIdentificacion="B" descripcion="10-21INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="13" unidad="A" noIdentificacion="B" descripcion="10-22INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="14" unidad="A" noIdentificacion="B" descripcion="10-23INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="15" unidad="A" noIdentificacion="B" descripcion="10-24INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="16" unidad="A" noIdentificacion="B" descripcion="10-25INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="17" unidad="A" noIdentificacion="B" descripcion="10-26INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="18" unidad="A" noIdentificacion="B" descripcion="10-27INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="19" unidad="A" noIdentificacion="B" descripcion="10-28INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="20" unidad="A" noIdentificacion="B" descripcion="10-29INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="21" unidad="A" noIdentificacion="B" descripcion="10-30INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="22" unidad="A" noIdentificacion="B" descripcion="10-31INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="23" unidad="A" noIdentificacion="B" descripcion="10-32INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="24" unidad="A" noIdentificacion="B" descripcion="10-33INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="25" unidad="A" noIdentificacion="B" descripcion="10-34INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="26" unidad="A" noIdentificacion="B" descripcion="10-35INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="27" unidad="A" noIdentificacion="B" descripcion="10-32INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="28" unidad="A" noIdentificacion="B" descripcion="10-33INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="29" unidad="A" noIdentificacion="B" descripcion="10-34INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+    <cfdi:Concepto cantidad="30" unidad="A" noIdentificacion="B" descripcion="10-35INDEMNIZACIÓN POR ROBO DEL AUTOMÓVIL MARCA NISSAN" valorUnitario="1.00" importe="1000.000000"/>
+  </cfdi:Conceptos>
+  
+  <cfdi:Impuestos totalImpuestosRetenidos="0" totalImpuestosTrasladados="0">
+    <cfdi:Retenciones>
+      <cfdi:Retencion impuesto="ISR" importe="0.29"/>
+      <cfdi:Retencion impuesto="ISR" importe="0.35"/>
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16" importe="0.16"/>
+      <cfdi:Traslado impuesto="IVA" tasa="16" importe="0.20"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="a2e69c87-c638-4ee5-a4cf-88dde8f2a32e" FechaTimbrado="2016-01-21T17:31:24" selloCFD="Y+lzAo3FqgPyyAzlglv8BoBe6HSlvTGmihR8NTF4z/HddvgWTl76TBdwEDxenB5YHYRQggAgnTpZnGpja3RIbgf9NeYsqH8MPOg6HlkPBscfLdvYo6p3n1sKDFnb99bsqI4qwgMwsCQ9CcSAUN0weM5upuoBl1AbdJZ6p3tFs6M=" noCertificadoSAT="20001000000100005761" selloSAT="MJEE/BpxIj0zxKVk5f9MWQTvjgMPozTw+Zq+n6rr9GaS6OKOh2nwKXYM6PKHxDrCse86E4iBykE3vp7a7xB0T9WEJw0Zff6dehSXM6sT1HDIwpUrn1PoD9b/kloyp/qw1is3ReJ4PTyRG8uzIQ5yQkCINzIr9m3PdcHfBPJwPCw=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F8AA561-AF1E-4425-AAA5-B18FF64AB4AC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DevExpressSample</RootNamespace>
+    <AssemblyName>DevExpressSample</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v15.2.UI, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Snap.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Snap.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Snap.v15.2.Extensions, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v15.2.UI, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.2.UI, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.2.Wizard, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v15.2.Extensions, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v15.2.Extensions, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TFD10XSLT, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Librerias y Exes\Librerias\TFD10XSLT.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="rptCC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCC.Designer.cs">
+      <DependentUpon>rptCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDevExpressReporting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDevExpressReporting.Designer.cs">
+      <DependentUpon>frmDevExpressReporting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rptDP.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptDP.Designer.cs">
+      <DependentUpon>rptDP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptPR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptPR.Designer.cs">
+      <DependentUpon>rptPR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptProfecoFactura.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProfecoFactura.Designer.cs">
+      <DependentUpon>rptProfecoFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptProfecoNomina.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptProfecoNomina.Designer.cs">
+      <DependentUpon>rptProfecoNomina.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="rptCC.resx">
+      <DependentUpon>rptCC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDevExpressReporting.resx">
+      <DependentUpon>frmDevExpressReporting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDP.resx">
+      <DependentUpon>rptDP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptPR.resx">
+      <DependentUpon>rptPR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProfecoFactura.resx">
+      <DependentUpon>rptProfecoFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptProfecoNomina.resx">
+      <DependentUpon>rptProfecoNomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="bin\Debug\DevExpressSample.exe.config" />
+    <None Include="bin\Debug\DevExpressSample.vshost.exe.config" />
+    <None Include="bin\Debug\DevExpressSample.vshost.exe.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\DevExpress.Charts.v15.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Data.v15.2.dll" />
+    <Content Include="bin\Debug\DevExpress.Data.v15.2.xml" />
+    <Content Include="bin\Debug\DevExpress.DataAccess.v15.2.dll" />
+    <Content Include="bin\Debug\DevExpress.DataAccess.v15.2.UI.dll" />
+    <Content Include="bin\Debug\DevExpress.DataAccess.v15.2.UI.xml" />
+    <Content Include="bin\Debug\DevExpress.DataAccess.v15.2.xml" />
+    <Content Include="bin\Debug\DevExpress.Office.v15.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Office.v15.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.PivotGrid.v15.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.PivotGrid.v15.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.Printing.v15.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Printing.v15.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.RichEdit.v15.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.RichEdit.v15.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.Snap.v15.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Snap.v15.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.Snap.v15.2.dll" />
+    <Content Include="bin\Debug\DevExpress.Snap.v15.2.Extensions.dll" />
+    <Content Include="bin\Debug\DevExpress.Snap.v15.2.Extensions.xml" />
+    <Content Include="bin\Debug\DevExpress.Snap.v15.2.xml" />
+    <Content Include="bin\Debug\DevExpress.Sparkline.v15.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Sparkline.v15.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.Utils.v15.2.dll" />
+    <Content Include="bin\Debug\DevExpress.Utils.v15.2.UI.dll" />
+    <Content Include="bin\Debug\DevExpress.Utils.v15.2.UI.xml" />
+    <Content Include="bin\Debug\DevExpress.Utils.v15.2.xml" />
+    <Content Include="bin\Debug\DevExpress.Xpo.v15.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraBars.v15.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraCharts.v15.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraCharts.v15.2.UI.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraCharts.v15.2.Wizard.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraCharts.v15.2.Wizard.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraCharts.v15.2.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraEditors.v15.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraEditors.v15.2.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraGauges.v15.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraGauges.v15.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraGrid.v15.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraPrinting.v15.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraPrinting.v15.2.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraReports.v15.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraReports.v15.2.Extensions.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraReports.v15.2.Extensions.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraReports.v15.2.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraRichEdit.v15.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraRichEdit.v15.2.Extensions.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraRichEdit.v15.2.Extensions.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraRichEdit.v15.2.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraTreeList.v15.2.dll" />
+    <Content Include="bin\Debug\DevExpressSample.exe" />
+    <Content Include="bin\Debug\DevExpressSample.pdb" />
+    <Content Include="bin\Debug\DevExpressSample.vshost.exe" />
+    <Content Include="bin\Debug\de\DevExpress.Data.v15.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.DataAccess.v15.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.DataAccess.v15.2.UI.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Office.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.PivotGrid.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Printing.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.RichEdit.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Snap.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Snap.v15.2.Extensions.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Snap.v15.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Sparkline.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Utils.v15.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Utils.v15.2.UI.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Xpo.v15.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.XtraBars.v15.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.XtraCharts.v15.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.XtraCharts.v15.2.Wizard.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.XtraEditors.v15.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.XtraGauges.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.XtraGrid.v15.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.XtraPrinting.v15.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.XtraReports.v15.2.Extensions.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.XtraReports.v15.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.XtraRichEdit.v15.2.Extensions.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.XtraRichEdit.v15.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.XtraTreeList.v15.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Data.v15.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.DataAccess.v15.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.DataAccess.v15.2.UI.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Office.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.PivotGrid.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Printing.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.RichEdit.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Snap.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Snap.v15.2.Extensions.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Snap.v15.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Sparkline.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Utils.v15.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Utils.v15.2.UI.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Xpo.v15.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.XtraBars.v15.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.XtraCharts.v15.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.XtraCharts.v15.2.Wizard.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.XtraEditors.v15.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.XtraGauges.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.XtraGrid.v15.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.XtraReports.v15.2.Extensions.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.XtraReports.v15.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.XtraRichEdit.v15.2.Extensions.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.XtraRichEdit.v15.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.XtraTreeList.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Data.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.DataAccess.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.DataAccess.v15.2.UI.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Office.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.PivotGrid.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Printing.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.RichEdit.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Snap.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Snap.v15.2.Extensions.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Snap.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Sparkline.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Utils.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Utils.v15.2.UI.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Xpo.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.XtraBars.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.XtraCharts.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.XtraCharts.v15.2.Wizard.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.XtraEditors.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.XtraGauges.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.XtraGrid.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.XtraReports.v15.2.Extensions.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.XtraReports.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.XtraRichEdit.v15.2.Extensions.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.XtraRichEdit.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.XtraTreeList.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Data.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.DataAccess.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.DataAccess.v15.2.UI.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Office.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.PivotGrid.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Printing.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.RichEdit.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Snap.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Snap.v15.2.Extensions.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Snap.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Sparkline.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Utils.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Utils.v15.2.UI.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Xpo.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.XtraBars.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.XtraCharts.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.XtraCharts.v15.2.Wizard.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.XtraEditors.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.XtraGauges.v15.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.XtraGrid.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.XtraReports.v15.2.Extensions.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.XtraReports.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.XtraRichEdit.v15.2.Extensions.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.XtraRichEdit.v15.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.XtraTreeList.v15.2.resources.dll" />
+    <Content Include="bin\TFD10XSLT.DLL" />
+    <Content Include="ProfecoFactura\ConceptosGrandes.xml" />
+    <Content Include="ProfecoFactura\MuchosConceptos.xml" />
+    <Content Include="ProfecoFactura\PocosConceptos.xml" />
+    <Content Include="ProfecoFactura\UnConcepto.xml" />
+    <Content Include="ProfecoFactura\VariosConceptos.xml" />
+    <Content Include="ProfecoNomina\ConceptosGrandes.xml" />
+    <Content Include="ProfecoNomina\MuchosConceptos.xml" />
+    <Content Include="ProfecoNomina\Nomina.xml" />
+    <Content Include="ProfecoNomina\PocosConceptos.xml" />
+    <Content Include="UnionProgreso\AkalaLogo.png" />
+    <Content Include="UnionProgreso\encabezado.png" />
+    <Content Include="UnionProgreso\pie.png" />
+    <Content Include="UnionProgreso\T_CC.xml" />
+    <Content Include="UnionProgreso\T_DP.xml" />
+    <Content Include="UnionProgreso\T_PR.xml" />
+    <Content Include="ProfecoNomina\UnConcepto.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ProfecoNomina\VariosConceptos.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

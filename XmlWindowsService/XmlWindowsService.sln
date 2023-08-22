@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlWindowsService", "XmlWindowsService\XmlWindowsService.csproj", "{D25D5BFD-8D45-4E6D-8FCE-4CBE3BE75FB0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WSXmli", "WSXmli\WSXmli.vdproj", "{F7DB1737-83AD-44C5-B641-CC7A5529CB00}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.2.13:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WSXmli\\WSXmli.vdproj
+		SccProjectName1 = WSXmli
+		SccLocalPath1 = WSXmli
+		SccProjectUniqueName2 = XmlWindowsService\\XmlWindowsService.csproj
+		SccProjectName2 = XmlWindowsService
+		SccLocalPath2 = XmlWindowsService
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D25D5BFD-8D45-4E6D-8FCE-4CBE3BE75FB0}.Debug|x86.ActiveCfg = Debug|x86
+		{D25D5BFD-8D45-4E6D-8FCE-4CBE3BE75FB0}.Debug|x86.Build.0 = Debug|x86
+		{D25D5BFD-8D45-4E6D-8FCE-4CBE3BE75FB0}.Release|x86.ActiveCfg = Release|x86
+		{D25D5BFD-8D45-4E6D-8FCE-4CBE3BE75FB0}.Release|x86.Build.0 = Release|x86
+		{F7DB1737-83AD-44C5-B641-CC7A5529CB00}.Debug|x86.ActiveCfg = Debug
+		{F7DB1737-83AD-44C5-B641-CC7A5529CB00}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

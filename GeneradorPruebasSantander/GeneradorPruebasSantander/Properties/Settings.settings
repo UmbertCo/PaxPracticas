@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GeneradorPruebasSantander.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="nArchivos" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="nRegistrosArch" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="nTotalRegistros" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">163</Value>
+    </Setting>
+    <Setting Name="nRfcMalo" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="srutaGZIPEXE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\Git\usr\bin\gzip.exe</Value>
+    </Setting>
+    <Setting Name="sInterface" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CFDFACTOFACTUUID</Value>
+    </Setting>
+    <Setting Name="bAcompletar" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PAXRegeneracionBateriaGT.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RutaArchivos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\PAXRegeneracionBateriaGT\Archivos Generados</Value>
+    </Setting>
+    <Setting Name="ArchivoTXT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\PAXRegeneracionBateriaGT\Archivos TXT\</Value>
+    </Setting>
+    <Setting Name="Certificado" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\PAXRegeneracionBateriaGT\Certificados\aaa010101aaa__csd_01.cer</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

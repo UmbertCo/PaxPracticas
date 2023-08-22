@@ -1,0 +1,71 @@
+<cfdi:Comprobante version="3.2" serie="AK" folio="9" fecha="2015-08-10T07:55:58" sello="PHZ2rrnOqHfXxGc5SNCE4ml3YRiChlI/xsERmBROLA6bpUB10FD4LHQAJ0WybGEesQ2GZxFhTo74ipmqyjF6GUydf31O0eMTBNZUUAvWD+OPY3nu/uiruOprDhzYq86IFJDWU5HYjjMXRGKUZfY3lWeAb9tLGWbo1yC7hx1WIvQ=" formaDePago="Pago en una sola exhibición" noCertificado="20001000000100005867" certificado="MIIEdDCCA1ygAwIBAgIUMjAwMDEwMDAwMDAxMDAwMDU4NjcwDQYJKoZIhvcNAQEFBQAwggFvMRgwFgYDVQQDDA9BLkMuIGRlIHBydWViYXMxLzAtBgNVBAoMJlNlcnZpY2lvIGRlIEFkbWluaXN0cmFjacOzbiBUcmlidXRhcmlhMTgwNgYDVQQLDC9BZG1pbmlzdHJhY2nDs24gZGUgU2VndXJpZGFkIGRlIGxhIEluZm9ybWFjacOzbjEpMCcGCSqGSIb3DQEJARYaYXNpc25ldEBwcnVlYmFzLnNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxEjAQBgNVBAcMCUNveW9hY8OhbjEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTIwMAYJKoZIhvcNAQkCDCNSZXNwb25zYWJsZTogSMOpY3RvciBPcm5lbGFzIEFyY2lnYTAeFw0xMjA3MjcxNzAyMDBaFw0xNjA3MjcxNzAyMDBaMIHbMSkwJwYDVQQDEyBBQ0NFTSBTRVJWSUNJT1MgRU1QUkVTQVJJQUxFUyBTQzEpMCcGA1UEKRMgQUNDRU0gU0VSVklDSU9TIEVNUFJFU0FSSUFMRVMgU0MxKTAnBgNVBAoTIEFDQ0VNIFNFUlZJQ0lPUyBFTVBSRVNBUklBTEVTIFNDMSUwIwYDVQQtExxBQUEwMTAxMDFBQUEgLyBIRUdUNzYxMDAzNFMyMR4wHAYDVQQFExUgLyBIRUdUNzYxMDAzTURGUk5OMDkxETAPBgNVBAsTCFVuaWRhZCAxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2TTQSPONBOVxpXv9wLYo8jezBrb34i/tLx8jGdtyy27BcesOav2c1NS/Gdv10u9SkWtwdy34uRAVe7H0a3VMRLHAkvp2qMCHaZc4T8k47Jtb9wrOEh/XFS8LgT4y5OQYo6civfXXdlvxWU/gdM/e6I2lg6FGorP8H4GPAJ/qCNwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEATxMecTpMbdhSHo6KVUg4QVF4Op2IBhiMaOrtrXBdJgzGotUFcJgdBCMjtTZXSlq1S4DG1jr8p4NzQlzxsdTxaB8nSKJ4KEMgIT7E62xRUj15jI49qFz7f2uMttZLNThipunsN/NF1XtvESMTDwQFvas/Ugig6qwEfSZc0MDxMpKLEkEePmQwtZD+zXFSMVa6hmOu4M+FzGiRXbj4YJXn9Myjd8xbL/c+9UIcrYoZskxDvMxc6/6M3rNNDY3OFhBK+V/sPMzWWGt8S1yjmtPfXgFs1t65AZ2hcTwTAuHrKwDatJ1ZPfa482ZBROAAX1waz7WwXp0gso7sDCm2/yUVww==" subTotal="297.82" Moneda="MXN" total="215.37" tipoDeComprobante="ingreso" LugarExpedicion="Mexico,Chihuahua,Delicias" metodoDePago="No identificado" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfdi:Emisor rfc="AAA010101AAA" nombre="AKALA FINANCIERA S.A. DE C.V. S.F.P.">
+    <cfdi:DomicilioFiscal calle="PASEO TECNOLOGICO" noExterior="1" colonia="NUEVO TERRAZAS" localidad="DELICIAS" municipio="DELICIAS" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="33020" />
+    <cfdi:RegimenFiscal Regimen="PERSONA MORAL DE REGIMEN GENERAL" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="BAU861217ND9" nombre="BUENAVENTURA AUTOPARTES SA DE CV">
+    <cfdi:Domicilio calle="VENTURA ROMERO N°" noExterior="54" colonia="JUAN PABLO II" localidad="BUENAVENTURA" municipio="BUENAVENTURA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31890" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1" unidad="Servicio" noIdentificacion="No aplica" descripcion="COMISION POR MANEJO DE CUENTA" valorUnitario="15.00" importe="15.00" />
+    <cfdi:Concepto cantidad="1" unidad="Servicio" noIdentificacion="No aplica" descripcion="CAPITALIZACION DE INTERESES" valorUnitario="282.82" importe="282.82" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos>
+    <cfdi:Retenciones>
+      <cfdi:Retencion impuesto="ISR" importe="84.85" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16" importe="2.40" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="3c13b05b-8055-4728-b1f1-bd893e9e00c4" FechaTimbrado="2015-08-11T17:04:26" selloCFD="PHZ2rrnOqHfXxGc5SNCE4ml3YRiChlI/xsERmBROLA6bpUB10FD4LHQAJ0WybGEesQ2GZxFhTo74ipmqyjF6GUydf31O0eMTBNZUUAvWD+OPY3nu/uiruOprDhzYq86IFJDWU5HYjjMXRGKUZfY3lWeAb9tLGWbo1yC7hx1WIvQ=" noCertificadoSAT="20001000000100005761" selloSAT="p3rRL0d9xIlhNMlxAzXF0eXB4SdehSb7rrh+uNJ3aDEkIQgEQLb3M2rp0r58MA5ALWN7pjtATznOVQvT9rGcDNJv1tEcbQcKS5/nuHxm+8j42VqwLT47c3gYZqswZGe1mkuhBqxcHytTLiVV4Luc+VitGuwQN+dJOqZ7ENxIsqA=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+  </cfdi:Complemento>
+  <cfdi:Addenda>
+    <UnionProgreso>
+      <EC Timbrado="S" CodigoCliente="02000041894" NombreCliente="BUENAVENTURA AUTOPARTES SA DE CV" RFC="BAU861217ND9" CalleNumero="VENTURA ROMERO N°54" Colonia="JUAN PABLO II" Localidad="BUENAVENTURA,CHIHUAHUA, MEX." CodigoPostal="31890" PeriodoInicio="01/05/2015" PeriodoFin="31/05/2015" FechaExpedicion="04/07/2015" NumeroCuenta="00149451" Producto="AHORRO CON TD NACIONAL" Moneda="PESOS" Clabe="638154000001494519" Sucursal="020 - FLORES MAGON, FLORES MAGON" SaldoMinimo="1.00" SaldoPromedio="169692.92" DiasPeriodo="31" TasaInteres="2.00" InteresPagado="282.82" ISRRetenido="84.85" GAT="0.00" ComisionesCobradas="15.00" SaldoAnterior="3124.28" Abonos="2027795.55" Cargos="1977219.53" IVAComisiones="2.40" IDE="0.00" SaldoCierre="48038.72" SaldoDisponible="48038.72" SaldoCongelado="0.00" SaldoReserva="0.00" SaldoSobregirado="0.00" LeyendaInformacionGeneral="AHORRO CRÉDITOS DIVISAS SEGUROS SERVICIOS" LeyendaInformacion="AKALA FINANCIERA LA MEJOR OPCIÓN EN SERVICIOS FINANCIEROS EN EL ESTADO DE CHIHUAHUA" InformacionEmpresa="AKALA S.A. DE C.V. S.F.P., AVENIDA DEL PARQUE ORIENTE, NUMERO 1035, (639) 4708200, INFORMACION¿AKALASFP.COM.MX R.F.C. AKA060427QP2" TotalAbonos="2028078.37" TotalCargos="1977321.78" ChequesPagados="0.00" ManejoCuenta="15.00" Anualidad="0.00" Operaciones="0.00" GraficoSaldoInicial="0.15" GraficoAbonos="100.00" GraficoRetiros="-97.51" GraficoComisiones="0.00" GraficoInteresesFavor="0.01" GraficoOtrosCargos="0.00" GraficoSaldoFinal="2.37">
+    <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <OC FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <MC Transaccion="NOTA DE CREDITO" Referencia="76210" Descripcion="ABONO POR ENVIO SPEI" Cargo="0.00" Abono="665000.00" Saldo="668124.28" Sobregiro="0.00" FechaMovimiento="06/MAY" FechaAplicacion="06/MAY" />
+        <MC Transaccion="RETIRO DE CUENTA EN CAJAS" Referencia="0" Descripcion="RETIRO EN CAJAS" Cargo="2320.02" Abono="0.00" Saldo="665804.26" Sobregiro="0.00" FechaMovimiento="08/MAY" FechaAplicacion="08/MAY" />
+        <MC Transaccion="RETIRO DE CUENTA EN CAJAS" Referencia="0" Descripcion="RETIRO EN CAJAS" Cargo="12291.69" Abono="0.00" Saldo="653512.57" Sobregiro="0.00" FechaMovimiento="08/MAY" FechaAplicacion="08/MAY" />
+        <MC Transaccion="NOTA DE DEBITO" Referencia="0" Descripcion="CARGO POR TRANSFERENCIA" Cargo="607266.80" Abono="0.00" Saldo="46245.77" Sobregiro="0.00" FechaMovimiento="08/MAY" FechaAplicacion="08/MAY" />
+        <MC Transaccion="NOTA DE CREDITO" Referencia="76791" Descripcion="ABONO POR ENVIO SPEI" Cargo="0.00" Abono="319500.00" Saldo="365745.77" Sobregiro="0.00" FechaMovimiento="13/MAY" FechaAplicacion="13/MAY" />
+        <MC Transaccion="RETIRO DE CUENTA EN CAJAS" Referencia="0" Descripcion="RETIRO EN CAJAS" Cargo="30087.61" Abono="0.00" Saldo="335658.16" Sobregiro="0.00" FechaMovimiento="15/MAY" FechaAplicacion="15/MAY" />
+        <MC Transaccion="NOTA DE DEBITO" Referencia="0" Descripcion="CARGO POR TRANSFERENCIA" Cargo="179889.06" Abono="0.00" Saldo="155769.10" Sobregiro="0.00" FechaMovimiento="15/MAY" FechaAplicacion="15/MAY" />
+        <MC Transaccion="CONGELAMIENTO DE SALDO" Referencia="0" Descripcion="CONGELAMIENTO DE SALDO" Cargo="155769.10" Abono="0.00" Saldo="0.00" Sobregiro="0.00" FechaMovimiento="15/MAY" FechaAplicacion="15/MAY" />
+        <MC Transaccion="DEPOSITO EN CUENTAS" Referencia="0" Descripcion="DEPOSITO EN CUENTAS" FormaPago="EFECTIVO" Cargo="0.00" Abono="5842.15" Saldo="5842.15" Sobregiro="0.00" FechaMovimiento="18/MAY" FechaAplicacion="18/MAY" />
+        <MC Transaccion="DEPOSITO EN CUENTAS" Referencia="0" Descripcion="DEPOSITO EN CUENTAS" FormaPago="CHEQUES" Cargo="0.00" Abono="5842.15" Saldo="11684.30" Sobregiro="0.00" FechaMovimiento="18/MAY" FechaAplicacion="18/MAY" />
+        <MC Transaccion="LEVANTAMIENTO DE CONGELAMIENTO DE SALDO" Referencia="0" Descripcion="DESCONGELAMIENTO DE SALDO" Cargo="0.00" Abono="155769.10" Saldo="167453.40" Sobregiro="0.00" FechaMovimiento="18/MAY" FechaAplicacion="18/MAY" />
+        <MC Transaccion="NOTA DE DEBITO" Referencia="0" Descripcion="CARGO POR TRANSFERENCIA" Cargo="161611.25" Abono="0.00" Saldo="5842.15" Sobregiro="0.00" FechaMovimiento="18/MAY" FechaAplicacion="18/MAY" />
+        <MC Transaccion="RETIRO DE CUENTA EN CAJAS" Referencia="0" Descripcion="RETIRO EN CAJAS" Cargo="5842.15" Abono="0.00" Saldo="0.00" Sobregiro="0.00" FechaMovimiento="20/MAY" FechaAplicacion="20/MAY" />
+        <MC Transaccion="NOTA DE CREDITO" Referencia="77312" Descripcion="ABONO POR ENVIO SPEI" Cargo="0.00" Abono="470000.00" Saldo="470000.00" Sobregiro="0.00" FechaMovimiento="20/MAY" FechaAplicacion="20/MAY" />
+        <MC Transaccion="RETIRO DE CUENTA EN CAJAS" Referencia="0" Descripcion="RETIRO EN CAJAS" Cargo="8779.82" Abono="0.00" Saldo="461220.18" Sobregiro="0.00" FechaMovimiento="22/MAY" FechaAplicacion="22/MAY" />
+        <MC Transaccion="RETIRO DE CUENTA EN CAJAS" Referencia="0" Descripcion="RETIRO EN CAJAS" Cargo="1040.77" Abono="0.00" Saldo="460179.41" Sobregiro="0.00" FechaMovimiento="22/MAY" FechaAplicacion="22/MAY" />
+        <MC Transaccion="NOTA DE DEBITO" Referencia="0" Descripcion="CARGO POR TRANSFERENCIA" Cargo="214095.42" Abono="0.00" Saldo="246083.99" Sobregiro="0.00" FechaMovimiento="22/MAY" FechaAplicacion="22/MAY" />
+        <MC Transaccion="NOTA DE DEBITO" Referencia="0" Descripcion="CARGO POR TRANSFERENCIA" Cargo="174843.05" Abono="0.00" Saldo="71240.94" Sobregiro="0.00" FechaMovimiento="22/MAY" FechaAplicacion="22/MAY" />
+        <MC Transaccion="NOTA DE CREDITO" Referencia="77772" Descripcion="ABONO POR ENVIO SPEI" Cargo="0.00" Abono="400000.00" Saldo="471240.94" Sobregiro="0.00" FechaMovimiento="27/MAY" FechaAplicacion="27/MAY" />
+        <MC Transaccion="RETIRO DE CUENTA EN CAJAS" Referencia="0" Descripcion="RETIRO EN CAJAS" Cargo="31320.00" Abono="0.00" Saldo="439920.94" Sobregiro="0.00" FechaMovimiento="28/MAY" FechaAplicacion="28/MAY" />
+        <MC Transaccion="NOTA DE DEBITO" Referencia="0" Descripcion="COMISION POR MANEJO DE CUENTA" Cargo="15.00" Abono="0.00" Saldo="439905.94" Sobregiro="0.00" FechaMovimiento="29/MAY" FechaAplicacion="29/MAY" />
+        <MC Transaccion="NOTA DE DEBITO" Referencia="0" Descripcion="IVA POR MANEJO DE CUENTA" Cargo="2.40" Abono="0.00" Saldo="439903.54" Sobregiro="0.00" FechaMovimiento="29/MAY" FechaAplicacion="29/MAY" />
+        <MC Transaccion="RETIRO DE CUENTA EN CAJAS" Referencia="0" Descripcion="RETIRO EN CAJAS" Cargo="15893.82" Abono="0.00" Saldo="424009.72" Sobregiro="0.00" FechaMovimiento="29/MAY" FechaAplicacion="29/MAY" />
+        <MC Transaccion="NOTA DE DEBITO" Referencia="0" Descripcion="CARGO POR TRANSFERENCIA" Cargo="376168.97" Abono="0.00" Saldo="47840.75" Sobregiro="0.00" FechaMovimiento="29/MAY" FechaAplicacion="29/MAY" />
+        <MC Transaccion="CAPITALIZACION DE INTERESES" Referencia="0" Descripcion="CAPITALIZACION DE INTERESES" Cargo="0.00" Abono="282.82" Saldo="48123.57" Sobregiro="0.00" FechaMovimiento="29/MAY" FechaAplicacion="29/MAY" />
+        <MC Transaccion="ISR DE INTERES" Referencia="0" Descripcion="ISR DE INTERESES" Cargo="84.85" Abono="0.00" Saldo="48038.72" Sobregiro="0.00" FechaMovimiento="29/MAY" FechaAplicacion="29/MAY" />
+      </EC>
+    </UnionProgreso>
+  </cfdi:Addenda>
+</cfdi:Comprobante>

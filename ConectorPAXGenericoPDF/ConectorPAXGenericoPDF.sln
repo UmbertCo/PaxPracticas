@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConectorPAXGenericoPDF", "ConectorPAXGenericoPDF\ConectorPAXGenericoPDF.csproj", "{0E1AAF13-60E5-476E-8FD2-1E7E24D96482}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstaladorConectorGenerico", "InstaladorConectorGenerico\InstaladorConectorGenerico.vdproj", "{9BF44935-E431-498E-9586-9E0BE0AAF405}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.3.105:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ConectorPAXGenericoPDF\\ConectorPAXGenericoPDF.csproj
+		SccProjectName1 = ConectorPAXGenericoPDF
+		SccLocalPath1 = ConectorPAXGenericoPDF
+		SccProjectUniqueName2 = InstaladorConectorGenerico\\InstaladorConectorGenerico.vdproj
+		SccProjectName2 = InstaladorConectorGenerico
+		SccLocalPath2 = InstaladorConectorGenerico
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E1AAF13-60E5-476E-8FD2-1E7E24D96482}.Debug|x86.ActiveCfg = Debug|x86
+		{0E1AAF13-60E5-476E-8FD2-1E7E24D96482}.Debug|x86.Build.0 = Debug|x86
+		{0E1AAF13-60E5-476E-8FD2-1E7E24D96482}.Release|x86.ActiveCfg = Release|x86
+		{0E1AAF13-60E5-476E-8FD2-1E7E24D96482}.Release|x86.Build.0 = Release|x86
+		{9BF44935-E431-498E-9586-9E0BE0AAF405}.Debug|x86.ActiveCfg = Debug
+		{9BF44935-E431-498E-9586-9E0BE0AAF405}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

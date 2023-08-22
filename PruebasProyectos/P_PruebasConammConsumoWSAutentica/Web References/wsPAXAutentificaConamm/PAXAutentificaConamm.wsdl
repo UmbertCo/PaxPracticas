@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://paxfacturacion.com/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://paxfacturacion.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://paxfacturacion.com/">
+      <s:element name="fnEmpleadoExiste">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pstrNumEmpleado" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pstrRFC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pstrsCURP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psClaveOrganismo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psContraseña" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnEmpleadoExisteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="fnEmpleadoExisteResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="fnEmpleadoExisteSoapIn">
+    <wsdl:part name="parameters" element="tns:fnEmpleadoExiste" />
+  </wsdl:message>
+  <wsdl:message name="fnEmpleadoExisteSoapOut">
+    <wsdl:part name="parameters" element="tns:fnEmpleadoExisteResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PAXAutentificaConammSoap">
+    <wsdl:operation name="fnEmpleadoExiste">
+      <wsdl:input message="tns:fnEmpleadoExisteSoapIn" />
+      <wsdl:output message="tns:fnEmpleadoExisteSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PAXAutentificaConammSoap" type="tns:PAXAutentificaConammSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnEmpleadoExiste">
+      <soap:operation soapAction="http://paxfacturacion.com/fnEmpleadoExiste" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PAXAutentificaConammSoap12" type="tns:PAXAutentificaConammSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnEmpleadoExiste">
+      <soap12:operation soapAction="http://paxfacturacion.com/fnEmpleadoExiste" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PAXAutentificaConamm">
+    <wsdl:port name="PAXAutentificaConammSoap" binding="tns:PAXAutentificaConammSoap">
+      <soap:address location="http://192.168.3.106:5050/PAXAutentificaConamm.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PAXAutentificaConammSoap12" binding="tns:PAXAutentificaConammSoap12">
+      <soap12:address location="http://192.168.3.106:5050/PAXAutentificaConamm.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

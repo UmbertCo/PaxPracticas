@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaxConectorFoxconn", "PaxConectorFoxconn\PaxConectorFoxconn.csproj", "{69F48F9D-BE39-49AF-9C00-772F7032DD83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cPruebas", "cPruebas\cPruebas.csproj", "{E157CF1F-E3E0-4F31-80C8-ED69F6F1A819}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador_PaxConectorFoxConn", "Instalador_PaxConectorFoxConn\Instalador_PaxConectorFoxConn.vdproj", "{591AD1B8-709E-4404-A120-D96D04CBBE51}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.2.13:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PaxConectorFoxconn\\PaxConectorFoxconn.csproj
+		SccProjectName1 = PaxConectorFoxconn
+		SccLocalPath1 = PaxConectorFoxconn
+		SccProjectUniqueName2 = cPruebas\\cPruebas.csproj
+		SccProjectName2 = cPruebas
+		SccLocalPath2 = cPruebas
+		SccProjectUniqueName3 = Instalador_PaxConectorFoxConn\\Instalador_PaxConectorFoxConn.vdproj
+		SccProjectName3 = Instalador_PaxConectorFoxConn
+		SccLocalPath3 = Instalador_PaxConectorFoxConn
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69F48F9D-BE39-49AF-9C00-772F7032DD83}.Debug|x86.ActiveCfg = Debug|x86
+		{69F48F9D-BE39-49AF-9C00-772F7032DD83}.Debug|x86.Build.0 = Debug|x86
+		{69F48F9D-BE39-49AF-9C00-772F7032DD83}.Release|x86.ActiveCfg = Release|x86
+		{69F48F9D-BE39-49AF-9C00-772F7032DD83}.Release|x86.Build.0 = Release|x86
+		{E157CF1F-E3E0-4F31-80C8-ED69F6F1A819}.Debug|x86.ActiveCfg = Debug|x86
+		{E157CF1F-E3E0-4F31-80C8-ED69F6F1A819}.Debug|x86.Build.0 = Debug|x86
+		{E157CF1F-E3E0-4F31-80C8-ED69F6F1A819}.Release|x86.ActiveCfg = Release|x86
+		{E157CF1F-E3E0-4F31-80C8-ED69F6F1A819}.Release|x86.Build.0 = Release|x86
+		{591AD1B8-709E-4404-A120-D96D04CBBE51}.Debug|x86.ActiveCfg = Debug
+		{591AD1B8-709E-4404-A120-D96D04CBBE51}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

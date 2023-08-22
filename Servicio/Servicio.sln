@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicio", "Servicio\Servicio.csproj", "{2A125FE1-E645-417F-BF7C-A1790AFBCC84}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{D82221C7-1F22-42DD-9501-F4F2AA9C32BA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.2.13:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Servicio\\Servicio.csproj
+		SccProjectName1 = Servicio
+		SccLocalPath1 = Servicio
+		SccProjectUniqueName2 = Setup1\\Setup1.vdproj
+		SccProjectName2 = Setup1
+		SccLocalPath2 = Setup1
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A125FE1-E645-417F-BF7C-A1790AFBCC84}.Debug|x86.ActiveCfg = Debug|x86
+		{2A125FE1-E645-417F-BF7C-A1790AFBCC84}.Debug|x86.Build.0 = Debug|x86
+		{2A125FE1-E645-417F-BF7C-A1790AFBCC84}.Release|x86.ActiveCfg = Release|x86
+		{2A125FE1-E645-417F-BF7C-A1790AFBCC84}.Release|x86.Build.0 = Release|x86
+		{D82221C7-1F22-42DD-9501-F4F2AA9C32BA}.Debug|x86.ActiveCfg = Debug
+		{D82221C7-1F22-42DD-9501-F4F2AA9C32BA}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

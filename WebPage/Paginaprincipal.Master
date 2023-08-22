@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#"  CodeBehind="Paginaprincipal.master.cs" Inherits="WebPage.Paginaprincipal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        
+    </style>
+    <script language="javascript" type="text/javascript">
+        function alargar() {
+            var alto = (document.getElementById("contenidos").clientHeight)-8;
+            var bajo = (alto - 3);
+            document.getElementById("menuBorder").style.height = bajo+"px";
+            document.getElementById("container").style.height = alto+"px";
+            
+        } 
+    </script>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    </head>
+<body onload="window.history.go(1);" oncontextmenu="return false">
+
+  <form id="form1" runat="server">
+  
+    <div class="top">
+        
+                   <div class="container">
+                   <p><asp:ScriptManager ID="ScriptManager1" runat="server">
+                    </asp:ScriptManager>
+                
+                    <asp:Label ID="lblFecha" runat="server"></asp:Label></p>
+
+                        <img alt="PAX" width="300" height="133"
+                            longdesc="http://localhost:3320/Imagenes/logopax_azul-300x155.png" 
+                            src="Imagenes/logopax_azul-300x155.png" />
+                        <h1>Control de tiempos</h1>
+                </div>
+    </div>
+    <div class="sheet"><div class="container" id="container">
+    <div id="menuBorder" class="menu" runat="server">
+            <h1 style="width: 225px"><asp:Label ID="lblMenu" runat="server" Text="<%$ Resources:Resource_es,lblMenu%>"></asp:Label></h1>
+            <div style="min-height: 300px; width: 225px; height: 264px;">
+                <asp:Menu ID="Menu1" runat="server" onmenuitemclick="Menu1_MenuItemClick1">
+                </asp:Menu>
+            </div>
+            </div><!--Cierre del menu-->
+            <div class="contenidos" ID="contenidos">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+            
+            <div style="width: 764px; height: 283px">
+                <table width ="100%">
+                    <tr>
+                        <td>
+                            
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            </asp:ContentPlaceHolder>
+            </div><!--Cierre del contenido-->
+    </div></div>
+    <asp:Label ID="lbltypo" runat="server" Text="Label" Visible="False"></asp:Label>
+  </form>
+</body>
+</html>

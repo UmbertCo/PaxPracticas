@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:nomina12="http://www.sat.gob.mx/nomina12" Version="3.3" Fecha="2017-06-09T16:04:38" Sello="BKhxoQkR1fPiDA01yZtqjrqziaZ6/C2ZSsZot/L3MmKknMH9qS0F+HyvuUw6nmqbFAJK/SIjNlWKlaZXtkTHtjK3Tt+FrQbUu4xIPPt6CtqPARE4dGWQAS0hRyEmCh6LBHjqVAqxHm1THSKdkAaUJxIVQAxahHlac3ACicx6KF7f5IUb5L87GYVLWiZahHk7B4RlD1h6tvoZVqw/9idfif8i6V1lqvqO9r21l6QBdB9vk0aABggD+HnZXHsN6pXFfAJnxE5H/KKNyxeCkzr6sYIHo6fd/2KuN0giAMmXzsUOW0tE1Z4WPhGxmLx7RmKhIqXbLwJzj26poy3HXRATRw==" FormaPago="99" NoCertificado="20001000000300022755" Certificado="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" SubTotal="200.00" Moneda="MXN" TipoCambio="1" Total="200.00" TipoDeComprobante="N" MetodoPago="PUE" Serie="0000000000" Folio="0000000000000000" Confirmacion="00000" LugarExpedicion="20000" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/nomina12 http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina12.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfdi:EmisorComprobante Rfc="MAG041126GT8" Nombre="Ismael Hidalgo" RegimenFiscal="601" />
+  <cfdi:ReceptorComprobante Rfc="AAAA801014M1A" Nombre="Ismael Ignacio Hidalgo Escobedo" UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="84111505" Cantidad="1" ClaveUnidad="ACT" Descripcion="Pago de nómina" ValorUnitario="200.00" Importe="200.00" Descuento="0" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="0" />
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="4e2f8d00-821c-4163-8a9a-bbd50904b193" FechaTimbrado="2017-06-09T17:04:42" RfcProvCertif="DAL050601L35" Leyenda="Leyenda del SAT" SelloCFD="BKhxoQkR1fPiDA01yZtqjrqziaZ6/C2ZSsZot/L3MmKknMH9qS0F+HyvuUw6nmqbFAJK/SIjNlWKlaZXtkTHtjK3Tt+FrQbUu4xIPPt6CtqPARE4dGWQAS0hRyEmCh6LBHjqVAqxHm1THSKdkAaUJxIVQAxahHlac3ACicx6KF7f5IUb5L87GYVLWiZahHk7B4RlD1h6tvoZVqw/9idfif8i6V1lqvqO9r21l6QBdB9vk0aABggD+HnZXHsN6pXFfAJnxE5H/KKNyxeCkzr6sYIHo6fd/2KuN0giAMmXzsUOW0tE1Z4WPhGxmLx7RmKhIqXbLwJzj26poy3HXRATRw==" SelloSAT="Crl31Qqr25tMsoehxYYmzR7eRg/Hlf8A9ZtTtRG7Z22/SPTFcfyFrRZ5TMbXvjCXf21N/jPP+UXe5isKGIi3cK3dz9Q8tuW/w70iVTFgo3cspjlA3Vr37bpha9GPDbq7DEkwKnFqsnfrdb5S9Yt6hL1xdu405fcTLH7kFAMba1xlK2/d/wsusGU+8sJldo5g/u0/+JSI1nIvqsrQFIuUYSv8vCigV3Or/S0JtmN7UvnvWa2GiTXqjTTYPWDBNFKOrzfuUOj3svV42glSoQBCdkAn+Y2ej16HThZ1mFwnO0nRe3U/bZ/iPjS41SMY0C0fRRZRnb+qfzjBhP2T/oKYSw==" NoCertificadoSAT="20001000000300022323" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/timbrefiscaldigital/TimbreFiscalDigitalv11.xsd" />
+    <nomina12:Nomina Version="1.2" TipoNomina="O" FechaPago="2017-06-09" FechaInicialPago="2017-06-01" FechaFinalPago="2017-06-15" NumDiasPagados="15"  TotalPercepciones="200.00" TotalDeducciones="2678.65" TotalOtrosPagos="1253.44">
+      <nomina12:Emisor RegistroPatronal="1234" Curp="HIEI840901HCHDSS02" />
+      <nomina12:Receptor Curp="HIEI840901HCHDSS02" NumSeguridadSocial="56487154" FechaInicioRelLaboral="2017-02-01" Antigüedad="P19W" TipoContrato="01" Sindicalizado="No" TipoJornada="01" TipoRegimen="02" NumEmpleado="01" Departamento="Departemeto de Desarrollo" Puesto="Desarrollador de Software" RiesgoPuesto="1" PeriodicidadPago="01" CuentaBancaria="000000000000000000" SalarioBaseCotApor="4000" SalarioDiarioIntegrado="20" ClaveEntFed="CHH" />
+      <nomina12:Percepciones TotalSueldos="200.00" TotalGravado="200.00" TotalExento="0.00">
+        <nomina12:Percepcion TipoPercepcion="001" Clave="001" Concepto="Sueldos, Salarios  Rayas y Jornales" ImporteGravado="200.00" ImporteExento="0.00" />
+         <nomina12:Percepcion TipoPercepcion="045" Clave="PER-045" Concepto="Acciones o Títulos valor que Representan Bienes" ImporteGravado="1780.50" ImporteExento="250.00">
+          <nomina12:AccionesOTitulos ValorMercado="1500.52" PrecioAlOtorgarse="1300.25"/>
+        </nomina12:Percepcion>        
+        <nomina12:JubilacionPensionRetiro TotalUnaExhibicion="5890.45" TotalParcialidad="0.00" MontoDiario="0.00" IngresoAcumulable="2000.00" IngresoNoAcumulable="755.75"/>
+        <nomina12:SeparacionIndemnizacion TotalPagado="1800.00" NumAñosServicio="3" UltimoSueldoMensOrd="5000.00" IngresoAcumulable="2000.00" IngresoNoAcumulable="1800.00"/>
+        <nomina12:Percepcion TipoPercepcion="019" Clave="PER-019" Concepto="Horas extra" ImporteGravado="780.50" ImporteExento="200.00">
+          <nomina12:HorasExtra Dias="2" TipoHoras="03" HorasExtra="5" ImportePagado="970.50"/>
+        </nomina12:Percepcion>
+      </nomina12:Percepciones>
+      <nomina12:Deducciones TotalOtrasDeducciones="1685.58" TotalImpuestosRetenidos="993.07">
+        <nomina12:Deduccion TipoDeduccion="006" Clave="DED-006" Concepto="Descuento por incapacidad" Importe="500.00"/>
+        <nomina12:Deduccion TipoDeduccion="002" Clave="DED-002" Concepto="ISR" Importe="993.07"/>
+      </nomina12:Deducciones>      
+      <nomina12:OtrosPagos>
+        <nomina12:OtroPago TipoOtroPago="002" Clave="CTAOO" Concepto="Subsidio para el empleo" Importe="854.60">
+          <nomina12:SubsidioAlEmpleo SubsidioCausado="855.00"/>
+        </nomina12:OtroPago>
+        <nomina12:OtroPago TipoOtroPago="004" Clave="CTAOO" Concepto="Aplicación de saldo a favor por compensación anual" Importe="495.90">
+          <nomina12:CompensacionSaldosAFavor SaldoAFavor="120" Año="2016" RemanenteSalFav="115"/>
+        </nomina12:OtroPago>
+      </nomina12:OtrosPagos>
+      <nomina12:Incapacidades>
+        <nomina12:Incapacidad DiasIncapacidad="5" TipoIncapacidad="02" ImporteMonetario="285.00"/>
+      </nomina12:Incapacidades>
+    </nomina12:Nomina>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

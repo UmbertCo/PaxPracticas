@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PAXRecepcionProveedoresUACH", "PAXRecepcionProveedoresUACH", "{0F002BC1-4091-4313-8C3F-1441F55D2DC1}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/PAXRecepcionProveedoresUACH"
+		Debug.AspNetCompiler.PhysicalPath = "PAXRecepcionProveedoresUACH\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PAXRecepcionProveedoresUACH\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PAXRecepcionProveedoresUACH"
+		Release.AspNetCompiler.PhysicalPath = "PAXRecepcionProveedoresUACH\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PAXRecepcionProveedoresUACH\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "9958"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.2.13:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = D:\\Ivan\u0020Proyectos\\PAXRecepcionProveedoresUACH
+		SccProjectName1 = PAXRecepcionProveedoresUACH
+		SccLocalPath1 = D:\\Ivan\u0020Proyectos\\PAXRecepcionProveedoresUACH\\
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F002BC1-4091-4313-8C3F-1441F55D2DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F002BC1-4091-4313-8C3F-1441F55D2DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

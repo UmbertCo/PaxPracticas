@@ -1,0 +1,82 @@
+﻿body {
+	font-family:Century Gothic;    
+	font-size:14px;
+	text-align:justify; 
+	color: #000000;
+}
+
+a,a:active,
+a:hover {
+  outline: 0;
+  font-weight:bold;
+  color:#A5D10F;
+}
+
+.btn {   
+    border: 1px solid #056886;
+    background: #056886;
+    color: white; 
+    font-weight:bold;
+    letter-spacing:inherit;
+    cursor:pointer;
+}
+  
+
+.panel-default {
+     border-style :none;     
+}
+
+.panel-body {
+    background-color: #E4E4E4;
+}
+
+
+.panel.with-nav-tabs .panel-heading {
+    padding: 5px 5px 0 5px;
+    background-color: #FFFFFF;
+
+}
+.panel.with-nav-tabs .panel-body {
+    border-color:  #A5D10F;
+    border-style :solid;
+    border-width :thin;
+}
+
+.panel.with-nav-tabs .nav-tabs{
+	border-bottom: none;
+}
+.panel.with-nav-tabs .nav-justified{
+	margin-bottom: -1px;
+}
+
+
+.with-nav-tabs.panel-default .nav-tabs > li.active > a,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:focus {
+	color: #FFFFFF;
+	background-color: #A5D10F;
+	text-decoration: none;
+	font-weight:bold;
+	border-color: #A5D10F;
+}
+
+.merged .input-group-addon {
+    border: 0px;
+    background-color: transparent;
+
+}
+
+
+#radio-group label {
+    margin: 0;
+}
+
+
+
+.btn-warning:active, 
+.btn-warning.active,
+.btn-warning:hover, 
+.btn-warning.hover
+ {
+    background: #000000 !important; 
+}

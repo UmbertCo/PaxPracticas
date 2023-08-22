@@ -1,0 +1,105 @@
+﻿/***************Menu Padre*****************/
+
+/****Barra principal con redondeo*****/
+.NavigationMenu
+{
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    color: White;
+    background-image: url('../mnu_images/button1a.gif');
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    padding: 0px 0px 0px 20px;
+    width: 970px;
+    height: 40px;
+    margin: -20px;
+    behavior: url(~/Scripts/border-radius.htc);
+    
+}
+
+.staticMenuItemStyle
+{
+    margin:3px; 
+    display: block;
+    font-size: 14px;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.staticHoverStyle
+{
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Century Gothic';
+    cursor: pointer;
+    line-height: 20px;
+    background-color: #92ba41;
+    text-align: center;
+    border-radius: 6px;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    -webkit-border-top-right-radius:6px;
+    -webkit-border-bottom-right-radius:6px;
+    behavior: url(~/Scripts/border-radius.htc);
+}
+
+.menuItem
+{
+    display: block;
+}
+/***************Menu Padre*****************/
+
+.dynamicMenuItemStyle
+{
+    border: solid 1px #000;
+    background-color: #5a737e;
+    color: #FFFFFF;
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    height: 30px;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+}
+
+.background
+{
+    background-image: url('../mnu_images/button1a.gif');
+}
+
+.menuItemMouseOver, .menuItemSelected
+{
+    background: #92ba41;
+    color: #000000;
+    
+}
+
+.NavigationMenu A:link, .NavigationMenu A:visited, .NavigationMenu A:active
+{
+    text-decoration: none;
+    display: block;
+}
+
+.currentNodeStyle, .nodeStyle, .rootNodeStyle, a.siteMapPath
+{
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    font-size: 14px;
+}
+
+/***************************************************************************/
+.botonGris
+{
+    background-image: url('../mnu_images/botonGris.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 35px;
+    font-family: 'Century Gothic';
+    font-size: 12px;
+}

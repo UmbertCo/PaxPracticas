@@ -1,0 +1,1205 @@
+﻿<receptores>
+  <receptor rfc_receptor=" AAA010101AAA" nombre_receptor="Pruebas Completo">
+    <domicilio calle="uno" noExterior="123" noInterior="123" municipio="Chihuahua" estado="Chihuahua" pais="mexico" codigoPostal="3" />
+  </receptor>
+  <receptor rfc_receptor="A&amp;A010101AS4" nombre_receptor="CLIENTE">
+    <domicilio calle="PRIMERA" noExterior="1" colonia="CENTRO" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="12345" />
+  </receptor>
+  <receptor rfc_receptor="AAA000000AAA" nombre_receptor="Carniceria San Pedro">
+    <domicilio calle="Leon" noExterior="307" colonia="Lomas del Sol" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="AAA000000AAA" nombre_receptor="Cliente">
+    <domicilio calle="Oxxo" noExterior="123" noInterior="123" colonia="Oxxo" localidad="Oxxo" municipio="Oxxo" estado="Chihuahua" pais="Mexico" codigoPostal="31160" />
+  </receptor>
+  <receptor rfc_receptor="AAA000000AAA" nombre_receptor="Cliente 1">
+    <domicilio calle="libertad" municipio="chihuahua" estado="chihuahua" pais="mexico" />
+  </receptor>
+  <receptor rfc_receptor="AAA000000AAA" nombre_receptor="Cliented">
+    <domicilio calle="calle" noExterior="123" noInterior="123" colonia="col" localidad="loc" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="31160" />
+  </receptor>
+  <receptor rfc_receptor="AAA000000AAA" nombre_receptor="FSIFJFI">
+    <domicilio calle="GDFG" noExterior="4545" colonia="FFSFD" municipio="TYTY" estado="FGDFG" pais="FFGDFG" codigoPostal="04344" />
+  </receptor>
+  <receptor rfc_receptor="AAA000000AAA" nombre_receptor="HDDFLFKF">
+    <domicilio calle="DFGDF" noExterior="67" colonia="FHFGH" municipio="DFGDFG" estado="FDDFG" pais="GFDFG" codigoPostal="45453" />
+  </receptor>
+  <receptor rfc_receptor="AAA000000AAA" nombre_receptor="lksdfdsf">
+    <domicilio calle="fsfs" noExterior="5" noInterior="5" colonia="tgsd" localidad="fgdf" municipio="ggdf" estado="ghhhhhhhf" pais="sdr" codigoPostal="13213" />
+  </receptor>
+  <receptor rfc_receptor="AAA000000AAA" nombre_receptor="los">
+    <domicilio calle="libertad" noExterior="1" noInterior="1" colonia="libertad" localidad="Chihuahu" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31129" />
+  </receptor>
+  <receptor rfc_receptor="AAA000000AAA" nombre_receptor="Pax">
+    <domicilio calle="ave" noExterior="1" noInterior="1" colonia="avw" localidad="mexico" municipio="mexico" estado="mexico" pais="mexico" codigoPostal="21211" />
+  </receptor>
+  <receptor rfc_receptor="AAA000000AAA" nombre_receptor="Pax fac">
+    <domicilio calle="4" noExterior="4" noInterior="4" colonia="cuatro " localidad="Aguascalientes " municipio="Aguascalientes " estado="Aguascalientes " pais="Mexico" codigoPostal="56453" />
+  </receptor>
+  <receptor rfc_receptor="AAA000000AAA" nombre_receptor="PAX Facturacion">
+    <domicilio calle="Heorico Colegio Militar" colonia="Nombre de Dios." municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31105" />
+  </receptor>
+  <receptor rfc_receptor="AAA000000AAA" nombre_receptor="PAXA">
+    <domicilio calle="2" noExterior="n" colonia="6" localidad="chihuahua" municipio="chihuahua" estado="chihuahua" pais="chihuahua" codigoPostal="07276" />
+  </receptor>
+  <receptor rfc_receptor="AAA000000AAA" nombre_receptor="PAXI">
+    <domicilio calle="Libertad" noExterior="1" noInterior="1" colonia="Paz" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31130" />
+  </receptor>
+  <receptor rfc_receptor="AAA000000AAA" nombre_receptor="Refaccionaria Ochoa">
+    <domicilio calle="Privada Oceano Pacifico" noExterior="4887" noInterior="40" colonia="FOVISSSTE" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31210" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AA0" nombre_receptor="Cliente 1">
+    <domicilio calle="20 de Noviembre" noExterior="6" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="44444" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AA0" nombre_receptor="prueba 1">
+    <domicilio calle="vic gro" noExterior="3" colonia="albama" localidad="edo mex" municipio="edo mex" estado="Mexico" pais="mexico" codigoPostal="55223" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AA1" nombre_receptor="CLIENTE PRUEBA">
+    <domicilio calle="PRIMERA" noExterior="1" colonia="PRIMERA" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31111" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AA1" nombre_receptor="MARISOL UNO">
+    <domicilio calle="CALLEJON DEL BESUCON" noExterior="1" colonia="COLONIA DEL BESO" localidad="CHIHUAS" municipio="CHIHUAS" estado="CHIHUAS" pais="MÉXICO" codigoPostal="31111" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AA4" nombre_receptor="Pruebas">
+    <domicilio calle="Prueba" noExterior="q" colonia="Prueba" localidad="Prueba" municipio="Prueba" estado="Prueba" pais="Prueba" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="308">
+    <domicilio calle="x" municipio="x" estado="x" pais="x" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="AA">
+    <domicilio calle="AA" noExterior="AA" noInterior="AA" colonia="AA" localidad="AA" municipio="AA" estado="AA" pais="AA" codigoPostal="12345" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="AAA010101AAA">
+    <domicilio calle="1" municipio="1" estado="1" pais="1" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="aaaa">
+    <domicilio calle="a" noExterior="1" colonia="aa" localidad="a" municipio="a" estado="a" pais="aaa" codigoPostal="11111" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="AAAAA">
+    <domicilio calle="lol" noExterior="123" noInterior="123" colonia="lol" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31160" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="AAQM610917QJA">
+    <domicilio calle="Primera" noExterior="1" colonia="Centro" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="11111" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="acevedo">
+    <domicilio calle="ortiz mena" noExterior="24984373" noInterior="2" colonia="saucito" localidad="CHIHUAHUA" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="31238" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="ADS SYSTEMS">
+    <domicilio calle="ghsdhs" noExterior="ddhtshs" municipio="iuhih" estado="jkhgjhg" pais="jhgujgh" codigoPostal="43255" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="ADS Systems  S.A. de C.V.">
+    <domicilio calle="31" noExterior="3100" colonia="centro" localidad="centro" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="AJVJJSDFJ KDKAKSDK SDKAKDKA KSDKAKSDK ASDKKDK SDKASKDK SDKAKD SDKKS KSKDK KDKKSDK DSKKSD KSDKKS KSDKKSL JSJ SDKSKDKS">
+    <domicilio calle="SDASD SDJJASDJ SDJJASDJ SSJDJSDJ SSDKKSDK " colonia="DJADJ SJDJSADJ SJDJJD JSDJJSDJ KSDKKSDD SDJJS JSAJDJASD" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31990" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Ariana">
+    <domicilio calle="CANGURO" noExterior="2601" noInterior="4217400" colonia="LOMAS DEL SOL" localidad="CHIAHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="ARQUITECTURA HABITACIONAL E INDUSTRIAL SA DE CV">
+    <domicilio calle="Ave. Universidad" noExterior="1304" colonia="Santo Niño" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31320" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="ASD">
+    <domicilio calle="AA" noExterior="AA" noInterior="AA" colonia="AA" localidad="AA" municipio="AA" estado="AA" pais="AA" codigoPostal="12345" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="ASDASD">
+    <domicilio calle="AA" noExterior="AA" noInterior="AA" colonia="AA" localidad="AA" municipio="AA" estado="AA" pais="AAA" codigoPostal="12345" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="ASDASDADSDSAD">
+    <domicilio calle="asd" noExterior="123456" colonia="asdasd" localidad="asd" municipio="asd" estado="asd" pais="mexico" codigoPostal="31145" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="asdfasdf">
+    <domicilio calle="1" noExterior="1" noInterior="1" colonia="1" localidad="asfd" municipio="adsf" estado="asdf" pais="asfd" codigoPostal="00001" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="asdfasdfa">
+    <domicilio calle="1" municipio="1" estado="1" pais="1" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Calis">
+    <domicilio calle="a" noExterior="1" noInterior="1" colonia="a" localidad="a" municipio="a" estado="a" pais="a" codigoPostal="00001" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Central de Abastos">
+    <domicilio calle="31" noExterior="3100" colonia="centro" localidad="chihuahua" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Chachitos S.A de C.V">
+    <domicilio calle="venustiano" noExterior="34" colonia="Carranza" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="65564" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="CHONCHITOS SA DE CV">
+    <domicilio calle="F V" noExterior="5045" colonia="tamarindos" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="12123" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Cliente 1">
+    <domicilio calle="PRueba" noExterior="1" noInterior="1" colonia="Prueba" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="11111" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Cliente Pruebas">
+    <domicilio calle="Primera" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Cliente Sucursal 1 SA de CV">
+    <domicilio calle="Universidad" noExterior="1400" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="03110" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="cliente uno">
+    <domicilio calle="Calle" noExterior="100" colonia="Colonia" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Con Folio">
+    <domicilio calle="x" localidad="x" municipio="x" estado="x" pais="x" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="corpus">
+    <domicilio calle="21" noExterior="2100" colonia="sto niño" localidad="chihuahua" municipio="chihuahua" estado="mexico" pais="mexico" codigoPostal="31250" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="DogeCorp">
+    <domicilio calle="Calle" noExterior="1234" noInterior="1234" colonia="Colonia" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31160" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Eduardo">
+    <domicilio calle="libertad" noExterior="1" colonia="Paz" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31120" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Empresa">
+    <domicilio calle="31" noExterior="3100" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="mexico " codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="FIEL">
+    <domicilio calle="x" municipio="x" estado="x" pais="x" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="GARCIA LEAL">
+    <domicilio calle="washington" noExterior="6201" noInterior="4123995" colonia="panamericana" localidad="chihuahua" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="31115" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="GENERAL DE SEGUROS">
+    <domicilio calle="SEGUNDA" noExterior="2000" colonia="CENTRO" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="ici">
+    <domicilio calle="fie" noExterior="01" noInterior="01" colonia="marl" localidad="chih" municipio="chih" estado="chihuahua" pais="mexico" codigoPostal="31004" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Ismael Hidalgo">
+    <domicilio calle="58" noExterior="1000" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="LEAL">
+    <domicilio calle="GAVIOTA" noExterior="2690" noInterior="4122558" colonia="LOMAS DEL SOL" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Lozano">
+    <domicilio calle="1" noExterior="1" colonia="123123" localidad="toluca" municipio="toluca" estado="mexico" pais="mexico" codigoPostal="12312" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Mosnter">
+    <domicilio calle="olivos" noExterior="4" colonia="militares" localidad="chihahua" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="13412" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="NACIONAL FINANCIERA SNC FID DEL FIDEICOMISO FONDO DE PENSIONES DEL SIST BANRURAL">
+    <domicilio calle="AVE.INSURGENTES SUR" noExterior="1971" colonia="EDIFICIO ANEXO,NIVEL JARDIN COLONIA GUADALUPE INN" municipio="DF" estado="DF" pais="MEXICO " codigoPostal="01020" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Nombre">
+    <domicilio calle="Call 28 " noExterior="1" colonia="Centro" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31120" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="PANCHOLINO">
+    <domicilio calle="AAA" noExterior="AA" noInterior="AA" colonia="AA" localidad="AAA" municipio="AA" estado="AAA" pais="AAA" codigoPostal="12354" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="PAX">
+    <domicilio calle="Lilas" noExterior="1" noInterior="1" colonia="pax" municipio="Largo Maderal " estado="Chihuahua" pais="Mexico" codigoPostal="31130" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="PAX Fact">
+    <domicilio calle="31" noExterior="31" colonia="centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="PAXI">
+    <domicilio calle="PAZ" noExterior="1" noInterior="12" colonia="Free" localidad="lovington" municipio="lovington" estado="Lovington" pais="New York" codigoPostal="78787" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Prueba">
+    <domicilio calle="Reno" noInterior="31156" colonia="Av. Mirador" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua " pais="Méxco" codigoPostal="31114" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="PRueba1">
+    <domicilio calle="s" noExterior="s" noInterior="s" colonia="s" localidad="s" municipio="s" estado="s" pais="s" codigoPostal="34444" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Prueba308">
+    <domicilio calle="Primera" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="03100" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Pruebas">
+    <domicilio calle="pantera" noExterior="2401" noInterior="4218596" colonia="lomas del sol" localidad="chihuahua" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="PRUEBAS COBRO">
+    <domicilio calle="CAMPESTRE" noExterior="2778" noInterior="4132585" colonia="CAMPESTRE" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31113" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Pruebas RFC 2">
+    <domicilio calle="a" noExterior="1" colonia="s" localidad="a" municipio="a" estado="a" pais="a" codigoPostal="44444" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Pruebas SAT">
+    <domicilio calle="Cerrada" municipio="Polanco" estado="Mexico" pais="Mexico" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="PruebasTimbrado">
+    <domicilio calle="Cerrada" municipio="Coyoacan" estado="México" pais="México" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="pruiqawo">
+    <domicilio calle="a" noExterior="a" noInterior="a" colonia="a" localidad="a" municipio="a" estado="a" pais="a" codigoPostal="11111" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Raro">
+    <domicilio calle="Chihuahua" noExterior="2" noInterior="2" colonia="Chihuahua" localidad="Chihuahuahu" municipio="Chihuahua" estado="Chihuahua" pais="Chihuahua" codigoPostal="31130" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Razon 1">
+    <domicilio calle="CALLE1" noExterior="1" colonia="COLONIA" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Razon social de Prueba">
+    <domicilio calle="Calle de Prueba" noExterior="1" noInterior="145" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Receptor">
+    <domicilio calle="Primera" municipio="Chihuahua" estado="Chihuahua" pais="México" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Revisar Certificado">
+    <domicilio calle="NA" municipio="Chihuahua" estado="Chihuahua" pais="México" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Sabritas S.A de C.V.">
+    <domicilio calle="Paseo del Norte" noExterior="34" colonia="Paseos" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31458" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="sdfdslkjdfghkjfdkj">
+    <domicilio calle="fdsf" noExterior="4" noInterior="fds" colonia="fssd" localidad="sdfdsf" municipio="sd" estado="dfsfd" pais="dfdsf" codigoPostal="31321" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Sin Folios">
+    <domicilio calle="q" localidad="q" municipio="q" estado="q" pais="q" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="sjhdka">
+    <domicilio calle="dsa" noExterior="3" colonia="dadssa" municipio="sadsa" estado="sadsa" pais="dsa" codigoPostal="44444" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="SSLMKFNELWK">
+    <domicilio calle="DFHDSHF" municipio="DFHDHF" estado="DFHDH" pais="DFHDH" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Sucursal del Norte">
+    <domicilio calle="a" noExterior="a" noInterior="a" colonia="a" localidad="a" municipio="a" estado="a" pais="a" codigoPostal="00003" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Unidos por la paz S.A de C.V.">
+    <domicilio calle="Juarez N° 34500" noExterior="S/N" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Chihuahua" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Ventas Mayoreo">
+    <domicilio calle="31" municipio="Coyoacan" estado="Mexico" pais="Mexico" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="WDGÑOIUJ">
+    <domicilio calle="asdsad" colonia="asdasd" localidad="asdsd" municipio="adasd" estado="asdasd" pais="asdasd" codigoPostal="12345" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="x">
+    <domicilio calle="x" municipio="x" estado="x" pais="x" />
+    <domicilio calle="x" localidad="x" municipio="x" estado="x" pais="x" codigoPostal="00001" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="XXX">
+    <domicilio calle="Marmol" noExterior="1" noInterior="1" colonia="Modal" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="01111" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="xxxxx">
+    <domicilio calle="Orlando" noExterior="4545" noInterior="4554" colonia="Rios" localidad="Chih." municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31214" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101AAA" nombre_receptor="Zaragoza S.A de C.V.">
+    <domicilio calle="Calle" noExterior="1" colonia="Colonia" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="11111" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101BB1" nombre_receptor="Cliente 1">
+    <domicilio calle="Cliente1" noExterior="2" colonia="Cliente1" localidad="Cliente1" municipio="Cliente1" estado="Cliente1" pais="Cliente1" codigoPostal="11111" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101BBB" nombre_receptor="Alalala">
+    <domicilio calle="lalala" noExterior="12" noInterior="o" colonia="lalala" localidad="mex" municipio="mex" estado="mex" pais="mex" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101BBB" nombre_receptor="xxxxx">
+    <domicilio calle="q" municipio="q" estado="q" pais="q" codigoPostal="00001" />
+  </receptor>
+  <receptor rfc_receptor="AAA010101XX1" nombre_receptor="Rubros &amp; Rojas">
+    <domicilio calle="cedros" noExterior="1000" colonia="centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="AAA010102AAA" nombre_receptor="Alma Maria Rico">
+    <domicilio calle="Venustiano Carranza" noExterior="4141" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31100" />
+  </receptor>
+  <receptor rfc_receptor="AAA010102AAA" nombre_receptor="JABIL">
+    <domicilio calle="INDUSTRIAS" noExterior="1236" colonia="INDUSTRIAL" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="45877" />
+  </receptor>
+  <receptor rfc_receptor="AAA010102AAA" nombre_receptor="LABINAL S.A DE C.V.">
+    <domicilio calle="NICOLAS GOGOL" noExterior="8745" colonia="COMPLEJO INDUSTRIAL" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="65255" />
+  </receptor>
+  <receptor rfc_receptor="AAA010102AAA" nombre_receptor="MARISOL QUINTANA">
+    <domicilio calle="11" noExterior="1112" colonia="CDP" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31100" />
+  </receptor>
+  <receptor rfc_receptor="AAA010103AAA" nombre_receptor="Aquiles Poncho Delano">
+    <domicilio calle="Juan Escutia" noExterior="6969" colonia="Parral" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31104" />
+  </receptor>
+  <receptor rfc_receptor="AAA010103AAA" nombre_receptor="COMPULAND">
+    <domicilio calle="AMERICAS" noExterior="45" colonia="AMERICAS" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="56222" />
+  </receptor>
+  <receptor rfc_receptor="AAA010103AAA" nombre_receptor="Empresa Ejemplo">
+    <domicilio calle="Independencia" noExterior="1251" colonia="Centro" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31111" />
+  </receptor>
+  <receptor rfc_receptor="AAA010104AAA" nombre_receptor="Elma Canon Lamas">
+    <domicilio calle="Garcia Conde" noExterior="6941" colonia="Universidad" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31150" />
+  </receptor>
+  <receptor rfc_receptor="AAA010105AAA" nombre_receptor="KEY PLASTICS">
+    <domicilio calle="Miguel de Cervantes Saavedra " noExterior="1004" colonia="Complejo Industrial Chihuahua" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31150" />
+  </receptor>
+  <receptor rfc_receptor="AAA010105AAA" nombre_receptor="Noe Steschin Gando">
+    <domicilio calle="The Gringo Way" noExterior="6633" localidad="Amarillo" municipio="Amarillo" estado="Texas" pais="Estados Unidos" />
+  </receptor>
+  <receptor rfc_receptor="AAA010106AAA" nombre_receptor="Alma Madero Benitez">
+    <domicilio calle="Hacienda del Portal" noExterior="10120" colonia="Fraccionamiento: Hacienda de las Torres II" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="32695" />
+  </receptor>
+  <receptor rfc_receptor="AAA010201AAA" nombre_receptor="TRW">
+    <domicilio calle="Americas" noExterior="5687" colonia="Complejo Industrial Americas" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="14571" />
+  </receptor>
+  <receptor rfc_receptor="AAA010203AAA" nombre_receptor="Empresa del cliente ">
+    <domicilio calle="38" noExterior="3010" colonia="Pacifico" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31130" />
+  </receptor>
+  <receptor rfc_receptor="AAA010401AAA" nombre_receptor="Juan Perez">
+    <domicilio calle="20 de Noviembre" noExterior="2145" colonia="Cerro de la Cruz" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31141" />
+  </receptor>
+  <receptor rfc_receptor="AAA020202AAA" nombre_receptor="dsfdfdsfdsfd">
+    <domicilio calle="fgfdgf" noExterior="gddfgf" noInterior="g" colonia="fgfgfdg" localidad="fgfd" municipio="gfdg" estado="gdfgf" pais="gfdg" codigoPostal="54565" />
+  </receptor>
+  <receptor rfc_receptor="AAA020202BBB" nombre_receptor="xxx">
+    <domicilio calle="1" noExterior="1" noInterior="1" colonia="1" localidad="1" municipio="1" estado="1" pais="1" codigoPostal="00001" />
+  </receptor>
+  <receptor rfc_receptor="AAA020202CCC" nombre_receptor="ddd">
+    <domicilio calle="1" noExterior="1" noInterior="1" colonia="1" localidad="1" municipio="1" estado="1" pais="1" codigoPostal="00001" />
+  </receptor>
+  <receptor rfc_receptor="AAA030101AAA" nombre_receptor="José Moreno">
+    <domicilio calle="Pino" noExterior="1455" colonia="Granjas" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="21455" />
+  </receptor>
+  <receptor rfc_receptor="AAA030303AAA" nombre_receptor="clienteproveedor">
+    <domicilio calle="cisnes" noExterior="34" colonia="barrera" municipio="Apodaca" estado="Aguascalientes" pais="Mexico" codigoPostal="12432" />
+  </receptor>
+  <receptor rfc_receptor="AAA040302SSS" nombre_receptor="Tomateros SA">
+    <domicilio calle="31" localidad="Centro" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="AAA040404AAA" nombre_receptor="Motores pro">
+    <domicilio calle="sin nombre" noExterior="sin numero" colonia="la escondida" localidad="mexico" municipio="ecatepec" estado="mexico" pais="mexico" codigoPostal="23352" />
+  </receptor>
+  <receptor rfc_receptor="AAA040404AAA" nombre_receptor="PAXI">
+    <domicilio calle="libertad" noExterior="2" colonia="paz" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31150" />
+  </receptor>
+  <receptor rfc_receptor="AAA090909AA6" nombre_receptor="NO APLICA">
+    <domicilio calle="TRIAS" noExterior="223" colonia="centro" municipio="JUAREZ" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31220" />
+  </receptor>
+  <receptor rfc_receptor="AAA111111AAA" nombre_receptor="Ferreteria villa juarez">
+    <domicilio calle="agustin melgar" noExterior="324" colonia="villa juarez" localidad="chihuahua" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="31060" />
+  </receptor>
+  <receptor rfc_receptor="AAAA010101AAA" nombre_receptor="AAA">
+    <domicilio calle="AA" noExterior="AA" noInterior="AA" colonia="AA" localidad="AA" municipio="AA" estado="AA" pais="AA" codigoPostal="12345" />
+  </receptor>
+  <receptor rfc_receptor="AAAA010101AAA" nombre_receptor="ASD">
+    <domicilio calle="FSDSDFSD" noExterior="SDFSDFSDF" noInterior="SDSD" colonia="SDFSDF" localidad="SDFSDFDSF" municipio="SDFSDFDS" estado="SDFSDFDSF" pais="FSFDSFSDF" codigoPostal="36548" />
+  </receptor>
+  <receptor rfc_receptor="AAAA010101AAA" nombre_receptor="Cliente Prueba 1">
+    <domicilio calle="Prueba" noExterior="1" noInterior="1" colonia="Prueba" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31400" />
+  </receptor>
+  <receptor rfc_receptor="AAAA010101AAA" nombre_receptor="Prueba">
+    <domicilio calle="14 noviembre" noExterior="1" colonia="Fechas" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="23456" />
+  </receptor>
+  <receptor rfc_receptor="AAAA123456123" nombre_receptor="Pruebas Recupera">
+    <domicilio calle="1" noExterior="1" noInterior="1" colonia="1" localidad="1" municipio="1" estado="1" pais="1" codigoPostal="00001" />
+    <domicilio calle="36 1/2" noExterior="5674" noInterior="12" colonia="Dale" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31300" />
+    <domicilio calle="asdax" noExterior="asdx" noInterior="asdx" colonia="asdax" localidad="asdadex" municipio="asdx" estado="asdx" pais="asdax" codigoPostal="00023" />
+  </receptor>
+  <receptor rfc_receptor="AAB010101AAA" nombre_receptor="Limpieza profesional">>
+    <domicilio calle="Ocampo" noExterior="548" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="16584" />
+  </receptor>
+  <receptor rfc_receptor="AAB010102AAA" nombre_receptor="Miguel Ochoa">
+    <domicilio calle="Av.Teofilo Borunda" noExterior="1478" colonia="Centro" municipio="Chihuahua" estado="Chihuaha" pais="México" codigoPostal="31447" />
+  </receptor>
+  <receptor rfc_receptor="AAD010101AAA" nombre_receptor="Mantenimiento eéctrico">
+    <domicilio calle="Juan Escutia" noExterior="2654" colonia="Nombre de Dios" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31147" />
+  </receptor>
+  <receptor rfc_receptor="AAD990814BP7" nombre_receptor="Usuario">
+    <domicilio calle="sadas" noExterior="sadas" noInterior="sadas" colonia="dsa" localidad="asdadsaas" municipio="sdas" estado="sadas" pais="asdsa" codigoPostal="31160" />
+  </receptor>
+  <receptor rfc_receptor="AAF010101AAA" nombre_receptor="DELPHI SA DE CV">
+    <domicilio calle="independencia" noExterior="25456" colonia="centro" municipio="chihuahua" estado="Chihuahua" pais="México" codigoPostal="31146" />
+  </receptor>
+  <receptor rfc_receptor="AAQM610917QJA" nombre_receptor="12345678a">
+    <domicilio calle="Calle 1" noExterior="1" colonia="Colonia 1" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="AAQM610917QJA" nombre_receptor="AAQ">
+    <domicilio calle="123" noExterior="123" noInterior="123" colonia="Colonia" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31160" />
+  </receptor>
+  <receptor rfc_receptor="ABC050505VD5" nombre_receptor="Tortillas INDIO">
+    <domicilio calle="36" noExterior="3625" colonia="Conocida" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="58963" />
+  </receptor>
+  <receptor rfc_receptor="ABC110411DE5" nombre_receptor="alfabeto ab de cd">
+    <domicilio calle="Domicilio conocido" colonia="Pueblo chico" localidad="Témoris" municipio="Tecoripa" estado="Chihuahua" pais="México" />
+  </receptor>
+  <receptor rfc_receptor="AEGL561106A89" nombre_receptor="acevedocomercial SA de CV ">
+    <domicilio calle="manzana" noExterior="36" colonia="aeropuerto " localidad="chihuahua" municipio="chuhuahua" estado="chihuahua" pais="mexico " codigoPostal="31210" />
+  </receptor>
+  <receptor rfc_receptor="AEGL561106A89" nombre_receptor="distribuidora de granos ">
+    <domicilio calle="manzanas " noExterior="4802" noInterior="46" colonia="aeropuerto " localidad="chihuahua" municipio="chihuahua" estado="chihuahua" pais="Mexico " codigoPostal="31224" />
+  </receptor>
+  <receptor rfc_receptor="AER012011AER" nombre_receptor="Antartic">
+    <domicilio calle="Perisur" noExterior="12" colonia="Perisur" localidad="Oaxaca" municipio="Oaxaca" estado="Oaxaca" pais="Mexico" codigoPostal="32165" />
+  </receptor>
+  <receptor rfc_receptor="AER321234AAA" nombre_receptor="Francona">
+    <domicilio calle="Chihuahua" noExterior="12" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="AES010101QWE" nombre_receptor="Empresa Social">
+    <domicilio calle="cerio" noExterior="12" colonia="centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="AIES681205DE3" nombre_receptor="RADIORAMA DE MEXICO S DE D">
+    <domicilio calle="NOGALES" noExterior="15100" colonia="INDEPENDENCIA" municipio="HIDALGO DEL PARRAL" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31250" />
+  </receptor>
+  <receptor rfc_receptor="ANC9909066A0" nombre_receptor="Advanced Network Consulting S.A de C.V">
+    <domicilio calle="20" noExterior="2015" colonia="Fracc. Vermont" localidad="Chihuahua" municipio="Chihuahua" estado="Mexico" pais="Chihuahua" codigoPostal="31214" />
+    <domicilio calle="Juarez y Ocampo" noExterior="5" colonia="Centro" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="ARA010101AAA" nombre_receptor="Cliente ejemplo">
+    <domicilio calle="2a" noExterior="1245" colonia="Centro" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31145" />
+  </receptor>
+  <receptor rfc_receptor="ASA121212WQW" nombre_receptor="Pumas">
+    <domicilio calle="blas" noExterior="2500" colonia="sur" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="45210" />
+  </receptor>
+  <receptor rfc_receptor="ASD010101RRR" nombre_receptor="Arnoldo Solis">
+    <domicilio calle="x" municipio="Ch" estado="Michoacan" pais="Mexico" />
+  </receptor>
+  <receptor rfc_receptor="AWD132879EFR" nombre_receptor="El ultimo cliente">
+    <domicilio calle="a" municipio="aun mas lejos" estado="mas lejos" pais="lejos" codigoPostal="23432" />
+    <domicilio calle="sdfsf" municipio="sdfs" estado="sdf" pais="fds" codigoPostal="23233" />
+  </receptor>
+  <receptor rfc_receptor="AWE090912ERA" nombre_receptor="Prueba Sox">
+    <domicilio calle="31" noExterior="3100" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="BBB000000BBA" nombre_receptor="Baca">
+    <domicilio calle="hjk" municipio="jkh" estado="fdsj" pais="mexico" />
+  </receptor>
+  <receptor rfc_receptor="BBB000000BBA" nombre_receptor="Corpus">
+    <domicilio calle="Centro" noExterior="1" colonia="12" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="13211" />
+  </receptor>
+  <receptor rfc_receptor="BBB000000BBA" nombre_receptor="Prueba C">
+    <domicilio calle="Centro" noExterior="1" colonia="Centro" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31120" />
+  </receptor>
+  <receptor rfc_receptor="BBB000000BBB" nombre_receptor="PRUEBA1">
+    <domicilio calle="JIRAFA" noExterior="3001" noInterior="133889" colonia="LOMAS DEL SOL" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31115" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101AAA" nombre_receptor="Cliente 2">
+    <domicilio calle="calle " noExterior="123" colonia="colonia" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101AAA" nombre_receptor="Prueba212">
+    <domicilio calle="31" noExterior="3100" colonia="cENTRO" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BB0" nombre_receptor="Cliente 1">
+    <domicilio calle="Calle 1" noExterior="3" colonia="Colonua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BB0" nombre_receptor="Cliente de Prueba">
+    <domicilio calle="20 DE NOVIEMBRE" noExterior="33" colonia="CENTRO" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MÉXICO" codigoPostal="11111" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BB1" nombre_receptor="ANA LAURA">
+    <domicilio calle="CUARTA" noExterior="3" colonia="GARZA" localidad="JUAREZ" municipio="JUAREZ" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="32222" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BB1" nombre_receptor="CLIENTE EJEMPLO">
+    <domicilio calle="SEGUNDA" noExterior="3" colonia="NORTE" municipio="JUAREZ" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="12346" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BB1" nombre_receptor="MARISOL">
+    <domicilio calle="PELIGRO" noExterior="1" colonia="CENTRO" localidad="ROBACION" municipio="TEPITO" estado="MEXICO" pais="MEXICO" codigoPostal="11111" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BB1" nombre_receptor="Privado">
+    <domicilio calle="sisneros" noExterior="1000" colonia="centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BB1" nombre_receptor="Pruebas">
+    <domicilio calle="Pruebas" noExterior="1" colonia="Pruebas" localidad="Pruebas" municipio="Pruebas" estado="Pruebas" pais="Pruebas" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BB3" nombre_receptor="Quesos del Norte S.A. de C.V.">
+    <domicilio calle="Chihuahua" noExterior="1" colonia="Chihuahua" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="11111" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BB7" nombre_receptor="Cliente Prueba">
+    <domicilio calle="14 de julio" noExterior="23" colonia="Guadalupe" localidad="Chihuahuah" municipio="Chihuhua" estado="Chihuahua" pais="Mexico" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBA" nombre_receptor="Calis">
+    <domicilio calle="1" municipio="a" estado="a" pais="a" codigoPostal="00001" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBA" nombre_receptor="carnitas el santana">
+    <domicilio calle="tercera" noExterior="501" colonia="jardines" localidad="chihuahaua" municipio="chihuahua" estado="chihuahaua" pais="mexico" codigoPostal="31050" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBA" nombre_receptor="Cliente">
+    <domicilio calle="1" municipio="1" estado="1" pais="1" />
+    <domicilio calle="Primera" noExterior="57660" noInterior="4" colonia="Dale" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31100" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBA" nombre_receptor="compupasito">
+    <domicilio calle="nose" noExterior="2342" noInterior="|" colonia="centro" localidad="chihuahua" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="31050" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBA" nombre_receptor="La Tienda de la esquina S.A de C.V">
+    <domicilio calle="La Avenida" noExterior="Ocho" noInterior="Cinco" colonia="La Bonita" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBA" nombre_receptor="NO APLICA 1">
+    <domicilio calle="PRIMERA" noExterior="1" colonia="CENTRO" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31200" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBA" nombre_receptor="zaragoza">
+    <domicilio calle="12" noExterior="1" noInterior="1" colonia="LAS" municipio="Monterrey" estado="Monterrey" pais="Mexico" codigoPostal="31120" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="Abarrotes La lupita">
+    <domicilio calle="20 de Noviembre" noExterior="34" colonia="Santa Rosa" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="47896" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="Ariana Acevedo">
+    <domicilio calle="Canguro" noExterior="2601" colonia="Lomas del Sol" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31110" />
+    <domicilio calle="Washington" noExterior="501" colonia="Lomas del Sol" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="Cliente 1">
+    <domicilio calle="31" noExterior="3100" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="Cliente 2">
+    <domicilio calle="BBB010101BBB" noExterior="2" colonia="BBB010101BBB" localidad="BBB010101BBB" municipio="BBB010101BBB" estado="BBB010101BBB" pais="Prueba" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="CLIENTE PRUEBA 1">
+    <domicilio calle="CALLE 1" noExterior="1" colonia="COLONIA 1" localidad="LOCALIDAD 1" municipio="MUNICIPIO 1" estado="ESTADO 1" pais="PAIS" codigoPostal="11111" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="Cliente1">
+    <domicilio calle="Belovin" noExterior="2" colonia="Preferencial" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="32456" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="Garcia">
+    <domicilio calle="Gaviota" noExterior="6523" noInterior="4177963" colonia="lomas del sol" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="IMAP">
+    <domicilio calle="2 Enero" noExterior="2" colonia="Fecha" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="Mas Pruebas">
+    <domicilio calle="Guadalupe" noExterior="301" colonia="Rosas" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31115" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="Motors">
+    <domicilio calle="Washington" noExterior="901" colonia="Lomas del Sol" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31112" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BbB" nombre_receptor="Prueba">
+    <domicilio calle="Pantera" noExterior="3022" noInterior="144729" colonia="Panamericana" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31114" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="Prueba2">
+    <domicilio calle="canguro" noExterior="2601" noInterior="4217400" colonia="lomas del sol" localidad="chihuahua" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="PRUEBAS">
+    <domicilio calle="leon" noExterior="2401" noInterior="4217400" colonia="lomas del sol" localidad="chihuahua" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="Pruebas cobro">
+    <domicilio calle="Canguro" noExterior="2601" noInterior="4137887" colonia="lomas del sol" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="Pruebas Receptores">
+    <domicilio calle="J" noExterior="1" colonia="J" localidad="J" municipio="J" estado="J" pais="S" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="Sucursal 1">
+    <domicilio calle="Leon" noExterior="3501" colonia="Lomas del Sol" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="Temporal">
+    <domicilio calle="31" noExterior="3100" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="x">
+    <domicilio calle="a" noExterior="a" noInterior="a" colonia="a" localidad="a" municipio="a" estado="a" pais="a" codigoPostal="00001" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBB" nombre_receptor="Zapateria Tres Hermanos">
+    <domicilio calle="Washington" noExterior="110" colonia="Lomas del Sol" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101BBC" nombre_receptor="Cliente 1 prueba">
+    <domicilio calle="Calle cliente 1" noExterior="1" colonia="Colonia cliente 1" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="BBB010101CC7" nombre_receptor="Cliente 1">
+    <domicilio calle="Rosales" noExterior="502" colonia="Juarez" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="44444" />
+  </receptor>
+  <receptor rfc_receptor="BBB020202BB1" nombre_receptor="CLIENTE EJEMPLO">
+    <domicilio calle="TERCERA" noExterior="3" colonia="SUR" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="11111" />
+  </receptor>
+  <receptor rfc_receptor="BBB020202BB2" nombre_receptor="CLIENTE AUTOZONE">
+    <domicilio calle="SEGUNDA" noExterior="2" colonia="NORTE" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31111" />
+  </receptor>
+  <receptor rfc_receptor="BBB020202BB2" nombre_receptor="cliente ejemplo">
+    <domicilio calle="Niños Héroes" noExterior="2345" colonia="Centro" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31111" />
+  </receptor>
+  <receptor rfc_receptor="BBB020202BB2" nombre_receptor="CLIENTE PARA PRUEBAS">
+    <domicilio calle="CALLE DEL CLIENTE PARA PRUEBAS" noExterior="3" colonia="COLONIA DEL CLIENTE PARA PRUEBAS" localidad="AGUASCALIENTES" municipio="AGUASCALIENTES" estado="AGUASCALIENTES" pais="MEXICO" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="BBB020202BB2" nombre_receptor="CLIENTE PRUEBA DE EJEMPLO PARA UN NOMBRE GRANDE DEL CLIENTE">
+    <domicilio calle="FRACCIONAMIENTO QUINTAS PRINCIPE CARLOS VII DE LA RIVERA" noExterior="1" colonia="CENTRO" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31111" />
+  </receptor>
+  <receptor rfc_receptor="BBB020202BB2" nombre_receptor="CLIENTE PRUEBITAS1">
+    <domicilio calle="CALLESILLA DE GDL" noExterior="3" colonia="DE LA NICE" localidad="GUADALAJARA" municipio="GUADALAJARA" estado="JALISCO" pais="MÉXICO" codigoPostal="31333" />
+  </receptor>
+  <receptor rfc_receptor="BBB020202BB2" nombre_receptor="CLIENTE1">
+    <domicilio calle="PRIMERA" noExterior="1" colonia="CENTRO" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31111" />
+  </receptor>
+  <receptor rfc_receptor="BBB020202BB2" nombre_receptor="CLIENTEB">
+    <domicilio calle="PRINCIPAL" noExterior="1" colonia="CENTRO" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="BBB020202BB2" nombre_receptor="PRUEBA CLIENTE">
+    <domicilio calle="SEGUNDA" noExterior="2" colonia="CENTRO" municipio="AGUASCALIENTES" estado="AGUASCALIENTES" pais="MEXICO" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="BBB020202BBA" nombre_receptor="CLIENTE EJEMPLO">
+    <domicilio calle="TERCERA" noExterior="3" colonia="NORTE" municipio="JUAREZ" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="BBB020202BBA" nombre_receptor="Tortillas Perez">
+    <domicilio calle="20" noExterior="2013" colonia="Conocida" municipio="Chivas" estado="Jalisco" pais="México" codigoPostal="11111" />
+  </receptor>
+  <receptor rfc_receptor="BBB020202BBB" nombre_receptor="ads systems">
+    <domicilio calle="heroico" noExterior="31238" colonia="nombre de Dios" localidad="chihuahua" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="31238" />
+  </receptor>
+  <receptor rfc_receptor="BBB020202BBB" nombre_receptor="ggg">
+    <domicilio calle="x" municipio="x" estado="xx" pais="x" codigoPostal="00004" />
+  </receptor>
+  <receptor rfc_receptor="BBB030303BB3" nombre_receptor="CLIENTE EJEMPLO">
+    <domicilio calle="TRES" noExterior="3" colonia="SUR" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="43333" />
+  </receptor>
+  <receptor rfc_receptor="BEGA7207277Z8" nombre_receptor="ANA LILIA BERZOZA GAYTAN">
+    <domicilio calle="Francisco Villa" noExterior="2536" noInterior="2" colonia="Revolucion" localidad="Huautla" municipio="Cuautla" estado="Morelos" pais="Mexico" codigoPostal="62748" />
+  </receptor>
+  <receptor rfc_receptor="BEGA7207277Z8" nombre_receptor="PRUEBA 111">
+    <domicilio calle="23" noExterior="4411" colonia="CENTRO" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="BEGA7207277Z8" nombre_receptor="PRUEBA 12">
+    <domicilio calle="32" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" />
+  </receptor>
+  <receptor rfc_receptor="BEM720424U1A" nombre_receptor="cliente pruebas">
+    <domicilio calle="PRIMERA" noExterior="1" colonia="CENTRO" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="BEYG440520LFA" nombre_receptor="GONZALO BERZOZA YAÑEZ">
+    <domicilio calle="32" noExterior="4411" colonia="Dale" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31050" />
+  </receptor>
+  <receptor rfc_receptor="BUVM860310AA1" nombre_receptor="Prueba">
+    <domicilio calle="prueba" noExterior="1" noInterior="1" colonia="prueba" localidad="chihuahua" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="12343" />
+  </receptor>
+  <receptor rfc_receptor="BUVM860310AA1" nombre_receptor="Prueba1">
+    <domicilio calle="q" noExterior="qq" noInterior="q" colonia="q" localidad="q" municipio="q" estado="q" pais="q" codigoPostal="13142" />
+  </receptor>
+  <receptor rfc_receptor="BUVM860310AA1" nombre_receptor="PRUEBAa">
+    <domicilio calle="p" noExterior="p" noInterior="p" colonia="p" localidad="p" municipio="p" estado="p" pais="p" codigoPostal="32432" />
+  </receptor>
+  <receptor rfc_receptor="BUVM860310AA1" nombre_receptor="Pruebita S.A de C.V">
+    <domicilio calle="Bombom" noExterior="33" noInterior="1" colonia="Dulces Sueños" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="44785" />
+  </receptor>
+  <receptor rfc_receptor="CAC980917614" nombre_receptor="COMERCIALIZADORA Y ABASTECEDORA CERCA SA DE CV">
+    <domicilio calle="Caoba" noExterior="3678" colonia="Del Bosque" localidad="Jojutla" municipio="Jojutla" estado="Morelos" pais="Mexico" codigoPostal="62900" />
+  </receptor>
+  <receptor rfc_receptor="CCC000000CCA" nombre_receptor="Coco">
+    <domicilio calle="fds" municipio="fds" estado="fds" pais="fds" />
+  </receptor>
+  <receptor rfc_receptor="CCC000000CCA" nombre_receptor="corpus">
+    <domicilio calle="Libertad" noExterior="1" colonia="Paz" municipio="Chihuahua" estado="Chihuhua" pais="Mexico" codigoPostal="31120" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101AAA" nombre_receptor="Refacciones Ochoa">
+    <domicilio calle="Jirafa" noExterior="3455" colonia="Lomas del Sol" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101BBA" nombre_receptor="Monsters">
+    <domicilio calle="Casas viejas" noExterior="3" colonia="napoles" municipio="aledaños" estado="chihuahua" pais="mexico" codigoPostal="42334" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CC0" nombre_receptor="Cliente 1">
+    <domicilio calle="Chihuahua" noExterior="7" colonia="Chihuahua" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="11111" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CC1" nombre_receptor="Cliente Demo S.A de C.V.">
+    <domicilio calle="ALDAMA" noExterior="34" colonia="CENTRO" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MÉXICO" codigoPostal="31111" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CC1" nombre_receptor="Publico">
+    <domicilio calle="Periferico La Juventud" noExterior="SN" colonia="Cumbres" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Chihuahua" codigoPostal="51000" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CC2" nombre_receptor="Cliente 1">
+    <domicilio calle="14 de Julio" noExterior="3407" colonia="Guadalupe" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31400" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CC2" nombre_receptor="Prueba">
+    <domicilio calle="s" noExterior="2" colonia="s" localidad="s" municipio="s" estado="s" pais="s" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CC7" nombre_receptor="asdasdas">
+    <domicilio calle="asd" noExterior="asd" noInterior="asd" colonia="asd" localidad="asd" municipio="asd" estado="asd" pais="asd" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCA" nombre_receptor="cine">
+    <domicilio calle="jkl" noExterior="4" colonia="gfegf" municipio="jlk" estado="jkl" pais="jkl" codigoPostal="31120" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCA" nombre_receptor="PRUEBA DE RAZON SOCIAL LARGA, VER QUE NO SE EMPALME UN RENGLON CON EL OTRO CUANDO ES MAS DE DOS,AAAAAAAAAAAAAAAAAAAAAAAA BBBBBBBBBBBBBBBBBBBBBBBBBBBB CCCCCCCCCCCCCCCCCCCCC FIN">
+    <domicilio calle="14 DE JULIO" noExterior="23" colonia="GUADALUPE" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MÉXICO" codigoPostal="31100" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Andrea">
+    <domicilio calle="Guadalupe" noExterior="3001" colonia="Rosales" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Chachitos ">
+    <domicilio calle="14 de Noviembre" noExterior="23" noInterior="1" colonia="Guadalajara" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="65555" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Cliente">
+    <domicilio calle="Cliente" noExterior="Cliente" colonia="Cliente" localidad="Cliente" municipio="Cliente" estado="Cliente" pais="Cliente" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Cliente 1">
+    <domicilio calle="dolores" noExterior="23" colonia="Hospital" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="55555" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Cliente 2">
+    <domicilio calle="Primavera" noExterior="3" colonia="Estacion" localidad="Durango" municipio="Durango" estado="Durango" pais="México" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Cliente de Sucursal 2">
+    <domicilio calle="Calle de cliente suc 2" noExterior="12" colonia="Colonia de cliente suc 2" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="CLIENTE MONTERREY1">
+    <domicilio calle="CALLE" noExterior="2" colonia="COLONIA" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="44444" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Cliente Prueba">
+    <domicilio calle="Calle 3" noExterior="3" colonia="Colonia 3" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Cliente Prueba 1.">
+    <domicilio calle="Prueba" noExterior="2" colonia="Prueba" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Cliente2">
+    <domicilio calle="Prodel" noExterior="3" colonia="Texcal" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="65478" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Ferreteria Vazquez">
+    <domicilio calle="Penal" noExterior="33" colonia="Obrera" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="34566" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Gomez">
+    <domicilio calle="Campestre" noExterior="3001" noInterior="4138521" colonia="Residencial Campestre" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31116" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Prueba Cliente 1">
+    <domicilio calle="Prueba" noExterior="1" colonia="Prueba" municipio="Prueba" estado="Prueba" pais="Mexico" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Prueba Cliente 1 SUR">
+    <domicilio calle="Calle Sur" noExterior="1" colonia="Colonia Sur" localidad="Localidad Sur" municipio="Municipio SUR" estado="Estado Sur" pais="Pais SUR" codigoPostal="66666" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Pruebas y mas Pruebas">
+    <domicilio calle="Rosas" noExterior="5001" colonia="Guadalupe" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31116" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Razon Socual">
+    <domicilio calle="S" noExterior="S" noInterior="S" colonia="S" localidad="S" municipio="S" estado="S" pais="S" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Refaccionaria Rodriguez">
+    <domicilio calle="15" noExterior="4530" colonia="Paseos" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31112" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101CCC" nombre_receptor="Sucursal 2">
+    <domicilio calle="Rosales" noExterior="6231" colonia="Guadalupe" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31116" />
+  </receptor>
+  <receptor rfc_receptor="CCC010101PP1" nombre_receptor="NO APLICA">
+    <domicilio calle="ADOLFO LOPEZ MATEOS" noExterior="5541" colonia="DEL REAL" municipio="DELEGACION ADOLFO LOPEZ" estado="CD.MEXICO" pais="MEXICO" codigoPostal="06698" />
+  </receptor>
+  <receptor rfc_receptor="CCC020202CC2" nombre_receptor="CLIENTE EJEMPLO">
+    <domicilio calle="PRIMERA" noExterior="2" colonia="NORTE" municipio="JUAREZ" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="32132" />
+  </receptor>
+  <receptor rfc_receptor="CCC030303CC1" nombre_receptor="CLIENTESILLO PRUEBITAS">
+    <domicilio calle="TERCERA" noExterior="3" colonia="DEL CLIENTE" localidad="CHIH" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31333" />
+  </receptor>
+  <receptor rfc_receptor="CCC030303CC3" nombre_receptor="CLIENTE EJEMPLO">
+    <domicilio calle="PRIMERA" noExterior="1" colonia="SUR" municipio="DELICIAS" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="CCC030303CC3" nombre_receptor="CLIENTE EJEMPLO2">
+    <domicilio calle="TERCERA" noExterior="3" colonia="SUR" municipio="TORREON" estado="COAHUILA" pais="MEXICO" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="CCC030303CC3" nombre_receptor="CLIENTE EJEMPLO3">
+    <domicilio calle="TERCERA" noExterior="3" colonia="SUR" municipio="OAXACA" estado="OAXACA" pais="MEXICO" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="CCC030303CC3" nombre_receptor="Cliente Prueba">
+    <domicilio calle="Principal" noExterior="2" colonia="Sur" localidad="Juárez" municipio="Juárez" estado="Chihuahua" pais="México" codigoPostal="31111" />
+  </receptor>
+  <receptor rfc_receptor="CCC030303CC3" nombre_receptor="CLIENTEC">
+    <domicilio calle="EXPRESS" noExterior="1" noInterior="2" colonia="NICE" localidad="BOLSOMICO" municipio="BALSAMICO" estado="ASIA" pais="ASIA" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="CCC030303CC3" nombre_receptor="DOMINOS S.A. DE C.V.">
+    <domicilio calle="SEGUNDA" noExterior="2" colonia="NORTE" municipio="MEXICO" estado="MEXICO" pais="MEXICO" codigoPostal="32333" />
+  </receptor>
+  <receptor rfc_receptor="CCC030303CC3" nombre_receptor="SEGUNDO CLIENTE PRUEBAS">
+    <domicilio calle="CALLE DEL SEGUNDO CLIENTE" noExterior="4" colonia="COLONIA DEL SEGUNDO CLIENTE" localidad="CHINA" municipio="CHINA" estado="CHINA" pais="CHINA" codigoPostal="44444" />
+  </receptor>
+  <receptor rfc_receptor="CCC030303CCA" nombre_receptor="Tortillas HERNANDEZ">
+    <domicilio calle="45" noExterior="4503" colonia="Conocida" municipio="Aldama" estado="Chihuahua" pais="México" codigoPostal="02302" />
+  </receptor>
+  <receptor rfc_receptor="DDD000000DDA" nombre_receptor="Dedo">
+    <domicilio calle="fds" municipio="fds" estado="fds" pais="fds" />
+  </receptor>
+  <receptor rfc_receptor="DDD010101AAA" nombre_receptor="Merceria Alex">
+    <domicilio calle="Pino" noExterior="2567" colonia="Arboledas" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31116" />
+  </receptor>
+  <receptor rfc_receptor="DDD010101DD1" nombre_receptor="CLIENTE EJEMPLO">
+    <domicilio calle="CHIHUAHUA" noExterior="1" colonia="EJEMPLO" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31111" />
+  </receptor>
+  <receptor rfc_receptor="DDD010101DD1" nombre_receptor="Prueba de Cliente">
+    <domicilio calle="20 DE NOVIEMBRE" noExterior="23" colonia="PRUEBA" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31400" />
+  </receptor>
+  <receptor rfc_receptor="DDD010101DD2" nombre_receptor="Cliente 1">
+    <domicilio calle="Juarez" noExterior="2" colonia="Juarez" localidad="Juarez" municipio="Juarez" estado="Chihuahua" pais="México" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="DDD010101DD3" nombre_receptor="Cliente 1">
+    <domicilio calle="2" colonia="Cliente 1" localidad="Cliente 1" municipio="Cliente 1" estado="Cliente 1" pais="Cliente 1" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="DDD010101DD3" nombre_receptor="Pruebas">
+    <domicilio calle="Totle" noExterior="3" colonia="Farid" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="21223" />
+  </receptor>
+  <receptor rfc_receptor="DDD010101DD4" nombre_receptor="La Surtidora S.A de C.V">
+    <domicilio calle="Chilango" noExterior="1" colonia="DF" municipio="Distrito Federal" estado="Mexico" pais="Mexico" codigoPostal="54444" />
+  </receptor>
+  <receptor rfc_receptor="DDD010101DDA" nombre_receptor="tacos">
+    <domicilio calle="sdfg" noExterior="8" colonia="dsaf" municipio="fg" estado="fgh" pais="hjkf" codigoPostal="31120" />
+  </receptor>
+  <receptor rfc_receptor="DDD010101DDD" nombre_receptor="Cliente 23">
+    <domicilio calle="Sucursal 2" noExterior="3" colonia="Sucursal 2" localidad="Sucursal 2" municipio="Sucursal 2" estado="Sucursal 2" pais="Sucursal 2" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="DDD010101DDD" nombre_receptor="Cliente 3">
+    <domicilio calle="Flamin" noExterior="3" colonia="Prendedor" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="DDD010101DDD" nombre_receptor="Rodriguez">
+    <domicilio calle="Jirafa" noExterior="2401" noInterior="4199871" colonia="lomas del sol" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="DDD010101DDD" nombre_receptor="TORRES CABALLERO REFACCIONARIA AUTOMOTRIZ Y SERVICIO PESADO S.A. DE C.V">
+    <domicilio calle="a" noExterior="2" colonia="a" localidad="a" municipio="a" estado="a" pais="a" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="DDD040404DD4" nombre_receptor="CLIENTE 4">
+    <domicilio calle="CUARTA" noExterior="4" colonia="NORTE" municipio="CHETUMAL" estado="QUINTANA ROO" pais="MEXICO" codigoPostal="44444" />
+  </receptor>
+  <receptor rfc_receptor="DDD040404DD4" nombre_receptor="CLIENTE-D">
+    <domicilio calle="JAPONES" noExterior="5" colonia="DE JAPONESES" localidad="JAPONSITO" municipio="JAPONSON" estado="JAPONSOTE" pais="JAPÓN" codigoPostal="31555" />
+  </receptor>
+  <receptor rfc_receptor="DDD090909DD0" nombre_receptor="NO APLICA">
+    <domicilio calle="PANAMERICANA" noExterior="4578" colonia="PARRAL" municipio="ALDAMA" estado="CHIHUAHUA" pais="MEXICO " codigoPostal="04451" />
+  </receptor>
+  <receptor rfc_receptor="DERT010101FFF" nombre_receptor="RETS">
+    <domicilio calle="res " noExterior="1000" colonia="centro" localidad="chihuahua" municipio="chihuahua" estado="chihuahua" pais="Mexico" codigoPostal="22233" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101AAA" nombre_receptor="Cleveland Englandesh">
+    <domicilio calle="31" noExterior="3100" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101AAA" nombre_receptor="Cliente ejemplo">
+    <domicilio calle="Industrias" noExterior="1245" colonia="Revolución" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31124" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101AAA" nombre_receptor="Ejemplo">
+    <domicilio calle="12" noExterior="123" colonia="centro" localidad="mexico" municipio="mexico" estado="mexico" pais="mexico" codigoPostal="31354" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101AAA" nombre_receptor="Empresa de Aguacate SA">
+    <domicilio calle="31" noExterior="1" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101AAA" nombre_receptor="Empresa social">
+    <domicilio calle="33" noExterior="3300" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexio" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101AAA" nombre_receptor="Empresa X">
+    <domicilio calle="31" noExterior="3100" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101AAA" nombre_receptor="Gordas">
+    <domicilio calle="call 34" noExterior="1010" colonia="centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="33322" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101AAA" nombre_receptor="PRueba12">
+    <domicilio calle="31" noExterior="31012" colonia="Obrera" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31234" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101AAA" nombre_receptor="Triunfo">
+    <domicilio calle="31" noExterior="12" colonia="centro" localidad="chih" municipio="chiha" estado="chihuahua" pais="mexico" codigoPostal="31231" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101EEA" nombre_receptor="casa de empeño">
+    <domicilio calle="saiodu" noExterior="1" colonia="sdf" municipio="uio" estado="uio" pais="rir" codigoPostal="31120" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101EEA" nombre_receptor="zaragoza">
+    <domicilio calle="Centro" noExterior="1" colonia="Centro" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31120" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101EEE" nombre_receptor="Centro12">
+    <domicilio calle="31" noExterior="31000" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101EEE" nombre_receptor="Cliente 4">
+    <domicilio calle="Jerome" noExterior="4" colonia="Vallarta" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="44444" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101EEE" nombre_receptor="Minatitlan Jalisco">
+    <domicilio calle="30" noExterior="3000" colonia="Centro" localidad="Minatitlan" municipio="Minatitlan" estado="Jalisco" pais="Mexico" codigoPostal="34000" />
+  </receptor>
+  <receptor rfc_receptor="EEE010101WWW" nombre_receptor="BANDAS">
+    <domicilio calle="9a norte" noExterior="320" colonia="sur" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="43333" />
+  </receptor>
+  <receptor rfc_receptor="EEE050505EE5" nombre_receptor="CLIENTE-E">
+    <domicilio calle="BROADWAY" municipio="HOOBBS" estado="NUEVO MEXICO" pais="EUA" />
+  </receptor>
+  <receptor rfc_receptor="EEE090909EEE" nombre_receptor="Sucursal Ejemplo">
+    <domicilio calle="35" noExterior="3500" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="EEE120121WWW" nombre_receptor="Cerebral">
+    <domicilio calle="centro" noExterior="123" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Mexico" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="ERT122311EEE" nombre_receptor="Cemt">
+    <domicilio calle="Centro" noExterior="123" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="MExico" codigoPostal="12334" />
+  </receptor>
+  <receptor rfc_receptor="ESR010101EEE" nombre_receptor="Frutas">
+    <domicilio calle="3a norte" noExterior="1200" colonia="fedres" localidad="juarez" municipio="juarez" estado="Chihuahua" pais="Mexico" codigoPostal="22000" />
+  </receptor>
+  <receptor rfc_receptor="FDN050398AJI" nombre_receptor="Ferreteria del Norte S.A de C.V">
+    <domicilio calle="Blvd. Ortiz Mena" noExterior="34" colonia="Mirador" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="32456" />
+  </receptor>
+  <receptor rfc_receptor="FDS0506076U9" nombre_receptor="FUNDACION DEL DR. SIMI">
+    <domicilio calle="ALEMANIA" noExterior="10" colonia="INDEPENDENCIA" municipio="DELGACION BENITO JUAREZ" estado="MEXICO, D.F." pais="MEXICO" codigoPostal="03630" />
+  </receptor>
+  <receptor rfc_receptor="FFF010101FF3" nombre_receptor="Cliente de Prueba 1">
+    <domicilio calle="14 de Julio" noExterior="34" colonia="Guadalupe" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico " codigoPostal="34444" />
+    <domicilio calle="20 de Noviembre" noExterior="34" colonia="Nombre de Dios" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="54123" />
+  </receptor>
+  <receptor rfc_receptor="FFF010101FF4" nombre_receptor="Cliente de Pruebas ">
+    <domicilio calle="Calle" noExterior="3" colonia="Col" localidad="Chihuahua" municipio="Chihuauha" estado="Chihuahua" pais="Mexico" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="FFF010101FF4" nombre_receptor="Galatea S.A de C.V.">
+    <domicilio calle="23 flores" noExterior="3" colonia="Gardenias" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="34433" />
+  </receptor>
+  <receptor rfc_receptor="FFF010101FFF" nombre_receptor="Cliente 1 Norte">
+    <domicilio calle="detroit" noExterior="1" colonia="Ciudad" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="32456" />
+  </receptor>
+  <receptor rfc_receptor="FFF010101FFF" nombre_receptor="Cliente 5">
+    <domicilio calle="tosti" noExterior="5" colonia="Privada" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="55555" />
+  </receptor>
+  <receptor rfc_receptor="FFF010101FFF" nombre_receptor="Cliente Facturador 12">
+    <domicilio calle="Candelaria" noExterior="34" colonia="Probadores" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="65444" />
+  </receptor>
+  <receptor rfc_receptor="FFF010101FFF" nombre_receptor="Cliente Suc Norte S.A de C.V.">
+    <domicilio calle="20 Noviembre" noExterior="23" colonia="Santo Niño" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="32444" />
+  </receptor>
+  <receptor rfc_receptor="FFF010405FFF" nombre_receptor="Prueba">
+    <domicilio calle="as" noExterior="2" colonia="as" localidad="as" municipio="as" estado="as" pais="as" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="FFF050505FF5" nombre_receptor="CLIENTE EJEMPLO2">
+    <domicilio calle="QUINTA" noExterior="5" noInterior="A" colonia="CENTRO" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31100" />
+  </receptor>
+  <receptor rfc_receptor="GCC1002036R2" nombre_receptor="CONFAC S DE RL MI">
+    <domicilio calle="AV. 20 DE NOVIEMBRE" noExterior="803" colonia="PACIFICO" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" />
+  </receptor>
+  <receptor rfc_receptor="GGG040404GG4" nombre_receptor="CLIENTE CESAR">
+    <domicilio calle="4TA" noExterior="4" colonia="NORTE" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="GGG050505GG5" nombre_receptor="JOSE LUIS S.A. DE C.V">
+    <domicilio calle="CUARTA" noExterior="1000" colonia="CENTRO" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31111" />
+  </receptor>
+  <receptor rfc_receptor="GOSE831108F33" nombre_receptor="ELIZABETH GONZALEZ SALDAÑA">
+    <domicilio calle="carrizo" noExterior="5896" colonia="fracc.loca" municipio="Guadalajara" estado="Jalisco" pais="mexico" codigoPostal="05874" />
+  </receptor>
+  <receptor rfc_receptor="HALA890101AER" nombre_receptor="Empresa N">
+    <domicilio calle="35" noExterior="3500" colonia="Centro" localidad="Centro" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="HEPR860402CV3" nombre_receptor="IVAN HERNANDEZ PEREGRINO">
+    <domicilio calle="FELIPE II" noExterior="8243" colonia="MARMOL III" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31063" />
+  </receptor>
+  <receptor rfc_receptor="HEPR860402CV3" nombre_receptor="Ivan HF">
+    <domicilio calle="1" municipio="1" estado="1" pais="1" codigoPostal="00001" />
+  </receptor>
+  <receptor rfc_receptor="HEPR860402CV3" nombre_receptor="RICARDO IVAN HERANDEZ PEREGRINO">
+    <domicilio calle="FELIPE II" noExterior="8243" colonia="MARMOL III" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31063" />
+  </receptor>
+  <receptor rfc_receptor="HEPR860402CV3" nombre_receptor="RICARDO IVAN HERNANDEZ">
+    <domicilio calle="FELIPE II" noExterior="8243" colonia="MARMOL III" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31063" />
+  </receptor>
+  <receptor rfc_receptor="HEPR860402CV3" nombre_receptor="RICARDO IVAN HERNANDEZ PEREGRINO">
+    <domicilio calle="FELIPE II" noExterior="8243" colonia="MARMOL III" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31063" />
+  </receptor>
+  <receptor rfc_receptor="HHH010101HHH" nombre_receptor="Cliente Hijo 2">
+    <domicilio calle="Hijo2" noExterior="2" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="HHH010101JJJ" nombre_receptor="Cliente 1 Caja2Suc2">
+    <domicilio calle="predis" noExterior="34" colonia="Tarnil" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="23423" />
+  </receptor>
+  <receptor rfc_receptor="HHH050505HH5" nombre_receptor="PRUEBA PORTAL">
+    <domicilio calle="1" noExterior="1" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="00021" />
+  </receptor>
+  <receptor rfc_receptor="HHHH874596AA1" nombre_receptor="Nueva">
+    <domicilio calle="a" noExterior="1" noInterior="1" colonia="a" localidad="a" municipio="a" estado="a" pais="a" codigoPostal="11111" />
+    <domicilio calle="a" noExterior="2" noInterior="2" colonia="a" localidad="a" municipio="a" estado="a" pais="mexico" codigoPostal="23536" />
+  </receptor>
+  <receptor rfc_receptor="HICA680624G78" nombre_receptor="Maria Elena Escobedo Cano">
+    <domicilio calle="58" noExterior="26548" colonia="Rosario" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31030" />
+  </receptor>
+  <receptor rfc_receptor="HIEA830830S85" nombre_receptor="Antonio Hi">
+    <domicilio calle="58" noExterior="2406" colonia="REVILLA" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MÉXICO" codigoPostal="31604" />
+    <domicilio calle="58" noExterior="2604" colonia="Rosario" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31030" />
+  </receptor>
+  <receptor rfc_receptor="HIEA830830S85" nombre_receptor="Antonio Hidalgo">
+    <domicilio calle="58" noExterior="20569" colonia="Rosario" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31030" />
+  </receptor>
+  <receptor rfc_receptor="HIEA840901G45" nombre_receptor="Ana Roman &amp; Auditores">
+    <domicilio calle="Rio de la plata" noExterior="3888" colonia="San Felipe" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="HIEI120231G84" nombre_receptor="el anonimo">
+    <domicilio calle="58" noExterior="2604" colonia="Cerro de la pues" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="00001" />
+  </receptor>
+  <receptor rfc_receptor="HIEI830830G56" nombre_receptor="El Tony marca Patito">
+    <domicilio calle="58" noExterior="2606" colonia="Pacifico" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31460" />
+  </receptor>
+  <receptor rfc_receptor="HIEI840901G78" nombre_receptor="Ismael Hidalgo">
+    <domicilio calle="58" noExterior="2608" colonia="Chayito" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" />
+  </receptor>
+  <receptor rfc_receptor="HIEI840901G84" nombre_receptor="Ismael Hidalgo Escobedo">
+    <domicilio calle="58" noExterior="6402" colonia="Chayito" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31030" />
+  </receptor>
+  <receptor rfc_receptor="HIEI840901H34" nombre_receptor="YO">
+    <domicilio calle="58" noExterior="2606" colonia="Rosario" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mpexico" codigoPostal="31030" />
+  </receptor>
+  <receptor rfc_receptor="J&amp;J010101V66" nombre_receptor="Papitas">
+    <domicilio calle="san joser perilla" noExterior="2000" colonia="centro" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="20000" />
+  </receptor>
+  <receptor rfc_receptor="J&amp;J061014PV5" nombre_receptor="J&amp;J">
+    <domicilio calle="123" noExterior="123" noInterior="123" colonia="123" localidad="123" municipio="123" estado="123" pais="123" codigoPostal="00000" />
+  </receptor>
+  <receptor rfc_receptor="JJJ010101OOO" nombre_receptor="Cliente Subcaja 1">
+    <domicilio calle="Dolores" noExterior="3" colonia="Marital" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="JSK010101KJ5" nombre_receptor="Cocacola S.A. de C.V.">
+    <domicilio calle="Insurgentes" noExterior="4445" colonia="Centro" municipio="Distrito Federal" estado="México" pais="México" codigoPostal="87878" />
+  </receptor>
+  <receptor rfc_receptor="KKK010101KKK" nombre_receptor="Cliente Caja 1">
+    <domicilio calle="Caja 1" noExterior="32" colonia="Caja 1" municipio="Caja 1" estado="Caja 1" pais="México" codigoPostal="54444" />
+  </receptor>
+  <receptor rfc_receptor="KKK010101KKK" nombre_receptor="Subway S.A de C.V.">
+    <domicilio calle="Prueba" noExterior="2" colonia="Prueba" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="LAWS580612LS2" nombre_receptor="NIRVANA S.S">
+    <domicilio calle="20 ANIVERSARIO" noExterior="5215" colonia="REVOLUCION" municipio="DELICIAS" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="32100" />
+  </receptor>
+  <receptor rfc_receptor="LCT050807YT7" nombre_receptor="La Costeñita 2">
+    <domicilio calle="me" noExterior="3" colonia="me" localidad="me" municipio="me" estado="me" pais="me" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="LEEM860501CS3" nombre_receptor="ORGANIZACION EDITORIAL LIMUSA">
+    <domicilio calle="FELIPE II" noExterior="8243" colonia="MARMOL III" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31663" />
+  </receptor>
+  <receptor rfc_receptor="LEMM780326QU7" nombre_receptor="Manuel Ivan Leon Mendoza">
+    <domicilio calle="HEROICO COLEGIO MILITAR" noExterior="4709" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31300" />
+  </receptor>
+  <receptor rfc_receptor="LLL010101LLL" nombre_receptor="Pruebas1000">
+    <domicilio calle="31" noExterior="123" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="12312" />
+  </receptor>
+  <receptor rfc_receptor="LOAL760907TV3" nombre_receptor="LORETA ELENA LOPEZ ARROYO">
+    <domicilio calle="CALLE SAN GABRIEL NORTE" noExterior="1" colonia="FRACCIONAMIENTO RESIDENCIAL SAN MIGUEL" localidad="CARMEN" municipio="CARMEN" estado="CAMPECHE" pais="Mexico" codigoPostal="24150" />
+  </receptor>
+  <receptor rfc_receptor="MCH900725BBA" nombre_receptor="MANGUERAS Y CONEXIONES HIDRAULICAS DE CHIHUAHUA S.A. DE C.V.">
+    <domicilio calle="Independencia" noExterior="1001" colonia="Centro" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31100" />
+  </receptor>
+  <receptor rfc_receptor="MMM010101MM1" nombre_receptor="BASTAS">
+    <domicilio calle="centro" noExterior="1000" colonia="centro" localidad="Chihuahau" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="MNO810731QF9" nombre_receptor="MINERA DEL NORTE S.A. DE C.V.">
+    <domicilio calle="PROLONGACION JUAREZ" colonia="LA LOMA" municipio="COAHUILA" estado="MONCLOVA" pais="Mexico" codigoPostal="25770" />
+  </receptor>
+  <receptor rfc_receptor="MNO810731QF9" nombre_receptor="Mineral del Norte S.A. de C.V.">
+    <domicilio calle="PROLONGACION JUAREZ" colonia="LA LOMA" municipio="MONCLOVA" estado="COAHUILA" pais="México" codigoPostal="25770" />
+  </receptor>
+  <receptor rfc_receptor="MSM080124T29" nombre_receptor="Refacciones Lopez S.A. de C.V.">
+    <domicilio calle="Calle Washington" noExterior="2436" colonia="Lomas del Sol" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31114" />
+  </receptor>
+  <receptor rfc_receptor="NEVC780820RW2" nombre_receptor="TEST">
+    <domicilio calle="jfajfjlfajlfa 45252" municipio="merida" estado="chiapas" pais="mexico" />
+  </receptor>
+  <receptor rfc_receptor="NFF030630458" nombre_receptor="NACIONAL FINANCIERA SNC FID DEL FIDEICOMISO FONDO DE PENSIONES DEL SIST BANRURAL">
+    <domicilio calle="80320 AVE.INSURGENTES SUR" noExterior="1971" colonia="EDIFICIO ANEXO,NIVEL JARDIN COLONIA GUADALUPE INN" localidad="DF" municipio="DF" estado="DF" pais="MEXICO" codigoPostal="01020" />
+  </receptor>
+  <receptor rfc_receptor="OCI810921E13" nombre_receptor="OPERADORA CICSA, S.A DE C.V">
+    <domicilio calle="lago zurtch" noExterior="245" colonia="Ampl del. miguel hidalgo" municipio="Iztacalco" estado="D.F " pais="Mexico" codigoPostal="01159" />
+  </receptor>
+  <receptor rfc_receptor="OOO010101OOO" nombre_receptor="Emplesa">
+    <domicilio calle="31" noExterior="3100" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="PHI830429MG6" nombre_receptor="EL PALACIO DE HIERRO, SA DE CV">
+    <domicilio calle="CASA PALACIODURANGO #230 COL. ROMA" localidad="DELEGACION CUAHTEMOC" municipio="CUAHTEMOC" estado="DELEGACION CUAHTEMOC" pais="MEXICO, D.F. C.P. MX 06700" />
+  </receptor>
+  <receptor rfc_receptor="PIN920327AM4" nombre_receptor="PREFABRICADOS INDUSTRIALES DEL NOROESTE S. A DE C. V">
+    <domicilio calle="Av. 16 de septiembre y C. 11" noExterior="s/n" municipio="Colonia Anahuac" estado="Chihuahua" pais="México" codigoPostal="31600" />
+  </receptor>
+  <receptor rfc_receptor="PPP010101PP1" nombre_receptor="telas bb">
+    <domicilio calle="ACAPULCO" noExterior="6667" colonia="FRACCIONAMIENTO AMERICAS" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31200" />
+  </receptor>
+  <receptor rfc_receptor="QQQ010101QQQ" nombre_receptor="Muess">
+    <domicilio calle="wer" noExterior="1010" colonia="centro" localidad="Durango" municipio="Durango" estado="Durango" pais="Mexico" codigoPostal="12444" />
+  </receptor>
+  <receptor rfc_receptor="QQQ010101QQQ" nombre_receptor="Robles">
+    <domicilio calle="Farias" noExterior="3000" colonia="raspas" localidad="Parral" municipio="Parral" estado="Chihuahua" pais="México" codigoPostal="50000" />
+  </receptor>
+  <receptor rfc_receptor="RFC123456789" nombre_receptor="PROVEEDOR FACTURACION">
+    <domicilio calle="AV. DE LAS AMERICAS" noExterior="345" colonia="PANAMERICANA" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="32455" />
+  </receptor>
+  <receptor rfc_receptor="RFC800101AAA" nombre_receptor="Cliente nuevo">
+    <domicilio calle="Calle" noExterior="12" colonia="Colonia" municipio="Chihuahua" estado="Chihuahua" pais="México" />
+  </receptor>
+  <receptor rfc_receptor="RIVJ590720BK0" nombre_receptor="Nuevo Cliente">
+    <domicilio calle="asd" municipio="Chihuahua" estado="Chihuahua" pais="Chihuahua" codigoPostal="12345" />
+  </receptor>
+  <receptor rfc_receptor="RRR010101VVA" nombre_receptor="Vinos">
+    <domicilio calle="av libertad" noExterior="1200" colonia="centro" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="34555" />
+  </receptor>
+  <receptor rfc_receptor="RRR070707RR7" nombre_receptor="NORMA ESCOBAR S.A. DE C.V.">
+    <domicilio calle="PRIMERA" noExterior="1" colonia="CENTRO" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31111" />
+  </receptor>
+  <receptor rfc_receptor="RRR445544QQQ" nombre_receptor="Monitas">
+    <domicilio calle="s" noExterior="3" colonia="ssssss" localidad="s" municipio="s" estado="ss" pais="sss" codigoPostal="33333" />
+    <domicilio calle="san" noExterior="1000" colonia="centro" municipio="Chih" estado="Chihuahua" pais="México" codigoPostal="20000" />
+  </receptor>
+  <receptor rfc_receptor="RRR701013VVV" nombre_receptor="Ferretera">
+    <domicilio calle="libertad" noExterior="800" colonia="centro" localidad="camargo" municipio="chihuahua" estado="chihuahua" pais="mexico" codigoPostal="35000" />
+  </receptor>
+  <receptor rfc_receptor="RSS720314V77" nombre_receptor="pinta dos">
+    <domicilio calle="san jose" noExterior="1000" colonia="centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="22555" />
+  </receptor>
+  <receptor rfc_receptor="SAGA830112AES" nombre_receptor="Aceros S.A. de C.V.">
+    <domicilio calle="35a" noExterior="3589" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="SCT060228EZ8" nombre_receptor="SECRETARIA DE COMUNICACIONES Y TRANSPORTES, CENTRO SCT CHIHUAHUA">
+    <domicilio calle="KM 3 CARRETERA CHIHUAHUA-AVALOS " noExterior="S/N" colonia="VILLA JUAREZ" localidad="CHIHUAHUA" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31064" />
+  </receptor>
+  <receptor rfc_receptor="SSS010101SS1" nombre_receptor="ruebas">
+    <domicilio calle="TERCERA" noExterior="3" colonia="TRES" municipio="MEXICO" estado="MEXICO" pais="MEXICO" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="SSS010101SS5" nombre_receptor="Cliente de Pruebas">
+    <domicilio calle="20 de Noviembre" noExterior="50" colonia="Homero" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="35478" />
+  </receptor>
+  <receptor rfc_receptor="SSS010101SS5" nombre_receptor="Cliente Prueba">
+    <domicilio calle="Heroico" municipio="Chihuahua" estado="Chihuahua" pais="México" />
+  </receptor>
+  <receptor rfc_receptor="SSS010101SSS" nombre_receptor="Eliminar">
+    <domicilio calle="s" noExterior="2" colonia="s" municipio="s" estado="s" pais="sd" codigoPostal="00023" />
+  </receptor>
+  <receptor rfc_receptor="SSS888888AAA" nombre_receptor="Sabrass">
+    <domicilio calle="san royal" noExterior="3200" colonia="centro" municipio="chihuahua" estado="chihuahua" pais="México" codigoPostal="22000" />
+  </receptor>
+  <receptor rfc_receptor="SSSS010101CCC" nombre_receptor="Ferreste">
+    <domicilio calle="san juan" noExterior="3040" colonia="sur" localidad="camargo" municipio="camargo" estado="chihuahua" pais="mexico" codigoPostal="40000" />
+  </receptor>
+  <receptor rfc_receptor="TER010101TTT" nombre_receptor="RESTAURANT">
+    <domicilio calle="independencia" noExterior="100" colonia="cominos" localidad="Juarez" municipio="Juarez" estado="Chihuahua" pais="Mexico" codigoPostal="23000" />
+  </receptor>
+  <receptor rfc_receptor="UALA640409AAA" nombre_receptor="A. ROCIO UGARTE LOERA">
+    <domicilio calle="34" noExterior="3000" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="UUU010101UUU" nombre_receptor="Sucursal 3">
+    <domicilio calle="Sucursal 3" noExterior="4" colonia="Sucursal 3" municipio="Sucursal 3" estado="Sucursal 3" pais="México" codigoPostal="55555" />
+    <domicilio calle="Venustiano Carranza" noExterior="465" colonia="Centro" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31100" />
+  </receptor>
+  <receptor rfc_receptor="VEPC701020G4A" nombre_receptor="ADS Systems">
+    <domicilio calle="Heroico Colegio Militar" noExterior="210" noInterior="4" colonia="Nombre de Dios" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31400" />
+  </receptor>
+  <receptor rfc_receptor="VIAS500523RW2" nombre_receptor="SOCO">
+    <domicilio calle="sggssg" municipio="sggs" estado="ggsgs" pais="china" />
+  </receptor>
+  <receptor rfc_receptor="VVV010101VV1" nombre_receptor="Empresa Ejemplo de cliente">
+    <domicilio calle="VIALIDAD" noExterior="2" colonia="CENTRO" localidad="MEXICO" municipio="MEXICO" estado="MEXICO" pais="MEXICO" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="VVV010101VVV" nombre_receptor="VENTASDOS">
+    <domicilio calle="del parque" noExterior="25400" colonia="centro" localidad="Delicias" municipio="Delicias" estado="Chihuahua" pais="México" codigoPostal="33000" />
+  </receptor>
+  <receptor rfc_receptor="VVV020202VV2" nombre_receptor="CLIENTE PARA EJEMPLO">
+    <domicilio calle="PRIMERA" noExterior="1" colonia="CENTRO" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="31111" />
+  </receptor>
+  <receptor rfc_receptor="VVV112222AAA" nombre_receptor="Certez">
+    <domicilio calle="31" noExterior="3100" colonia="Central 1" localidad="Coyoacan" municipio="Coyoacan" estado="Mexico" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="WWW010101AAA" nombre_receptor="Empresa X">
+    <domicilio calle="31a" noExterior="123" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31000" />
+  </receptor>
+  <receptor rfc_receptor="WWW010101SS3" nombre_receptor="asdasda">
+    <domicilio calle="A" noExterior="1050" noInterior="SC-K105" localidad="A" municipio="A" estado="A" pais="A" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="WWW010101WW2" nombre_receptor="Cliente de Pruebas 01">
+    <domicilio calle="Venustiano" noExterior="23" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="54789" />
+  </receptor>
+  <receptor rfc_receptor="WWW010101WW3" nombre_receptor="asdasdas">
+    <domicilio calle="das" noExterior="2" colonia="asdas" localidad="asd" municipio="asd" estado="dasd" pais="asdas" codigoPostal="22222" />
+  </receptor>
+  <receptor rfc_receptor="WWW010101WWW" nombre_receptor="WWW">
+    <domicilio calle="Centro" noExterior="123" colonia="centro" localidad="Chih." municipio="Chih." estado="Chih" pais="Mex" codigoPostal="12323" />
+  </receptor>
+  <receptor rfc_receptor="XAXX010101000" nombre_receptor="ALUMNOS">
+    <domicilio calle="NO APLICA" municipio="NO APLICA" estado="NO APLICA" pais="MEXICO" />
+  </receptor>
+  <receptor rfc_receptor="XAXX010101000" nombre_receptor="Publico ">
+    <domicilio calle="calle" noExterior="123" noInterior="123" colonia="colonia" localidad="localidad" municipio="delegacion" estado="estado" pais="mexico" codigoPostal="31160" />
+  </receptor>
+  <receptor rfc_receptor="XAXX010101000" nombre_receptor="PUBLICO EN GENERAL">
+    <domicilio calle="CUARTA" noExterior="4" colonia="NORTE" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="33333" />
+  </receptor>
+  <receptor rfc_receptor="XEXX010101000" nombre_receptor="CORPUS FACTURACION, S.A. DE C.V.">
+    <domicilio calle="HEROICO COLEGIO MILITAR" noExterior="4907" noInterior="2" colonia="NOMBRE DE DIOS" municipio="CHIHUAHUA" estado="CHIHUAHUA" pais="MÉXICO" codigoPostal="31110" />
+  </receptor>
+  <receptor rfc_receptor="XEXX010101000" nombre_receptor="NANA">
+    <domicilio calle="NONO 123" localidad="NONO" municipio="NONO" estado="NONO" pais="SURINAME" />
+  </receptor>
+  <receptor rfc_receptor="xxx" nombre_receptor="xxxxxx">
+    <domicilio calle="dfgsg" noExterior="sdfgsg" noInterior="sdfgsg" colonia="sdfgsdg" localidad="sdfgsdfg" municipio="sdfgs" estado="sdfgsd" pais="sfdgs" codigoPostal="34563" />
+  </receptor>
+  <receptor rfc_receptor="XXX010101XX1" nombre_receptor="Fiscal">
+    <domicilio calle="34" noExterior="3006" colonia="centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="45555" />
+  </receptor>
+  <receptor rfc_receptor="XXX010101XX2" nombre_receptor="Be-Light">
+    <domicilio calle="Bolivar " noExterior="2012" colonia="Centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="01000" />
+  </receptor>
+  <receptor rfc_receptor="XXX010101XXA" nombre_receptor="Nisas">
+    <domicilio calle="13" noExterior="1000" colonia="centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="33000" />
+  </receptor>
+  <receptor rfc_receptor="XXX010101XXX" nombre_receptor="Caja 2">
+    <domicilio calle="Caja 2" noExterior="3" colonia="Caja 2" municipio="Caja 2" estado="Caja 2" pais="Caja 2" codigoPostal="66666" />
+  </receptor>
+  <receptor rfc_receptor="YYYY345678AAA" nombre_receptor="cliente dosss">
+    <domicilio calle="rosales" noExterior="1324" colonia="Frontera" municipio="Monterrey" estado="Nuevo leon" pais="méxico" codigoPostal="13245" />
+  </receptor>
+  <receptor rfc_receptor="YYYY345678AAA" nombre_receptor="otro">
+    <domicilio calle="sfg" noExterior="sdfg" localidad="sfrgs" municipio="sdfg" estado="sdfg" pais="sdf" codigoPostal="45646" />
+  </receptor>
+  <receptor rfc_receptor="ZZZ010101ZZ1" nombre_receptor="Cumbres">
+    <domicilio calle="Centro" noExterior="2000" colonia="centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="20000" />
+  </receptor>
+  <receptor rfc_receptor="ZZZ010101ZZ1" nombre_receptor="Modzil">
+    <domicilio calle="13 sur" noExterior="1000" colonia="centro" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="33555" />
+  </receptor>
+  <receptor rfc_receptor="ZZZ010101ZZZ" nombre_receptor="Facturadora1">
+    <domicilio calle="Facturadora1" noExterior="3" colonia="Facturadora1" municipio="Facturadora1" estado="Facturadora1" pais="Facturadora1" codigoPostal="88888" />
+  </receptor>
+  <receptor rfc_receptor="ZZZ010101ZZZ" nombre_receptor="Pruebas">
+    <domicilio calle="as" noExterior="as" colonia="as" localidad="as" municipio="as" estado="as" pais="as" codigoPostal="11111" />
+  </receptor>
+</receptores>

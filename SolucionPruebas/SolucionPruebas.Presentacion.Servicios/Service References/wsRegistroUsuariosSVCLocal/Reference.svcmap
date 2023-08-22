@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8484c74d-93d8-401f-817f-d1e353dc1f18" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="System.Data" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:24965/PAXRegistroUsuario_WS/WebServices/wcfRegistroSVC.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="wcfRegistroSVC3.xsd" MetadataType="Schema" ID="3eaef38d-ca15-459d-bd68-3f3f7f68dbad" SourceId="1" SourceUrl="http://localhost:24965/PAXRegistroUsuario_WS/WebServices/wcfRegistroSVC.svc?xsd=xsd1" />
+    <MetadataFile FileName="wcfRegistroSVC2.wsdl" MetadataType="Wsdl" ID="81fcc880-c8ba-49b3-ba26-f98397c86d77" SourceId="1" SourceUrl="http://localhost:24965/PAXRegistroUsuario_WS/WebServices/wcfRegistroSVC.svc?wsdl" />
+    <MetadataFile FileName="wcfRegistroSVC31.xsd" MetadataType="Schema" ID="29c17bcc-f2ff-4c20-a983-1b4b26d916e0" SourceId="1" SourceUrl="http://localhost:24965/PAXRegistroUsuario_WS/WebServices/wcfRegistroSVC.svc?xsd=xsd2" />
+    <MetadataFile FileName="wcfRegistroSVC32.xsd" MetadataType="Schema" ID="c034460d-608d-42bd-a872-edd018e0b2f3" SourceId="1" SourceUrl="http://localhost:24965/PAXRegistroUsuario_WS/WebServices/wcfRegistroSVC.svc?xsd=xsd0" />
+    <MetadataFile FileName="wcfRegistroSVC21.wsdl" MetadataType="Wsdl" ID="704e7610-b3ed-40dd-9bb2-ff7752ab75c2" SourceId="1" SourceUrl="http://localhost:24965/PAXRegistroUsuario_WS/WebServices/wcfRegistroSVC.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

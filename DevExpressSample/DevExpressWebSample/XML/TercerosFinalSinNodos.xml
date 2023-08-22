@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante version="3.2" serie="BBB" folio="395" fecha="2016-08-24T14:53:35" sello="fexwpEMnQd9Ri+92no9wibqr3mZlbJVAI8PqzZBL7RM8GglJ+Tiqy8myGOi7tSVGshDM0BTPvZafSa73a9H76iKEASykx3fc/aieyv40chxAy0DdvewKoXgmbDHi51jo8TSdaGm4Tl12V22qT9usqVSuNxzkjXmD1X2Et5w4RRY=" formaDePago="Pago en una sola exhibición." noCertificado="20001000000200001428" certificado="MIIEYTCCA0mgAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDE0MjgwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEzMDUwNzE2MDEyOVoXDTE3MDUwNzE2MDEyOVowgdsxKTAnBgNVBAMTIEFDQ0VNIFNFUlZJQ0lPUyBFTVBSRVNBUklBTEVTIFNDMSkwJwYDVQQpEyBBQ0NFTSBTRVJWSUNJT1MgRU1QUkVTQVJJQUxFUyBTQzEpMCcGA1UEChMgQUNDRU0gU0VSVklDSU9TIEVNUFJFU0FSSUFMRVMgU0MxJTAjBgNVBC0THEFBQTAxMDEwMUFBQSAvIEhFR1Q3NjEwMDM0UzIxHjAcBgNVBAUTFSAvIEhFR1Q3NjEwMDNNREZOU1IwODERMA8GA1UECxMIcHJvZHVjdG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKS/beUVy6E3aODaNuLd2S3PXaQre0tGxmYTeUxa55x2t/7919ttgOpKF6hPF5KvlYh4ztqQqP4yEV+HjH7yy/2d/+e7t+J61jTrbdLqT3WD0+s5fCL6JOrF4hqy//EGdfvYftdGRNrZH+dAjWWml2S/hrN9aUxraS5qqO1b7btlAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQACPXAWZX2DuKiZVv35RS1WFKgT2ubUO9C+byfZapV6ZzYNOiA4KmpkqHU/bkZHqKjR+R59hoYhVdn+ClUIliZf2ChHh8s0a0vBRNJ3IHfA1akWdzocYZLXjz3m0Er31BY+uS3qWUtPsONGVDyZL6IUBBUlFoecQhP9AO39er8zIbeU2b0MMBJxCt4vbDKFvT9i3V0Puoo+kmmkf15D2rBGR+drd8H8Yg8TDGFKf2zKmRsgT7nIeou6WpfYp570WIvLJQY+fsMp334D05Up5ykYSAxUGa30RdUzA4rxN5hT+W9whWVGD88TD33Nw55uNRUcRO3ZUVHmdWRG+GjhlfsD" subTotal="20301.000000" descuento="6.100000" Moneda="MXN" total="23494.819000" tipoDeComprobante="ingreso" metodoDePago="99" LugarExpedicion="México, Chihuahua" NumCtaPago="NoAplica" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/terceros http://www.sat.gob.mx/sitio_internet/cfd/terceros/terceros11.xsd" xmlns:terceros="http://www.sat.gob.mx/terceros" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfdi:Emisor rfc="AAA010101AAA" nombre="Ismael Hidalgo">
+    <cfdi:DomicilioFiscal calle="58" noExterior="2540" colonia="Rosario" localidad="Chihuahua" referencia="cerca del rio" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31030" />
+    <cfdi:RegimenFiscal Regimen="NA" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="HIEA830830S85" nombre="Antonio Patito">
+    <cfdi:Domicilio calle="58" noExterior="20569" colonia="Rosario" localidad="Chihuahua" municipio="Chihuahua" estado="Chihuahua" pais="México" codigoPostal="31030" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto IdConcepto="1" cantidad="1" unidad="pieza" noIdentificacion="02" descripcion="BRAZALETE PARA PRESION NO INVASIVA ADULTO DE 21-30 CM PRESENTACION PIEZA NUMERO DE CATALOGO YP-953T PARA SU USO EN EL EQUIPO MEDICO 531.619.0403 MONITOR DE SIGNOS VITALES MARCA NIHON KOHDEN MODELO BSM&amp;#xA;CLAVE: 379 107 1586 00 01&amp;#xA;ORDEN: 40005401&amp;#xA;ALTA: 118001-117229" valorUnitario="1.000000" importe="1.000000" />
+    <cfdi:Concepto IdConcepto="2" cantidad="3" unidad="Pieza" noIdentificacion="1" descripcion="Calculadora de bolsillo v2" valorUnitario="100.000000" importe="300.000000" />
+    <cfdi:Concepto IdConcepto="3" cantidad="4" unidad="PIEZA" noIdentificacion="10" descripcion="IPHONE 4" valorUnitario="5000.000000" importe="20000.000000" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosRetenidos="47.265000" totalImpuestosTrasladados="3247.184000">
+    <cfdi:Retenciones>
+      <cfdi:Retencion impuesto="ISR" importe="14.790000" />
+      <cfdi:Retencion impuesto="IVA" importe="32.475000" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="3247.184000" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="8f7ba38d-908b-45a2-bd1d-36826387f271" FechaTimbrado="2016-08-24T14:53:36" selloCFD="fexwpEMnQd9Ri+92no9wibqr3mZlbJVAI8PqzZBL7RM8GglJ+Tiqy8myGOi7tSVGshDM0BTPvZafSa73a9H76iKEASykx3fc/aieyv40chxAy0DdvewKoXgmbDHi51jo8TSdaGm4Tl12V22qT9usqVSuNxzkjXmD1X2Et5w4RRY=" noCertificadoSAT="20001000000100005761" selloSAT="VC6ldKnb/RmSXV3Pa8/y4sp2oABIC3KWkCSShILbLqkcYuDmO1hsLkO9OjdfhUwsT9BjTsgJ8znh6hIS4uTVlI6RnJ9hy3z8/KB5WFU6+UFODxclu6rcBHmVfApryDnJsWXwEJr7enUnoYkD8nt+m5d2SPjOfNaS5ln/H/CcGMI=" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

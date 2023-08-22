@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="P_BajaArchivo.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="sFolderIN" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.3.106\RespaldoDiario</Value>
+    </Setting>
+    <Setting Name="sFolderOut" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PAXConamm_20160301\Respaldo</Value>
+    </Setting>
+    <Setting Name="sArchivosNombre" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PAXConamm</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

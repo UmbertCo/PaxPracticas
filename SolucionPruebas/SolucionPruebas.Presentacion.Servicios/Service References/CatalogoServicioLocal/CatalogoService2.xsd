@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SolucionPruebas.Entidades" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SolucionPruebas.Entidades" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Personas">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dFechaCaptura" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="nIdCiudad" type="xs:int" />
+      <xs:element minOccurs="0" name="nIdContacto" type="xs:int" />
+      <xs:element minOccurs="0" name="nIdEstatus" type="xs:int" />
+      <xs:element minOccurs="0" name="nIdPersona" type="xs:int" />
+      <xs:element minOccurs="0" name="nIdTipoCliente" type="xs:int" />
+      <xs:element minOccurs="0" name="nIdTipoCompra" type="xs:int" />
+      <xs:element minOccurs="0" name="nIdUsuario" type="xs:int" />
+      <xs:element minOccurs="0" name="sEmail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sEmpresa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sRazonSocial" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sRfc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sTelefono" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sTelefono2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sTelefono3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sUsuarioCobro" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Personas" nillable="true" type="tns:Personas" />
+  <xs:complexType name="Contacto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="nIdContacto" type="xs:int" />
+      <xs:element minOccurs="0" name="nIdPersona" type="xs:int" />
+      <xs:element minOccurs="0" name="sEmail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sEstatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sExtensionTelefono" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sExtensionTelefono2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sExtensionTelefono3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sNombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sProfesion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sPuestoEmpresa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sTelefono" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sTelefono2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sTelefono3" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Contacto" nillable="true" type="tns:Contacto" />
+</xs:schema>

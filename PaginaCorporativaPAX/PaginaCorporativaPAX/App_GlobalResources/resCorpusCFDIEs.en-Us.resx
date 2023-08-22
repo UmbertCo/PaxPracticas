@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblAcercaDe" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="lblClientes" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="lblContacto" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="lblDerechos" xml:space="preserve">
+    <value>® All Rights Reserved 2011. Chihuahua, Chih. Mexico</value>
+  </data>
+  <data name="lblEstructura" xml:space="preserve">
+    <value>Structure</value>
+  </data>
+  <data name="lblEventos" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="lblleermas" xml:space="preserve">
+    <value>Read more</value>
+  </data>
+  <data name="lblNoticias" xml:space="preserve">
+    <value>Billing Pax cancellation resumed its services due to inconsistencies with the SAT connection thank you for your understanding </value>
+  </data>
+  <data name="lblOficinaVirtual" xml:space="preserve">
+    <value>Virtual Office</value>
+  </data>
+  <data name="lblPolitica" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="lblServicios" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="lblSkype" xml:space="preserve">
+    <value>Call us by Skype!</value>
+  </data>
+  <data name="lblTelefonoPAX" xml:space="preserve">
+    <value>01 800 00 PAX 00</value>
+  </data>
+  <data name="lblTerminos" xml:space="preserve">
+    <value>Terms and Conditions</value>
+  </data>
+  <data name="lblvermas" xml:space="preserve">
+    <value>See more</value>
+  </data>
+  <data name="mnuInicio" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="lblQuienesSomos" xml:space="preserve">
+    <value>The company was established in early 2011.
+In order to provide the electronic billing service...</value>
+  </data>
+  <data name="lblLogos" xml:space="preserve">
+    <value>The logos mentioned herein are trademarks of their respective owners.</value>
+  </data>
+  <data name="lbliraFacturacion" xml:space="preserve">
+    <value>Go to page PAX Billing</value>
+  </data>
+  <data name="lblServidores" xml:space="preserve">
+    <value>Without increasing costs, have your information always available, uninterrupted by faults and always trained to answer your questions immediately.
+
+Manage assigned resources at any time, paying only what you need.</value>
+  </data>
+  <data name="lblTituloServidores" xml:space="preserve">
+    <value>Servers in the Cloud</value>
+  </data>
+  <data name="lbliraServidores" xml:space="preserve">
+    <value>Go to page Servers</value>
+  </data>
+  <data name="lblClientesQue" xml:space="preserve">
+    <value>¡Customers who rely on PAX!</value>
+  </data>
+  <data name="lblcomprasOnLine" xml:space="preserve">
+    <value>If you are interested in any of our services, you can purchase online, directly nuetsra sales page, it's easy to use, buy and immediately you can make use of the resources acquired</value>
+  </data>
+  <data name="lblDesarrollo" xml:space="preserve">
+    <value>Development of Custom Software with Microsoft based technologies and SQL databases.
+Developments generate based on the needs of each client, taking a goal of complete satisfaction with the quality of the final product.
+Our main approaches are to develop both desktop and web platforms, can provide accommodation to them with our own infrastructure.</value>
+  </data>
+  <data name="lblFacturacionElectronica" xml:space="preserve">
+    <value>So complete as to have an information system, and as simple as filling out an invoice to hand.
+Leave the tedious paperwork, us take care of them
+If you are looking ATTENTION, service and security, we are your choice.
+Safety in your information, We have backups and restricted access.
+We have the service and personal attention to technical support 24 hours, 7 days a week, 365 days a year.
+Accounts with the security of being able to recruit a team to provide a high quality service, availability and efficiency at a low cost
+We are an authorized dealer for the SAT.</value>
+  </data>
+  <data name="lbliraComprasOnLine" xml:space="preserve">
+    <value>Go to page Purchase Online</value>
+  </data>
+  <data name="lbliraEventos" xml:space="preserve">
+    <value>Go to Events Page</value>
+  </data>
+  <data name="lblTextEstructura" xml:space="preserve">
+    <value>Here are a diagram showing the areas of Billing PAX conforming as a company.</value>
+  </data>
+  <data name="lblTextEventos" xml:space="preserve">
+    <value>At PAX, we have different events for customers and business partners as well as for accounting students who are interested in the topic of electronic invoicing.
+You can see our events calendar and you want to register in the following link.</value>
+  </data>
+  <data name="lblTituloClientes" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="lblTituloComprasOnLine" xml:space="preserve">
+    <value>Online Shopping</value>
+  </data>
+  <data name="lblTituloDesarrollo" xml:space="preserve">
+    <value>Development of Custom Software</value>
+  </data>
+  <data name="lblTituloEstructura" xml:space="preserve">
+    <value>Structure</value>
+  </data>
+  <data name="lblTituloEventos" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="lblTituloFacturacion" xml:space="preserve">
+    <value>Electronic Billing</value>
+  </data>
+  <data name="lblNuestraHistoria" xml:space="preserve">
+    <value>It all begins with a meeting of major investors in late 2010, with the idea of ​​partnering to create an unprecedented undertaking, he managed to meet one of the most pressing needs by providing a warm and unique service in the industry, coupled with the experience and track that each of the companies has thought to build PAX Billing. Planning was performed to search for human resources, better prepared for the region ...</value>
+  </data>
+  <data name="lblQuienesPAXFacturacion" xml:space="preserve">
+    <value>Billing PAX set in early 2011.
+In order to position itself as the national leader in eletronic billing services, and competing in the market reliable supplier.
+To help trigger the development of SMEs in Mexico.
+As of December 8, 2011, PAX Turnover was certified by the SAT as Atorizado Provider Certification (PAC).</value>
+  </data>
+  <data name="lblTextMision" xml:space="preserve">
+    <value>Being the leader in electronic billing services, development of custom software and server hosting in the cloud, based on the needs of our clients, making us the best choice in the market for quality, flexibility, innovation, service and security through the maturity of our processes with a team that encourages innovative ideas that add value to our customers.</value>
+  </data>
+  <data name="lblTextValores" xml:space="preserve">
+    <value>&lt;b&gt; • RESPECT: &lt;/b&gt; Among colleagues and to clients and
+                 suppliers. &lt;br /&gt;
+                 &lt;b&gt; • PROFESSIONALISM: &lt;/b&gt; effort in updating and acquisition of knowledge,
+                 confidentiality issues, empathy and commitment to customers. &lt;br/&gt;
+                 &lt;b&gt; • HONESTY: &lt;/b&gt; Information transparency, confidence in the
+                 people, committed to achieving. &lt;br/&gt;
+                 &lt;b&gt; • Service attitude: &lt;/b&gt; Provide care with a positive attitude to achieve
+                 the objectives of our clients. &lt;br/&gt;
+                 &lt;b&gt; • QUALITY: &lt;/b&gt; work effectively and efficiently. &lt;br/&gt;
+                 &lt;b&gt; • TEAMWORK AND FELLOWSHIP: &lt;/b&gt; It encourages clear and open communication
+                 all members of the organization. Promote participation without hierarchy.
+                 &lt;br /&gt;
+                 &lt;b&gt; • LOYALTY: &lt;/b&gt; Quality of those who abide by the law or comply with
+                 agreements, tacit or explicit. &lt;br/&gt;
+                 &lt;b&gt; • RESPONSIBILITY: &lt;/b&gt; Ability to respond. Responsible is one that
+                 consciously is the direct or indirect cause of an event and therefore bears responsibility for the consequences of that
+                 fact.</value>
+  </data>
+  <data name="lblTextVision" xml:space="preserve">
+    <value>"PAX Billing" is a company that is ringing, manages and controls all the Internet Digital Tax Receipt (CFDI) issued and received by all types of taxpayers, based on personal service, for the proper implementation of this tax liability. Service also provides custom development and hosting of servers in the cloud.</value>
+  </data>
+  <data name="lblTituloMision" xml:space="preserve">
+    <value>Mission</value>
+  </data>
+  <data name="lblTituloNuestraHistoria" xml:space="preserve">
+    <value>Our History</value>
+  </data>
+  <data name="lblTituloQuienesPAXFacturacion" xml:space="preserve">
+    <value>Who is PAX Billing</value>
+  </data>
+  <data name="lblTituloValores" xml:space="preserve">
+    <value>​​Values</value>
+  </data>
+  <data name="lblTituloVision" xml:space="preserve">
+    <value>Vision</value>
+  </data>
+  <data name="lblTituloOficinaVirtual" xml:space="preserve">
+    <value>Offices</value>
+  </data>
+  <data name="lblQuienesPAX" xml:space="preserve">
+    <value>¿Who is PAX?</value>
+  </data>
+  <data name="lblSubMenuCotizar" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="lblSubMenuDesarrolloSW" xml:space="preserve">
+    <value>Software Development</value>
+  </data>
+  <data name="lblSubMenuFacturacionElectronica" xml:space="preserve">
+    <value>Electronic Billing</value>
+  </data>
+  <data name="lblSubMenuHistoria" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="lblSubMenuMisionVision" xml:space="preserve">
+    <value>Mission Vision</value>
+  </data>
+  <data name="lblSubMenuQuienesSomos" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="lblSubMenuServidoresenlaNube" xml:space="preserve">
+    <value>Servers in the Cloud</value>
+  </data>
+  <data name="lblSubMenuValores" xml:space="preserve">
+    <value>​​Values</value>
+  </data>
+  <data name="lblTituloclientesQue" xml:space="preserve">
+    <value>Customers who rely on PAX</value>
+  </data>
+  <data name="lblTituloNoticias" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="lblContacto3" xml:space="preserve">
+    <value>Email to Customer Service</value>
+  </data>
+  <data name="lblContacto4" xml:space="preserve">
+    <value>Call to Customer Service</value>
+  </data>
+  <data name="lblContacto5" xml:space="preserve">
+    <value>Send an email to customer service for assistance. In general, representatives respond to inquiries within one business day.</value>
+  </data>
+  <data name="lblContacto6" xml:space="preserve">
+    <value>Please call customer service.</value>
+  </data>
+  <data name="lblContacto7" xml:space="preserve">
+    <value>Chat online with Customer Service</value>
+  </data>
+  <data name="lblContacto8" xml:space="preserve">
+    <value>Fast, easy and hassle free! Chat with a customer service representative and quickly get to PAX the answers you need.</value>
+  </data>
+  <data name="lblContacto9" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="lblTelefono" xml:space="preserve">
+    <value>01 800 00 729 00</value>
+  </data>
+  <data name="lblTelefonoOficina" xml:space="preserve">
+    <value>(614) 424 04 44</value>
+  </data>
+  <data name="btnEntrar" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="lblAgregarNot" xml:space="preserve">
+    <value>Add News</value>
+  </data>
+  <data name="lblContrasenia" xml:space="preserve">
+    <value>password:</value>
+  </data>
+  <data name="lblContraseniaRequerida" xml:space="preserve">
+    <value>Password required</value>
+  </data>
+  <data name="lblPasswordError" xml:space="preserve">
+    <value>The combination of username and password is incorrect</value>
+  </data>
+  <data name="lblTitNoticias" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="lblUsuario" xml:space="preserve">
+    <value>User:</value>
+  </data>
+  <data name="lblUsuarioRequerido" xml:space="preserve">
+    <value>Username required.</value>
+  </data>
+  <data name="btnGuardarSop" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblDescripcionin" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="lblNoticiasError" xml:space="preserve">
+    <value>The news must contain only 140 characters and must not be empty</value>
+  </data>
+  <data name="varAceptar" xml:space="preserve">
+    <value>Has been saved and published successfully on Twitter</value>
+  </data>
+  <data name="lblpoliticasdesc" xml:space="preserve">
+    <value>&lt;table&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+This security policy outlines the proper conditions of use on this site. By accessing the site,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; you consent to data collection and use practices described in this privacy statement.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;
+Personal Data Protection
+&lt;/b&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+Personal information is any information that identifies you or by which your identity could be deduced. &lt;/td&gt;&lt;/tr&gt;
+&lt;td&gt;&lt;tr&gt;
+To use certain services or access certain content, you must provide certain data &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;personal, which will only be used for the purpose they were collected.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+The type of information that he may be requested includes, without limitation,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;name, RFC, e-mail address (e-mail), street, hometown, zip code,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;among others, not all information requested at time of entry into the binding site is &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;provided, except that we deem appropriate so that you know. how to start &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+Overall, this site will not share or disclose information except when authorized by you, &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;or in the following cases: &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+•	When requested by a competent authority and after fulfilling the corresponding legal proceedings. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+•	Where in the opinion of this site is necessary to enforce the terms of use and other terms of this page&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; or to protect the integrity of other users or the site.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+Personal information collected on this site will be used to operate the Site and to provide &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;services or carry out the transactions you request. To support such applications, PAX can be used &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;personal information to provide a more effective customer service and provide information &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;important product or service that is being used, including critical updates &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;and notifications. Additionally, we may send you information about other products and services PAX&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+PAX is committed to protecting the security of your personal information. We use very different technologies and &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;security procedures to help protect your personal information from unauthorized access, use or disclosure &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;unauthorized. For example, we store the personal information that is provided to us on servers &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;computer with limited access that are located in controlled facilities.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+Once collected your personal details are stored on the server in encrypted form along with other measures &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;additional protection. However you must take responsibility for the use of your account and password &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;keeping it private and not making it available to third parties.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+All information provided must be truthful. For these purposes, you guarantee the authenticity of all&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; data communicated as a result of completing the necessary forms for subscription &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Services, access to content or restricted areas of the site. In any case you will be solely responsible &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;for any false or inaccurate statements made and the damage caused to this site or others by &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;the information provided.
+&lt;tr&gt;&lt;td&gt;
+You agree to act responsibly at this site and to treat other visitors with respect.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+In case of cancellation of a customer service PAX, the privacy practices of information mentioned &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;above are still valid. The information will be deleted from our systems according to&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; regulated by the tax authority for these cases.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+PAX update this policy in cases that required according to changes in legislation. in these &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;cases our clients will be informed well in advance.&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</value>
+  </data>
+  <data name="lblTerminosyCondiciones" xml:space="preserve">
+    <value>&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;
+Take time to review the Terms of Use, because the mere use of the Website is committed &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;unreservedly to comply. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+PAX reserves the right to amend without notice these Terms of Use and the contract that these&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;suppose, merely by updating this posting.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+All the material on the site, which does not correspond to a third party, constitute intellectual property and exclusive PAX. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;A limitation, be construed as including the text, software, names, logos, trademarks,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;trademarks, trade names, images, photographs, drawings, music and video.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+PAX reserves all rights to such materials, does not yield in favor of or transfer any rights on &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;their intellectual property or third parties. Consequently, the user can download content only for your &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;personal use, never for commercial purposes, provided that you retain all copyright messages, property &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;and trademarks, no modifications are made to them, not make use of the contents in a &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;that appears to be linked to any of our products, services, events or brands, and content is not stored &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;in a database, server, or personal computer for reuse for commercial purposes. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+However, you may not, under any circumstances, copy, reproduce, publish, both physically and &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;electronically, transmit or distribute content online, unless you have requested and obtained in writing&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;our express permission. Nor can add, delete, distort or misrepresent any content on the Web PAX. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;It expressly prohibits any attempt to modify any Online Material, or to defeat or circumvent our &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;security. The user agrees to use the contents in a proper and lawful and is not authorized to redistribute or sell&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;the material or to reverse engineer, decompile or disassemble the software, or make any &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;other form that people can use a third party.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;
+Limitation of Liability
+&lt;/b&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+PAX excludes all liability for damages of any kind that may arise from the transmission,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;dissemination, storage, availability, reception or access to content, and in particular &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;though not exclusively, for damages that may result from (a) violation of the law, &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;morals and generally accepted customs or public order as a result of the transmission, distribution,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;storage, availability, reception or access to content;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; (b) the infringement of intellectual property, contractual commitments of any&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;class, the rights to honor, personal and family privacy and image of people's rights &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;property and all other rights belonging to third parties as a result of the transmission, distribution, &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;storage, availability, reception or access to content, (c) engaging in acts &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;unfair competition and illegal advertising as a result of the transmission, distribution, storage, &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;available, reception or access to content, (d) the lack of truthfulness, accuracy, completeness,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;relevance and / or timeliness of the content, (e) inadequate for any kind of purpose and fraud&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;expectations generated by the contents f) the faults and defects of all types of broadcast content,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;distributed, stored, made ​​available or otherwise transmitted or made available, received, obtained &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;or is accessed through the website or services.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;
+Termination of This Agreement 
+&lt;/b&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+PAX may terminate this agreement at any time, without notice, in the case that &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;at its sole discretion, you breach any of the conditions.&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</value>
+  </data>
+  <data name="lbliraDesarrollo" xml:space="preserve">
+    <value>Go to page Software Development</value>
+  </data>
+</root>

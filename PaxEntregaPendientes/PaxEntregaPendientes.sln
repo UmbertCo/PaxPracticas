@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaxEntregaPendientes", "PaxEntregaPendientes\PaxEntregaPendientes.csproj", "{33DF63B8-9B21-4082-A6C5-D493D635AAB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAXEntregaPendientesZip", "PAXEntregaPendientesZip\PAXEntregaPendientesZip.csproj", "{9BB37A77-295D-45A0-9150-6DDA37E4AC16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAXEntregaPendientesSAN", "PAXEntregaPendientesSAN\PAXEntregaPendientesSAN.csproj", "{890E8E66-3D00-4979-9760-5AE30AB10D60}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.3.105:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PaxEntregaPendientes\\PaxEntregaPendientes.csproj
+		SccProjectName1 = PaxEntregaPendientes
+		SccLocalPath1 = PaxEntregaPendientes
+		SccProjectUniqueName2 = PAXEntregaPendientesZip\\PAXEntregaPendientesZip.csproj
+		SccProjectName2 = PAXEntregaPendientesZip
+		SccLocalPath2 = PAXEntregaPendientesZip
+		SccProjectUniqueName3 = PAXEntregaPendientesSAN\\PAXEntregaPendientesSAN.csproj
+		SccProjectName3 = PAXEntregaPendientesSAN
+		SccLocalPath3 = PAXEntregaPendientesSAN
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33DF63B8-9B21-4082-A6C5-D493D635AAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DF63B8-9B21-4082-A6C5-D493D635AAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DF63B8-9B21-4082-A6C5-D493D635AAB7}.Debug|x64.ActiveCfg = Debug|x64
+		{33DF63B8-9B21-4082-A6C5-D493D635AAB7}.Debug|x64.Build.0 = Debug|x64
+		{33DF63B8-9B21-4082-A6C5-D493D635AAB7}.Debug|x86.ActiveCfg = Debug|x86
+		{33DF63B8-9B21-4082-A6C5-D493D635AAB7}.Debug|x86.Build.0 = Debug|x86
+		{33DF63B8-9B21-4082-A6C5-D493D635AAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DF63B8-9B21-4082-A6C5-D493D635AAB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33DF63B8-9B21-4082-A6C5-D493D635AAB7}.Release|x64.ActiveCfg = Release|x64
+		{33DF63B8-9B21-4082-A6C5-D493D635AAB7}.Release|x64.Build.0 = Release|x64
+		{33DF63B8-9B21-4082-A6C5-D493D635AAB7}.Release|x86.ActiveCfg = Release|x86
+		{33DF63B8-9B21-4082-A6C5-D493D635AAB7}.Release|x86.Build.0 = Release|x86
+		{9BB37A77-295D-45A0-9150-6DDA37E4AC16}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9BB37A77-295D-45A0-9150-6DDA37E4AC16}.Debug|x64.ActiveCfg = Debug|x86
+		{9BB37A77-295D-45A0-9150-6DDA37E4AC16}.Debug|x86.ActiveCfg = Debug|x86
+		{9BB37A77-295D-45A0-9150-6DDA37E4AC16}.Debug|x86.Build.0 = Debug|x86
+		{9BB37A77-295D-45A0-9150-6DDA37E4AC16}.Release|Any CPU.ActiveCfg = Release|x86
+		{9BB37A77-295D-45A0-9150-6DDA37E4AC16}.Release|x64.ActiveCfg = Release|x86
+		{9BB37A77-295D-45A0-9150-6DDA37E4AC16}.Release|x86.ActiveCfg = Release|x86
+		{9BB37A77-295D-45A0-9150-6DDA37E4AC16}.Release|x86.Build.0 = Release|x86
+		{890E8E66-3D00-4979-9760-5AE30AB10D60}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{890E8E66-3D00-4979-9760-5AE30AB10D60}.Debug|x64.ActiveCfg = Debug|x86
+		{890E8E66-3D00-4979-9760-5AE30AB10D60}.Debug|x86.ActiveCfg = Debug|x86
+		{890E8E66-3D00-4979-9760-5AE30AB10D60}.Debug|x86.Build.0 = Debug|x86
+		{890E8E66-3D00-4979-9760-5AE30AB10D60}.Release|Any CPU.ActiveCfg = Release|x86
+		{890E8E66-3D00-4979-9760-5AE30AB10D60}.Release|x64.ActiveCfg = Release|x86
+		{890E8E66-3D00-4979-9760-5AE30AB10D60}.Release|x86.ActiveCfg = Release|x86
+		{890E8E66-3D00-4979-9760-5AE30AB10D60}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

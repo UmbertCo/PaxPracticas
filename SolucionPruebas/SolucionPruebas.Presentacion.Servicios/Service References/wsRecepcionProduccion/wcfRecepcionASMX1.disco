@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://paxfacturacion.com.mx:453/webservices/wcfRecepcionASMX.asmx?wsdl" docRef="https://paxfacturacion.com.mx:453/webservices/wcfRecepcionASMX.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://paxfacturacion.com.mx:453/webservices/wcfRecepcionASMX.asmx" xmlns:q1="https://www.paxfacturacion.com.mx:453" binding="q1:wcfRecepcionASMXSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://paxfacturacion.com.mx:453/webservices/wcfRecepcionASMX.asmx" xmlns:q2="https://www.paxfacturacion.com.mx:453" binding="q2:wcfRecepcionASMXSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

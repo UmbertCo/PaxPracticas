@@ -1,0 +1,1028 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B82D0D7B-DE07-46D4-A3AB-7790CE53F11A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SolucionPruebas.Presentacion.Servicios</RootNamespace>
+    <AssemblyName>SolucionPruebas.Presentacion.Servicios</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ProxyLocator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\CancelacionService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\CatalogoServicioLocal\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ntcpLCO\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServicioLocal\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\SesionServicioLocal\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wcfLCO\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wcfRecepcionSAT\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsCancelacionDistribuidor\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsCancelacionRetencionLocal\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsCancelacionRetencionProduccion\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsCancelaPruebas\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WSConsultaAlSuper\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsGeneracionTimbradoDP\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsGeneracionTimbrado\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRecepcionCartaManifiestoProductivo\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRecepcionCartaManifiestoTest\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRecepcionCartaManifiesto\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRecepcionDPAspel\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRecepcionDesarrollo\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRecepcionDPSVC\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRecepcionDP\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRecepcionLocalRetencion\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRecepcionProduccion\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRecepcionRetencionProduccion\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRecepcionTestASMX\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRecepcionTestSVC\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRegistroUsuariosLocal\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRegistroUsuariosProduccionasmx\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRegistroUsuariosProduccion\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRegistroUsuariosSVCLocal\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRegistroUsuariosTestN\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsRegistroUsuariosTest\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsServiceRecepcionLocal\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsServicioAutenticacion\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsValidacionDesarrollo\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsValidacionTest\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsValidaRetencionTest\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\LCO\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\mx.com.paxfacturacion.test\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\wcfRecepcionManifiesto\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\PAXSistemaVentasWCF.Entidades.Mensajes.datasource" />
+    <None Include="Properties\DataSources\SolucionPruebas.Entidades.Mensajes.datasource" />
+    <None Include="Properties\DataSources\System.Data.DataTable.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\CancelacionService\wcfCancelaASMX.wsdl" />
+    <None Include="Service References\CatalogoServicioLocal\CatalogoService.wsdl" />
+    <None Include="Service References\CatalogoServicioLocal\CatalogoService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CatalogoServicioLocal\CatalogoService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CatalogoServicioLocal\CatalogoService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ntcpLCO\service.wsdl" />
+    <None Include="Service References\ntcpLCO\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ntcpLCO\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServicioLocal\Service.wsdl" />
+    <None Include="Service References\ServicioLocal\ServiceRecepcion.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServicioLocal\ServiceRecepcion1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SesionServicioLocal\ServiceSesion.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SesionServicioLocal\ServiceSesion1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SesionServicioLocal\ServiceSesion2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SesionServicioLocal\SesionService.wsdl" />
+    <None Include="Service References\wcfLCO\wcfRecuperaLCO.wsdl" />
+    <None Include="Service References\wcfRecepcionSAT\RecibeCFDIService.wsdl" />
+    <None Include="Service References\wcfRecepcionSAT\RecibeCFDIService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcfRecepcionSAT\RecibeCFDIService1.wsdl" />
+    <None Include="Service References\wcfRecepcionSAT\RecibeCFDIService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcfRecepcionSAT\RecibeCFDIService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wcfRecepcionSAT\SolucionPruebas.Presentacion.Servicios.wcfRecepcionSAT.Acuse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wsCancelacionDistribuidor\wcfCancelaASMX.wsdl" />
+    <None Include="Service References\wsCancelacionRetencionLocal\wcfCancelaASMX.wsdl" />
+    <None Include="Service References\wsCancelacionRetencionProduccion\wcfCancelaASMX.wsdl" />
+    <None Include="Service References\wsCancelaPruebas\wcfCancelaASMX.wsdl" />
+    <None Include="Service References\WSConsultaAlSuper\wcfConsultaTicket.wsdl" />
+    <None Include="Service References\wsGeneracionTimbradoDP\SolucionPruebas.Presentacion.Servicios.wsGeneracionTimbradoDP.ArrayOfAnyType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wsGeneracionTimbradoDP\wcfrecepcionasmx.wsdl" />
+    <None Include="Service References\wsGeneracionTimbradoDP\wcfrecepcionasmx.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsGeneracionTimbrado\SolucionPruebas.Presentacion.Servicios.wsGeneracionTimbrado.ArrayOfAnyType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wsGeneracionTimbrado\wcfRecepcionASMX1.wsdl" />
+    <None Include="Service References\wsRecepcionCartaManifiestoProductivo\wcfRecepcionManifiesto.wsdl" />
+    <None Include="Service References\wsRecepcionCartaManifiestoTest\wcfRecepcionManifiesto.wsdl" />
+    <None Include="Service References\wsRecepcionCartaManifiesto\wcfRecepcionASMX.wsdl" />
+    <None Include="Service References\wsRecepcionDPAspel\wcfRecepcionaspel.wsdl" />
+    <None Include="Service References\wsRecepcionDPAspel\wcfRecepcionaspel.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsRecepcionDesarrollo\wcfRecepcionASMX.wsdl" />
+    <None Include="Service References\wsRecepcionDPSVC\wcfRecepcion.wsdl" />
+    <None Include="Service References\wsRecepcionDPSVC\wcfRecepcion.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsRecepcionDPSVC\wcfRecepcion1.wsdl" />
+    <None Include="Service References\wsRecepcionDP\wcfRecepcionasmx.wsdl" />
+    <None Include="Service References\wsRecepcionDP\wcfRecepcionasmx.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsRecepcionLocalRetencion\wcfRecepcionASMX.wsdl" />
+    <None Include="Service References\wsRecepcionProduccion\wcfRecepcionASMX1.wsdl" />
+    <None Include="Service References\wsRecepcionRetencionProduccion\wcfRecepcionASMX.wsdl" />
+    <None Include="Service References\wsRecepcionTestASMX\wcfRecepcionASMX1.wsdl" />
+    <None Include="Service References\wsRecepcionTestSVC\wcfRecepcion.wsdl" />
+    <None Include="Service References\wsRecepcionTestSVC\wcfRecepcion.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsRecepcionTestSVC\wcfRecepcion1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsRegistroUsuariosLocal\wcfRegistro1.wsdl" />
+    <None Include="Service References\wsRegistroUsuariosProduccionasmx\wcfRegistro.wsdl" />
+    <None Include="Service References\wsRegistroUsuariosProduccion\wcfRegistroSVC.wsdl" />
+    <None Include="Service References\wsRegistroUsuariosProduccion\wcfRegistroSVC.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsRegistroUsuariosProduccion\wcfRegistroSVC1.wsdl" />
+    <None Include="Service References\wsRegistroUsuariosProduccion\wcfRegistroSVC1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsRegistroUsuariosProduccion\wcfRegistroSVC2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsRegistroUsuariosSVCLocal\wcfRegistroSVC2.wsdl" />
+    <None Include="Service References\wsRegistroUsuariosSVCLocal\wcfRegistroSVC21.wsdl" />
+    <None Include="Service References\wsRegistroUsuariosSVCLocal\wcfRegistroSVC3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsRegistroUsuariosSVCLocal\wcfRegistroSVC31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsRegistroUsuariosSVCLocal\wcfRegistroSVC32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsRegistroUsuariosTestN\wcfRegistro.wsdl" />
+    <None Include="Service References\wsRegistroUsuariosTest\wcfRegistro.wsdl" />
+    <None Include="Service References\wsServiceRecepcionLocal\ServiceRecepcion.wsdl" />
+    <None Include="Service References\wsServicioAutenticacion\ServiceAuthentication.wsdl" />
+    <None Include="Service References\wsValidacionDesarrollo\SolucionPruebas.Presentacion.Servicios.wsValidacionDesarrollo.ArrayOfAnyType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wsValidacionDesarrollo\wcfValidaasmx.wsdl" />
+    <None Include="Service References\wsValidacionTest\SolucionPruebas.Presentacion.Servicios.wsValidacionTest.ArrayOfAnyType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\wsValidacionTest\wcfValidaasmx.wsdl" />
+    <None Include="Service References\wsValidaRetencionTest\wcfValidaasmx.wsdl" />
+    <None Include="Web References\LCO\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\LCO\wcfRecuperaLCO.wsdl" />
+    <None Include="Web References\mx.com.paxfacturacion.test\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\mx.com.paxfacturacion.test\wcfRecepcionasmx.wsdl" />
+    <None Include="Web References\wcfRecepcionManifiesto\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\wcfRecepcionManifiesto\wcfRecepcionManifiesto.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\CancelacionService\" />
+    <WCFMetadataStorage Include="Service References\CatalogoServicioLocal\" />
+    <WCFMetadataStorage Include="Service References\ntcpLCO\" />
+    <WCFMetadataStorage Include="Service References\ServicioLocal\" />
+    <WCFMetadataStorage Include="Service References\SesionServicioLocal\" />
+    <WCFMetadataStorage Include="Service References\wcfLCO\" />
+    <WCFMetadataStorage Include="Service References\wcfRecepcionSAT\" />
+    <WCFMetadataStorage Include="Service References\wsCancelacionDistribuidor\" />
+    <WCFMetadataStorage Include="Service References\wsCancelacionRetencionLocal\" />
+    <WCFMetadataStorage Include="Service References\wsCancelacionRetencionProduccion\" />
+    <WCFMetadataStorage Include="Service References\wsCancelaPruebas\" />
+    <WCFMetadataStorage Include="Service References\WSConsultaAlSuper\" />
+    <WCFMetadataStorage Include="Service References\wsGeneracionTimbradoDP\" />
+    <WCFMetadataStorage Include="Service References\wsGeneracionTimbrado\" />
+    <WCFMetadataStorage Include="Service References\wsRecepcionCartaManifiestoProductivo\" />
+    <WCFMetadataStorage Include="Service References\wsRecepcionCartaManifiestoTest\" />
+    <WCFMetadataStorage Include="Service References\wsRecepcionCartaManifiesto\" />
+    <WCFMetadataStorage Include="Service References\wsRecepcionDPAspel\" />
+    <WCFMetadataStorage Include="Service References\wsRecepcionDesarrollo\" />
+    <WCFMetadataStorage Include="Service References\wsRecepcionDPSVC\" />
+    <WCFMetadataStorage Include="Service References\wsRecepcionDP\" />
+    <WCFMetadataStorage Include="Service References\wsRecepcionLocalRetencion\" />
+    <WCFMetadataStorage Include="Service References\wsRecepcionProduccion\" />
+    <WCFMetadataStorage Include="Service References\wsRecepcionRetencionProduccion\" />
+    <WCFMetadataStorage Include="Service References\wsRecepcionTestASMX\" />
+    <WCFMetadataStorage Include="Service References\wsRecepcionTestSVC\" />
+    <WCFMetadataStorage Include="Service References\wsRegistroUsuariosLocal\" />
+    <WCFMetadataStorage Include="Service References\wsRegistroUsuariosProduccionasmx\" />
+    <WCFMetadataStorage Include="Service References\wsRegistroUsuariosProduccion\" />
+    <WCFMetadataStorage Include="Service References\wsRegistroUsuariosSVCLocal\" />
+    <WCFMetadataStorage Include="Service References\wsRegistroUsuariosTestN\" />
+    <WCFMetadataStorage Include="Service References\wsRegistroUsuariosTest\" />
+    <WCFMetadataStorage Include="Service References\wsServiceRecepcionLocal\" />
+    <WCFMetadataStorage Include="Service References\wsServicioAutenticacion\" />
+    <WCFMetadataStorage Include="Service References\wsValidacionDesarrollo\" />
+    <WCFMetadataStorage Include="Service References\wsValidacionTest\" />
+    <WCFMetadataStorage Include="Service References\wsValidaRetencionTest\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CancelacionService\configuration91.svcinfo">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CancelacionService\configuration.svcinfo">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CancelacionService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioLocal\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioLocal\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioLocal\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsCancelacionDistribuidor\wcfCancelaASMX.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsCancelacionDistribuidor\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsCancelacionDistribuidor\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsCancelacionDistribuidor\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsGeneracionTimbrado\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsGeneracionTimbrado\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsGeneracionTimbrado\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionDesarrollo\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionDesarrollo\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionDesarrollo\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionDesarrollo\wcfRecepcionASMX.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CancelacionService\wcfCancelaASMX.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionProduccion\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionProduccion\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionProduccion\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionProduccion\wcfRecepcionASMX1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsCancelaPruebas\wcfCancelaASMX.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsCancelaPruebas\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsCancelaPruebas\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsCancelaPruebas\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfRecepcionSAT\RecibeCFDIService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfRecepcionSAT\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfRecepcionSAT\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfRecepcionSAT\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://192.168.3.106:8080/wcfRecuperaLCO.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\LCO\</RelPath>
+      <UpdateFromURL>http://192.168.3.106:8080/wcfRecuperaLCO.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>SolucionPruebas_Presentacion_Servicios_LCO_wcfRecuperaLCO</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://test.paxfacturacion.com.mx:453/webservices/wcfRecepcionasmx.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\mx.com.paxfacturacion.test\</RelPath>
+      <UpdateFromURL>https://test.paxfacturacion.com.mx:453/webservices/wcfRecepcionasmx.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>SolucionPruebas_Presentacion_Servicios_mx_com_paxfacturacion_test_wcfRecepcionASMX</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://test.paxfacturacion.com.mx:467/webservices/wcfRecepcionManifiesto.asmx%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\wcfRecepcionManifiesto\</RelPath>
+      <UpdateFromURL>https://test.paxfacturacion.com.mx:467/webservices/wcfRecepcionManifiesto.asmx%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>SolucionPruebas_Presentacion_Servicios_wcfRecepcionManifiesto_wcfRecepcionManifiesto</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\mx.com.paxfacturacion.test\wcfRecepcionasmx.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionTestASMX\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionTestASMX\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionTestASMX\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\LCO\wcfRecuperaLCO.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfLCO\wcfRecuperaLCO.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfLCO\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfLCO\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfLCO\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ntcpLCO\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ntcpLCO\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ntcpLCO\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioLocal\ServiceRecepcion.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsGeneracionTimbrado\wcfRecepcionASMX1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CatalogoServicioLocal\CatalogoService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CatalogoServicioLocal\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CatalogoServicioLocal\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CatalogoServicioLocal\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SolucionPruebas.Entidades\SolucionPruebas.Entidades.csproj">
+      <Project>{78FB21BA-3E6A-4AA6-9E4D-CDDDE4225681}</Project>
+      <Name>SolucionPruebas.Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SesionServicioLocal\ServiceSesion.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SesionServicioLocal\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SesionServicioLocal\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SesionServicioLocal\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionTestASMX\wcfRecepcionASMX1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionDP\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionDP\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionDP\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsGeneracionTimbradoDP\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsGeneracionTimbradoDP\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsGeneracionTimbradoDP\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosLocal\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosLocal\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosLocal\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsValidacionTest\wcfValidaasmx.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsValidacionTest\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsValidacionTest\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsValidacionTest\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsValidacionDesarrollo\wcfValidaasmx.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsValidacionDesarrollo\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsValidacionDesarrollo\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsValidacionDesarrollo\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosTestN\wcfRegistro.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosTestN\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosTestN\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosTestN\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosTest\wcfRegistro.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosTest\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosTest\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosTest\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosProduccion\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosProduccion\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosProduccion\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosProduccion\wcfRegistroSVC.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosProduccionasmx\wcfRegistro.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosProduccionasmx\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosProduccionasmx\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosProduccionasmx\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionTestSVC\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionTestSVC\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionTestSVC\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionDPAspel\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionDPAspel\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionDPAspel\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionDPSVC\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionDPSVC\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionDPSVC\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsValidaRetencionTest\wcfValidaasmx.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsValidaRetencionTest\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsValidaRetencionTest\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsValidaRetencionTest\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionLocalRetencion\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionLocalRetencion\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionLocalRetencion\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionRetencionProduccion\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionRetencionProduccion\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionRetencionProduccion\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsCancelacionRetencionLocal\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsCancelacionRetencionLocal\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsCancelacionRetencionLocal\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsCancelacionRetencionProduccion\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsCancelacionRetencionProduccion\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsCancelacionRetencionProduccion\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosSVCLocal\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosSVCLocal\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRegistroUsuariosSVCLocal\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionCartaManifiesto\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionCartaManifiesto\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionCartaManifiesto\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionCartaManifiestoTest\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionCartaManifiestoTest\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionCartaManifiestoTest\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsServiceRecepcionLocal\ServiceRecepcion.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsServiceRecepcionLocal\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsServiceRecepcionLocal\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsServiceRecepcionLocal\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsServicioAutenticacion\ServiceAuthentication.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsServicioAutenticacion\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsServicioAutenticacion\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsServicioAutenticacion\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionCartaManifiestoProductivo\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionCartaManifiestoProductivo\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsRecepcionCartaManifiestoProductivo\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WSConsultaAlSuper\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WSConsultaAlSuper\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WSConsultaAlSuper\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

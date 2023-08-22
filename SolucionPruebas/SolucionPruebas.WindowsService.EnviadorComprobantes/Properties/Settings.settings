@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SolucionPruebas.WindowsService.EnviadorComprobantes.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Intervalo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+    <Setting Name="Log" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\EnviadorComprobantes\Log\</Value>
+    </Setting>
+    <Setting Name="LogError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\EnviadorComprobantes\LogErrores\</Value>
+    </Setting>
+    <Setting Name="RutaArchivos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\EnviadorComprobantes\Entrada\</Value>
+    </Setting>
+    <Setting Name="RutaPfx" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\EnviadorComprobantes\Certificados\RutaPfx\</Value>
+    </Setting>
+    <Setting Name="RutaSalida" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\EnviadorComprobantes\Salida\</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12345678a</Value>
+    </Setting>
+    <Setting Name="RutaLlave" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\EnviadorComprobantes\Certificados\</Value>
+    </Setting>
+    <Setting Name="RutaCertificado" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\EnviadorComprobantes\Certificados\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

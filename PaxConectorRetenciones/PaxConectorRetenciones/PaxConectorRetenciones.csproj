@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B0660285-855C-42BC-87B1-EF463B52ADF4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PaxConectorRetenciones</RootNamespace>
+    <AssemblyName>PaxConectorRetenciones</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CadOriRet_1_0">
+      <HintPath>..\..\..\..\..\Users\Desarrollo_1\Documents\Visual Studio 2010\Projects\PaxConectorRetenciones\PaxConectorRetenciones\CadOriRet_1_0.dll</HintPath>
+    </Reference>
+    <Reference Include="Encriptacion">
+      <HintPath>..\..\..\..\..\Users\Desarrollo_1\Documents\Visual Studio 2010\Projects\PaxConectorRetenciones\PaxConectorRetenciones\bin\Debug\Encriptacion.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\..\..\..\Users\Desarrollo_1\Documents\Visual Studio 2010\Projects\PaxConectorRetenciones\PaxConectorRetenciones\bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Reports">
+      <HintPath>..\..\..\..\..\Users\Desarrollo_1\Documents\Visual Studio 2010\Projects\PaxConectorRetenciones\PaxConectorRetenciones\bin\Debug\Reports.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TFD10XSLT">
+      <HintPath>..\..\..\..\..\Users\Desarrollo_1\Documents\Visual Studio 2010\Projects\PaxConectorRetenciones\PaxConectorRetenciones\bin\Debug\TFD10XSLT.dll</HintPath>
+    </Reference>
+    <Reference Include="ThoughtWorks.QRCode">
+      <HintPath>..\..\..\..\..\Users\Desarrollo_1\Documents\Visual Studio 2010\Projects\PaxConectorRetenciones\PaxConectorRetenciones\bin\Debug\ThoughtWorks.QRCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Utilerias2010">
+      <HintPath>..\..\..\..\..\Users\Desarrollo_1\Documents\Visual Studio 2010\Projects\PaxConectorRetenciones\PaxConectorRetenciones\bin\Debug\Utilerias2010.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adicionales.cs" />
+    <Compile Include="Complementos\arrendamientoFideicomiso.cs" />
+    <Compile Include="clsDatosAdenda.cs" />
+    <Compile Include="clsLog.cs" />
+    <Compile Include="Complementos\derivados.cs" />
+    <Compile Include="Complementos\dividendos.cs" />
+    <Compile Include="Complementos\enajenacionDeAcciones.cs" />
+    <Compile Include="Complementos\fideicomisoNoEmpresarial.cs" />
+    <Compile Include="Complementos\Impuesto.cs" />
+    <Compile Include="Complementos\ImpuestoComp.cs" />
+    <Compile Include="Complementos\intereses.cs" />
+    <Compile Include="Complementos\interesesHipotecarios.cs" />
+    <Compile Include="Complementos\pagosAExtranjeros.cs" />
+    <Compile Include="Complementos\planesDeRetiro.cs" />
+    <Compile Include="Complementos\premios.cs" />
+    <Compile Include="Complementos\sectorFinanciero.cs" />
+    <Compile Include="Detalle.cs" />
+    <Compile Include="Funciones.cs" />
+    <Compile Include="MyFileSystemWatcher.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyFileSystemWatcher.Designer.cs">
+      <DependentUpon>MyFileSystemWatcher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumaletPDF.cs" />
+    <Compile Include="PaxService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PaxService.Designer.cs">
+      <DependentUpon>PaxService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Serial.cs" />
+    <Compile Include="Service References\wcfRecepcionasmx\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wcfValidaASMX\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsLicenciaASMX\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="TimbreFiscalDigital.cs" />
+    <Compile Include="Transformacion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\esquemas.zip" />
+    <None Include="Service References\wcfRecepcionasmx\wcfRecepcionASMX.wsdl" />
+    <None Include="Service References\wcfValidaASMX\wcfValidaasmx.wsdl" />
+    <None Include="Service References\wsLicenciaASMX\wsLicenciaASMX.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\wcfRecepcionasmx\" />
+    <WCFMetadataStorage Include="Service References\wcfValidaASMX\" />
+    <WCFMetadataStorage Include="Service References\wsLicenciaASMX\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfRecepcionasmx\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfRecepcionasmx\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfRecepcionasmx\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsLicenciaASMX\wsLicenciaASMX.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsLicenciaASMX\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsLicenciaASMX\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wsLicenciaASMX\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfValidaASMX\wcfValidaasmx.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfValidaASMX\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfValidaASMX\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfValidaASMX\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\wcfRecepcionasmx\wcfRecepcionASMX.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenSSL_Lib\OpenSSL_Lib.csproj">
+      <Project>{2E4F70A6-6294-44E0-8C73-27174CFC54D8}</Project>
+      <Name>OpenSSL_Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_pax.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

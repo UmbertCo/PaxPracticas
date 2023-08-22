@@ -1,0 +1,2430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCrearCuenta" xml:space="preserve">
+    <value>Create Account</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="btnReactivarCuenta" xml:space="preserve">
+    <value>Reactivate Account</value>
+    <comment>webInicioSesionReactivar</comment>
+  </data>
+  <data name="btnRecuperaCuenta" xml:space="preserve">
+    <value>Recover Password</value>
+    <comment>webInicioSesionRecupera</comment>
+  </data>
+  <data name="btnSiguiente" xml:space="preserve">
+    <value>Next</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="hpkReactivar" xml:space="preserve">
+    <value>Reactivate Account</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="hpkRecuperar" xml:space="preserve">
+    <value>Recover Password</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblBienvenida" xml:space="preserve">
+    <value>In this section, you can manage the features of this page.</value>
+    <comment>PAXPortalBienvenida.aspx</comment>
+  </data>
+  <data name="lblCer" xml:space="preserve">
+    <value>Certificate:</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="lblContrasenia" xml:space="preserve">
+    <value>Password:</value>
+    <comment>PAXPortalLogin.aspx</comment>
+  </data>
+  <data name="lblContraseniaRequerida" xml:space="preserve">
+    <value>Password required.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblCorreo" xml:space="preserve">
+    <value>E-mail:</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="lblCorreoRequerido" xml:space="preserve">
+    <value>E-mail required.</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="lblCreaCuenta" xml:space="preserve">
+    <value>New Account Register</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="lblCuentaCreada" xml:space="preserve">
+    <value>Account created.</value>
+    <comment>webInicioSesionCorrecto</comment>
+  </data>
+  <data name="lblCuentaDetalle" xml:space="preserve">
+    <value>The account is successfully created, please check your email to activate your account.</value>
+    <comment>webInicioSesionCorrecto</comment>
+  </data>
+  <data name="lblCuentaRacDetalle" xml:space="preserve">
+    <value>The password has been successfully retrieved, please check your email to activate your account.</value>
+    <comment>webInicioSesionReactivar</comment>
+  </data>
+  <data name="lblCuentaRecDetalle" xml:space="preserve">
+    <value>The password has been successfully retrieved, please check your email to activate your account.</value>
+    <comment>webInicioSesionCorrecto</comment>
+  </data>
+  <data name="lblCuentaRecuperada" xml:space="preserve">
+    <value>Password Recover.</value>
+    <comment>webInicioSesionCorrecto</comment>
+  </data>
+  <data name="lblDatos" xml:space="preserve">
+    <value>Capture the necessary information to create the account.</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="lblDatosFiscales" xml:space="preserve">
+    <value>Taxpayer's tax data</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="lblInicioSesion" xml:space="preserve">
+    <value>Log on</value>
+    <comment>PAXPortalLogin.aspx</comment>
+  </data>
+  <data name="lblKey" xml:space="preserve">
+    <value>Private Key:</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="lblMotivo" xml:space="preserve">
+    <value>Reason:</value>
+    <comment>webInicioSesionReactivar</comment>
+  </data>
+  <data name="lblMotivoRequerido" xml:space="preserve">
+    <value>Reason required.</value>
+    <comment>webInicioSesionReactivar</comment>
+  </data>
+  <data name="lblNomEmpresa" xml:space="preserve">
+    <value>PAX Facturación </value>
+    <comment>webGlobalMaster</comment>
+  </data>
+  <data name="lblProveedor" xml:space="preserve">
+    <value>This service is provided by order of SAT because we are an Certificate approved supplier.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblRazonSocial" xml:space="preserve">
+    <value>Business name</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="lblReacDatos" xml:space="preserve">
+    <value>Capture the necessary data to reactivate the account.</value>
+    <comment>webInicioSesionReactivar</comment>
+  </data>
+  <data name="lblReactivar" xml:space="preserve">
+    <value>Reactivate account</value>
+    <comment>webInicioSesionReactivar</comment>
+  </data>
+  <data name="lblRecuperaCuenta" xml:space="preserve">
+    <value>Password Recovery</value>
+    <comment>webInicioSesionRecupera</comment>
+  </data>
+  <data name="lblRecuperaDatos" xml:space="preserve">
+    <value>Capture the necessary data to recover the password
+.</value>
+    <comment>webInicioSesionRecupera</comment>
+  </data>
+  <data name="lblRegistrar" xml:space="preserve">
+    <value>Register</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblRegistrate" xml:space="preserve">
+    <value>Register as a new user:</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblRFC" xml:space="preserve">
+    <value>RFC</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="lblUsuario" xml:space="preserve">
+    <value>User:</value>
+    <comment>PAXPortalLogin.aspx</comment>
+  </data>
+  <data name="lblUsuarioRequerido" xml:space="preserve">
+    <value>Username Required.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblValidaciones" xml:space="preserve">
+    <value>Validation review for the Control Matrix.</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="txtRazonSocial" xml:space="preserve">
+    <value>Business name Required</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="txtRFC" xml:space="preserve">
+    <value>RFC Required</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="lblCambiar" xml:space="preserve">
+    <value>Change password</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="lblCambiarDetalle" xml:space="preserve">
+    <value>Enter your old password and enable the new password.</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="lblConfirmaNueva" xml:space="preserve">
+    <value>Confirm New Password:</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="lblContraseniaAnterior" xml:space="preserve">
+    <value>Previous Password:</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="lblContraseniaNueva" xml:space="preserve">
+    <value>New Password:</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="valConfirmaNueva" xml:space="preserve">
+    <value>The password confirmation is required.</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="valConNewConf" xml:space="preserve">
+    <value>The new password must be equal to the password confirmation.</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="valContraseniaAnterior" xml:space="preserve">
+    <value>The previous password is required</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="valContraseniaNueva" xml:space="preserve">
+    <value>The new password is required</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="btnGuardar" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblCalle" xml:space="preserve">
+    <value>Address</value>
+    <comment>webOperacionSucursales, webGlobalCuenta</comment>
+  </data>
+  <data name="lblColonia" xml:space="preserve">
+    <value>Neighborhood</value>
+    <comment>webOperacionSucursales</comment>
+  </data>
+  <data name="lblNoExterior" xml:space="preserve">
+    <value>No. External</value>
+    <comment>webOperacionSucursales</comment>
+  </data>
+  <data name="lblNoInterior" xml:space="preserve">
+    <value>No. Internal</value>
+    <comment>webOperacionSucursales</comment>
+  </data>
+  <data name="lblNombreSucursal" xml:space="preserve">
+    <value>Branch</value>
+    <comment>webOperacionSucursales</comment>
+  </data>
+  <data name="valCalle" xml:space="preserve">
+    <value>The street name is required.</value>
+  </data>
+  <data name="btnActualizar" xml:space="preserve">
+    <value>Update</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="lblCodigoPostal" xml:space="preserve">
+    <value>Zip Code</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="lblEstado" xml:space="preserve">
+    <value>State</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="lblLocalidad" xml:space="preserve">
+    <value>Locality</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="lblMunicipio" xml:space="preserve">
+    <value>Town</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="lblPais" xml:space="preserve">
+    <value>Country</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="lblReferenciaDom" xml:space="preserve">
+    <value>Reference</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="valCodigoPostal" xml:space="preserve">
+    <value>The zip code is required.</value>
+    <comment>PAXPortalDefault.aspx</comment>
+  </data>
+  <data name="valEstado" xml:space="preserve">
+    <value>The state is required.</value>
+  </data>
+  <data name="valMunicipio" xml:space="preserve">
+    <value>The town is required.</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="valPais" xml:space="preserve">
+    <value>The country is required.</value>
+  </data>
+  <data name="valSucursal" xml:space="preserve">
+    <value>The structure is required.</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="valCer" xml:space="preserve">
+    <value>The certificate is required.</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="valContrasenia" xml:space="preserve">
+    <value>The certificate´s password is required.</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="valKey" xml:space="preserve">
+    <value>The private key is required.</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="lblNombreCompleto" xml:space="preserve">
+    <value>Name or Business name:</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="varContribuyente" xml:space="preserve">
+    <value>taxpayer</value>
+    <comment>clsComun</comment>
+  </data>
+  <data name="varAlta" xml:space="preserve">
+    <value>successfully saved</value>
+  </data>
+  <data name="varBaja" xml:space="preserve">
+    <value>successfully removed</value>
+  </data>
+  <data name="varCambio" xml:space="preserve">
+    <value>successfully update</value>
+  </data>
+  <data name="varErrorAlta" xml:space="preserve">
+    <value>could not be saved</value>
+  </data>
+  <data name="varErrorBaja" xml:space="preserve">
+    <value>Could not remove</value>
+  </data>
+  <data name="varErrorCambio" xml:space="preserve">
+    <value>Could not update</value>
+  </data>
+  <data name="btnCancelar" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblEditar" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="lblEliminar" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="lblGridVacio" xml:space="preserve">
+    <value>No records found</value>
+    <comment>webOperacionesSucursales</comment>
+  </data>
+  <data name="lblSeleccionar" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="lblDescSoporte" xml:space="preserve">
+    <value>Has been sent an email with the generated ticket. Keep your ticket for future reference.</value>
+    <comment>webInicioSesionCorrecto</comment>
+  </data>
+  <data name="lblTitSoporte" xml:space="preserve">
+    <value>Support</value>
+    <comment>webInicioSesionCorrecto</comment>
+  </data>
+  <data name="btnReactivar" xml:space="preserve">
+    <value>Reactivate</value>
+  </data>
+  <data name="lblReactivarSucursal" xml:space="preserve">
+    <value>Branches Reactivation</value>
+    <comment>webGlobalSucursales</comment>
+  </data>
+  <data name="lblEfectoDocumento" xml:space="preserve">
+    <value>Effect</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="lblFolio" xml:space="preserve">
+    <value>Folio</value>
+    <comment>webOperacionSeriesFolios</comment>
+  </data>
+  <data name="lblImpuesto" xml:space="preserve">
+    <value>Tax</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="lblSerie" xml:space="preserve">
+    <value>Series</value>
+    <comment>webOperacionSeriesFolios</comment>
+  </data>
+  <data name="lblTasaImpuesto" xml:space="preserve">
+    <value>Rate</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="lblTipoDocumento" xml:space="preserve">
+    <value>Document</value>
+    <comment>webOperacionSeriesFolios, webOperacionDocImpuestos</comment>
+  </data>
+  <data name="valEfectoDocumento" xml:space="preserve">
+    <value>The effect´s type is required.</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="valFolio" xml:space="preserve">
+    <value>The folio number is required</value>
+    <comment>webOperacionSeriesFolios</comment>
+  </data>
+  <data name="valImpuesto" xml:space="preserve">
+    <value>The  tax type is required.</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="valSerie" xml:space="preserve">
+    <value>The series name is required.</value>
+    <comment>webOperacionSeriesFolios</comment>
+  </data>
+  <data name="valTasaNoValida" xml:space="preserve">
+    <value>The tax rate value must be a value between 0 and 100</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="valTasaReq" xml:space="preserve">
+    <value>The tax rate value is required.</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="valTipoDocumento" xml:space="preserve">
+    <value>The document´s type is required.</value>
+    <comment>webOperacionSeriesFolios, webOperacionDocImpuestos</comment>
+  </data>
+  <data name="varErrorSerieEnUso" xml:space="preserve">
+    <value>The series is already in use</value>
+    <comment>webOperacionSeriesFolios</comment>
+  </data>
+  <data name="varErrorSerieYaAsignada" xml:space="preserve">
+    <value>The series is already assigned</value>
+    <comment>webOperacionSeriesFolios</comment>
+  </data>
+  <data name="valEmisionCer" xml:space="preserve">
+    <value>The certificate was not issued by the SAT</value>
+    <comment>clsValCertificado</comment>
+  </data>
+  <data name="valExtensionCer" xml:space="preserve">
+    <value>The public key file must have extension. Cer</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="valExtensionKey" xml:space="preserve">
+    <value>The private key file must have extension. Key</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="valFechaCer" xml:space="preserve">
+    <value>The certificate is out of date</value>
+    <comment>clsValCertificado</comment>
+  </data>
+  <data name="valRfcCer" xml:space="preserve">
+    <value>The RFC in the certificate does not match</value>
+    <comment>clsValCertificado</comment>
+  </data>
+  <data name="msg30diasInactividad" xml:space="preserve">
+    <value>Your user has to be inactivated more than 30 days without use. &lt;br/&gt; To continue using the system, it is necessary to reactivate the account.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="msgBloquearCon" xml:space="preserve">
+    <value>Taxpayer Block.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="msgNoCorreo" xml:space="preserve">
+    <value>The mail hasn´t been sent.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="msgPassIncorrecto" xml:space="preserve">
+    <value>Incorrect Password.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="msgSeUsuarioBloqueado" xml:space="preserve">
+    <value>Your User has been blocked.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="msgUsuarioBloqueado" xml:space="preserve">
+    <value>User blocked.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="msgUsuNoExiste" xml:space="preserve">
+    <value>The user does not exist.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="msgClaveExistente" xml:space="preserve">
+    <value>Existing Login name, use another one.</value>
+    <comment>webInicioSesionRegistro.aspx</comment>
+  </data>
+  <data name="msgExpira" xml:space="preserve">
+    <value>Every 30 days your password will expire, please change it frecuently.</value>
+    <comment>usrGlobalPwd.ascx</comment>
+  </data>
+  <data name="msgMalCaptcha" xml:space="preserve">
+    <value>Incorrect Captcha´s number</value>
+    <comment>webInicioSesionRegistro.aspx</comment>
+  </data>
+  <data name="msgNoPassCon" xml:space="preserve">
+    <value>The password is not a registered taxpayer.</value>
+    <comment>usrGlobalPwd.ascx</comment>
+  </data>
+  <data name="msgNoPassUsu" xml:space="preserve">
+    <value>Cannot be the same user name and password.</value>
+    <comment>usrGlobalPwd.ascx</comment>
+  </data>
+  <data name="msgNoResCuenta" xml:space="preserve">
+    <value>The account hasn´t been restored, try again.</value>
+    <comment>webInicioSesionReactivar.aspx</comment>
+  </data>
+  <data name="msgNoUsuCorreo" xml:space="preserve">
+    <value>Not found the user or invalid email.</value>
+    <comment>webInicioSesionReactivar.aspx</comment>
+  </data>
+  <data name="msgPassUsado" xml:space="preserve">
+    <value>The password it was used already, try another one.</value>
+    <comment>usrGlobalPwd.ascx</comment>
+  </data>
+  <data name="msgReactivaCon" xml:space="preserve">
+    <value>Reactivate taxpayer.</value>
+    <comment>webInicioSesionReactivar.aspx</comment>
+  </data>
+  <data name="msgRecuperaCon" xml:space="preserve">
+    <value>Recover taxpayer.</value>
+    <comment>webInicioSesionReactivar.aspx</comment>
+  </data>
+  <data name="msgRegistroCon" xml:space="preserve">
+    <value>Taxpayer registration.</value>
+    <comment>webInicioSesionRegistro.aspx</comment>
+  </data>
+  <data name="mailBloqueo" xml:space="preserve">
+    <value>&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;Al Contribuyente:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Se le ha enviado un correo para informar que su cuenta se ha bloqueado por 3 intentos erróneos.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;Proceso:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Para poder recuperar su cuenta, favor de entrar a recuperar contraseña.&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</value>
+    <comment>webInicioSesionLogin.aspx</comment>
+  </data>
+  <data name="valRazonSocial" xml:space="preserve">
+    <value>The business name is required.</value>
+  </data>
+  <data name="valRfc" xml:space="preserve">
+    <value>RFC required.</value>
+  </data>
+  <data name="valKeyCer" xml:space="preserve">
+    <value>The certificate does not match with the private key</value>
+    <comment>clsValCertificado</comment>
+  </data>
+  <data name="lblBajaCuenta" xml:space="preserve">
+    <value>To unsubscribe this user you must confirm your password.</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="varConfirmacionBaja" xml:space="preserve">
+    <value>Are you sure you want to cancel the account?</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="btnAgregar" xml:space="preserve">
+    <value>Add</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="varKeyPass" xml:space="preserve">
+    <value>The password supplied is incorrect</value>
+    <comment>clsValCertificados</comment>
+  </data>
+  <data name="btnPassBaja" xml:space="preserve">
+    <value>To unsubscribe this account click here</value>
+    <comment>clsGlobalCuenta</comment>
+  </data>
+  <data name="btnPassBajaProc" xml:space="preserve">
+    <value>Decline</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="regxKey" xml:space="preserve">
+    <value>Isn´t a .key file</value>
+    <comment>webInicioSesionRegDatos</comment>
+  </data>
+  <data name="regxRFC" xml:space="preserve">
+    <value>Incomplete RFC</value>
+    <comment>webInicioSesionRegDatos</comment>
+  </data>
+  <data name="rfvCer" xml:space="preserve">
+    <value>Isn´t a .cer file</value>
+    <comment>webInicioSesionRegDatos</comment>
+  </data>
+  <data name="txtCorreo" xml:space="preserve">
+    <value>Invalid E-mail</value>
+    <comment>webInicioSesionRegistro.aspx</comment>
+  </data>
+  <data name="txtNombre" xml:space="preserve">
+    <value>The full name is required.</value>
+    <comment>webInicioSesionRegistro.aspx</comment>
+  </data>
+  <data name="txtNumero" xml:space="preserve">
+    <value>Captcha required.</value>
+    <comment>webInicioSesionRegistro.aspx</comment>
+  </data>
+  <data name="txtUsuario" xml:space="preserve">
+    <value>They must be minimum 8 characters.</value>
+    <comment>webInicioSesionRegistro.aspx</comment>
+  </data>
+  <data name="lblConsultar" xml:space="preserve">
+    <value>Consult</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblEstatus" xml:space="preserve">
+    <value>Status</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblFechaFin" xml:space="preserve">
+    <value>To a date</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblFechaIni" xml:space="preserve">
+    <value>From the date</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblFolioFin" xml:space="preserve">
+    <value>To the Folio</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblFolioIni" xml:space="preserve">
+    <value>From the folio</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblReceptor" xml:space="preserve">
+    <value>Receiver</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblCancelar" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="lblDescargar" xml:space="preserve">
+    <value>Download</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="lblFecha" xml:space="preserve">
+    <value>Date</value>
+    <comment>PAXPortalDefault</comment>
+  </data>
+  <data name="lblImporte" xml:space="preserve">
+    <value>Amount</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="lblMoneda" xml:space="preserve">
+    <value>Currency</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="VarDropTodos" xml:space="preserve">
+    <value>All</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="varEstatusActivo" xml:space="preserve">
+    <value>Active</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="varEstatusCancelado" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="lblCantidad" xml:space="preserve">
+    <value>Amount</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="lblCodigo" xml:space="preserve">
+    <value>Code</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="lblDescripcion" xml:space="preserve">
+    <value>Description</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="lblPrecio" xml:space="preserve">
+    <value>Price</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="lblSubtotal" xml:space="preserve">
+    <value>Subtotal:</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="lblTotal" xml:space="preserve">
+    <value>Total:</value>
+    <comment>PAXPortalDEfault</comment>
+  </data>
+  <data name="lblUnidad" xml:space="preserve">
+    <value>Unit</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="regxCantidad" xml:space="preserve">
+    <value>Amount required.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="regxPrecio" xml:space="preserve">
+    <value>Incorrect format.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="revDesc" xml:space="preserve">
+    <value>Description required.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="revPrecio" xml:space="preserve">
+    <value>Price required.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="rfvCodigo" xml:space="preserve">
+    <value>Code required.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="rfvUnidad" xml:space="preserve">
+    <value>Unit required.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="hlkTerminos" xml:space="preserve">
+    <value>Terms of Use of Service</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="lblDeclaro" xml:space="preserve">
+    <value>I have read the Terms of Use, and agree to the terms of the Service for the Issuance of CFDI</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="lblDetReactivar" xml:space="preserve">
+    <value>Capture the necessary data to recover the password. Remember that your user can be discharged for more than 30 days of inactivity.</value>
+    <comment>webInicioSesionReactivar</comment>
+  </data>
+  <data name="lblDetRecupera" xml:space="preserve">
+    <value>Capture the necessary data to recover the password. Remember that for failing at least 3 attempts, your password has been blocked.</value>
+    <comment>webInicioSesionRecupera</comment>
+  </data>
+  <data name="lblProcesoRegistro" xml:space="preserve">
+    <value>To be considered for registration as a user for the Application for the Issuance of
+                 CFDI, first you must agree to the Terms of Use of Service
+                 Issue of Tax Receipts through Internet.</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="lblRestricciones" xml:space="preserve">
+    <value>The password must be at least 8 characters, include at least one capital letter and include at least one special character. Example: +*{}[]-.,.</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="varErrorDescarga" xml:space="preserve">
+    <value>It was not possible to download the document</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="txtImporte" xml:space="preserve">
+    <value>The amount is required</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="varConceptos" xml:space="preserve">
+    <value>No concepts captured.</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="valFechaConsulta" xml:space="preserve">
+    <value>The date is required</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="valFormatoFecha" xml:space="preserve">
+    <value>The date format is incorrect</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="btnEnviar" xml:space="preserve">
+    <value>Send</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="lblSoporteAgradecimiento" xml:space="preserve">
+    <value>Thank you for choosing our electronic billing service PAX Facturación.</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="lblSoporteAsunto" xml:space="preserve">
+    <value>What is your issue?</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="lblSoporteDescipcion" xml:space="preserve">
+    <value>Describe your problem or question</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="lblSoporteLeyenda" xml:space="preserve">
+    <value>For any questions or problems with the platform, please see our FAQ. Or if you want to enter your concern through the form below:</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="valSoporteDescripcion" xml:space="preserve">
+    <value>You must provide a description of your problem or question</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="varTicket" xml:space="preserve">
+    <value>Your ticket is {0}</value>
+    <comment>clsGlobalSoporte</comment>
+  </data>
+  <data name="varTicketMailBody" xml:space="preserve">
+    <value>Hello, is important to keep your password for future monitoring of your problem.&lt;br /&gt;&lt;br /&gt;Your code is {0}&lt;br /&gt;This ticket will be attended by {1}&lt;br /&gt;&lt;br /&gt;Thank you for your attention. We are at your service.&lt;br /&gt;&lt;br /&gt;PAX Facturación</value>
+    <comment>clsGlobalSoporte</comment>
+  </data>
+  <data name="varTicketSubject" xml:space="preserve">
+    <value> The Ticket has been generated {0} through the user {1}</value>
+    <comment>clsGlobalSoporte</comment>
+  </data>
+  <data name="msgCompGenerado" xml:space="preserve">
+    <value>Receipt generated, in the query area your vouchers are available.</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="msgNoCertificado" xml:space="preserve">
+    <value>Cannot recover the certificate for the generation, try again.</value>
+    <comment>PAXPortalDefault</comment>
+  </data>
+  <data name="msgNoCompGenerado" xml:space="preserve">
+    <value>No receipt has been generated, try again.</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="msgRedireccionar" xml:space="preserve">
+    <value>You have one minute for your session ends, to prevent this, maintained activity on the system.</value>
+  </data>
+  <data name="varErrorBajaUsu" xml:space="preserve">
+    <value>Failed to terminate the user account</value>
+    <comment>clsGlobalCuenta</comment>
+  </data>
+  <data name="varCancelacionCfd" xml:space="preserve">
+    <value>The receipt has been canceled to "HACIENDA"</value>
+    <comment>PAXPortalWebConsultaCFDI</comment>
+  </data>
+  <data name="varValidacionError" xml:space="preserve">
+    <value>Please check de incomplete datas.</value>
+    <comment>clsComun</comment>
+  </data>
+  <data name="hlkRegresar" xml:space="preserve">
+    <value>Back to site.</value>
+  </data>
+  <data name="lblErroProblema" xml:space="preserve">
+    <value>There was a problem in the system.</value>
+  </data>
+  <data name="lblErrorDet" xml:space="preserve">
+    <value>For security reasons you need to enter back into the system.</value>
+  </data>
+  <data name="lblNonScript" xml:space="preserve">
+    <value>This site requires JavaScript to be enabled.&lt;br /&gt;If you do not activate the JavaScript settings in your browser, some features may not work correctly.</value>
+  </data>
+  <data name="mnuAyuda" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="mnuCatalogos" xml:space="preserve">
+    <value>Catalogs</value>
+  </data>
+  <data name="mnuClientes" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="mnuConsultas" xml:space="preserve">
+    <value>Consults</value>
+  </data>
+  <data name="mnuCuenta" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="mnuDocImpuestos" xml:space="preserve">
+    <value>Documents and Taxes</value>
+  </data>
+  <data name="mnuSalir" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="mnuSeriesFolios" xml:space="preserve">
+    <value>Series and Folios (Optional)</value>
+  </data>
+  <data name="mnuSoporte" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="mnuSucursales" xml:space="preserve">
+    <value>Branches</value>
+  </data>
+  <data name="mnuTimbrado" xml:space="preserve">
+    <value>CFDI Generation</value>
+  </data>
+  <data name="varConfirmacionCancelacion" xml:space="preserve">
+    <value>Are you sure you want to cancel this voucher?</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="lblSubConsulta" xml:space="preserve">
+    <value>Consult</value>
+  </data>
+  <data name="lblSubCuenta" xml:space="preserve">
+    <value>Tax data Matrix</value>
+  </data>
+  <data name="lblSubCuentaCertificados" xml:space="preserve">
+    <value>Certificates</value>
+  </data>
+  <data name="lblSubDocumentos" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="lblSubSeries" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="lblSubUsrPass" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="lblTituloConsultas" xml:space="preserve">
+    <value>Receipt consultation</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblTituloCuenta" xml:space="preserve">
+    <value>User account</value>
+    <comment>clsGlobalCuenta</comment>
+  </data>
+  <data name="lblTituloDocumentos" xml:space="preserve">
+    <value>DOCUMENTS AND TAXES Catalogue</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="lblTituloReceptores" xml:space="preserve">
+    <value>Taxpayers receivers Catalogue</value>
+    <comment>webOperacionClientes</comment>
+  </data>
+  <data name="lblTituloSeries" xml:space="preserve">
+    <value>SERIES and FOLIOS Catalogue</value>
+    <comment>webOperacionSeriesFolios</comment>
+  </data>
+  <data name="lblTituloSucReceptores" xml:space="preserve">
+    <value>TAXPAYER'S CATALOG BRANCH RECEIVER</value>
+    <comment>webOperacionClientes</comment>
+  </data>
+  <data name="lblTituloSucursales" xml:space="preserve">
+    <value>TAXPAYER'S CATALOGUE OF STRUCTURE</value>
+    <comment>clsOperacionSucursales</comment>
+  </data>
+  <data name="varPDF" xml:space="preserve">
+    <value>PDF</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="varXML" xml:space="preserve">
+    <value>XML</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblCFDI" xml:space="preserve">
+    <value>Generation CFDI</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="lblConceptos" xml:space="preserve">
+    <value>Concepts</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="lblConEmisor" xml:space="preserve">
+    <value>Taxpayer Issuer</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="lblConReceptor" xml:space="preserve">
+    <value>Tax Data Receiver</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="lblDetalles" xml:space="preserve">
+    <value>Details</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="lblSubSoporte" xml:space="preserve">
+    <value>Form</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="lblTituloSoporte" xml:space="preserve">
+    <value>Technical Support for Users</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="lblAddSucursal" xml:space="preserve">
+    <value>Branches</value>
+    <comment>webOperacionClientes</comment>
+  </data>
+  <data name="lblAgregar" xml:space="preserve">
+    <value>Add</value>
+    <comment>webOperacionClientes</comment>
+  </data>
+  <data name="lblSubReceptor" xml:space="preserve">
+    <value>Receiver</value>
+    <comment>webOperacionClientes</comment>
+  </data>
+  <data name="lblSubReceptorSuc" xml:space="preserve">
+    <value>Tax data receiver</value>
+  </data>
+  <data name="lblSubSucursales" xml:space="preserve">
+    <value>Branches</value>
+  </data>
+  <data name="mnuBajaCuenta" xml:space="preserve">
+    <value>Log off account</value>
+  </data>
+  <data name="lblSubBajaCuenta" xml:space="preserve">
+    <value>User Authentication</value>
+    <comment>webOperacionCuentaBaja</comment>
+  </data>
+  <data name="varBajaExitosa" xml:space="preserve">
+    <value>Your account has been discharged.</value>
+  </data>
+  <data name="varBajaMailBody" xml:space="preserve">
+    <value>&lt;h1&gt;Account cancellation&lt;/h1&gt;
+&lt;p&gt;
+Estimado usuario.
+&lt;br /&gt;
+Recibimos una notificación para cancelar tu cuenta de PAX Facturación, para continuar con el procesos necesitamos de tu confirmación
+&lt;br /&gt;&lt;br /&gt;
+• 	Si deseas deshabilitar el servicio haz clic &lt;a href="{2}webGlobalProcesoBaja.aspx?dub={3}"&gt;aquí&lt;/a&gt;
+&lt;br /&gt;
+• 	Si no deseas cancelar tu cuenta haz caso omiso a este correo
+&lt;br /&gt;
+&lt;br /&gt;
+Si el link de arriba no funciona, copia y pega la siguiente dirección en tu navegador:
+&lt;br /&gt;
+{2}webGlobalProcesoBaja.aspx?dub={3}
+&lt;br /&gt;&lt;br /&gt;
+Te recomendamos que antes de deshabilitar la cuenta, respaldes los CFDs que tienes almacenados, ya que al momento de cancelar perderás el acceso a ellos.
+&lt;br /&gt;
+La cuenta que se cancelará es la siguiente:
+&lt;br /&gt;
+{0}
+&lt;br /&gt;
+{1}
+&lt;br /&gt;&lt;br /&gt;
+Gracias por su atención. Estamos a sus servicios.
+&lt;br /&gt;
+PAX Facturación
+&lt;/p&gt;</value>
+  </data>
+  <data name="varNotificaciónCorreo" xml:space="preserve">
+    <value>An email authentication has been sent to your email account. To complete the process must authenticate with the email.</value>
+  </data>
+  <data name="varSubjectBajaCuenta" xml:space="preserve">
+    <value>Unsuscribe account confirmation</value>
+  </data>
+  <data name="hedCertificados" xml:space="preserve">
+    <value>Change certificates</value>
+  </data>
+  <data name="hedDatosFisc" xml:space="preserve">
+    <value>Change Tax data</value>
+  </data>
+  <data name="hedPass" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="lblAceptar" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="btnRegresar" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="lblVer" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="lblSubtituloBusReceptores" xml:space="preserve">
+    <value>To perform the search enter a part of the RFC and address of your receptor you want to find. If no value is entered the query will return all the receivers available for the selected branch of the issuer.</value>
+    <comment>webBusquedareceptores.aspx</comment>
+  </data>
+  <data name="lblTituloBusquedaReceptor" xml:space="preserve">
+    <value>SEARCH FOR RECEIVERS</value>
+    <comment>webBusquedareceptores.aspx</comment>
+  </data>
+  <data name="varImporteCero" xml:space="preserve">
+    <value>Can not be the amount equal to 0.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="varExDocumento" xml:space="preserve">
+    <value>No files uploaded, &lt;br/&gt; go to the documents and taxes catalog.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="varExSucursal" xml:space="preserve">
+    <value>No branch captured, &lt;br/&gt; go to the Client catalog to set up the Branch.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="mnuEmpresa" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="mnuInicio" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="mnuMision" xml:space="preserve">
+    <value>Mission</value>
+  </data>
+  <data name="mnuQuien" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="mnuValores" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="mnuVision" xml:space="preserve">
+    <value>Vision</value>
+  </data>
+  <data name="mnuConsultasCFDI" xml:space="preserve">
+    <value>CFDI Consultations</value>
+  </data>
+  <data name="mnuGeneracion" xml:space="preserve">
+    <value>Generation</value>
+  </data>
+  <data name="varTicketMailBody1" xml:space="preserve">
+    <value>Hello, it is important to save your password for future monitoring of the problem.&lt;br /&gt;&lt;br /&gt;Your password is {0}&lt;br/&gt;&lt;br /&gt;&lt;br /&gt;Thank you for your attention. We are at your service.&lt;br /&gt;&lt;br /&gt;PAX Facturación</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="lbldatosprueba" xml:space="preserve">
+    <value>Load file</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="varErrorArchivo" xml:space="preserve">
+    <value>Invalid file extension, only images are accepted</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="varErrorTamanio" xml:space="preserve">
+    <value>The file size exceeds the maximum of 2MB</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="lblErrorDatReg" xml:space="preserve">
+    <value>There are problems with the registration data, please try again.</value>
+  </data>
+  <data name="lblEntrar" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="lblIdioma" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="lblObjeto" xml:space="preserve">
+    <value>Object</value>
+    <comment>clsWebParametros</comment>
+  </data>
+  <data name="lblInstancia" xml:space="preserve">
+    <value>Instance</value>
+  </data>
+  <data name="lblArchivo" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="lblAplicativo" xml:space="preserve">
+    <value>Aplication</value>
+  </data>
+  <data name="lblBaseDatos" xml:space="preserve">
+    <value>Data Base</value>
+  </data>
+  <data name="lblAccion" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="lblPistasUsuario" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="lblBienvenido" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="mnuParametros" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="mnuPAud" xml:space="preserve">
+    <value>Audits</value>
+  </data>
+  <data name="mnuPistas" xml:space="preserve">
+    <value>Tracks</value>
+  </data>
+  <data name="mnuPParam" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="lblSO" xml:space="preserve">
+    <value>Operative Sistem</value>
+  </data>
+  <data name="lblTipo" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="lblOrigen" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="lblFiltro1" xml:space="preserve">
+    <value>Filter 1</value>
+  </data>
+  <data name="lblFiltro2" xml:space="preserve">
+    <value>Filter 2</value>
+  </data>
+  <data name="lblFiltro3" xml:space="preserve">
+    <value>Filter 3</value>
+  </data>
+  <data name="lblLeyenda" xml:space="preserve">
+    <value>For best results, you could filter the information to the field Filter1, Filter2 and Filter3</value>
+  </data>
+  <data name="lblTituloPistas" xml:space="preserve">
+    <value>VIEW AUDITS TRAILS</value>
+  </data>
+  <data name="varProcesando" xml:space="preserve">
+    <value>Precessing.......</value>
+  </data>
+  <data name="lblMsgCreditos" xml:space="preserve">
+    <value>Dear User, you have no credits available please contact your provider.</value>
+  </data>
+  <data name="varCancelacionCfdMultiple" xml:space="preserve">
+    <value>The receipt has been canceled to "HACIENDA"</value>
+    <comment>PAXPortalWebConsultaCFDI</comment>
+  </data>
+  <data name="lblMotivoCancelacion" xml:space="preserve">
+    <value>Reason for Cancellation</value>
+  </data>
+  <data name="varComentarioCancelacion" xml:space="preserve">
+    <value>You must write a reason for cancellation</value>
+  </data>
+  <data name="lblSeleccionarTodo" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="varManualSoporte" xml:space="preserve">
+    <value>Support Manual</value>
+  </data>
+  <data name="varManualUsuario" xml:space="preserve">
+    <value>User Manual</value>
+  </data>
+  <data name="varSOAP" xml:space="preserve">
+    <value>SOAP</value>
+  </data>
+  <data name="varUUID" xml:space="preserve">
+    <value>UUID</value>
+  </data>
+  <data name="varConSOAP" xml:space="preserve">
+    <value>SOAP CATALOG</value>
+  </data>
+  <data name="varNoCancel" xml:space="preserve">
+    <value>No response to cancel in SAT</value>
+    <comment>PAXPortalWebConsultaCFDI</comment>
+  </data>
+  <data name="valCSDCer" xml:space="preserve">
+    <value>The certificate is not of type CSD</value>
+  </data>
+  <data name="lblExcel" xml:space="preserve">
+    <value>Export to excel</value>
+  </data>
+  <data name="varNoUUID" xml:space="preserve">
+    <value>205 - UUID does not exist</value>
+  </data>
+  <data name="varCancelaVacio" xml:space="preserve">
+    <value>You must select at least one voucher to cancel</value>
+  </data>
+  <data name="varCSD308" xml:space="preserve">
+    <value>Certificate not issued by the SAT</value>
+  </data>
+  <data name="varSelSOAP" xml:space="preserve">
+    <value>Select a record for export.</value>
+  </data>
+  <data name="lblCreditos" xml:space="preserve">
+    <value>Credits Available:</value>
+  </data>
+  <data name="btnDescargar" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="btnBorrar" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lblEstructura" xml:space="preserve">
+    <value>Structure</value>
+  </data>
+  <data name="lblPaginado" xml:space="preserve">
+    <value>Allow paging</value>
+  </data>
+  <data name="lblProvider" xml:space="preserve">
+    <value>Provider</value>
+  </data>
+  <data name="lblComplemento" xml:space="preserve">
+    <value>Complement</value>
+  </data>
+  <data name="lblAutorizacion" xml:space="preserve">
+    <value>Authorization Number</value>
+  </data>
+  <data name="lblcargosydesccons" xml:space="preserve">
+    <value>Consolidated charges or discounts</value>
+  </data>
+  <data name="lblclaveestacion" xml:space="preserve">
+    <value>Station Key</value>
+  </data>
+  <data name="lblcliente" xml:space="preserve">
+    <value>Client Name</value>
+  </data>
+  <data name="lblcuenta" xml:space="preserve">
+    <value>Count No.</value>
+  </data>
+  <data name="lblCurp" xml:space="preserve">
+    <value>CURP</value>
+  </data>
+  <data name="lblfoliooperacion" xml:space="preserve">
+    <value>Operating Folio</value>
+  </data>
+  <data name="lblfuncionmsje" xml:space="preserve">
+    <value>Message function</value>
+  </data>
+  <data name="lblgln1" xml:space="preserve">
+    <value>Global Location Number buyer</value>
+  </data>
+  <data name="lblgln2" xml:space="preserve">
+    <value>Global Location Number seller</value>
+  </data>
+  <data name="lblidentificador" xml:space="preserve">
+    <value>Identifier</value>
+  </data>
+  <data name="lblLeyendaDonativa" xml:space="preserve">
+    <value>Legend</value>
+  </data>
+  <data name="lblmontodesccargo" xml:space="preserve">
+    <value>Discount or Fee Amount</value>
+  </data>
+  <data name="lblmontototal" xml:space="preserve">
+    <value>Total amount</value>
+  </data>
+  <data name="lblniveleducativo" xml:space="preserve">
+    <value>Educational Level</value>
+  </data>
+  <data name="lblNodoNombre" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblnombrecombustible" xml:space="preserve">
+    <value>Fuel Name</value>
+  </data>
+  <data name="lblOperacion" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="lblParty1" xml:space="preserve">
+    <value>Secondary form of identification assigned to the supplier</value>
+  </data>
+  <data name="lblParty2" xml:space="preserve">
+    <value>Secondary identification invoicing</value>
+  </data>
+  <data name="lblperiodo" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="lblPSGECFD" xml:space="preserve">
+    <value>PSGECFD seal</value>
+  </data>
+  <data name="lblrefproducto" xml:space="preserve">
+    <value>Reference on the product detail</value>
+  </data>
+  <data name="lblrfcenajenante" xml:space="preserve">
+    <value>RFC transferor</value>
+  </data>
+  <data name="lbltasa" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="lbltipodesc" xml:space="preserve">
+    <value>Discount rate or charge</value>
+  </data>
+  <data name="lbltipooperacion" xml:space="preserve">
+    <value>Type of Operation</value>
+  </data>
+  <data name="lbltipotrans" xml:space="preserve">
+    <value>Transaction Type</value>
+  </data>
+  <data name="lblTotaldeTraslados" xml:space="preserve">
+    <value>Total Transfers</value>
+  </data>
+  <data name="lbltotalRetenciones" xml:space="preserve">
+    <value>Total Deductions</value>
+  </data>
+  <data name="lblvalorunitario" xml:space="preserve">
+    <value>Unit Value</value>
+  </data>
+  <data name="lblVersion" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="lblNinguno" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="lblNodoSel" xml:space="preserve">
+    <value>Selected User</value>
+  </data>
+  <data name="varBorrarNodo" xml:space="preserve">
+    <value>Are you sure you want to delete this node?</value>
+  </data>
+  <data name="varNoAcReg" xml:space="preserve">
+    <value>Not updated record.</value>
+    <comment>PAXPortalWebOperacionRFC</comment>
+  </data>
+  <data name="varAgregaNodo" xml:space="preserve">
+    <value>Select a node and add the description.</value>
+  </data>
+  <data name="varNoAgregar" xml:space="preserve">
+    <value>Can not delete this node, &lt;/ br&gt; because it was used to generate an invoice.</value>
+    <comment>PAXPortalWebOperacionSucursales</comment>
+  </data>
+  <data name="varBajaFallida" xml:space="preserve">
+    <value>Not taken down</value>
+  </data>
+  <data name="varNodoNoSel" xml:space="preserve">
+    <value>There is not selected branch.</value>
+  </data>
+  <data name="varConfirmacionCancelacionMasiva" xml:space="preserve">
+    <value>Are you sure want to delete these voucher?</value>
+  </data>
+  <data name="varBoNodPrinc" xml:space="preserve">
+    <value>You can not delete the first node.</value>
+  </data>
+  <data name="varEditarNodo" xml:space="preserve">
+    <value>To edit this node need to change in fiscal data.</value>
+  </data>
+  <data name="varCatalogoUsuarios" xml:space="preserve">
+    <value>CATALOG USERS</value>
+    <comment>webOperacionUsuarios</comment>
+  </data>
+  <data name="lblDatosUsuario" xml:space="preserve">
+    <value>User Data</value>
+  </data>
+  <data name="lblMonitoreo" xml:space="preserve">
+    <value>Device monitoring</value>
+  </data>
+  <data name="lblAlmacenamiento" xml:space="preserve">
+    <value>Storage</value>
+  </data>
+  <data name="lblMemoria" xml:space="preserve">
+    <value>Memory</value>
+  </data>
+  <data name="lblProcesamiento" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="lblRed" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="lblDatosRFC" xml:space="preserve">
+    <value>Rfc Data</value>
+  </data>
+  <data name="varCatalogoRFC" xml:space="preserve">
+    <value>CATALOG RFC</value>
+  </data>
+  <data name="varAlmacen" xml:space="preserve">
+    <value>Storage</value>
+  </data>
+  <data name="varCapacidad" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="varCaptura" xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="varConsultaReportes" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="varCPU" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="varDispositivo" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="varMaximo" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="varMemoria" xml:space="preserve">
+    <value>Memory</value>
+  </data>
+  <data name="varMonitoreo" xml:space="preserve">
+    <value>MONITORING</value>
+  </data>
+  <data name="varOrigen" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="varPromedio" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="varRed" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="varUbicacion" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="lblContribuyente" xml:space="preserve">
+    <value>Taxpayer</value>
+  </data>
+  <data name="lblNuevoRFC" xml:space="preserve">
+    <value>New RFC</value>
+  </data>
+  <data name="btnExcel" xml:space="preserve">
+    <value>Export to Excell</value>
+  </data>
+  <data name="lblCertificado" xml:space="preserve">
+    <value>Use the registration certificate</value>
+  </data>
+  <data name="lblEliminarRFC" xml:space="preserve">
+    <value>You can not delete this RFC because it was used in the issuance of vouchers</value>
+  </data>
+  <data name="lblDatosPar" xml:space="preserve">
+    <value>Parameter Data</value>
+  </data>
+  <data name="varCatParametros" xml:space="preserve">
+    <value>PARAMETER CATALOG</value>
+  </data>
+  <data name="lblParametro" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="lblValor" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="valParametro" xml:space="preserve">
+    <value>Parameter Required.</value>
+  </data>
+  <data name="valValor" xml:space="preserve">
+    <value>Required Value.</value>
+  </data>
+  <data name="lblautRVOE" xml:space="preserve">
+    <value>autRVOE</value>
+  </data>
+  <data name="varMonReg" xml:space="preserve">
+    <value>Capture has been blocked because there is already registration of the day.</value>
+  </data>
+  <data name="varNoAlarmas" xml:space="preserve">
+    <value>Have not been found active alarms.</value>
+  </data>
+  <data name="varSiAlarmas" xml:space="preserve">
+    <value>Active Alarms found.</value>
+  </data>
+  <data name="varDescargaVacio" xml:space="preserve">
+    <value>You must select at least one voucher for download.</value>
+  </data>
+  <data name="varComplemento" xml:space="preserve">
+    <value>Select a complement</value>
+  </data>
+  <data name="VarComplementoDesbloquea" xml:space="preserve">
+    <value>Unlock list of complements</value>
+  </data>
+  <data name="VarComplementoSeleccionado" xml:space="preserve">
+    <value>Fill complement data</value>
+  </data>
+  <data name="lblContrasenaCorreo" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="lblEmailCorreo" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="lblNuevoCorreo" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="lblFechaDoc" xml:space="preserve">
+    <value>Document Date</value>
+  </data>
+  <data name="lblIeps" xml:space="preserve">
+    <value>IEPS</value>
+  </data>
+  <data name="lblIsr" xml:space="preserve">
+    <value>ISR</value>
+  </data>
+  <data name="lblIva" xml:space="preserve">
+    <value>IVA</value>
+  </data>
+  <data name="lblIvaRetenido" xml:space="preserve">
+    <value>Tax Retained</value>
+  </data>
+  <data name="lblMedida" xml:space="preserve">
+    <value>Measure Unit</value>
+  </data>
+  <data name="lblArticulosCat" xml:space="preserve">
+    <value>ITEMS CATALOG</value>
+  </data>
+  <data name="varUsuLinea" xml:space="preserve">
+    <value>The user is already using the system, if for some reason the system did not close well, please wait 20 minutes and try again.</value>
+  </data>
+  <data name="lblSucursal" xml:space="preserve">
+    <value>Branch Office</value>
+  </data>
+  <data name="lblAdenda" xml:space="preserve">
+    <value>Insert Addenda</value>
+  </data>
+  <data name="lblErrorEstructura" xml:space="preserve">
+    <value>Customers must capture before capturing items</value>
+  </data>
+  <data name="lblNamespace" xml:space="preserve">
+    <value>Add Namespace</value>
+  </data>
+  <data name="lblxsdAddenda" xml:space="preserve">
+    <value>Add XSD of Addenda</value>
+  </data>
+  <data name="lblDescuento" xml:space="preserve">
+    <value>% Discount</value>
+  </data>
+  <data name="lblModulos" xml:space="preserve">
+    <value>System Modules</value>
+  </data>
+  <data name="lblformadepago" xml:space="preserve">
+    <value>Method of Payment</value>
+  </data>
+  <data name="lblLugarExpedicion" xml:space="preserve">
+    <value>Place of Issue</value>
+  </data>
+  <data name="lblNumeroCuenta" xml:space="preserve">
+    <value>Account Number</value>
+  </data>
+  <data name="lblRegimenfiscal" xml:space="preserve">
+    <value>Fiscal Regime</value>
+  </data>
+  <data name="lblTipoCambio" xml:space="preserve">
+    <value>Exchange Rate</value>
+  </data>
+  <data name="lblPerfiles" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="varOrigUsu" xml:space="preserve">
+    <value>The user does not match the designated system.</value>
+  </data>
+  <data name="varMsjTipCam" xml:space="preserve">
+    <value>Exchange Capture</value>
+  </data>
+  <data name="varTituloTipCam" xml:space="preserve">
+    <value>Validation Exchange Issuer</value>
+  </data>
+  <data name="varNoEditar" xml:space="preserve">
+    <value>Can not edit this node, &lt;/ br&gt; because it was used to generate an invoice.</value>
+  </data>
+  <data name="varExpedidoEn" xml:space="preserve">
+    <value>Issued at</value>
+  </data>
+  <data name="varEdNodPrinc" xml:space="preserve">
+    <value>You can not edit the first node.</value>
+  </data>
+  <data name="lblEstructuraAsignada" xml:space="preserve">
+    <value>The RFC was captured and pre-configured</value>
+  </data>
+  <data name="lblErrorRFC" xml:space="preserve">
+    <value>This certificate has already been registered</value>
+  </data>
+  <data name="mnuArticulos" xml:space="preserve">
+    <value>Articles</value>
+  </data>
+  <data name="mnuUsuarios" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="mnuConsProv" xml:space="preserve">
+    <value>Providers Consultations</value>
+  </data>
+  <data name="lblErrorRfcEstructura" xml:space="preserve">
+    <value>The selected structure already has a configured RFC. To configure another erase the previous record.</value>
+  </data>
+  <data name="lblCertificadoUtiliza" xml:space="preserve">
+    <value>Use Certificate</value>
+  </data>
+  <data name="lblFechaFinal" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="lblFechaInicio" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="lblNumeroDistribuidor" xml:space="preserve">
+    <value>Number of Supplier</value>
+  </data>
+  <data name="lblDistribuidoresCat" xml:space="preserve">
+    <value>DEALER CATALOG</value>
+  </data>
+  <data name="lblErrorDistribuidor" xml:space="preserve">
+    <value>There is no user with that email and / or the user password</value>
+  </data>
+  <data name="lblUsuarioDist" xml:space="preserve">
+    <value>User Id</value>
+  </data>
+  <data name="VarErrorDistVal" xml:space="preserve">
+    <value>The key distributor does not exist in the system</value>
+  </data>
+  <data name="varPlantillas" xml:space="preserve">
+    <value>Templates</value>
+  </data>
+  <data name="lblNodoSelEstructura" xml:space="preserve">
+    <value>Selected Branch</value>
+  </data>
+  <data name="lblTituloConsultasEdoCuenta" xml:space="preserve">
+    <value>CONSULTATION STATEMENT</value>
+  </data>
+  <data name="lblSaldo" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="lblAcceso" xml:space="preserve">
+    <value>Entry</value>
+  </data>
+  <data name="lblCreditosUser" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="LblDistribuidor" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="varCreditos" xml:space="preserve">
+    <value>Can not be assigned less credit for already allocated.</value>
+  </data>
+  <data name="varInsCred" xml:space="preserve">
+    <value>Insufficient credits</value>
+  </data>
+  <data name="lblGeneradoPor" xml:space="preserve">
+    <value>Generated by</value>
+  </data>
+  <data name="lblHora" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="lblTituloConsultaEdoCuentaDet" xml:space="preserve">
+    <value>CONSULTATION DETAILED STATEMENT</value>
+  </data>
+  <data name="lblLogo" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="VarErrorLogo" xml:space="preserve">
+    <value>Maximum size of the logo is 1MB</value>
+  </data>
+  <data name="VarLogo" xml:space="preserve">
+    <value>The logo file must have extension .jpg</value>
+  </data>
+  <data name="VarSinLogo" xml:space="preserve">
+    <value>No logo set for the selected RFC</value>
+  </data>
+  <data name="lblCliAli" xml:space="preserve">
+    <value>Ally client</value>
+  </data>
+  <data name="lblClienteNomCol" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="VarCorreoGeneracion" xml:space="preserve">
+    <value>This user is blocked because gender vouchers can only be changed e-mail</value>
+  </data>
+  <data name="varAgregaNodoUsuarios" xml:space="preserve">
+    <value>There is not selected user</value>
+  </data>
+  <data name="lblCFDIPantalla" xml:space="preserve">
+    <value>Generation CFDI</value>
+  </data>
+  <data name="msgEnvioMail" xml:space="preserve">
+    <value>Proof was sent to e-mail</value>
+  </data>
+  <data name="msgErrorEnvioMail" xml:space="preserve">
+    <value>There was a problem sending the email, check the proof.</value>
+  </data>
+  <data name="varEmail" xml:space="preserve">
+    <value>Forwarding</value>
+  </data>
+  <data name="btnConfirmaDistribuidor" xml:space="preserve">
+    <value>Is information captured correct?</value>
+  </data>
+  <data name="btnConfirmaEliminar" xml:space="preserve">
+    <value>Are you sure you want to delete this record?</value>
+  </data>
+  <data name="lblDistribuidorExistente" xml:space="preserve">
+    <value>This user is a distributor</value>
+  </data>
+  <data name="lblclientepertdist" xml:space="preserve">
+    <value>This user already belongs to a distributor</value>
+  </data>
+  <data name="lblCodDisDes" xml:space="preserve">
+    <value>Dealer Code:</value>
+  </data>
+  <data name="LblDistribuidores" xml:space="preserve">
+    <value>Distributor Customers</value>
+  </data>
+  <data name="mnuDatosFiscales" xml:space="preserve">
+    <value>Fiscal Data Matrix</value>
+  </data>
+  <data name="mnuDistAsigCreditos" xml:space="preserve">
+    <value>Credit Allocation</value>
+  </data>
+  <data name="mnuDistribuidor" xml:space="preserve">
+    <value>Distributor</value>
+  </data>
+  <data name="mnuEstadoCuenta" xml:space="preserve">
+    <value>Consultation Statement</value>
+  </data>
+  <data name="lblClave" xml:space="preserve">
+    <value>Item ID</value>
+  </data>
+  <data name="lblClaveGrid" xml:space="preserve">
+    <value>Item ID</value>
+  </data>
+  <data name="lblDatosFisc" xml:space="preserve">
+    <value>Fiscal Data</value>
+  </data>
+  <data name="lblDatosGen" xml:space="preserve">
+    <value>General Information</value>
+  </data>
+  <data name="lblOtraUbicacion" xml:space="preserve">
+    <value>Another Location</value>
+  </data>
+  <data name="lblTituloBusquedaArticulo" xml:space="preserve">
+    <value>ARTICLE SEARCH</value>
+  </data>
+  <data name="varExisteArticulo" xml:space="preserve">
+    <value>The article already exists in the list details, click the edit button if you want to edit the article.</value>
+  </data>
+  <data name="msgGuardarArticulo" xml:space="preserve">
+    <value>Article saved in catalog.</value>
+  </data>
+  <data name="msgActualizarArticulo" xml:space="preserve">
+    <value>Article updated</value>
+  </data>
+  <data name="valMayorCero" xml:space="preserve">
+    <value>The price must be greater than zero.</value>
+  </data>
+  <data name="lblTituloPagoParcial" xml:space="preserve">
+    <value>PARTIAL PAYMENT DATA</value>
+  </data>
+  <data name="lblFechaFolioFiscalOrig" xml:space="preserve">
+    <value>Sheet Date the Original Tax</value>
+  </data>
+  <data name="lblFolioFiscalOrig" xml:space="preserve">
+    <value>Folio Original Tax</value>
+  </data>
+  <data name="lblMontoFolioFiscalOrig" xml:space="preserve">
+    <value>Folio Original Tax Amount</value>
+  </data>
+  <data name="lblSerieFolioFiscalOrig" xml:space="preserve">
+    <value>Folio Series Original Tax</value>
+  </data>
+  <data name="valFechaFolioFiscalOrig" xml:space="preserve">
+    <value>Sheet date the original tax required.</value>
+  </data>
+  <data name="valFolioFiscalOrig" xml:space="preserve">
+    <value>Folio original tax required.</value>
+  </data>
+  <data name="valMontoFolioFiscalOrig" xml:space="preserve">
+    <value>Folio original tax amount is required.</value>
+  </data>
+  <data name="valSerieFolioFiscalOrig" xml:space="preserve">
+    <value>Folio series original tax required.</value>
+  </data>
+  <data name="msgPagoParciales" xml:space="preserve">
+    <value>Capture additional fields to the form of "payment in installments."</value>
+  </data>
+  <data name="varEditarPagoParcial" xml:space="preserve">
+    <value>Edit partial payment information.</value>
+  </data>
+  <data name="lblPagParA" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="lblPagParDe" xml:space="preserve">
+    <value>Partiality</value>
+  </data>
+  <data name="msgCompPagDePagA" xml:space="preserve">
+    <value>The initial partial payment should be less than the final partial payment.</value>
+  </data>
+  <data name="msgValPagosPar" xml:space="preserve">
+    <value>Capture number of partial payment.</value>
+  </data>
+  <data name="msgvalMontoOrig" xml:space="preserve">
+    <value>Capture sheet original tax amount.</value>
+  </data>
+  <data name="lblConfigPlantillas" xml:space="preserve">
+    <value>TEMPLATE CONFIGURATION CATALOG</value>
+  </data>
+  <data name="lblColor" xml:space="preserve">
+    <value>Template Color</value>
+  </data>
+  <data name="lblExpedidoEn" xml:space="preserve">
+    <value>Issued in</value>
+  </data>
+  <data name="lblLugarExp" xml:space="preserve">
+    <value>Place Expedition</value>
+  </data>
+  <data name="lblAgrArtCat" xml:space="preserve">
+    <value>Add to Catalog Items</value>
+  </data>
+  <data name="lblAgrExpEn" xml:space="preserve">
+    <value>Add Issued In</value>
+  </data>
+  <data name="msgValNumPar" xml:space="preserve">
+    <value>Capture the number of installments</value>
+  </data>
+  <data name="valPagParDe" xml:space="preserve">
+    <value>Range installments is required</value>
+  </data>
+  <data name="valParcialidades" xml:space="preserve">
+    <value>Installments is required</value>
+  </data>
+  <data name="lblCorreoCC" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="lblCorreoCliente" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="lblCorreoEmisor" xml:space="preserve">
+    <value>Issuing</value>
+  </data>
+  <data name="lblCorreoMensaje" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="lblTituloEnvioCorreo" xml:space="preserve">
+    <value>Send Voucher by Email</value>
+  </data>
+  <data name="msgEnvioCorreo" xml:space="preserve">
+    <value>Document sent by mail.</value>
+  </data>
+  <data name="msgErrorEnvioCorreo" xml:space="preserve">
+    <value>Failed to send the document by mail, verify the data or contact technical support.</value>
+  </data>
+  <data name="lblAgregarCreditos" xml:space="preserve">
+    <value>Add Credits</value>
+  </data>
+  <data name="lblBuscarCreditos" xml:space="preserve">
+    <value>Search Credits</value>
+  </data>
+  <data name="lblclaveusuario" xml:space="preserve">
+    <value>User Key </value>
+  </data>
+  <data name="lblservicios" xml:space="preserve">
+    <value>Services </value>
+  </data>
+  <data name="lblPrecioUnit" xml:space="preserve">
+    <value>Unit Price</value>
+  </data>
+  <data name="lblAsignacionCreditos" xml:space="preserve">
+    <value>CREDIT ALLOCATION</value>
+  </data>
+  <data name="lblAcumulado" xml:space="preserve">
+    <value>ACCUMULATED CREDIT REPORT</value>
+  </data>
+  <data name="lblFechaCompra" xml:space="preserve">
+    <value>Purchase Date</value>
+  </data>
+  <data name="lblFechaVigencia" xml:space="preserve">
+    <value>Expiration Date</value>
+  </data>
+  <data name="varServicios" xml:space="preserve">
+    <value>You must select at least one service</value>
+  </data>
+  <data name="VarNoServicioCancela" xml:space="preserve">
+    <value>Dear Customer you do not have the cancellation service, please contact the sales department of PAX Facturación.</value>
+  </data>
+  <data name="btnActualizarServicios" xml:space="preserve">
+    <value>Update Services</value>
+  </data>
+  <data name="lblUser" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="LblDistribuidorAsigna" xml:space="preserve">
+    <value>ALLOCATION OF CREDITS DISTRIBUITOR</value>
+  </data>
+  <data name="lblAbono" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="lblCargo" xml:space="preserve">
+    <value>Debit</value>
+  </data>
+  <data name="lblCreditosRest" xml:space="preserve">
+    <value>Remaining credits</value>
+  </data>
+  <data name="lblFechaOperacion" xml:space="preserve">
+    <value>Operation date</value>
+  </data>
+  <data name="lblHistorico" xml:space="preserve">
+    <value>CREDIT HISTORY REPORT</value>
+  </data>
+  <data name="lblMsgCreditosNeg" xml:space="preserve">
+    <value>You can not assign a negative amount</value>
+  </data>
+  <data name="varSinGeneracionytimbrado" xml:space="preserve">
+    <value>Dear user you do not have generation and invoice service, please contact the sales area PAX Billing.</value>
+  </data>
+  <data name="lblasignarcreditos" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="lblcreditosxservicio" xml:space="preserve">
+    <value>Service credits</value>
+  </data>
+  <data name="lbltotcreditos" xml:space="preserve">
+    <value>Total credits</value>
+  </data>
+  <data name="mnuAsignaDistribuidor" xml:space="preserve">
+    <value>Allocation of Credits Distributor</value>
+  </data>
+  <data name="mnuConfPlantilla" xml:space="preserve">
+    <value>Template Configuration</value>
+  </data>
+  <data name="mnuDistribuidores" xml:space="preserve">
+    <value>Distributors</value>
+  </data>
+  <data name="mnuReporteAcumulado" xml:space="preserve">
+    <value>Accumulated Credit Report</value>
+  </data>
+  <data name="mnuReporteHistorico" xml:space="preserve">
+    <value>Credit History Report</value>
+  </data>
+  <data name="lblEliminarDist" xml:space="preserve">
+    <value>Are you sure you want to delete this record?</value>
+  </data>
+  <data name="varConfirmarGuardarDistribuidor" xml:space="preserve">
+    <value>Is the information captured is correct?</value>
+  </data>
+  <data name="lblMsgCredInsuf" xml:space="preserve">
+    <value>Insufficient credits</value>
+  </data>
+  <data name="lblRFCInformacion" xml:space="preserve">
+    <value>&lt;table&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                When capturing the RFC, remember to validate the following information:&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                - The RFC does not end in words, unless the letter &amp;quot;A&amp;quot;.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                - That the first 6 numbers keep a list of year, month and day.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                - And finally if it is billed to a foreign client, use corresponding RFC&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &amp;nbsp;&amp;nbsp; &amp;#39;XEXX010101000&amp;#39; or the general public
+                &amp;#39;XAXX010101000&amp;#39;.&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;</value>
+  </data>
+  <data name="lbAnterior" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="lblSiguiente" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="varSeleccione" xml:space="preserve">
+    <value>Choose</value>
+  </data>
+  <data name="lblCptoArticulos" xml:space="preserve">
+    <value>Concepts Articles</value>
+  </data>
+  <data name="lblImpCompl" xml:space="preserve">
+    <value>Local tax</value>
+  </data>
+  <data name="lblTitImpCompl" xml:space="preserve">
+    <value>Local taxes</value>
+  </data>
+  <data name="varPas64" xml:space="preserve">
+    <value>This part can generate the password for the user base 64 need to add the Service.</value>
+  </data>
+  <data name="varPas64Pass" xml:space="preserve">
+    <value>Password required to generate Base 64.</value>
+  </data>
+  <data name="varPas64Val" xml:space="preserve">
+    <value>Password Base 64.</value>
+  </data>
+  <data name="revImporteLoc" xml:space="preserve">
+    <value>Local amount required.</value>
+  </data>
+  <data name="lblDescargaExcel" xml:space="preserve">
+    <value>Has finished consultation, click on OK to view</value>
+  </data>
+  <data name="lblProgressBar" xml:space="preserve">
+    <value>Processing...</value>
+  </data>
+  <data name="lblDescargarConsulta" xml:space="preserve">
+    <value>Download view</value>
+  </data>
+  <data name="lblConsultaExitosa" xml:space="preserve">
+    <value>Document ready for download, do you want to download?</value>
+  </data>
+  <data name="varSinCancelacion" xml:space="preserve">
+    <value>Dear user you do not have cancellation service, please contact the sales area PAX Billing.</value>
+  </data>
+  <data name="varMensajeCorreo" xml:space="preserve">
+    <value>Dear Customer.
+
+Attached through this e-mail your Digital Internet Tax Receipt.
+
+Thank you for your preference.
+
+Sincerely.</value>
+  </data>
+  <data name="lblCancelados" xml:space="preserve">
+    <value>Canceled Documents</value>
+  </data>
+  <data name="lblTimbrados" xml:space="preserve">
+    <value>Signed Documents</value>
+  </data>
+  <data name="lblmsjComplementos" xml:space="preserve">
+    <value>You have selected please complete complement the data by clicking the add button generation.</value>
+  </data>
+  <data name="lblErrorComplemento" xml:space="preserve">
+    <value>You can not generate the document because you selected a complement and not been captured.</value>
+  </data>
+  <data name="lblTituloDistribuidorConsulta" xml:space="preserve">
+    <value>CUSTOMERS MOVING CONSULTATION DISTRIBUTOR</value>
+  </data>
+  <data name="lblFacturaElectronica" xml:space="preserve">
+    <value>ELECTRONIC INVOICE</value>
+    <comment> Default</comment>
+  </data>
+  <data name="lblInstruccionDefault" xml:space="preserve">
+    <value> Enter the correct information</value>
+    <comment>Default</comment>
+  </data>
+  <data name="lblLeyendaDefault" xml:space="preserve">
+    <value>Remember: The invoice date is the same that the day that it's generated.</value>
+    <comment> Default</comment>
+  </data>
+  <data name="lblMenu" xml:space="preserve">
+    <value> SELECT YOUR STORE</value>
+    <comment> Site.master</comment>
+  </data>
+  <data name="lblInfoCuenta" xml:space="preserve">
+    <value>Account Information</value>
+  </data>
+  <data name="lblNoTienda" xml:space="preserve">
+    <value>Store Number</value>
+    <comment>PAXPortalwebOperacionSucursal.aspx</comment>
+  </data>
+  <data name="lblNumTicket" xml:space="preserve">
+    <value>Ticket Number</value>
+    <comment> PAXPortalWebConsultasCFDI</comment>
+  </data>
+  <data name="varPermisos" xml:space="preserve">
+    <value>You have no permissions to access this page</value>
+    <comment> PAXPortalMaster</comment>
+  </data>
+  <data name="lblIdSucursal" xml:space="preserve">
+    <value>Branch ID</value>
+    <comment>PAXPortalWebOperacionSucursales</comment>
+  </data>
+  <data name="lblImagenMostrar" xml:space="preserve">
+    <value>Image To Show</value>
+    <comment>PAXPortalWebOperacionSucursales</comment>
+  </data>
+  <data name="lblNombreMostrar" xml:space="preserve">
+    <value>Name To Show</value>
+    <comment>PAXPortalWebOperacionSucursales</comment>
+  </data>
+  <data name="lblNumTienda" xml:space="preserve">
+    <value>Store number</value>
+    <comment>PAXPortalWebOperacionSucursales</comment>
+  </data>
+  <data name="lblRfcEliminado" xml:space="preserve">
+    <value>Was removed and changed by the selected.</value>
+    <comment>PAXPortalWebOperacionSucursales</comment>
+  </data>
+  <data name="lblSucursalesAsignadas" xml:space="preserve">
+    <value>Assigned branchs</value>
+    <comment>PAXPortalWebOperacionUsuarios</comment>
+  </data>
+  <data name="lblTelefono" xml:space="preserve">
+    <value>Phone Number</value>
+    <comment>PAXPortalWebOperacionUsuarios</comment>
+  </data>
+  <data name="lblVerNombreCapturar" xml:space="preserve">
+    <value>You must to capture a name to show</value>
+    <comment>PAXPortalWebOperacionSucursales</comment>
+  </data>
+  <data name="varAgregueRfc" xml:space="preserve">
+    <value>First add a RFC</value>
+    <comment>PAXPortalWebOperacionSucursales</comment>
+  </data>
+  <data name="varDatosExportar" xml:space="preserve">
+    <value>There's no datas to export</value>
+    <comment>PAXPortalWebConsultasCFDI</comment>
+  </data>
+  <data name="varIdSucursalExiste" xml:space="preserve">
+    <value>The branch ID exists at another branch</value>
+    <comment>PAXPortalWebOperacionSucursales</comment>
+  </data>
+  <data name="varImagenLimite" xml:space="preserve">
+    <value>The image maximum size is {0} x {0} px</value>
+    <comment>PAXPortalWebOperacionSucursales</comment>
+  </data>
+  <data name="varNumTiendaExiste" xml:space="preserve">
+    <value>The branch number already exists in another branch</value>
+    <comment>PAXPortalWebOperacionSucursales</comment>
+  </data>
+  <data name="varRfcNoCambiar" xml:space="preserve">
+    <value>You cannot change de RFC, has been used in a CFDI</value>
+    <comment>PAXPortalWebOperacionSucursales</comment>
+  </data>
+  <data name="varSucursalAsignada" xml:space="preserve">
+    <value> You are not asigned to any branch</value>
+    <comment>PAXPortalwebConsultasCFDI</comment>
+  </data>
+  <data name="varSucursalComprobante" xml:space="preserve">
+    <value>You cannot delete this branch because it have CFDI's</value>
+    <comment>PAXPortalWebOperacionSucursales</comment>
+  </data>
+  <data name="varSucursalSeleccionar" xml:space="preserve">
+    <value>You must to select unless one branch</value>
+    <comment>PAXPortalWebConsultaCFDI</comment>
+  </data>
+  <data name="btnBuscar" xml:space="preserve">
+    <value>Search</value>
+    <comment>PAXPortalSiteMaster</comment>
+  </data>
+  <data name="lblCampoObligatorio" xml:space="preserve">
+    <value>Required field</value>
+    <comment>PAXPortalSiteMaster</comment>
+  </data>
+  <data name="lblClicAqui" xml:space="preserve">
+    <value>Click here</value>
+    <comment>PAXPortalSiteMaster</comment>
+  </data>
+  <data name="lblComprobantes" xml:space="preserve">
+    <value>Your document has been succesfully generated. Select it for download.</value>
+    <comment>PAXPortalSiteMaster</comment>
+  </data>
+  <data name="lblFechaHoraConsumo" xml:space="preserve">
+    <value>Purchase Date and Time.</value>
+    <comment>PAXPortalSiteMaster</comment>
+  </data>
+  <data name="lblGuiaRapida" xml:space="preserve">
+    <value>Quick guide</value>
+    <comment>PAXPortalSiteMaster</comment>
+  </data>
+  <data name="lblNoTicketVerifica" xml:space="preserve">
+    <value>Ticket Number, must be 9 digits.</value>
+    <comment>PAXPortalSiteMaster</comment>
+  </data>
+  <data name="lblNoTiendaVerifica" xml:space="preserve">
+    <value>Store number, must be 5 digits.</value>
+    <comment>PAXPortalSiteMaster</comment>
+  </data>
+  <data name="lblPreguntasFrecuentes" xml:space="preserve">
+    <value>For see the FAQ's and function list, please click on</value>
+    <comment>PAXPortalSiteMaster</comment>
+  </data>
+  <data name="lblProblemas" xml:space="preserve">
+    <value>If you have problems to generate your invoice,</value>
+    <comment>PAXPortalSiteMaster</comment>
+  </data>
+  <data name="lblResolucionRecomendada" xml:space="preserve">
+    <value>If you want to see your invoice at your screen, is recommended a resolution of 1024x768 or higher and Adobe Acrobat Reader 7 or higher</value>
+    <comment>PAXPortalSiteMaster</comment>
+  </data>
+  <data name="lblRfcAlfanumerico" xml:space="preserve">
+    <value>RFC, Alphanumeric values.</value>
+    <comment>PAXPortalSiteMaster</comment>
+  </data>
+  <data name="lblTienda" xml:space="preserve">
+    <value>STORE</value>
+    <comment>PAXPortalSiteMaster</comment>
+  </data>
+  <data name="varAsignarModulo" xml:space="preserve">
+    <value>You must assign unless one module</value>
+    <comment>PAXPortalWebOperacionUsuarios</comment>
+  </data>
+  <data name="varUsuarioRegistrado" xml:space="preserve">
+    <value>Successfull User Registration &lt;/br&gt; ¡Do not forget to assign the corresponding branches!</value>
+    <comment>PAXPortalWebOperacionUsuarios</comment>
+  </data>
+  <data name="lblCanceDes" xml:space="preserve">
+    <value>Cancellation disabled</value>
+    <comment>PAXPortalWebConsultasCFDI</comment>
+  </data>
+  <data name="vrUUIDCancelarError" xml:space="preserve">
+    <value>UUID can not be canceled, try again later (still not on the SAT).</value>
+    <comment>PAXPortalWebConsultasCFDI</comment>
+  </data>
+  <data name="lblMantenimiento" xml:space="preserve">
+    <value>Sorry for the inconvenience we are working</value>
+    <comment>PAXPortalAbout</comment>
+  </data>
+  <data name="lblDatosTicket" xml:space="preserve">
+    <value>Check ticket data are correct and correspond selected store wing</value>
+    <comment>PAXPortalDefault</comment>
+  </data>
+  <data name="lblSucmsj" xml:space="preserve">
+    <value>The Branch have problems, please contact the supplier</value>
+    <comment>PAXPortalDefault</comment>
+  </data>
+  <data name="vrMantenimiento" xml:space="preserve">
+    <value>Maintenance</value>
+    <comment>PAXPortalAbout</comment>
+  </data>
+  <data name="vrTicketmsj" xml:space="preserve">
+    <value>The ticket is not available for billing</value>
+    <comment>PAXPortalDefault</comment>
+  </data>
+  <data name="vrTimbremsj" xml:space="preserve">
+    <value>You can not make the tax receipt, contact your supplier</value>
+    <comment>PAXPortalDefault</comment>
+  </data>
+  <data name="vrTelefonomsj" xml:space="preserve">
+    <value>Phone is required</value>
+    <comment>PAXPortalWebOpercionUsuarios</comment>
+  </data>
+  <data name="lblTicket" xml:space="preserve">
+    <value>Ticket:</value>
+    <comment>PAXPortalDefault</comment>
+  </data>
+  <data name="lblArchivoCargado" xml:space="preserve">
+    <value>No file chosen</value>
+    <comment>PAXPortalWebOperaconSucursales</comment>
+  </data>
+  <data name="lblNomTienda" xml:space="preserve">
+    <value>Store Name</value>
+    <comment>PAXPortalWebOpercionSucursales</comment>
+  </data>
+  <data name="vrAgreTienda" xml:space="preserve">
+    <value>Add Store</value>
+    <comment>PAXPortalWebOpercionSucursales</comment>
+  </data>
+  <data name="lblEliminarSucursales" xml:space="preserve">
+    <value>Branches should remove</value>
+    <comment>PAXPortalOperacionSucursales</comment>
+  </data>
+  <data name="lblImgLogo" xml:space="preserve">
+    <value>Image for Logo</value>
+    <comment>PAXPortalWebOperacionSucursal</comment>
+  </data>
+  <data name="lblImgTicket" xml:space="preserve">
+    <value>Image to show</value>
+    <comment>PAXPortalWebOperacionSucursal</comment>
+  </data>
+  <data name="lblReglaNe" xml:space="preserve">
+    <value>Business Rule</value>
+    <comment>PAXPortalWebOperacionSucursal</comment>
+  </data>
+  <data name="lblNoSucursal" xml:space="preserve">
+    <value>No. Branch</value>
+    <comment>PAXPortalWebOperacionSucursales, Default</comment>
+  </data>
+  <data name="lblFranquicia" xml:space="preserve">
+    <value>Franchise</value>
+    <comment>PAXPortalWebOpercionSucursales</comment>
+  </data>
+  <data name="vrAgreFranqui" xml:space="preserve">
+    <value>Add franchise</value>
+    <comment>PAXPortalWebOpercionSucursales</comment>
+  </data>
+  <data name="varSucursalTicket" xml:space="preserve">
+    <value>The branch has generated tickets and can not be deleted</value>
+    <comment>PAXPortaWebOperacionSucursal</comment>
+  </data>
+  <data name="lblSelecImagen" xml:space="preserve">
+    <value>Select a picture to show</value>
+    <comment>PAXPortalWebOperacionPublicidad</comment>
+  </data>
+  <data name="varLogoGif" xml:space="preserve">
+    <value>The logo file must have extension .gif</value>
+    <comment>PAXPortalWebOperacionPublicidad</comment>
+  </data>
+  <data name="varPublicidadSeleccionar" xml:space="preserve">
+    <value>You must select advertising</value>
+    <comment>PAXPortalWebOperacionPublicidad</comment>
+  </data>
+  <data name="lblleyendaCancelacion" xml:space="preserve">
+    <value>If you have trouble generating your bill or need to cancel your invoice contact the</value>
+    <comment>PAXPortalDefault</comment>
+  </data>
+  <data name="vrUsuarioAsignado" xml:space="preserve">
+    <value>The Branch can not be deleted because a user has assigned</value>
+    <comment>PAXPortalWebOparacionDatosFiscales, WebOperacionSucursales</comment>
+  </data>
+  <data name="lblConfContrasena" xml:space="preserve">
+    <value>Confirm password</value>
+    <comment>PAXPortalwebUsuarios</comment>
+  </data>
+  <data name="lblCataPubli" xml:space="preserve">
+    <value>CATALOGUE ADVERTISING</value>
+  </data>
+  <data name="lblSelPubli" xml:space="preserve">
+    <value>Select advertising</value>
+  </data>
+  <data name="lblTitulo" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="lgDatosPublicidad" xml:space="preserve">
+    <value>Advertising Facts</value>
+  </data>
+  <data name="lgPublicidad" xml:space="preserve">
+    <value>Advertising</value>
+  </data>
+  <data name="mnuPublicidad" xml:space="preserve">
+    <value>Advertising</value>
+  </data>
+  <data name="lblgSeleccionPublicidad" xml:space="preserve">
+    <value>Advertising Selected</value>
+  </data>
+  <data name="msjDesc" xml:space="preserve">
+    <value>For better visualization of your advertising is recommended that the dimensions are of 160px X 600px:</value>
+  </data>
+  <data name="lblAsignarSucursal" xml:space="preserve">
+    <value>You must assign at least one branch</value>
+  </data>
+  <data name="lbltxtiniciosesion" xml:space="preserve">
+    <value>Enter your data correctly to login.</value>
+    <comment>Login.aspx</comment>
+  </data>
+  <data name="varBloqBtn" xml:space="preserve">
+    <value>Unlock</value>
+    <comment>Login.aspx</comment>
+  </data>
+  <data name="varBloqMsg" xml:space="preserve">
+    <value>If you close the wrong page and need to continue using the system have the option to unlock the account in this way.</value>
+    <comment>Login.aspx</comment>
+  </data>
+</root>

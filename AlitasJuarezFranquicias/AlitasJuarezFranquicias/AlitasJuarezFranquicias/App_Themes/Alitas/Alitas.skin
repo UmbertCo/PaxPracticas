@@ -1,0 +1,73 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+
+<asp:Image SkinID="SkinImagen" runat="server" ImageUrl="~/Imagenes/top().png" />
+
+--%>
+
+<asp:Panel SkinId="SkinPanel" runat="server" BackImageUrl="~/Imagenes/back_tabla_transparente.png" />
+<asp:Panel SkinId="imagenLogin" runat="server" BackImageUrl="~/mnu_images/login_pa.png" />
+<asp:Panel SkinId="imagenLoginCambioPWD" runat="server" BackImageUrl="~/mnu_images/login_cambioPWD.png" />
+<asp:Panel SkinId="imagenLoginDesbloquear" runat="server" BackImageUrl="~/Imagenes/login_desbloquear.png" />
+
+
+<asp:Image SkinId="imagenEntrada" runat="server" ImageUrl="~/Imagenes/entrada-alitas.png" />
+<asp:Image SkinId="imagenDerechos" runat="server" ImageUrl="~/Imagenes/reservados.png" />
+<asp:Image SkinId="imagenAlitas" BackColor="Transparent" runat="server" ImageUrl="~/Imagenes/alitas.png" />
+<asp:Image SkinId="imagenFogon" BackColor="Transparent" runat="server" ImageUrl="~/Imagenes/Logo_dorado.png" />
+
+<asp:Label runat="server" SkinId="labelLarge"       Font-Names="Arial" ForeColor="Black" Font-Size="Medium"    />
+<asp:Label runat="server" SkinId="labelLargeBlanco" Font-Names="Arial" ForeColor="WHITE" Font-Size="Large"    />
+<asp:Label runat="server" SkinId="labelLarger"      Font-Names="Arial" ForeColor="BLACK" Font-Size="Larger"   />
+<asp:Label runat="server" SkinId="labelMedium"      Font-Names="Arial" ForeColor="BLACK" Font-Size="Medium"   />
+<asp:Label runat="server" SkinId="labelSmall"       Font-Names="Arial" ForeColor="BLACK" Font-Size="Small"    />
+<asp:Label runat="server" SkinId="labelSmaller"     Font-Names="Arial" ForeColor="BLACK" Font-Size="Smaller"  />
+<asp:Label runat="server" SkinId="labelX-Large"     Font-Names="Arial" ForeColor="BLACK" Font-Size="X-Large"  />
+<asp:Label runat="server" SkinId="labelX-Small"     Font-Names="Arial" ForeColor="BLACK" Font-Size="X-Small"  />
+<asp:Label runat="server" SkinId="labelXX-Large"    Font-Names="Arial" ForeColor="BLACK" Font-Size="XX-Large" />
+<asp:Label runat="server" SkinId="labelXX-Small"    Font-Names="Arial" ForeColor="BLACK" Font-Size="XX-Small" />
+
+<asp:LinkButton runat="server" SkinId="LinkButtonLarge" Font-Size="Large" ForeColor="#e61c18" Font-Names="Arial"  />
+<asp:LinkButton runat="server" SkinId="LinkButtonLargeBlanco" Font-Size="Small" ForeColor="black" Font-Names="Arial"  />
+<asp:LinkButton runat="server" SkinId="LinkButtonSmall" Font-Size="Small" ForeColor="#e61c18" Font-Names="Arial"  />
+<asp:LinkButton runat="server" SkinId="LinkButtonSmallBlanco" Font-Size="Small" ForeColor="WHITE" Font-Names="Arial"  />
+
+<asp:GridView runat="server" SkinId="SkinGridView" 
+              BackColor="#ECECEC"  
+              HeaderStyle-Font-Names="Verdana" 
+              BorderColor="#ECECEC"
+              BorderWidth="0px">
+
+              <FooterStyle BackColor="White" ForeColor="#5A737E" />
+              <HeaderStyle BackColor="#430000" ForeColor="White" />
+              <PagerStyle BackColor="#430000" ForeColor="White" HorizontalAlign="Center" />
+              <RowStyle BackColor="White" ForeColor="#000" />
+              <SelectedRowStyle BackColor="#BCBCBC" ForeColor="Black" />
+              <SortedAscendingCellStyle BackColor="#F7F7F7" />
+              <SortedAscendingHeaderStyle BackColor="#e61c18" />
+              <SortedDescendingCellStyle BackColor="#E5E5E5" />
+              <SortedDescendingHeaderStyle BackColor="#e61c18" />
+</asp:GridView>
+
+<asp:TreeView runat="server" SkinId="SkinTreeView" >
+                        <HoverNodeStyle Font-Underline="True" />
+                        <NodeStyle Font-Names="Verdana" Font-Size="11pt" ForeColor="Black" 
+                            HorizontalPadding="5px" NodeSpacing="0px" VerticalPadding="0px" />
+                        <ParentNodeStyle Font-Bold="False" />
+                        <RootNodeStyle />
+                        <SelectedNodeStyle Font-Underline="True" 
+                            HorizontalPadding="0px" VerticalPadding="0px" BackColor="#ECECEC" />
+                    </asp:TreeView>
+ <asp:ImageButton runat="server" SkinId="imagenManual" ImageUrl="~/Imagenes/img_manual.png" />

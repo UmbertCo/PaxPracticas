@@ -1,0 +1,720 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Data;
+using Utilerias.SQL;
+using System.Data.SqlClient;
+using System.Web.UI.WebControls;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Xml;
+using System.Security.Cryptography;
+using System.Security.Cryptography.X509Certificates;
+using System.Collections;
+using System.Configuration;
+
+/// <summary>
+/// Clase encargada de proporcionar funciones de ayuda a todas las demás clases.
+/// </summary>
+public class clsComun
+{
+    private static InterfazSQL giSql;
+    private static DataTable gdtAuxiliar;
+
+    /// <summary>
+    /// Utileria para mostrar mensaje al estilo JQuery
+    /// </summary>
+    /// <param name="pPagina">La página que llama al mensaje</param>
+    /// <param name="psMensaje">El mensaje a mostrar</param>
+    public static void fnMostrarMensaje(Page pPagina, string psMensaje)
+    {
+        fnMostrarMensaje(pPagina, psMensaje, Resources.resCorpusCFDIEs.varContribuyente);
+    }
+
+    /// <summary>
+    /// Método encargado de establecer el titulo de la página actual en una Label más vistosa
+    /// localizada en la MasterPage correspondiente
+    /// </summary>
+    /// <param name="pPagina">La página actual</param>
+    public static void fnPonerTitulo(Page pPagina)
+    {
+        //try
+        //{
+        //    Label lblNombreModulo = (Label)pPagina.Master.FindControl("lblNombreModulo");
+        //    lblNombreModulo.Text = pPagina.Title;
+        //}
+        //catch
+        //{
+        //    //La Label no existe en la MasterPage, no se realiza acción alguna
+        //}
+    }
+
+    /// <summary>
+    /// Utileria para mostrar mensaje al estilo JQuery
+    /// </summary>
+    /// <param name="pPagina">La página que llama al mensaje</param>
+    /// <param name="psMensaje">El mensaje a mostrar</param>
+    /// <param name="psTitulo">El titulo que tendrá el modal</param>
+    public static void fnMostrarMensaje(Page pPagina, string psMensaje, string psTitulo)
+    {
+        ScriptManager.RegisterStartupScript(pPagina, typeof(Page), "Mensaje" + DateTime.Now.Millisecond.ToString(),
+            "jAlert('" + psMensaje + "', '" + psTitulo + "');", true);
+    }
+
+
+    /// <summary>
+    /// Utileria para mostrar mensaje al estilo JQuery
+    /// </summary>
+    /// <param name="pPagina">Control de usaurio que llama al mensaje</param>
+    /// <param name="psMensaje">El mensaje a mostrar</param>
+    /// <param name="psTitulo">El titulo que tendrá el modal</param>
+    public static void fnMostrarMensaje(UserControl pPagina, string psMensaje, string psTitulo)
+    {
+        ScriptManager.RegisterStartupScript(pPagina, typeof(UserControl), "Mensaje" + DateTime.Now.Millisecond.ToString(),
+            "jAlert('" + psMensaje + "', '" + psTitulo + "');", true);
+    }
+
+    /// <summary>
+    /// Genera un nuevo objeto de conexión a la base de datos
+    /// </summary>
+    /// /// <param name="psNombreConexion">Nombre de la cadena de conexión guardada en el web config</param>
+    /// <returns>objeto InterfazSQL</returns>
+    public static InterfazSQL fnCrearConexion(string psNombreConexion)
+    {
+        try
+        {
+            string cadena = System.Configuration.ConfigurationManager.ConnectionStrings[psNombreConexion].ConnectionString;
+            return new InterfazSQL(Utilerias.Encriptacion.Base64.DesencriptarBase64(cadena));
+        }
+        catch (Exception ex)
+        {
+            clsErrorLog.fnNuevaEntrada(ex, clsErrorLog.TipoErroresLog.Conexion);
+            return null;
+        }
+    }
+
+    /// <summary>
+    /// Devuelve el catalogo de paises
+    /// </summary>
+    /// <returns>DataTable con los paises disponibles</returns>
+    public static DataTable fnLlenarDropPaises()
+    {
+        giSql = fnCrearConexion("conRecepcionProveedores");
+        gdtAuxiliar = new DataTable();
+
+        try
+        {
+            giSql.Query("usp_Con_Obtener_Paises_Sel", true, ref gdtAuxiliar);
+        }
+        catch (SqlException ex)
+        {
+            clsErrorLog.fnNuevaEntrada(ex, clsErrorLog.TipoErroresLog.BaseDatos);
+        }
+
+        return gdtAuxiliar;
+    }
+
+    /// <summary>
+    /// Devuelve el catalogo de sucursales para este usuario
+    /// </summary>
+    /// <param name="pbDrop">Indica si también se quiere devolver la matriz</param>
+    /// <returns></returns>
+    public static DataTable LlenarDropSucursales(bool pbMatriz)
+    {
+        giSql = clsComun.fnCrearConexion("conRecepcionProveedores");
+        DataTable gdtAuxiliar = new DataTable("Sucursales");
+
+        giSql.AgregarParametro("nId_Usuario", fnUsuarioEnSesion().id_usuario);
+        giSql.AgregarParametro("bDrop", pbMatriz);
+        giSql.Query("usp_Con_Sucursal_Sel", true, ref gdtAuxiliar);
+
+        return gdtAuxiliar;
+    }
+
+    /// <summary>
+    /// Devuelve una parte del catalogo de municipios, filtrando por el estado indicado
+    /// </summary>
+    /// <param name="idPais">ID del estado para el cual se quiere recuperar sus municipios</param>
+    /// <returns>DataTable con los estados filtrados por estado</returns>
+    public static DataTable fnLlenarDropMunicipios(string sIdEstado)
+    {
+        giSql = fnCrearConexion("conRecepcionProveedores");
+        gdtAuxiliar = new DataTable();
+
+        try
+        {
+            giSql.AgregarParametro("nId_Estado", sIdEstado);
+            giSql.Query("usp_Con_Obtener_Municipios_Sel", true, ref gdtAuxiliar);
+        }
+        catch (SqlException ex)
+        {
+            clsErrorLog.fnNuevaEntrada(ex, clsErrorLog.TipoErroresLog.BaseDatos);
+        }
+
+        return gdtAuxiliar;
+    }
+
+    /// <summary>
+    /// Devuelve una parte del catalogo de estados, filtrando por el país indicado
+    /// </summary>
+    /// <param name="idPais">ID del país para el cual se quiere recuperar sus estados</param>
+    /// <returns>DataTable con los estados filtrados por país</returns>
+    public static DataTable fnLlenarDropEstados(string psIdPais)
+    {
+        giSql = fnCrearConexion("conRecepcionProveedores");
+        gdtAuxiliar = new DataTable();
+
+        try
+        {
+            giSql.AgregarParametro("nId_Pais", psIdPais);
+            giSql.Query("usp_Con_Obtener_Estados_Sel", true, ref gdtAuxiliar);
+        }
+        catch (SqlException ex)
+        {
+            clsErrorLog.fnNuevaEntrada(ex, clsErrorLog.TipoErroresLog.BaseDatos);
+        }
+
+        return gdtAuxiliar;
+    }
+
+    /// <summary>
+    /// Retorna un objeto con la información del usuario en sesión
+    /// </summary>
+    /// <returns>Objeto clsInicioSesionUsuario</returns>
+    public static clsInicioSesionUsuario fnUsuarioEnSesion()
+    {
+        try
+        {
+            return (clsInicioSesionUsuario)System.Web.HttpContext.Current.Session["objUsuario"];
+        }
+        catch
+        {
+            return null;
+        }
+    }
+
+    /// <summary>
+    /// Obtener Paramentro Correo Obtiene el valor del parametro para el correo.
+    /// </summary>
+    /// <param name="sParametro">Nombre del parametros a buscar</param>
+    /// <returns>Cadena con le valor del parámetro</returns>
+    public static string ObtenerParamentro(string sParametro)
+    {
+
+        string nRetorno = string.Empty;
+
+        try
+        {
+            Utilerias.SQL.InterfazSQL conexion = clsComun.fnCrearConexion("conRecepcionProveedores");
+
+            conexion.AgregarParametro("sParametro", sParametro);
+
+            nRetorno = (string)conexion.TraerEscalar("usp_Ctp_BuscarParametro_Sel", true);
+        }
+        catch (Exception ex)
+        {
+            clsErrorLog.fnNuevaEntrada(ex, clsErrorLog.TipoErroresLog.Conexion);
+        }
+
+        return nRetorno;
+    }
+
+    /// <summary>
+    /// Crea una nueva entrada para las pistas de auditoría para el usuario en sesión
+    /// en el momento exacto de la llamada del método y con la descipción de acción especificada
+    /// </summary>
+    /// <param name="args">Argumentos para la descripción de la acción</param>
+    public static void fnNuevaPistaAuditoria(params object[] args)
+    {
+        try
+        {
+            int id_usuario = fnUsuarioEnSesion().id_usuario;
+            DateTime fecha = DateTime.Now;
+            StringBuilder accion = new StringBuilder();
+
+            foreach (object arg in args)
+            {
+                accion.Append(arg);
+                accion.Append(" | ");
+            }
+
+            clsPistasAuditoria.fnGenerarPistasAuditoria(id_usuario, fecha, accion.ToString().Trim('|'));
+        }
+        catch (Exception ex)
+        {
+            clsErrorLog.fnNuevaEntrada(ex, clsErrorLog.TipoErroresLog.Datos);
+        }
+    }
+
+    /// <summary>
+    /// Revisa que el valor sea doble.
+    /// </summary>
+    /// <param name="Expression">valor a evaluar</param>
+    /// <returns>retorna si es verdadero.</returns>
+    public static bool fnIsDouble(object Expression)
+    {
+        bool isNum;
+        double retNum;
+
+        isNum = Double.TryParse(Convert.ToString(Expression), System.Globalization.NumberStyles.Any, System.Globalization.NumberFormatInfo.InvariantInfo, out retNum);
+        return isNum;
+    }
+
+    /// <summary>
+    /// Revisa que el valor sea entero.
+    /// </summary>
+    /// <param name="Expression">valor a evaluar</param>
+    /// <returns>retorna si es verdadero.</returns>
+    public static bool fnIsInt(object Expression)
+    {
+        bool isNum;
+        int retNum;
+
+        isNum = int.TryParse(Convert.ToString(Expression), System.Globalization.NumberStyles.Any, System.Globalization.NumberFormatInfo.InvariantInfo, out retNum);
+        return isNum;
+    }
+
+    /// <summary>
+    /// Encargado de validar si la expreson es verdadera
+    /// </summary>
+    /// <param name="sValor">valor a evaluar</param>
+    /// <param name="expresion">expresion regular</param>
+    /// <returns>retorna si es verdadero</returns>
+    public static bool fnValidaExpresion(string sValor, string expresion)
+    {
+        bool bRetorno = false;
+
+        if (Regex.IsMatch(sValor, expresion))
+        {
+            bRetorno = true;
+        }
+
+        return bRetorno;
+    }
+
+    /// <summary>
+    /// Muestra un mensaje de error en la parte superior de la página
+    /// </summary>
+    /// <param name="pPagina">Página que llama al método</param>
+    /// <param name="psMensajeError">Mensaje de error a mostrar</param>
+    public static void fnMostrarError(System.Web.UI.Page pPagina, string psMensajeError)
+    {
+        Label lbl = (Label)pPagina.Master.FindControl("lblErrorGenerico");
+        lbl.Text = psMensajeError;
+    }
+
+    /// <summary>
+    /// Devuelve el catalogo de parametros
+    /// </summary>
+    /// <param name="pbDrop">Indica si también se quiere devolver la matriz</param>
+    /// <returns></returns>
+    public static DataTable LlenarParametros()
+    {
+        giSql = clsComun.fnCrearConexion("conRecepcionProveedores");
+        DataTable gdtAuxiliar = new DataTable("Parametros");
+
+        giSql.Query("usp_Con_Parametros_Sel", true, ref gdtAuxiliar);
+
+        return gdtAuxiliar;
+    }
+
+    /// <summary>
+    /// Inserta o actualiza un parametro.
+    /// Si el parámetro psIdParametro es cadena vacía entonces es inserción de lo
+    /// contrario es actualización.
+    /// </summary>
+    public int fnGuardarParametro(string psIdParametros, string psParametro,
+                                    string psValor, string psEstatus)
+    {
+        giSql = clsComun.fnCrearConexion("conRecepcionProveedores");
+
+        if (!string.IsNullOrEmpty(psIdParametros))
+            giSql.AgregarParametro("nId_Parametro", psIdParametros);
+
+        if (!string.IsNullOrEmpty(psParametro))
+            giSql.AgregarParametro("@sParametro", psParametro);
+        if (!string.IsNullOrEmpty(psValor))
+            giSql.AgregarParametro("@sValor", psValor);
+        if (!string.IsNullOrEmpty(psEstatus))
+            giSql.AgregarParametro("@sEstatus", psEstatus);
+
+        return giSql.NoQuery("usp_Con_Parametros", true);
+    }
+
+    /// <summary>
+    /// Devuelve el catalogo de usuarios activos
+    /// </summary>
+    /// <returns></returns>
+    public static DataTable fnObtenerUsuarios()
+    {
+        giSql = clsComun.fnCrearConexion("conRecepcionProveedores");
+        DataTable gdtAuxiliar = new DataTable("Parametros");
+
+        giSql.Query("usp_Con_RecuperaUsu_Sel", true, ref gdtAuxiliar);
+
+        return gdtAuxiliar;
+    }
+
+    /// <summary>
+    /// Devuelve la consulta de pistas
+    /// </summary>
+    /// <param name="psUsuario">Usuario del sistema</param>
+    /// <param name="psAccion">Accion a buscar</param>
+    /// <param name="sFechaReg">Fecha registros</param>
+    /// <param name="sFechaReg2">Fecha registros</param>
+    public static DataTable fnObtenerPistas(string psUsuario, string psAccion,
+                                            string psAccion2, string psAccion3,
+                                            string sFechaReg, string sFechaReg2)
+    {
+        giSql = clsComun.fnCrearConexion("conRecepcionProveedores");
+        DataTable gdtAuxiliar = new DataTable("Pistas");
+
+        if (!string.IsNullOrEmpty(psUsuario))
+            giSql.AgregarParametro("@psUsuario", psUsuario);
+        if (!string.IsNullOrEmpty(psAccion))
+            giSql.AgregarParametro("@psAccion", psAccion);
+        if (!string.IsNullOrEmpty(psAccion2))
+            giSql.AgregarParametro("@psAccion2", psAccion2);
+        if (!string.IsNullOrEmpty(psAccion3))
+            giSql.AgregarParametro("@psAccion3", psAccion3);
+        if (!string.IsNullOrEmpty(sFechaReg))
+            giSql.AgregarParametro("@sFechaReg", sFechaReg);
+        if (!string.IsNullOrEmpty(sFechaReg2))
+            giSql.AgregarParametro("@sFechaReg2", sFechaReg2);
+
+        giSql.Query("usp_Con_PistasFiltros_Sel", true, ref gdtAuxiliar);
+
+        return gdtAuxiliar;
+    }
+
+    /// <summary>
+    /// Devuelve la consulta de pistas BD
+    /// </summary>
+    /// <param name="psUsuario">Usuario del sistema</param>
+    /// <param name="psAccion">Accion a buscar</param>
+    /// <param name="sFechaReg">Fecha registros</param>
+    /// <param name="sFechaReg2">Fecha registros</param>
+    public static DataSet fnObtenerPistasBD(string psUsuario, string psAccion,
+                                            string psAccion2, string psAccion3,
+                                            string sFechaReg, string sFechaReg2)
+    {
+        giSql = clsComun.fnCrearConexion("conRecepcionProveedores");
+        DataSet gdtAuxiliar = new DataSet("PistasBd");
+
+        if (!string.IsNullOrEmpty(psUsuario))
+            giSql.AgregarParametro("@psUsuario", psUsuario);
+        if (!string.IsNullOrEmpty(psAccion))
+            giSql.AgregarParametro("@psAccion", psAccion);
+        if (!string.IsNullOrEmpty(psAccion2))
+            giSql.AgregarParametro("@psAccion2", psAccion2);
+        if (!string.IsNullOrEmpty(psAccion3))
+            giSql.AgregarParametro("@psAccion3", psAccion3);
+        if (!string.IsNullOrEmpty(sFechaReg))
+            giSql.AgregarParametro("@sFechaReg", sFechaReg);
+        if (!string.IsNullOrEmpty(sFechaReg2))
+            giSql.AgregarParametro("@sFechaReg2", sFechaReg2);
+
+        giSql.Query("usp_Ctp_AuditoriasBD_Sel", true, ref gdtAuxiliar);
+
+        return gdtAuxiliar;
+    }
+
+    /// <summary>
+    /// Devuelve la consulta de pistas SO
+    /// </summary>
+    /// <param name="psUsuario"></param>
+    /// <param name="psAccion"></param>
+    /// <param name="psAccion2"></param>
+    /// <param name="psAccion3"></param>
+    /// <param name="sFechaReg"></param>
+    /// <param name="sFechaReg2"></param>
+    /// <param name="sEntryType"></param>
+    /// <param name="sSource"></param>
+    /// <param name="sHost"></param>
+    /// <returns></returns>
+    public static DataSet fnObtenerPistasSO(string psUsuario, string psAccion,
+                                        string psAccion2, string psAccion3,
+                                        string sFechaReg, string sFechaReg2,
+                                        string sEntryType, string sSource,
+                                        string sHost)
+    {
+        giSql = clsComun.fnCrearConexion("conRecepcionProveedores");
+        DataSet gdtAuxiliar = new DataSet("PistasSO");
+
+        if (!string.IsNullOrEmpty(psUsuario))
+            giSql.AgregarParametro("@psUsuario", psUsuario);
+        if (!string.IsNullOrEmpty(psAccion))
+            giSql.AgregarParametro("@psAccion", psAccion);
+        if (!string.IsNullOrEmpty(psAccion2))
+            giSql.AgregarParametro("@psAccion2", psAccion2);
+        if (!string.IsNullOrEmpty(psAccion3))
+            giSql.AgregarParametro("@psAccion3", psAccion3);
+        if (!string.IsNullOrEmpty(sFechaReg))
+            giSql.AgregarParametro("@sFechaReg", sFechaReg);
+        if (!string.IsNullOrEmpty(sFechaReg2))
+            giSql.AgregarParametro("@sFechaReg2", sFechaReg2);
+        if (!string.IsNullOrEmpty(sEntryType))
+            giSql.AgregarParametro("@entryType", sEntryType);
+        if (!string.IsNullOrEmpty(sSource))
+            giSql.AgregarParametro("@source", sSource);
+        if (!string.IsNullOrEmpty(sHost))
+            giSql.AgregarParametro("@host", sHost);
+
+        giSql.Query("usp_Ctp_AuditoriasSO_Sel", true, ref gdtAuxiliar);
+
+        return gdtAuxiliar;
+    }
+
+    /// <summary>
+    /// Devuelve la descripcion del error del SAT
+    /// </summary>
+    /// /// <param name="p_idcodigo">numero de error</param>
+    /// /// <param name="p_sTipo">tipo de error</param>
+    /// <returns></returns>
+    public static string fnRecuperaErrorSAT(string p_idcodigo, string p_sTipo)
+    {
+        giSql = clsComun.fnCrearConexion("conRecepcionProveedores");
+        giSql.AgregarParametro("@nId_Codigo", p_idcodigo);
+        giSql.AgregarParametro("@nsTipo", p_sTipo);
+        string Resultado = Convert.ToString(giSql.TraerEscalar("usp_Ctp_RecuperaCodigo_Sel", true));
+        return Resultado;
+    }
+
+
+    /// <summary>
+    /// Inserta un nuevo registro de acuse del PAC
+    /// </summary>
+    /// /// <param name="p_idcte">identificador del cliente</param>
+    /// /// <param name="p_UUID">UUID del comprobante</param>
+    ///  <param name="sFecha">fecha de envio</param>
+    ///  <param name="p_CorreoElectronico">correo electronico</param>
+    ///  <param name="p_tipoAcuse">tipo de acuse</param>
+    /// <returns></returns>
+    public static Int32 fnInsertaAcusePAC(int p_idcte, string p_UUID, string p_Acuse, DateTime sFecha, string p_idcodigo, string p_Soap, string origen, string p_CorreoElectronico)
+    {
+        giSql = clsComun.fnCrearConexion("conRecepcionProveedores");
+        giSql.AgregarParametro("@nid_Contribuyente", p_idcte);
+        giSql.AgregarParametro("@sUUID", p_UUID);
+        giSql.AgregarParametro("@sAcuse", p_Acuse);
+        giSql.AgregarParametro("@sFecha", sFecha);
+        giSql.AgregarParametro("@nid_codigo", p_idcodigo);
+        giSql.AgregarParametro("@sSoap", p_Soap);
+        giSql.AgregarParametro("@sOrigen", origen);
+        giSql.AgregarParametro("@sMail", p_CorreoElectronico);
+
+        Int32 Resultado = Convert.ToInt32(giSql.NoQuery("usp_Cfd_Acuse_PAC_Ins", true));
+        return Resultado;
+    }
+
+
+
+
+    /// <summary>
+    /// Inserta un nuevo registro de acuse del emitido por el SAT
+    /// </summary>
+    /// /// <param name="p_UUID">UUID del comprobante</param>
+    ///  <param name="sFecha">fecha de envio</param>
+    ///  <param name="p_Acuse">xml con el acuse que emitio el SAT</param>
+    ///  <param name="p_idcodigo">tipo de codigo que se genero</param>
+    /// <returns></returns>
+    public static Int32 fnInsertaAcuseSAT(string sId_Contribuyente, string p_UUID, string p_Acuse, DateTime sFecha, string p_idcodigo, string p_Soap, string origen)
+    {
+        giSql = clsComun.fnCrearConexion("conRecepcionProveedores");
+        giSql.AgregarParametro("@nid_Contribuyente", sId_Contribuyente);
+        giSql.AgregarParametro("@sUUID", p_UUID);
+        giSql.AgregarParametro("@sAcuse", p_Acuse);
+        giSql.AgregarParametro("@sFecha", sFecha);
+        giSql.AgregarParametro("@nid_codigo", p_idcodigo);
+        giSql.AgregarParametro("@sSoap", p_Soap);
+        giSql.AgregarParametro("@sOrigen", origen);
+        Int32 Resultado = Convert.ToInt32(giSql.NoQuery("usp_Cfd_Acuse_SAT_Ins", true));
+        return Resultado;
+    }
+
+    /// <summary>
+    /// Recupera la lista de UUD del SOAP
+    /// </summary>
+    /// <returns></returns>
+    public static DataTable fnObtenerUUID(string soap, string efecto)
+    {
+        giSql = clsComun.fnCrearConexion("conRecepcionProveedores");
+        DataTable gdtAuxiliar = new DataTable("SOAP");
+
+        if (!string.IsNullOrEmpty(soap))
+            giSql.AgregarParametro("@sSOAP", soap);
+        if (!string.IsNullOrEmpty(soap))
+            giSql.AgregarParametro("@sEfecto", efecto);
+
+        giSql.Query("usp_Ctp_SOAP_UUID_Sel", true, ref gdtAuxiliar);
+
+        return gdtAuxiliar;
+    }
+
+    /// <summary>
+    /// Recupera la consulta de los acuses del SOAP
+    /// </summary>
+    /// <param name="psUUID"></param>
+    /// <param name="psSOAP"></param>
+    /// <param name="sFechaIni"></param>
+    /// <param name="sFechaFin"></param>
+    /// <returns></returns>
+    public static DataTable fnObtenerSOAP(string sId_Contribuyente, string psUUID, string psSOAP,
+                                        string sFechaIni, string sFechaFin, string sOrigen, string sEfecto, string sCodigo)
+    {
+        giSql = clsComun.fnCrearConexion("conRecepcionProveedores");
+        DataTable gdtAuxiliar = new DataTable("Pistas");
+
+        if (!string.IsNullOrEmpty(sId_Contribuyente))
+            giSql.AgregarParametro("@nid_Contribuyente", sId_Contribuyente);
+        if (!string.IsNullOrEmpty(psUUID))
+            giSql.AgregarParametro("@psUUID", psUUID);
+        if (!string.IsNullOrEmpty(psSOAP))
+            giSql.AgregarParametro("@psSOAP", psSOAP);
+        if (!string.IsNullOrEmpty(sFechaIni))
+            giSql.AgregarParametro("@sFechaIni", sFechaIni);
+        if (!string.IsNullOrEmpty(sFechaFin))
+            giSql.AgregarParametro("@sFechaFin", sFechaFin);
+        if (!string.IsNullOrEmpty(sOrigen))
+            giSql.AgregarParametro("@sOrigen", sOrigen);
+        if (!string.IsNullOrEmpty(sEfecto))
+            giSql.AgregarParametro("@sEfecto", sEfecto);
+        if (!string.IsNullOrEmpty(sCodigo))
+            giSql.AgregarParametro("@sCodigo", sCodigo);
+
+        giSql.Query("usp_Ctp_SOAP_Consulta_Sel", true, ref gdtAuxiliar);
+
+        return gdtAuxiliar;
+    }
+
+    /// <summary>
+    /// Regresa el request armado para la recepcion.
+    /// </summary>
+    /// <param name="psComprobante"></param>
+    /// <param name="psTipoDocumento"></param>
+    /// <param name="pnId_Estructura"></param>
+    /// <param name="sNombre"></param>
+    /// <param name="sContraseña"></param>
+    /// <returns></returns>
+    public static string fnRequestRecepcion(string psComprobante, string psTipoDocumento,
+        string pnId_Estructura, string sNombre, string sContraseña)
+    {
+        //Respuesta Request *************************************************************
+        string strSoapMessage =
+        "<s:Envelope xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope\">" +
+            "<s:Header>" +
+            "<Action s:mustUnderstand=\"1\" xmlns=\"http://schemas.microsoft.com/ws/2005/05/addressing/none\">https://paxfacturacion.com.mx/IwcfRecepcion/fnEnviarXML</Action>" +
+            "</s:Header>" +
+            "<s:Body>" +
+            "<fnEnviarXML xmlns=\"https://paxfacturacion.com.mx\">" +
+                "<psComprobante>" + psComprobante + "</psComprobante>" +
+                "<psTipoDocumento>" + psTipoDocumento + "</psTipoDocumento>" +
+                "<pnId_Estructura>" + pnId_Estructura + "</pnId_Estructura>" +
+                "<sNombre>" + sNombre + "</sNombre>" +
+            //"<sContraseña>" + sContraseña + "</sContraseña>" +
+            "</fnEnviarXML>" +
+            "</s:Body>" +
+        "</s:Envelope>";
+        return strSoapMessage;
+        //Respuesta Request *************************************************************
+    }
+
+    /// <summary>
+    /// Regresa el response armado para la recepcion
+    /// </summary>
+    /// <returns></returns>
+    public static string fnResponseRecepcion(string fnEnviarXMLResult)
+    {
+        //Respuesta Response*************************************************************
+        string strSoapMessage =
+        "<s:Acuse xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope\">" +
+          "<s:Header />" +
+          "<s:Body>" +
+            "<fnEnviarXMLResponse xmlns=\"https://paxfacturacion.com.mx\">" +
+              "<fnEnviarXMLFecha>" + DateTime.Now.ToString("s") + "</fnEnviarXMLFecha>" +
+              "<fnEnviarXMLResult>" + fnEnviarXMLResult + "</fnEnviarXMLResult>" +
+            "</fnEnviarXMLResponse>" +
+          "</s:Body>" +
+        "</s:Acuse>";
+
+        return strSoapMessage;
+        //Respuesta Response*************************************************************
+    }
+
+    /// <summary>
+    /// Verifica la fecha de emisión no es posterior al 01 de enero 2011
+    /// </summary>
+    /// <returns></returns>
+    public static bool fnRevisarFechaNoPosterior(DateTime pdFecha)
+    {
+        bool retorno = false;
+
+        try
+        {
+
+            if (pdFecha >= Convert.ToDateTime(clsComun.ObtenerParamentro("FechaPosterior_v3")))
+                retorno = true;
+            else
+                retorno = false;
+        }
+        catch
+        {
+            if (pdFecha <= Convert.ToDateTime("2011-01-01"))
+                retorno = true;
+            else
+                retorno = false;
+        }
+
+        return retorno;
+    }
+
+    /// <summary>
+    /// Rcupera un parametro Booleano del web.config
+    /// </summary>
+    /// <param name="nombreParam">Nombre del parametro a recuperar</param>
+    /// <returns></returns>
+    public static bool fnObtenerParametroBool(string nombreParam, int usuario = 0)
+    {
+        string parametro = System.Configuration.ConfigurationManager.AppSettings[nombreParam].ToString();
+        return Convert.ToBoolean(parametro);
+
+    }
+
+    /// <summary>
+    /// Obtiene el valor correspondiente de un AppSetting almacenado en el web.config
+    /// </summary>
+    /// <param name="key">Nombre del valor a recuperar</param>
+    /// <returns></returns>
+    public static string fnObtenerSetting(string key)
+    {
+        string strRetVal = string.Empty;
+        try
+        {
+            strRetVal = ConfigurationManager.AppSettings[key];
+        }
+        catch { }
+        return strRetVal;
+    }
+
+    public static int fnObtenerIdPerfil(string sDesc)
+    {
+        int res = 0;
+        try
+        {
+
+            giSql = clsComun.fnCrearConexion("conRecepcionProveedores");
+            
+
+            giSql.AgregarParametro("@sDesc", sDesc);
+
+            res =Convert.ToInt32(giSql.TraerEscalar("usp_Obtener_IdPerfil_sel", true));
+        }
+        catch (Exception ex)
+        {
+            return 0;
+        }
+        return res;
+    }
+
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Validacion>
+  <Perfiles>
+    <IdPerfil>
+      <ParaAdminstrar>
+        <id>1</id>
+        <id>24</id>
+      </ParaAdminstrar>
+    </IdPerfil>
+  </Perfiles>
+</Validacion>

@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Revisa_GeneraXML.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="sRuta_Busqueda" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Revisa_Genera\Busqueda\</Value>
+    </Setting>
+    <Setting Name="sRuta_Validados" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Revisa_Genera\Validos\</Value>
+    </Setting>
+    <Setting Name="sRuta_Erroneos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Revisa_Genera\Erroneos\</Value>
+    </Setting>
+    <Setting Name="sRuta_Log" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Revisa_Genera\Log.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

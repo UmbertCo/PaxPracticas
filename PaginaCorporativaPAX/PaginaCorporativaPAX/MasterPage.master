@@ -1,0 +1,293 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>PAX Facturación</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+     <link rel="shortcut icon" href="imagenes/fav.ico" />
+           
+    </asp:ContentPlaceHolder>
+ 
+ 
+    </head>
+<body style="height: 931px; position: relative; background: none repeat scroll 0% 0% rgb(182, 183, 188);">
+
+<link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+<form id="form2" runat="server">
+<div class="page">
+<div class="loginDisplay">              
+
+    <table cellpadding="0" cellspacing="0" style="height: 202px; width: 953px" >
+        <tr>
+            <td colspan="0">       
+                <div class="fb-like" data-href="http://www.facebook.com/PAXFacturacion" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+             </td>
+             <td class="Top" colspan="0">
+                <table align="right">
+                    <tr>
+                         <td>
+                         </td>    
+                         <td>
+                         </td>    
+                         <td>
+                             <a href="http://blog.paxfacturacion.com.mx/blog/#.ULjgQobGieQ" target="_blank">
+                                <img alt="" src="imagenes/blog1.jpg" 
+                                style="height:30px; width: 30px" border="0" /></a> 
+ 
+                            <a href="http://www.facebook.com/PAXFacturacion/" target="_blank">
+                                <img alt="" src="imagenes/facebook.png" 
+                                style="height:30px; width: 30px" border="0" /></a> 
+                             <a href="https://twitter.com/PAXFacturacion" target="_blank">
+                                <img alt=""src="imagenes/twitter.png" 
+                                style="height: 30px; width: 30px" border="0" /></a> 
+                             <a href="http://www.paxfacturacion@gmail.com" target="_blank">
+                                <img alt="" src="imagenes/google.png" 
+                                style="height: 30px; width: 30px " border="0"/></a>
+                             <a href="http://www.youtube.com/PAXFacturacion" target="_blank">
+                                <img alt="" src="imagenes/youtube.png" style="height:30px; width:30px" border="0" />
+                             </a>            
+                         </td>    
+                    </tr>
+                </table>
+                
+<asp:ScriptManager ID="ScriptManager1" runat="server">
+</asp:ScriptManager>
+
+               </td>
+               <td>
+                    </td>
+            </tr>
+             <tr>
+                <td colspan="0">&nbsp;</td>
+                <td colspan="" class ="BotonGris" align="right">
+                            <table align="right">
+                                <tr>
+                                    <td align="right" colspan="0" rowspan="0" width="25px">
+                                        <asp:LinkButton ID="lnkEnglish" runat="server" ForeColor="#333333" 
+                                            onclick="lnkEnglish_Click" onprerender="lnkEnglish_PreRender" 
+                                            
+                                            style="font-family: 'Century Gothic'; font-size: small; text-align: left; text-decoration: underline;" 
+                                            Width="42px">English</asp:LinkButton>
+                                    </td>
+                                    <td>
+                                        <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Names="Arial" 
+                                            ForeColor="#333333" Text="|"></asp:Label>
+                                    </td>
+                                    <td align="left" colspan="0" rowspan="0" width="60px">
+                                        <asp:LinkButton ID="lnkEspañol" runat="server" ForeColor="#333333" 
+                                            onclick="lnkEspañol_Click" onprerender="lnkEspañol_PreRender" 
+                                            
+                                            style="font-family: 'Century Gothic'; font-size: small; text-decoration: underline; " 
+                                            Width="55px">Español</asp:LinkButton>
+                                    </td>
+                                </tr>
+                            </table>
+                
+                </td>
+                <td colspan="0">&nbsp;</td>
+            </tr>
+            <tr>
+            <td class="menuLeft"></td>
+            <td class="menuBarra" colspan="0" rowspan="0"w>
+
+            <ul class="menu">
+                                                                                                
+                               <li class="topInicio">
+                                 <a id="A2"  runat="server" class="top_link" href="Inicio.aspx">
+                                     <span>     
+                                         <asp:Literal 
+                                            ID="Literal2" runat="server" Text="<%$ Resources:resCorpusCFDIEs, mnuInicio%>">
+                                         </asp:Literal>
+                                     </span>
+                                  </a>
+                               </li>
+
+                               <li class="topInicio"><a id="A3"  runat="server" class="top_link" href="#"><span>
+                                   <asp:Literal ID="Literal3" runat="server" 
+                                       Text="<%$ Resources:resCorpusCFDIEs, lblAcercaDe %>"></asp:Literal></span></a>
+
+                                    <ul class="menuColor">
+                                       <li >
+                                         <a  href="QuienEsPAXFacturacion.aspx"><span><asp:Literal ID="Literal7" runat="server" 
+                                       Text="<%$ Resources:resCorpusCFDIEs, lblSubMenuQuienesSomos %>"></asp:Literal></span></a>
+                                        
+                                       </li>
+                                       <li>
+                                             <a  href="NuestraHistoria.aspx"><span><asp:Literal ID="Literal8" runat="server" 
+                                       Text="<%$ Resources:resCorpusCFDIEs, lblSubMenuHistoria %>"></asp:Literal></span></a>
+                                           
+                                       </li>
+                                       <li>
+                                       <a  href="MisionVision.aspx"><span><asp:Literal ID="Literal12" runat="server" 
+                                       Text="<%$ Resources:resCorpusCFDIEs, lblSubMenuMisionVision %>"></asp:Literal></span></a>
+                                          
+                                       </li>
+                                        <li>
+                                         <a  href="Valores.aspx"><span><asp:Literal ID="Literal11" runat="server" 
+                                       Text="<%$ Resources:resCorpusCFDIEs, lblSubMenuValores %>"></asp:Literal></span></a>
+                                           
+                                       </li>
+                                       
+                                   </ul>
+
+                               </li>
+
+                               <li class="topInicio"><a id="A4"  runat="server" class="top_link" href="#"><span>                
+                                               
+                                <asp:Literal ID="Literal4" runat="server" Text="<%$ Resources:resCorpusCFDIEs, lblServicios%>"></asp:Literal></span></a>
+                               
+                                    <ul class="menuColor">
+                                       <li >
+                                             <a  href="FacturacionElectronica.aspx"><span><asp:Literal ID="Literal13" runat="server" 
+                                       Text="<%$ Resources:resCorpusCFDIEs, lblSubMenuFacturacionElectronica %>"></asp:Literal></span></a>
+                                           
+                                       </li>
+                                       <li>
+                                       <a  href="Servidores.aspx"><span><asp:Literal ID="Literal14" runat="server" 
+                                       Text="<%$ Resources:resCorpusCFDIEs, lblSubMenuServidoresenlaNube %>"></asp:Literal></span></a>
+                                         
+                                       </li>
+                                       <li>
+                                       <a  href="DesarrolloDeSoftware.aspx"><span><asp:Literal ID="Literal15" runat="server" 
+                                       Text="<%$ Resources:resCorpusCFDIEs, lblSubMenuDesarrolloSW %>"></asp:Literal></span></a>
+                                          
+                                       </li>
+                                        <li>
+                                        <a  href="ComprasOnLine.aspx"><span><asp:Literal ID="Literal16" runat="server" 
+                                       Text="<%$ Resources:resCorpusCFDIEs, lblSubMenuCotizar %>"></asp:Literal></span></a>
+                                           
+                                       </li>
+                                       
+                                   </ul>
+                                   <br />
+                                
+                                 </li>
+
+                               <li class="topInicio"><a id="A1"  runat="server" class="top_link" href="Eventos.aspx"><span>   
+                                 <asp:Literal ID="Literal1" runat="server" Text="<%$ Resources:resCorpusCFDIEs, lblEventos%>"></asp:Literal></span></a>
+                               </li>
+
+                               <li class="topInicio"><a id="A5"  runat="server" class="top_link" href="Estructura.aspx"><span> 
+                               <asp:Literal ID="Literal5" runat="server" Text="<%$ Resources:resCorpusCFDIEs, lblEstructura%>"></asp:Literal></span></a></li>
+
+                               <li class="topInicio"><a id="A6"  runat="server" class="top_link" href="Clientes.aspx"><span>  
+                                <asp:Literal ID="Literal6" runat="server" Text="<%$ Resources:resCorpusCFDIEs, lblClientes%>"></asp:Literal></span></a>
+                               </li>
+
+                               <li class="topInicio"><a id="A10" runat="server" class="top_link" 
+                                       href="OficinaVirtual.aspx" ><span>               
+                                 <asp:Literal ID="Literal9" runat="server" Text="<%$ Resources:resCorpusCFDIEs, lblOficinaVirtual%>"></asp:Literal></span></a>
+                               </li>  
+                                            
+                               <li class="topInicio"><a id="A11" runat="server" class="top_link" href="Contacto.aspx"> 
+                                 <span> <asp:Literal ID="Literal10" runat="server" Text="<%$ Resources:resCorpusCFDIEs, lblContacto%>"></asp:Literal></span></a>
+                               </li>
+            </ul>
+                
+            </td>
+            <td class="menuRight"></td>
+        </tr> 
+    </table>
+
+                    
+       
+
+<table  id ="tblEncabezado"> 
+
+</table>
+    <div style="width: 945px">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+        </asp:ContentPlaceHolder>
+    </div>
+    <%--    <br />
+    <br />--%>
+        <center>
+      <img src="imagenes/linea.jpg" width="945" height="2" />
+ </center>
+        
+         <div align="center">
+        
+        <table align="center" width="945px" class="Nuevo">
+        <tr>
+        <td align="center" valign="middle" width="40px" class="Nuevo">
+ <table style="width: 90px; " cellpadding="0" 
+        cellspacing="0" >
+                <tr>
+                    <td align="center">
+                        
+                     
+                    </td>
+                    <td colspan="2" align="center" width="400px">
+                        <br />
+                        <asp:Label ID="lbl018000072900" runat="server" 
+                            Text = "<%$ Resources:resCorpusCFDIEs, lblTelefonoPAX %>" Font-Bold="True" 
+                            Font-Size="XX-Large" ForeColor="#395C6C" Font-Names="Arial" 
+                            style="color: #FFFFFF" Width="450px"></asp:Label>
+                        
+                    </td>
+                        <td rowspan="2" >
+                            <br />
+                            <br />
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/imagenes/Sat1.png" 
+                                Width="80px" />
+                        </td>
+                </tr>
+                <tr>
+                    <td width="50px" align="center">
+                    
+                    <a href="skype:skype-corpus?call">
+                        <img src="imagenes/callmeSkype.png" style="border: none;" width="124" height="52" 
+                            alt="Skype Me™!" />
+                        </a>
+                        <br />
+                        &nbsp;<a href="http://www.skype.com/go/download"><asp:Label 
+                            ID="lblLlamanosporSkype" runat="server" 
+                            Text = "<%$ Resources:resCorpusCFDIEs, lblSkype %>" Font-Bold="True" 
+                            Font-Names="Arial" Font-Size="Small" ForeColor="#395C6C" 
+                            style="margin-bottom: 0px; color: #FFFFFF;" BorderStyle="None" 
+                            Width="100px" Font-Underline="True"></asp:Label></a>
+                    </td>
+                    <td class="Terminos" align="center" >
+                     
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="WebTerminosCondiciones.aspx" style="text-decoration: none" ><asp:Label ID="lblTerminosyCondiciones" runat="server"  
+                            Text = "<%$ Resources:resCorpusCFDIEs, lblTerminos %>" Font-Bold="False" 
+                            Font-Names="Arial" Font-Size="Small" ForeColor="#395C6C" 
+                            Font-Underline="False" BorderColor="Black" 
+                            style="text-decoration: underline" ></asp:Label>
+                            </a>
+                    </td>
+                    <td align="left" class="Politicas">
+                   
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="webPoliticasSeguridad.aspx" style="text-decoration:none"><asp:Label ID="lblPoliticasdePrivacidad" runat="server" 
+                            Text = "<%$ Resources:resCorpusCFDIEs, lblPolitica %>" Font-Bold="False" 
+                            Font-Names="Arial" Font-Size="Small" ForeColor="#395C6C" 
+                            Font-Underline="True"></asp:Label>
+                            </a>
+                        <br />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="3" valign="top" height="30px">
+                       
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       
+                        <asp:Label ID="DerechosReservados" runat="server" 
+                            Text = "<%$ Resources:resCorpusCFDIEs, lblDerechos %>" Font-Bold="False" 
+                            Font-Names="Arial" Font-Size="X-Small" ForeColor="#395C6C" 
+                            style="color: #FFFFFF"></asp:Label>
+                    </td>
+                </tr>
+                </table>
+                </td>
+                </tr>
+                </table>
+                </div>
+               
+
+  </div>
+  </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PAXFacturacionPago_WS_GT_V", "D:\PAX_Proyectos\Fuente_WS_TEST\PAXFacturacionPago_WS_GT_V", "{4C958F94-881A-488E-9F88-89A9332FFB7A}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/PAXFacturacionPago_WS_GT_V"
+		Debug.AspNetCompiler.PhysicalPath = "D:\PAX_Proyectos\Fuente_WS_TEST\PAXFacturacionPago_WS_GT_V\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PAXFacturacionPago_WS_GT_V\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PAXFacturacionPago_WS_GT_V"
+		Release.AspNetCompiler.PhysicalPath = "D:\PAX_Proyectos\Fuente_WS_TEST\PAXFacturacionPago_WS_GT_V\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PAXFacturacionPago_WS_GT_V\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "25490"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.2.13:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = D:\\PAX_Proyectos\\Fuente_WS_TEST\\PAXFacturacionPago_WS_GT_V
+		SccProjectName1 = PAXFacturacionPago_WS_GT_V
+		SccLocalPath1 = D:\\PAX_Proyectos\\Fuente_WS_TEST\\PAXFacturacionPago_WS_GT_V
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C958F94-881A-488E-9F88-89A9332FFB7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C958F94-881A-488E-9F88-89A9332FFB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

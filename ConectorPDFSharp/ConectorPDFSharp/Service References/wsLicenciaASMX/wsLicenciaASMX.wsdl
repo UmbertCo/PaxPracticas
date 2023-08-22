@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://192.168.2.13:86" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://192.168.2.13:86" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://192.168.2.13:86">
+      <s:element name="fnObtenerLlaveVersionUsuario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pidUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="nVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="nOrigen" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sFecha" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnObtenerLlaveVersionUsuarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fnObtenerLlaveVersionUsuarioResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnInsertarLlaveVersionUsuario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pidUsuario" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="nVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="nOrigen" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sFecha" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnInsertarLlaveVersionUsuarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fnInsertarLlaveVersionUsuarioResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnObtieneUsuario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sclaveusuario" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnObtieneUsuarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="fnObtieneUsuarioResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="fnObtenerLlaveVersionUsuarioSoapIn">
+    <wsdl:part name="parameters" element="tns:fnObtenerLlaveVersionUsuario" />
+  </wsdl:message>
+  <wsdl:message name="fnObtenerLlaveVersionUsuarioSoapOut">
+    <wsdl:part name="parameters" element="tns:fnObtenerLlaveVersionUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="fnInsertarLlaveVersionUsuarioSoapIn">
+    <wsdl:part name="parameters" element="tns:fnInsertarLlaveVersionUsuario" />
+  </wsdl:message>
+  <wsdl:message name="fnInsertarLlaveVersionUsuarioSoapOut">
+    <wsdl:part name="parameters" element="tns:fnInsertarLlaveVersionUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="fnObtieneUsuarioSoapIn">
+    <wsdl:part name="parameters" element="tns:fnObtieneUsuario" />
+  </wsdl:message>
+  <wsdl:message name="fnObtieneUsuarioSoapOut">
+    <wsdl:part name="parameters" element="tns:fnObtieneUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wsLicenciaASMXSoap">
+    <wsdl:operation name="fnObtenerLlaveVersionUsuario">
+      <wsdl:input message="tns:fnObtenerLlaveVersionUsuarioSoapIn" />
+      <wsdl:output message="tns:fnObtenerLlaveVersionUsuarioSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="fnInsertarLlaveVersionUsuario">
+      <wsdl:input message="tns:fnInsertarLlaveVersionUsuarioSoapIn" />
+      <wsdl:output message="tns:fnInsertarLlaveVersionUsuarioSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="fnObtieneUsuario">
+      <wsdl:input message="tns:fnObtieneUsuarioSoapIn" />
+      <wsdl:output message="tns:fnObtieneUsuarioSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsLicenciaASMXSoap" type="tns:wsLicenciaASMXSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnObtenerLlaveVersionUsuario">
+      <soap:operation soapAction="http://192.168.2.13:86/fnObtenerLlaveVersionUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnInsertarLlaveVersionUsuario">
+      <soap:operation soapAction="http://192.168.2.13:86/fnInsertarLlaveVersionUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnObtieneUsuario">
+      <soap:operation soapAction="http://192.168.2.13:86/fnObtieneUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsLicenciaASMXSoap12" type="tns:wsLicenciaASMXSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnObtenerLlaveVersionUsuario">
+      <soap12:operation soapAction="http://192.168.2.13:86/fnObtenerLlaveVersionUsuario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnInsertarLlaveVersionUsuario">
+      <soap12:operation soapAction="http://192.168.2.13:86/fnInsertarLlaveVersionUsuario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnObtieneUsuario">
+      <soap12:operation soapAction="http://192.168.2.13:86/fnObtieneUsuario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wsLicenciaASMX">
+    <wsdl:port name="wsLicenciaASMXSoap" binding="tns:wsLicenciaASMXSoap">
+      <soap:address location="http://licencias.paxfacturacion.com.mx/wsLicenciaASMX.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsLicenciaASMXSoap12" binding="tns:wsLicenciaASMXSoap12">
+      <soap12:address location="http://licencias.paxfacturacion.com.mx/wsLicenciaASMX.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

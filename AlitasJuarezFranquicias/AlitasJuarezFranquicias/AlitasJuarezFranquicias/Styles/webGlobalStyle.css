@@ -1,0 +1,376 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+/*body
+{
+    background: #ffffff;
+    font-size: .80em;
+    font-family: 'Century Gothic';
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+}
+*/
+
+@font-face {
+ font-family: Prozak;
+ src: url('Prozak.eot');
+ font-weight:lighter; /* EOT file for IE */
+}
+@font-face {
+ font-family: Prozak;
+ src: url('Prozak.ttf');
+ font-weight:lighter; /* TTF file for CSS3 browsers */
+}
+
+
+a:hover
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #5a737e;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+    height: 30px;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #3a5c6b;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+    font-family: 'Century Gothic';
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Century Gothic';
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Century Gothic';
+    height: 14px;
+    width: 926px;
+}
+
+h3
+{
+    font-size: 1.2em;
+    font-family: 'Century Gothic';
+}
+
+h4
+{
+    font-size: 1.1em;
+    font-family: 'Century Gothic';
+}
+
+h5, h6
+{
+    font-size: 1em;
+    font-family: 'Century Gothic';
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 970px;
+    background-color: transparent;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #5a737e;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    border-radius: 10px;
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+    border: 1px solid #496077;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    width:100%;
+}
+                         
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    /*background-color: #465c71;*/
+    /*background-color: #3E5A66;*/
+    background-color: #0085a6;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    /*background-color: #bfcbd6 #92ba41;*/
+    background-color: #0085a6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    /*border: 1px solid #ccc;*/
+}
+
+fieldset p 
+{
+    height: 48px;
+    width: 385px;
+    margin-right: 12px;
+    margin-top: 9px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+    height: 12px;
+    width: 187px;
+}
+
+/*
+input.textEntry 
+{
+    border: 1px solid #ccc;
+}
+*/
+
+/*
+input.passwordEntry 
+{
+    border: 1px solid #ccc;
+}
+*/
+
+div.accountInfo
+{
+    width: 49%;
+    height: 204px;
+}
+
+
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: 940px;
+    height: 445px;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+    background-image: url('../Imagenes/error_sign.gif');
+    background-repeat:no-repeat;
+    display:inline-block;
+}
+
+.bold
+{
+    font-weight: bold;
+    font-family: 'Century Gothic';
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+    font-family: 'Century Gothic';
+}
+
+.style1
+{
+   width: 21%;
+}
+
+
+/*---------Panel Extender-----------------*/
+
+.collapsePanelHeader
+{
+    width: 100%;
+    height: 30px;
+    background-image: url('../Imagenes/barraexpand.png');
+    background-repeat: repeat-x;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.collapsePanel 
+{
+	background-color:white;
+	overflow:hidden;
+}
+
+#master_content .collapsePanelHeader a {color:#FFF;}
+#master_content .collapsePanelHeader a:hover {text-decoration:none;background:none;}
+
+fieldset
+{
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: left;
+    border-color: #ECECEC;
+    /*color: #6d6d6d;*/
+    /*background-image: url('../Imagenes/dot_blanco.png');
+    background-repeat: repeat;*/
+}

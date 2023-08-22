@@ -1,0 +1,237 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RetencionesProyecto.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RutaDocZips" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorRetenciones\XML\XMLGenerado\</Value>
+    </Setting>
+    <Setting Name="LogError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorRetenciones\XML\LogErrores\</Value>
+    </Setting>
+    <Setting Name="LogTimbrados" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorRetenciones\XML\LogTimbres\</Value>
+    </Setting>
+    <Setting Name="rutaDocs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorRetenciones\XML\Docs</Value>
+    </Setting>
+    <Setting Name="rutaDocInv" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorRetenciones\XML\DocInvalido\</Value>
+    </Setting>
+    <Setting Name="Origen" Type="System.String" Scope="User">
+      <Value Profile="(Default)">RetencionesProyecto</Value>
+    </Setting>
+    <Setting Name="tipodocto" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Retenciones</Value>
+    </Setting>
+    <Setting Name="rutaTXTGen" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorRetenciones\XML\TXTGenerado\</Value>
+    </Setting>
+    <Setting Name="imagenes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorRetenciones\XML\Imagenes\</Value>
+    </Setting>
+    <Setting Name="cadenaoriginal_RET" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:retenciones="http://www.sat.gob.mx/esquemas/retencionpago/1" xmlns:arrendamientoenfideicomiso="http://www.sat.gob.mx/esquemas/retencionpago/1/arrendamientoenfideicomiso" xmlns:dividendos="http://www.sat.gob.mx/esquemas/retencionpago/1/dividendos" xmlns:enajenaciondeacciones="http://www.sat.gob.mx/esquemas/retencionpago/1/enajenaciondeacciones" xmlns:fideicomisonoempresarial="http://www.sat.gob.mx/esquemas/retencionpago/1/fideicomisonoempresarial" xmlns:intereses="http://www.sat.gob.mx/esquemas/retencionpago/1/intereses" xmlns:intereseshipotecarios="http://www.sat.gob.mx/esquemas/retencionpago/1/intereseshipotecarios" xmlns:operacionesderivados="http://www.sat.gob.mx/esquemas/retencionpago/1/operacionesderivados" xmlns:pagosaextranjeros="http://www.sat.gob.mx/esquemas/retencionpago/1/pagosaextranjeros" xmlns:planesderetiro="http://www.sat.gob.mx/esquemas/retencionpago/1/planesderetiro" xmlns:premios="http://www.sat.gob.mx/esquemas/retencionpago/1/premios" xmlns:sectorfinanciero="http://www.sat.gob.mx/esquemas/retencionpago/1/sectorfinanciero" version="2.0"&gt;
+&lt;!--
+ Con el siguiente método se establece que la salida deberá ser en texto 
+--&gt;
+&lt;xsl:output method="text" version="1.0" encoding="UTF-8" indent="no"/&gt;
+&lt;!--
+ 
+	En esta sección se define la inclusión de las plantillas de utilerías para colapsar espacios
+	
+--&gt;
+&lt;xsl:include href="http://www.sat.gob.mx/sitio_internet/cfd/2/cadenaoriginal_2_0/utilerias.xslt"/&gt;
+&lt;!--
+ 
+		En esta sección se define la inclusión de las demás plantillas de transformación para 
+		la generación de las cadenas originales de los complementos fiscales 
+	
+--&gt;
+&lt;xsl:include href="http://www.sat.gob.mx/esquemas/retencionpago/1/arrendamientoenfideicomiso/arrendamientoenfideicomiso.xslt"/&gt;
+&lt;xsl:include href="http://www.sat.gob.mx/esquemas/retencionpago/1/dividendos/dividendos.xslt"/&gt;
+&lt;xsl:include href="http://www.sat.gob.mx/esquemas/retencionpago/1/enajenaciondeacciones/enajenaciondeacciones.xslt"/&gt;
+&lt;xsl:include href="http://www.sat.gob.mx/esquemas/retencionpago/1/fideicomisonoempresarial/fideicomisonoempresarial.xslt"/&gt;
+&lt;xsl:include href="http://www.sat.gob.mx/esquemas/retencionpago/1/intereses/intereses.xslt"/&gt;
+&lt;xsl:include href="http://www.sat.gob.mx/esquemas/retencionpago/1/intereseshipotecarios/intereseshipotecarios.xslt"/&gt;
+&lt;xsl:include href="http://www.sat.gob.mx/esquemas/retencionpago/1/pagosaextranjeros/pagosaextranjeros.xslt"/&gt;
+&lt;xsl:include href="http://www.sat.gob.mx/esquemas/retencionpago/1/planesderetiro/planesderetiro.xslt"/&gt;
+&lt;xsl:include href="http://www.sat.gob.mx/esquemas/retencionpago/1/premios/premios.xslt"/&gt;
+&lt;xsl:include href="http://www.sat.gob.mx/esquemas/retencionpago/1/operacionesconderivados/operacionesconderivados.xslt"/&gt;
+&lt;xsl:include href="http://www.sat.gob.mx/esquemas/retencionpago/1/sectorfinanciero/sectorfinanciero.xslt"/&gt;
+&lt;!--
+ Aquí iniciamos el procesamiento de la cadena original con su | inicial y el terminador || 
+--&gt;
+&lt;xsl:template match="/"&gt;
+|
+&lt;xsl:apply-templates select="/retenciones:Retenciones"/&gt;
+||
+&lt;/xsl:template&gt;
+&lt;!--
+  Aquí iniciamos el procesamiento de los datos incluidos en el comprobante 
+--&gt;
+&lt;xsl:template match="retenciones:Retenciones"&gt;
+&lt;!--
+ Iniciamos el tratamiento de los atributos de comprobante 
+--&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@Version"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@NumCert"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Opcional"&gt;
+&lt;xsl:with-param name="valor" select="./@FolioInt"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@FechaExp"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@CveRetenc"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Opcional"&gt;
+&lt;xsl:with-param name="valor" select="./@DescRetenc"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;!--
+
+			Llamadas para procesar al los sub nodos de la retencion
+		
+--&gt;
+&lt;xsl:apply-templates select="./retenciones:Emisor"/&gt;
+&lt;xsl:apply-templates select="./retenciones:Receptor"/&gt;
+&lt;xsl:apply-templates select="./retenciones:Periodo"/&gt;
+&lt;xsl:apply-templates select="./retenciones:Totales"/&gt;
+&lt;xsl:apply-templates select="./retenciones:Complemento"/&gt;
+&lt;/xsl:template&gt;
+&lt;!--  Manejador de nodos tipo Emisor  --&gt;
+&lt;xsl:template match="retenciones:Emisor"&gt;
+&lt;!--
+ Iniciamos el tratamiento de los atributos del Emisor 
+--&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@RFCEmisor"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Opcional"&gt;
+&lt;xsl:with-param name="valor" select="./@NomDenRazSocE"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Opcional"&gt;
+&lt;xsl:with-param name="valor" select="./@CURPE"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;/xsl:template&gt;
+&lt;!--  Manejador de nodos tipo Receptor  --&gt;
+&lt;xsl:template match="retenciones:Receptor"&gt;
+&lt;!--
+ Iniciamos el tratamiento de los atributos del Receptor 
+--&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@Nacionalidad"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;!--
+
+			Llamadas para procesar al los sub nodos del Receptor
+		
+--&gt;
+&lt;xsl:if test="./retenciones:Nacional"&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./retenciones:Nacional/@RFCRecep"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;/xsl:if&gt;
+&lt;xsl:if test="./retenciones:Nacional"&gt;
+&lt;xsl:call-template name="Opcional"&gt;
+&lt;xsl:with-param name="valor" select="./retenciones:Nacional/@NomDenRazSocR"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;/xsl:if&gt;
+&lt;xsl:if test="./retenciones:Nacional"&gt;
+&lt;xsl:call-template name="Opcional"&gt;
+&lt;xsl:with-param name="valor" select="./retenciones:Nacional/@CURPR"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;/xsl:if&gt;
+&lt;xsl:if test="./retenciones:Extranjero"&gt;
+&lt;xsl:call-template name="Opcional"&gt;
+&lt;xsl:with-param name="valor" select="./retenciones:Extranjero/@NumRegIdTrib"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;/xsl:if&gt;
+&lt;xsl:if test="./retenciones:Extranjero"&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./retenciones:Extranjero/@NomDenRazSocR"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;/xsl:if&gt;
+&lt;/xsl:template&gt;
+&lt;!--  Manejador de nodos tipo Periodo  --&gt;
+&lt;xsl:template match="retenciones:Periodo"&gt;
+&lt;!--
+ Iniciamos el tratamiento de los atributos del Periodo 
+--&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@MesIni"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@MesFin"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@Ejerc"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;/xsl:template&gt;
+&lt;!--  Manejador de nodos tipo Totales  --&gt;
+&lt;xsl:template match="retenciones:Totales"&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@montoTotOperacion"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@montoTotGrav"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@montoTotExent"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@montoTotRet"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:for-each select="./retenciones:ImpRetenidos"&gt;
+&lt;xsl:apply-templates select="."/&gt;
+&lt;xsl:call-template name="Opcional"&gt;
+&lt;xsl:with-param name="valor" select="./@BaseRet"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Opcional"&gt;
+&lt;xsl:with-param name="valor" select="./@Impuesto"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@montoRet"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;xsl:call-template name="Requerido"&gt;
+&lt;xsl:with-param name="valor" select="./@TipoPagoRet"/&gt;
+&lt;/xsl:call-template&gt;
+&lt;/xsl:for-each&gt;
+&lt;/xsl:template&gt;
+&lt;!--  Manejador de nodos tipo Complemento  --&gt;
+&lt;xsl:template match="retenciones:Complemento"&gt;
+&lt;xsl:for-each select="./*"&gt;
+&lt;xsl:apply-templates select="."/&gt;
+&lt;/xsl:for-each&gt;
+&lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;</Value>
+    </Setting>
+    <Setting Name="urlHostComercial" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.paxfacturacion.com/</Value>
+    </Setting>
+    <Setting Name="rutaCertificados" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorRetenciones\XML\Certificados</Value>
+    </Setting>
+    <Setting Name="TipoServicio" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GT</Value>
+    </Setting>
+    <Setting Name="rutaPEM" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorRetenciones\XML\Certificados\</Value>
+    </Setting>
+    <Setting Name="Estatus" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PRUEBAS</Value>
+    </Setting>
+    <Setting Name="usuario" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WSDL_PAX</Value>
+    </Setting>
+    <Setting Name="password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">O0PCvcOOwqFNU1LCkcKs77+o77+fIWB9wr9KMe+/vUjvv41YMu+/ou+/lu++uO++mu+8pw==</Value>
+    </Setting>
+    <Setting Name="Modo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">T</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

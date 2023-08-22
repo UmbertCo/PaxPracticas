@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="fnEnviarXML">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="psComprobante" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psTipoDocumento" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pnId_Estructura" type="xs:int" />
+        <xs:element minOccurs="0" name="sNombre" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sContraseña" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sVersion" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnEnviarXMLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fnEnviarXMLResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnAplicarHojaTransformacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="psDocumento" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnAplicarHojaTransformacionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fnAplicarHojaTransformacionResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnGenerarPfxPem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="psRutaPfx" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psCertificado" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psLlave" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pbIncludeCertsInChain" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnGenerarPfxPemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fnGenerarPfxPemResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnGenerarPfxBytes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="psRutaPfx" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psCertificado" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="psLlave" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="psPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pbIncludeCertsInChain" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnGenerarPfxBytesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fnGenerarPfxBytesResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnGenerarPfxRuta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="psRutaPfx" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psRutaCertificado" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psRutaLlave" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pbIncludeCertsInChain" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnGenerarPfxRutaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fnGenerarPfxRutaResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnGenerarPfxRutasByte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="psRutaPfx" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psRutaCertificado" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psRutaLlave" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pbIncludeCertsInChain" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnGenerarPfxRutasByteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fnGenerarPfxRutasByteResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnGenerarSello">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="psRutaPEM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psCadenaOriginal" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psLlave" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="psPassword" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnGenerarSelloResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fnGenerarSelloResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnGenerarSelloRutas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="psRutaPEM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psCadenaOriginal" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psLlave" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psPassword" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnGenerarSelloRutasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fnGenerarSelloRutasResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnGenerarSelloOpenSSL">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="psRutaCertificado" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psRutaLlave" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psNombreCertificado" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psNombreLlave" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psCadenaOriginal" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psRutaPfx" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnGenerarSelloOpenSSLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fnGenerarSelloOpenSSLResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnServicioPrueba">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="psPrueba" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnServicioPruebaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fnServicioPruebaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

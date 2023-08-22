@@ -1,0 +1,488 @@
+
+/*Barra*/
+.menu
+{
+    padding: 0 0 0 8px;
+    margin: 0;
+    list-style: none;
+    background: #fff url('../mnu_images/barra.png') repeat-x;
+    position: relative;
+    font-family: 'Avenir LT Std 35 Light';
+    height: 61px;
+}
+
+/*Estilo texto Menu*/
+.menu li a.top_link
+{
+    margin: 2px;
+    background-position: center center;
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 14px;
+    cursor: pointer;
+    color: #FFFFFF;
+    line-height: 33px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 0 0 0 12px;
+}
+
+/*Orden Texto*/
+.menu li.top
+{
+    display: block;
+    float: left;
+    position: relative;
+}
+
+/*Acomodo texto submenu*/
+.menu li a.top_link span
+{
+    margin: 0px 0px 12px 0px;
+    float: left;
+    font-weight: bold;
+    display: block;
+    padding: 0 24px 0 12px;
+    height: 40px;
+    font-family: 'Avenir LT Std 35 Light';
+}
+
+/*Seleccion color texto menu*/
+.menu li:hover > a.top_link
+{
+    color: #000;
+}
+
+
+/*Imagen boton*/
+
+.menu li a.top_link:hover
+{
+    color: #000;
+    background: url('../mnu_images/boton-verde.gif') no-repeat;
+}
+.menu li a.top_link:hover span
+{
+    background: url('../mnu_images/boton-verde.gif') no-repeat right top;
+}
+.menu li:hover > a.top_link
+{
+    color: #000;
+    background: url('../mnu_images/boton-verde.gif') no-repeat;
+}
+.menu li:hover > a.top_link span
+{
+    background: url('../mnu_images/boton-verde.gif') no-repeat right top;
+}
+
+
+
+/*Aminacion submenu*/
+/****************************************************************************************/
+
+.menu table
+{
+    border-collapse: collapse;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.menu a:hover
+{
+    visibility: visible;
+}
+.menu li:hover
+{
+    position: relative;
+    z-index: 200;
+}
+.menu ul, .menu :hover ul ul, .menu :hover ul :hover ul ul, .menu :hover ul :hover ul :hover ul ul, .menu :hover ul :hover ul :hover ul :hover ul ul
+{
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu :hover ul.sub
+{
+    left: 2px;
+    top: 40px;
+    right: 2px;
+    background: #80000;
+    padding: 3px 0;
+    border: 1px solid #333300;
+    white-space: nowrap;
+    width: 200px;
+    height: auto;
+}
+.menu :hover ul.sub li
+{
+    display: block;
+    height: 20px;
+    position: relative;
+    float: left;
+    width: 250px;
+}
+.menu :hover ul.sub li a
+{
+    font-weight: normal;
+    display: block;
+    font-size: 14px;
+    height: 20px;
+    width: 192px;
+    line-height: 20px;
+    text-indent: 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-width: 0 0 0 3px;
+    font-family: 'Avenir LT Std 35 Light';
+}
+.menu :hover ul.sub li a:hover
+{
+    background: #FF121C;
+    color: #000000;
+}
+/****************************************************************************************/
+
+.menuBarra
+{
+    background-position: center;
+    background: url('../mnu_images/barra.png') repeat-x;
+    width: 950px;
+}
+.menuLeft
+{
+    background-position: right top;
+    background-image: url('../mnu_images/left.png');
+    background-repeat: no-repeat;
+    width: 21px;
+}
+.menuRight
+{
+    background-position: left top;
+    background-image: url('../mnu_images/right.png');
+    background-repeat: no-repeat;
+    width: 21px;
+}
+.menuAncho
+{
+    margin: 0px 0px 12px 0px;
+    float: left;
+    font-weight: bold;
+    display: block;
+    padding: 0 24px 0 12px;
+    height: 40px;
+    font-family: 'Avenir LT Std 35 Light';
+}
+
+/****************************************************************************************/
+/****Estilo de los botones***/
+.botonEstilo
+{
+    background-image: url('../mnu_images/btnentrar.png');
+    background-repeat: no-repeat;
+    background-position: center center; /*border-color: #FFFFFF;*/
+    border-style: none;
+    height: 32px;
+    width: 120px; /*color: #FFFFFF;*/
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 87px;
+    height: 57px;
+    background-color:transparent;
+    
+}
+
+.botonGrande
+{
+    background-image: url('../mnu_images/btnGrande.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:transparent;
+    border-color: #C54F4F;
+    border-style: none;
+    color: #FFFFFF;
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 14px;
+    
+    }
+
+.botonEstilo:hover
+{
+    background-position: center center;
+    color: #000000;
+    text-decoration: underline blink;
+    font-weight: lighter;
+    font-size: 14px;
+    font-family: 'Avenir LT Std 35 Light';
+    cursor: pointer; /*boton-entrarVerde.png*/
+    background-image: url('../mnu_images/btnentrarover.png');
+    background-repeat: no-repeat;
+    width: 87px;
+    height: 57px;
+    background-color:transparent;
+    
+} 
+
+.botonGrande:hover
+{
+    background-position: center center;
+    color: #000000;
+    text-decoration: underline blink;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Avenir LT Std 35 Light';
+    cursor: pointer; /*boton_entrarVerde150.png*/
+    background-image: url('../mnu_images/btnGrandeOver.png');
+    background-repeat: no-repeat;
+    width: 87px;
+    height: 57px;
+} 
+
+.botonGris
+{
+    background-image: url('../mnu_images/btnG.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 35px;
+}
+
+.botonChico
+{
+    background-image: url('../mnu_images/boton_entrarChico.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:transparent;
+    border-color: #FFFFFF;
+    border-style: none;
+    color: #FFFFFF;
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 11px;
+    
+}
+
+.botonChico:hover
+{
+    background-position: center center;
+    color: #000000;
+    text-decoration: blink;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: 'Avenir LT Std 35 Light';
+    cursor: pointer;
+    background-image: url('../mnu_images/boton_entrarChicoVerde.png');
+    background-repeat: no-repeat;
+    
+}
+
+/****************************************************************/
+
+.botonEstiloVentanas
+{
+    background-image: url('../mnu_images/btnentrar.png');
+    background-repeat: no-repeat;
+    background-position: center center; /*border-color: #FFFFFF;*/
+    border-style: none;
+    /*color: #FFFFFF;*/
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 14px;
+    background-color:transparent;
+    /*color: #FFFFFF;*/
+    width:80px;
+    height:57px;
+ color: #FFFFFF;
+}
+
+
+.botonEstiloVentanas:hover
+{
+    background-position: center center;
+    text-decoration: underline blink;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Avenir LT Std 35 Light';
+    cursor: pointer; /*boton-entrarVerde.png*/
+    background-image: url('../mnu_images/btnentrarOver.png');
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 57px;
+    color: #000000;
+} 
+
+.botonEstiloVentanas:disabled
+{
+    background-image: url('../mnu_images/btnentrar.png');
+    background-repeat: no-repeat;
+    background-position: center center; /*border-color: #FFFFFF;*/
+    border-style: none;
+    color: #FFFFFF;
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 14px;
+    background-color:transparent;
+    color: #999999;
+    width: 80px;
+    height: 57px;
+    
+} 
+
+/**********************************************************************/
+.botonGrandeVentanas
+{
+    background-image: url('../mnu_images/btnGrande.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:transparent;
+    border-color: #FFFFFF;
+    border-style: none;
+    color: #FFFFFF;
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 14px;
+    margin-left: 0px;
+    
+    
+}
+
+.botonGrandeVentanas:hover
+{
+    background-position: center center;
+    color: #FFFFFF;
+    text-decoration: underline blink;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Avenir LT Std 35 Light';
+    cursor: pointer; /*boton_entrarVerde150.png*/
+    background-image: url('../mnu_images/btnGrandeOver.png');
+    background-repeat: no-repeat;
+    
+} 
+
+/**********************************************************/
+.botonGrandeRecupera
+{
+    background-image: url('../mnu_images/btnGrande.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:transparent;
+    border-color: #FFFFFF;
+    border-style: none;
+    color: #FFFFFF;
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 14px;
+    margin-left: 0px;
+  
+}
+
+.botonGrandeRecupera:hover
+{
+    background-position: center center;
+    color: #FFFFFF;
+    text-decoration: underline blink;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Avenir LT Std 35 Light';
+    cursor: pointer; /*boton_entrarVerde150.png*/
+    background-image: url('../mnu_images/btnGrandeOver.png');
+    background-repeat: no-repeat;
+    background-color:transparent;
+} 
+
+
+/***************************************************************/
+.botonDesbloquear
+{
+    background-image: url('../mnu_images/btndesbloquear.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:transparent;
+    border-color: #C54F4F;
+    border-style: none;
+    color: #FFFFFF;
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 14px;
+    width:114px;
+    height:27px;
+    
+    }
+/****************************************************************/
+.botonDesbloquear:hover
+{
+    background-position: center center;
+    color: #000000;
+    text-decoration: underline blink;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Avenir LT Std 35 Light';
+    cursor: pointer; /*boton-entrarVerde.png*/
+    background-image: url('../mnu_images/btndesbloquearover.png');
+    background-repeat: no-repeat;
+    width:114px;
+    height:27px;
+}
+/**************************************************************/
+
+.tituloInicioSesion
+{
+    color: White;
+    text-shadow: black 01.em 01.em 0.2em;
+    font-family: 'century Gothic';
+    font-size: large;
+}
+
+/********************************************************/
+.bodyMain
+{
+    /*background: #b6b7bc;*/
+    font-size: 12px;
+    font-family: 'Century Gothic';
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    background-image: url('../mnu_images/maincg.png'); /*background-repeat: no-repeat;*/
+    background-attachment: scroll;
+    width: 916px;
+}
+/********************************************************/
+.bodyMainEmpresas
+{
+    /*background: #b6b7bc;*/
+    font-size: 12px;
+    font-family: 'Century Gothic';
+    margin: 0px 0px 0px 5px;
+    padding: 0px;
+    color: #000000;
+    background-image: url('../mnu_images/maincgempresas.png'); /*background-repeat: no-repeat;*/
+    background-attachment: scroll;
+    
+}
+/********************************************************/
+.bodyMainComprobantes
+{
+    /*background: #b6b7bc;*/
+    font-size: 12px;
+    font-family: 'Century Gothic';
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    background-image: url('../mnu_images/maincgrande.png'); /*background-repeat: no-repeat;*/
+    background-attachment: scroll;
+    width: 975px;
+} 
+.bodyMainEmpresas2
+{
+    /*background: #b6b7bc;*/
+    font-size: 12px;
+    font-family: 'Century Gothic';
+    margin: 0px 0px 0px 0px 163px;
+        padding: 0px;
+    color: #000000;
+    background-image: url('../mnu_images/maincgempresas2.png'); /*background-repeat: no-repeat;*/
+    background-attachment: scroll;
+    
+}

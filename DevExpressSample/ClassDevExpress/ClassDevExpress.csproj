@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F6CCD29-26C4-4B7B-93D9-EEA9BC528701}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClassDevExpress</RootNamespace>
+    <AssemblyName>ClassDevExpress</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rptImpLocalRetenciones.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptImpLocalRetenciones.Designer.cs">
+      <DependentUpon>rptImpLocalRetenciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptImpLocalTraslados.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptImpLocalTraslados.Designer.cs">
+      <DependentUpon>rptImpLocalTraslados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptNomina.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptNomina.Designer.cs">
+      <DependentUpon>rptNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptPlantillaGenerica.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptPlantillaGenerica.Designer.cs">
+      <DependentUpon>rptPlantillaGenerica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptPlantillaLogo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptPlantillaLogo.Designer.cs">
+      <DependentUpon>rptPlantillaLogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptCompTerceros.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptCompTerceros.Designer.cs">
+      <DependentUpon>rptCompTerceros.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="rptImpLocalRetenciones.resx">
+      <DependentUpon>rptImpLocalRetenciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptImpLocalTraslados.resx">
+      <DependentUpon>rptImpLocalTraslados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptNomina.resx">
+      <DependentUpon>rptNomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptPlantillaGenerica.resx">
+      <DependentUpon>rptPlantillaGenerica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptPlantillaLogo.resx">
+      <DependentUpon>rptPlantillaLogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptCompTerceros.resx">
+      <DependentUpon>rptCompTerceros.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

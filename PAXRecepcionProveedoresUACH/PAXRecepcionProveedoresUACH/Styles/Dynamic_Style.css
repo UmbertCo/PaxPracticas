@@ -1,0 +1,110 @@
+﻿/***************Menu Padre*****************/
+
+/****Barra principal con redondeo*****/
+.NavigationMenu
+{
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    color: White;
+    background-image: url('../mnu_images/barra.png');
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    padding: 0px 0px 0px 20px;
+    width: 970px;
+    height: 40px;
+    /*margin: -20px;*/
+    behavior: url(~/Scripts/border-radius.htc);
+    
+}
+
+.staticMenuItemStyle
+{
+    margin:3px; 
+    display: block;
+    font-size: 14px;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    width:auto;
+
+}
+
+.staticHoverStyle
+{
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Century Gothic';
+    cursor: pointer;
+    line-height: 20px;
+    background-color: #FFCC00;
+    text-align: center;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    behavior: url(~/Scripts/border-radius.htc);
+}
+
+.menuItem
+{
+    display: block;
+}
+/***************Menu Padre*****************/
+
+.dynamicMenuItemStyle
+{
+    border: 1px solid #820088;
+    background-color: #880085;
+    color: #FFFFFF;
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    width: 120px;
+    height: 25px;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+    border-radius: 6px;
+}
+
+.background
+{
+    background-position: center center;
+    background-image: url('../Imagenes/UACH01.png');
+    background-repeat: no-repeat;
+}
+
+.menuItemMouseOver, .menuItemSelected
+{
+    background: #FFCC00;
+    color: #000000;
+}
+
+.NavigationMenu A:link, .NavigationMenu A:visited, .NavigationMenu A:active
+{
+    text-decoration: none;
+    display: block;
+}
+
+.currentNodeStyle, .nodeStyle, .rootNodeStyle, a.siteMapPath
+{
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    font-size: 14px;
+}
+
+/***************************************************************************/
+.botonGris
+{
+    background-image: url('../mnu_images/btnespanol.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 62px;
+    font-family: 'Century Gothic';
+    font-size: 12px;
+    width: 956px;
+}

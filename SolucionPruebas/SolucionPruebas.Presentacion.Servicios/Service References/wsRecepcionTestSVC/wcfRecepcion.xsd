@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="https://test.paxfacturacion.com.mx:453" elementFormDefault="qualified" targetNamespace="https://test.paxfacturacion.com.mx:453" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="fnEnviarXML">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="psComprobante" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="psTipoDocumento" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pnId_Estructura" type="xs:int" />
+        <xs:element minOccurs="0" name="sNombre" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sContraseña" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sVersion" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnEnviarXMLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fnEnviarXMLResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,6 @@
+D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\bin\Debug\PAXRegeneracionBateria.exe.config
+D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\bin\Debug\PAXRegeneracionBateria.exe
+D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\bin\Debug\PAXRegeneracionBateria.pdb
+D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\obj\x86\Debug\PAXRegeneracionBateria.exe
+D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\obj\x86\Debug\PAXRegeneracionBateria.pdb
+D:\TEAM-FOUNDATION\PAX-PRACTICAS\PAXRegeneracionBateria\PAXRegeneracionBateria\obj\x86\Debug\PAXRegeneracionBateria.csprojResolveAssemblyReference.cache

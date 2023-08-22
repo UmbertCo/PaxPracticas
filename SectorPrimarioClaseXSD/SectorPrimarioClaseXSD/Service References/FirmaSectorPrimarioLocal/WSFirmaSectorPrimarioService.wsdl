@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://paxfacturacion/SectorPrimario/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="WSFirmaSectorPrimarioService" targetNamespace="http://paxfacturacion/SectorPrimario/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types />
+  <message name="fnFirmarSectorPirmario">
+    <part name="arg0" type="xsd:string" />
+    <part name="arg1" type="xsd:string" />
+    <part name="arg2" type="xsd:string" />
+    <part name="arg3" type="xsd:base64Binary" />
+    <part name="arg4" type="xsd:base64Binary" />
+    <part name="arg5" type="xsd:int" />
+  </message>
+  <message name="fnFirmarSectorPirmarioResponse">
+    <part name="return" type="xsd:string" />
+  </message>
+  <message name="fnFirmarSectorPrimarioCompleto">
+    <part name="arg0" type="xsd:string" />
+    <part name="arg1" type="xsd:string" />
+    <part name="arg2" type="xsd:base64Binary" />
+    <part name="arg3" type="xsd:string" />
+    <part name="arg4" type="xsd:base64Binary" />
+    <part name="arg5" type="xsd:int" />
+  </message>
+  <message name="fnFirmarSectorPrimarioCompletoResponse">
+    <part name="return" type="xsd:string" />
+  </message>
+  <portType name="WSFirmaSectorPrimario">
+    <operation name="fnFirmarSectorPirmario" parameterOrder="arg0 arg1 arg2 arg3 arg4 arg5">
+      <input wsam:Action="http://paxfacturacion/SectorPrimario/WSFirmaSectorPrimario/fnFirmarSectorPirmarioRequest" message="tns:fnFirmarSectorPirmario" />
+      <output wsam:Action="http://paxfacturacion/SectorPrimario/WSFirmaSectorPrimario/fnFirmarSectorPirmarioResponse" message="tns:fnFirmarSectorPirmarioResponse" />
+    </operation>
+    <operation name="fnFirmarSectorPrimarioCompleto" parameterOrder="arg0 arg1 arg2 arg3 arg4 arg5">
+      <input wsam:Action="http://paxfacturacion/SectorPrimario/WSFirmaSectorPrimario/fnFirmarSectorPrimarioCompletoRequest" message="tns:fnFirmarSectorPrimarioCompleto" />
+      <output wsam:Action="http://paxfacturacion/SectorPrimario/WSFirmaSectorPrimario/fnFirmarSectorPrimarioCompletoResponse" message="tns:fnFirmarSectorPrimarioCompletoResponse" />
+    </operation>
+  </portType>
+  <binding name="WSFirmaSectorPrimarioPortBinding" type="tns:WSFirmaSectorPrimario">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <operation name="fnFirmarSectorPirmario">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" namespace="http://paxfacturacion/SectorPrimario/" />
+      </input>
+      <output>
+        <soap:body use="literal" namespace="http://paxfacturacion/SectorPrimario/" />
+      </output>
+    </operation>
+    <operation name="fnFirmarSectorPrimarioCompleto">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" namespace="http://paxfacturacion/SectorPrimario/" />
+      </input>
+      <output>
+        <soap:body use="literal" namespace="http://paxfacturacion/SectorPrimario/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WSFirmaSectorPrimarioService">
+    <port name="WSFirmaSectorPrimarioPort" binding="tns:WSFirmaSectorPrimarioPortBinding">
+      <soap:address location="http://localhost:8080/WSFirmaSectorPrimario/WSFirmaSectorPrimario" />
+    </port>
+  </service>
+</definitions>

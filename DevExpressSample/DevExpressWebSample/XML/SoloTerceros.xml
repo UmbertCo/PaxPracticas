@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3"  xmlns:terceros="http://www.sat.gob.mx/terceros">
+  <cfdi:ComplementoConcepto IdConcepto ="1">
+    <terceros:PorCuentadeTerceros xmlns:terceros="http://www.sat.gob.mx/terceros" version="1.1" rfc="NEVC780820RW2" nombre="Cesar">
+      <terceros:InformacionFiscalTercero calle="Montes" noExterior="344" noInterior="4556" colonia="Cumbres" localidad="Chihuahua" referencia="fdff" municipio="Chihuahua" estado="Chihuahua" pais="Mexico" codigoPostal="31245"></terceros:InformacionFiscalTercero>
+      <terceros:Impuestos>
+        <terceros:Retenciones>
+          <terceros:Retencion impuesto="IVA" importe="11"></terceros:Retencion>
+          <terceros:Retencion impuesto="ISR" importe="12"></terceros:Retencion>
+        </terceros:Retenciones>
+        <terceros:Traslados>
+          <terceros:Traslado impuesto="IVA" tasa="15" importe="33"></terceros:Traslado>
+          <terceros:Traslado impuesto="IEPS" tasa="10" importe="10"></terceros:Traslado>
+        </terceros:Traslados>
+      </terceros:Impuestos>
+    </terceros:PorCuentadeTerceros>
+  </cfdi:ComplementoConcepto>
+  <cfdi:ComplementoConcepto IdConcepto ="2">
+    <terceros:PorCuentadeTerceros xmlns:terceros="http://www.sat.gob.mx/terceros" version="1.1" rfc="NEVC780820RW8" nombre="Cesar Negrete Villa">
+      <terceros:InformacionFiscalTercero calle="Sicomoro" noExterior="4556" noInterior="5565" colonia="Francisco" localidad="Chihuahua" referencia="Frente al Tec" municipio="Chihuahua" estado="Chihuahua" pais="mexico" codigoPostal="12455"></terceros:InformacionFiscalTercero>
+      <terceros:InformacionAduanera numero="3444" fecha="2016-08-23" aduana="Adua Ojinaja"></terceros:InformacionAduanera>
+      <terceros:Impuestos>
+        <terceros:Retenciones>
+          <terceros:Retencion impuesto="IVA" importe="10"></terceros:Retencion>
+          <terceros:Retencion impuesto="ISR" importe="5"></terceros:Retencion>
+        </terceros:Retenciones>
+        <terceros:Traslados>
+          <terceros:Traslado impuesto="IVA" tasa="2" importe="4"></terceros:Traslado>
+          <terceros:Traslado impuesto="IEPS" tasa="40" importe="3"></terceros:Traslado>
+        </terceros:Traslados>
+      </terceros:Impuestos>
+    </terceros:PorCuentadeTerceros>
+  </cfdi:ComplementoConcepto>
+  <cfdi:ComplementoConcepto IdConcepto ="3">
+    <terceros:PorCuentadeTerceros xmlns:terceros="http://www.sat.gob.mx/terceros" version="1.1" rfc="NEVC780820RW1" nombre="cESAR3">
+      <terceros:InformacionFiscalTercero calle="Montes Cibao" noExterior="3333" noInterior="444" colonia="kiidd" localidad="Julimes" referencia="dedd" municipio="Juarez" estado="Jalisco" pais="Mexico" codigoPostal="31256"></terceros:InformacionFiscalTercero>
+      <terceros:CuentaPredial numero="Predial 23"></terceros:CuentaPredial>
+      <terceros:Impuestos>
+        <terceros:Retenciones>
+          <terceros:Retencion impuesto="IVA" importe="7"></terceros:Retencion>
+          <terceros:Retencion impuesto="ISR" importe="9"></terceros:Retencion>
+        </terceros:Retenciones>
+        <terceros:Traslados>
+          <terceros:Traslado impuesto="IVA" tasa="4" importe="45"></terceros:Traslado>
+          <terceros:Traslado impuesto="IEPS" tasa="8" importe="12"></terceros:Traslado>
+        </terceros:Traslados>
+      </terceros:Impuestos>
+    </terceros:PorCuentadeTerceros>
+  </cfdi:ComplementoConcepto>
+</cfdi:Comprobante>

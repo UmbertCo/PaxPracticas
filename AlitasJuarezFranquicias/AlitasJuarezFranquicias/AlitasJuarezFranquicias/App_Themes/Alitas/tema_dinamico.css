@@ -1,0 +1,512 @@
+﻿body 
+{
+    
+}
+
+@font-face {
+ font-family: Prozak;
+ src: url('Prozak.eot'); /* EOT file for IE */
+  font-weight:lighter;
+}
+@font-face {
+ font-family: Prozak;
+ src: url('Prozak.ttf'); /* TTF file for CSS3 browsers */
+ font-weight:lighter;
+}
+
+.cuadro
+{
+    height: 215px;
+    width: 530px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-image: url('../../Imagenes/login_default.png');
+}
+
+.roundedPanel
+{
+    
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+}
+
+.fondo1
+{
+    background-color: #e61c18;
+    margin:0; padding:0;
+}
+
+.fondo2
+{
+    background-color:Black;
+    margin:0; padding:0;
+}
+
+/*Imagen de fondo de default*/
+.fondoMaster
+{
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: url('../../Imagenes/fondo.gif');
+    background-position: left top;
+    background-color:#e61c18;
+    height:100%;
+}
+
+
+
+.TopGrafo
+{
+    /*background-image: url('../../Imagenes/alitas-logo.png');*/
+    background-repeat: no-repeat;
+    background-position:left;
+    width:100%;
+    height:100%;
+}
+
+.BotomGrafo
+{
+    background-image: url('../../Imagenes/footer-alitas.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    width:1120px;
+    height:111px;
+}
+
+.TablaBackGround
+{
+    /*background-color: transparent; /*background-color: #e61c18;*/
+    background-image: url('../../mnu_images/back_aviso.png');
+    border-color:transparent;
+}
+
+.Titulo
+{
+    font-family:'Verdana';
+    font-size:18px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-align:left;
+}
+
+.TituloBlanco
+{
+    font-family: 'Arial';
+    font-size:medium;
+    font-weight: bolder;
+    color:White;
+}
+
+
+.HiperLink
+{
+    font-family: 'Arial';
+    font-size: small;
+    font-weight: bolder;
+    color: #e61c18;
+}
+
+input.textEntry
+{
+    width: 320px;
+    border: 1px solid #ccc;
+    /*color: #0078AD;*/
+    color:Black;
+    /*font-family: 'Prozak';*/
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+    /*color: #0078AD;*/
+    color:Black;
+    /*font-family: 'Prozak';*/
+}
+
+
+
+
+.NavigationMenu
+{
+    /*font-family: 'Avenir LT Std 35 Light';*/
+    font-family: 'Arial';
+    font-size: 16px;
+    color: White;
+    width: 100%;
+    height: 50%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: url('../../mnu_images/menu_default.png');
+    text-align:center;
+}
+    
+.staticMenuItemStyle
+{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Arial';
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+
+
+/****/
+
+.staticHoverStyle
+{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Arial';
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+.dynamicMenuItemStyle
+{
+    color: #FFFFFF;
+    font-family: 'Arial';
+    font-size: 14px;
+    width:100%;
+    height:50%;
+    text-align: center;
+}
+
+
+
+.menuItemMouseOver, .menuItemSelected
+{
+    color: #FFFFFF;
+    font-family: 'Arial';
+    font-size: 14px;
+    width:100%;
+    height:50%;
+    text-align:center;
+}
+
+
+
+.menuItem
+{
+    color: #FFFFFF;
+    font-family: 'Arial';
+    font-size: 14px;
+    width:100%;
+    height:50%;
+    text-align:center;
+}
+
+.botonGris
+{
+    background-image: url('../../mnu_images/botonGris.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 35px; 
+    font-family: 'Arial';
+    font-size: 16px;
+}
+
+.fondoBienvenida
+{
+    background-image: url('../../Imagenes/entrada-alitas.png');
+}
+
+
+
+.fondoBackground
+{
+    background-repeat: no-repeat;
+    background-image: url('../../Imagenes/backalitas.jpg');
+    background-position:center top;  
+    width:100%;
+}
+
+.fondoDerechos
+{
+    background-repeat: no-repeat;
+    src: url('../../Imagenes/footer.png');
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 0px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    background-position: right;
+    line-height: normal;
+    background-image: url('../../Imagenes/footer-alitas.png');
+    height: 111px;
+    width: 1120px;
+    background-repeat: no-repeat;
+}
+
+.leyendasfilsed
+{
+    width:auto;
+    color:Black;
+    font-family: Arial;
+    font-weight:bold;
+}
+
+.labelCaptura
+{
+    color:Black;
+    font-family: Arial;
+}
+
+.color
+{
+    background-color: #0073aa;
+}
+
+.background_tablas_transparente
+{
+    background-color:#FFF;
+}
+
+.background_titulos
+{
+    background-color: #000000;
+}
+
+.TablaTextoTitulo
+{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background: #000;
+	text-align:center;
+		
+}
+	
+	.TextoTituloEtiqueta
+{
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold; 
+    text-align: center;
+    background-color: #000000;
+    }
+	
+	/*MENU*/
+	
+	.NavigationMenuMaster
+{
+    font-size: 16px;
+    font-family:Arial;
+    text-align: left;
+    font-weight:bold;
+    color:White;
+    background-image: url('../../Imagenes/barra_menu.png');
+    background-repeat:repeat-x;
+    cursor:pointer;
+}
+
+.staticMenuItemStyleMaster
+{
+    font-family: Arial;
+    font-size: 16px;
+    text-align: left;
+    color: White;
+    cursor: pointer;
+	color: #FFF;
+	background: url('../../mnu_images/down_menu.png') no-repeat;
+    background-position:1px 18px;
+    position:relative;
+}
+
+.staticHoverStyleMaster
+{
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: #000;
+    color: #FFF;
+    background: url('../../mnu_images/down_menu.png') no-repeat;
+    background-position:1px 18px;
+    position:relative;
+}
+
+.dynamicMenuItemStyleMaster
+{
+    padding-left: 10px;
+	padding-right: 10px;
+	border: solid 1px #d9b713;
+	border-top: 0px;
+	background: #FAD003;
+	color: #000;
+	text-align:left;
+}
+
+.menuItemMouseOverMaster, .menuItemSelectedMaster
+{
+    font-family:Arial;
+    font-size:16px;
+    color: #000;
+	background: #D9B713;
+ 	position: relative;
+ 	text-align:left;
+}
+
+.menuItemMaster
+{
+    font-family:Arial;
+    color:White;
+    font-size:16px;
+    cursor:pointer;
+    position:relative;
+}
+
+.Subtitulos
+{
+    font-family:Arial;
+    color:White;
+    font-size:16px;
+}
+
+.EtiquetaDefault
+{
+    font-family:Arial;
+    font-size:medium;
+    color:white;
+    font-weight:bold;
+}
+    
+    
+/***********************/
+/* Botones */
+/***********************/
+
+.botonEstilo
+{
+    
+    background-image: url('../../mnu_images/btnEstilo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:transparent;
+    color: #FFFFFF; 
+    font-family: 'Arial';
+    font-size: 14px;
+    cursor:pointer;
+    border-color:transparent;
+}
+
+.botonEstilo:hover
+{
+    background-image: url('../../mnu_images/btnEstiloHover.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Arial';
+    font-size: 14px;
+    width: 79px;
+    height: 29px; 
+    cursor:pointer;
+    border-color:transparent;
+}
+
+.botonEstiloGrande
+{
+    background-image: url('../../mnu_images/btnEstiloGrande.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:transparent;
+    color: #FFFFFF;
+    font-family: 'Arial';
+    font-size: 14px;
+    width: 180px;
+    border-color:transparent;
+    cursor:pointer;
+    }
+
+.botonEstiloGrande:hover
+{
+    background-image: url('../../mnu_images/btnEstiloGrandeHover.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:transparent;
+    color: #FFFFFF;
+    font-family: 'Arial';
+    font-size: 14px;
+    width: 180px;
+    height:31px;
+    border-color:transparent;
+    cursor:pointer;
+    
+} 
+
+.botonEstiloGrandeRecupera
+{
+    background-image: url('../../mnu_images/btnEstiloRecupera.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:transparent;
+    color: #FFFFFF;
+    font-family: 'Arial';
+    font-size: 14px;
+    border-color:transparent;
+    cursor:pointer;
+    width: 161px;
+    height:31px;
+}
+
+.botonEstiloGrandeRecupera:hover
+{
+    background-image: url('../../mnu_images/btnEstiloRecuperaHover.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:transparent;
+    color: #FFFFFF;
+    font-family: 'Arial';
+    font-size: 14px;
+    width: 161px;
+    height:31px;
+    border-color:transparent;
+    cursor:pointer;
+    
+} 
+
+/*Textos_Bienvenido*/
+.Texto_Bienvenido_general
+ {
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 11px;
+color: #484848;
+line-height: 16px;
+height: 28px;
+text-align:right;
+}
+
+.Texto_Bienvenido_Normal
+{
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 11px;
+color: #FFF;
+line-height: 16px;
+text-align:right;
+}
+
+///********************///
+.ManualUser
+{
+    background-image: url('../../Imagenes/img_manual.png');
+    background-repeat: no-repeat;
+    background-color:transparent;
+    width:159px;
+    height:45px;
+}

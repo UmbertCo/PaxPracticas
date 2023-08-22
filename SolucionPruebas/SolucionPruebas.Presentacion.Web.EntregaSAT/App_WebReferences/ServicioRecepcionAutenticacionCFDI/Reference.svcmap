@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a9a1d7f8-e049-42bf-b470-a1baf9dc4424" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://pruebacfdirecepcion.cloudapp.net/Seguridad/Autenticacion.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Autenticacion.wsdl" MetadataType="Wsdl" ID="fdad488e-95cf-4e01-9631-d5019167f697" SourceId="1" SourceUrl="https://pruebacfdirecepcion.cloudapp.net/Seguridad/Autenticacion.svc/wsdl?wsdl" />
+    <MetadataFile FileName="wsdl.disco" MetadataType="Disco" ID="840f988a-2461-4028-b7c7-1d40c2b0d5bc" SourceId="1" SourceUrl="https://pruebacfdirecepcion.cloudapp.net/Seguridad/Autenticacion.svc/wsdl?disco" />
+    <MetadataFile FileName="wsdl.xsd" MetadataType="Schema" ID="8bf1891c-0022-4b54-b9fd-8165a9fb56fc" SourceId="1" SourceUrl="https://pruebacfdirecepcion.cloudapp.net/Seguridad/Autenticacion.svc/wsdl?xsd=xsd0" />
+    <MetadataFile FileName="wsdl1.xsd" MetadataType="Schema" ID="7db7a43e-f031-45b2-9c20-97c718c63d90" SourceId="1" SourceUrl="https://pruebacfdirecepcion.cloudapp.net/Seguridad/Autenticacion.svc/wsdl?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,75 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ConectorPDFSharp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Usuario" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WSDL_PAX</Value>
+    </Setting>
+    <Setting Name="TipoServicio" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GT</Value>
+    </Setting>
+    <Setting Name="Estatus" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PRUEBAS</Value>
+    </Setting>
+    <Setting Name="Modo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">T</Value>
+    </Setting>
+    <Setting Name="RutaDocZips" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPDFSharp\XMLGenerado\</Value>
+    </Setting>
+    <Setting Name="LogError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPDFSharp\LogErrores\</Value>
+    </Setting>
+    <Setting Name="LogTimbrados" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPDFSharp\LogTimbres\</Value>
+    </Setting>
+    <Setting Name="RutaDocs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPDFSharp\Docs</Value>
+    </Setting>
+    <Setting Name="RutaDocInv" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPDFSharp\DocInvalido\</Value>
+    </Setting>
+    <Setting Name="RutaTxtGen" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPDFSharp\TXTGenerado\</Value>
+    </Setting>
+    <Setting Name="RutaDesconexion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPDFSharp\TxtDesconexion\</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">wqfCr8O3xLfEhMOHw4nEjMSrxJnvv7bvvr4cVcKuKkBEM++/ke+/gCPvv4nvvrfvvaDvvb/vvqTvvoA=</Value>
+    </Setting>
+    <Setting Name="Origen" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PAXConectorNomina</Value>
+    </Setting>
+    <Setting Name="RutaCertificados" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPDFSharp\Certificados</Value>
+    </Setting>
+    <Setting Name="Intervalo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="RutaDocCan" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPDFSharp\DocCancelado</Value>
+    </Setting>
+    <Setting Name="RutaPEM" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPDFSharp\XML\Certificados\</Value>
+    </Setting>
+    <Setting Name="RutaPDF" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPDFSharp\PDF\</Value>
+    </Setting>
+    <Setting Name="ServicioTimbrado" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GE</Value>
+    </Setting>
+    <Setting Name="cadenaoriginal_TFD_1_0" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"&gt;&lt;xsl:output method="text" version="1.0" encoding="UTF-8" indent="no"/&gt;&lt;xsl:template name="Requerido"&gt;&lt;xsl:param name="valor"/&gt;|&lt;xsl:call-template name="ManejaEspacios"&gt;&lt;xsl:with-param name="s" select="$valor"/&gt;&lt;/xsl:call-template&gt;&lt;/xsl:template&gt;&lt;xsl:template name="ManejaEspacios"&gt;&lt;xsl:param name="s"/&gt;&lt;xsl:value-of select="normalize-space(string($s))"/&gt;&lt;/xsl:template&gt;&lt;xsl:template match="/"&gt;|&lt;xsl:apply-templates select="/tfd:TimbreFiscalDigital"/&gt;||&lt;/xsl:template&gt;&lt;xsl:template match="tfd:TimbreFiscalDigital"&gt;&lt;xsl:call-template name="Requerido"&gt;&lt;xsl:with-param name="valor" select="./@version"/&gt;&lt;/xsl:call-template&gt;&lt;xsl:call-template name="Requerido"&gt;&lt;xsl:with-param name="valor" select="./@UUID"/&gt;&lt;/xsl:call-template&gt;&lt;xsl:call-template name="Requerido"&gt;&lt;xsl:with-param name="valor" select="./@FechaTimbrado"/&gt;&lt;/xsl:call-template&gt;&lt;xsl:call-template name="Requerido"&gt;&lt;xsl:with-param name="valor" select="./@selloCFD"/&gt;&lt;/xsl:call-template&gt;&lt;xsl:call-template name="Requerido"&gt;&lt;xsl:with-param name="valor" select="./@noCertificadoSAT"/&gt;&lt;/xsl:call-template&gt;&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;</Value>
+    </Setting>
+    <Setting Name="LogCancelacion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPDFSharp\LogCancelacion\</Value>
+    </Setting>
+    <Setting Name="ConectorPDFSharp_wcfCancelaASMX_wcfCancelaASMX" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://test.paxfacturacion.com.mx:453/webservices/wcfCancelaasmx.asmx</Value>
+    </Setting>
+    <Setting Name="Logo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\Marco.Santana\Documents\Visual Studio 2010\Projects\UltimateWindowsService\DogeCoin.jpg</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

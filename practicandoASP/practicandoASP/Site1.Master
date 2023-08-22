@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="practicandoASP.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        #contenido
+        {
+            height: 380px; 
+            padding-left: 50px;
+        }
+        #form1
+        {
+            height: 550px; 
+        }
+        body
+        {
+            height: 380px; 
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="headContenido" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header">  
+            <div id="navegacionMenu">
+                            &nbsp;<% if (Session.Contents["usuario"] != null)
+                               { %><asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" CssClass="NavegacionMenu" >
+                        <Items>
+                            <asp:MenuItem Text="INICIO" Value="INICIO" NavigateUrl="index.aspx"></asp:MenuItem>
+                            
+                            <asp:MenuItem Text="CERRAR SESIÓN" Value="CERRAR SESION" runat="server" NavigateUrl="cerrarsesion.aspx"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                    <% }
+                               else
+                               { %>
+                    <asp:Menu ID="Menu2" runat="server" Orientation="Horizontal" CssClass="NavegacionMenu" >
+                        <Items>
+                            <asp:MenuItem Text="INICIO" Value="INICIO" NavigateUrl="index.aspx"></asp:MenuItem>
+                            
+                            <asp:MenuItem Text="MIS FAVORITOS" Value="MIS FAVORITOS">
+                                <asp:MenuItem NavigateUrl="http://www.google.com.mx" Text="Google" 
+                                    Value="Google"></asp:MenuItem>
+                            </asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                    <% } %>
+        </div>
+                <a href="../index.aspx"><img src="/Imagenes/bannerIndex.jpg" border="0" style="width: 860px" /></a>
+        <br />
+        
+        <br />
+        <br />
+    </div>
+        <asp:ContentPlaceHolder ID="MContenido" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

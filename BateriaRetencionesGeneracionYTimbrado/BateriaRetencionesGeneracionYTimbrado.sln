@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BateriaRetencionesGeneracionYTimbrado", "BateriaRetencionesGeneracionYTimbrado\BateriaRetencionesGeneracionYTimbrado.csproj", "{28FF0324-7E07-4887-858B-0E59496658E0}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.3.105:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BateriaRetencionesGeneracionYTimbrado\\BateriaRetencionesGeneracionYTimbrado.csproj
+		SccProjectName1 = BateriaRetencionesGeneracionYTimbrado
+		SccLocalPath1 = BateriaRetencionesGeneracionYTimbrado
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28FF0324-7E07-4887-858B-0E59496658E0}.Debug|x86.ActiveCfg = Debug|x86
+		{28FF0324-7E07-4887-858B-0E59496658E0}.Debug|x86.Build.0 = Debug|x86
+		{28FF0324-7E07-4887-858B-0E59496658E0}.Release|x86.ActiveCfg = Release|x86
+		{28FF0324-7E07-4887-858B-0E59496658E0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

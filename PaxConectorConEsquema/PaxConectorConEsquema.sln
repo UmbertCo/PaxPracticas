@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaxConectorConEsquema", "PaxConectorConEsquema\PaxConectorConEsquema.csproj", "{DCDB02FE-B33E-4417-9BD3-5174C4557034}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PaxInstaladorConector", "PaxInstaladorConector\PaxInstaladorConector.vdproj", "{72D41810-50C7-443E-9C00-6EDD1B20CDFF}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.3.105:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PaxConectorConEsquema\\PaxConectorConEsquema.csproj
+		SccProjectName1 = PaxConectorConEsquema
+		SccLocalPath1 = PaxConectorConEsquema
+		SccProjectUniqueName2 = PaxInstaladorConector\\PaxInstaladorConector.vdproj
+		SccProjectName2 = PaxInstaladorConector
+		SccLocalPath2 = PaxInstaladorConector
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCDB02FE-B33E-4417-9BD3-5174C4557034}.Debug|x86.ActiveCfg = Debug|x86
+		{DCDB02FE-B33E-4417-9BD3-5174C4557034}.Debug|x86.Build.0 = Debug|x86
+		{DCDB02FE-B33E-4417-9BD3-5174C4557034}.Release|x86.ActiveCfg = Release|x86
+		{DCDB02FE-B33E-4417-9BD3-5174C4557034}.Release|x86.Build.0 = Release|x86
+		{72D41810-50C7-443E-9C00-6EDD1B20CDFF}.Debug|x86.ActiveCfg = Debug
+		{72D41810-50C7-443E-9C00-6EDD1B20CDFF}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

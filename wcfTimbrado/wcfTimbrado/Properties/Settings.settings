@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="wcfTimbrado.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Usuario" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">WSDL_PAX</Value>
+    </Setting>
+    <Setting Name="Contraseña" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">QWzFYy1GXAgSfwqSBs+a4Y3DAtAhjw6dvlT2Six3sOadt3C5TAdIDu3u1uBUgrsu</Value>
+    </Setting>
+    <Setting Name="LogError" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:/LogError/</Value>
+    </Setting>
+    <Setting Name="Certificados" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:/Certificados/</Value>
+    </Setting>
+    <Setting Name="Openssl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:/OpenSSL/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

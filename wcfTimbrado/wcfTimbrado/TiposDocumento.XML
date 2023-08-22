@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TiposDoc xmlns:dc="dc:documents">
+  <Document dc:nombre="factura" dc:id="01" dc:tipo="I" />
+  <Document dc:nombre="nota de crédito" dc:id="02" dc:tipo="E" />
+  <Document dc:nombre="nota de cargo" dc:id="03" dc:tipo="I" />
+  <Document dc:nombre="recibo de arrendamiento" dc:id="04" dc:tipo="I" />
+  <Document dc:nombre="carta porte" dc:id="05" dc:tipo="I" />
+  <Document dc:nombre="recibo de honorarios" dc:id="06" dc:tipo="I" />
+  <Document dc:nombre="comprobante de pago" dc:id="07" dc:tipo="I" />
+  <Document dc:nombre="recibo de donativos" dc:id="08" dc:tipo="I" />
+  <Document dc:nombre="recibo de pago" dc:id="09" dc:tipo="E" />
+  <Document dc:nombre="recibo de nómina" dc:id="10" dc:tipo="N" />
+  <Document dc:nombre="sector primario" dc:id="12" dc:tipo="I" />
+  <Document dc:nombre="retenciones" dc:id="13" dc:tipo="I" />
+</TiposDoc>

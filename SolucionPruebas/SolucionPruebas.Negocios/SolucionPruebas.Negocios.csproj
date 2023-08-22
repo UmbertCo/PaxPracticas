@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F32D1AA6-D083-4FC4-99AA-E35D296AE60A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SolucionPruebas.Negocios</RootNamespace>
+    <AssemblyName>SolucionPruebas.Negocios</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CadOri_3_2, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CadOri_3_2.dll</HintPath>
+    </Reference>
+    <Reference Include="ChilkatDotNet4, Version=9.5.0.0, Culture=neutral, PublicKeyToken=eb5fc1fc52ef09bd, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\ChilkatDotNet4.dll</HintPath>
+    </Reference>
+    <Reference Include="FrameWork.ExceptionHandling, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\FrameWork\FrameWork.ExceptionHandling\bin\Debug\FrameWork.ExceptionHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="FrameWork.Logging">
+      <HintPath>..\..\FrameWork\FrameWork.Logging\bin\Debug\FrameWork.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSSL_Lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Practicas\Probando_OpenSSl\OpenSSL_Lib\bin\Debug\OpenSSL_Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BRContacto.cs" />
+    <Compile Include="BRError.cs" />
+    <Compile Include="BRPersona.cs" />
+    <Compile Include="BRSesionAD.cs" />
+    <Compile Include="Chilkat.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BRMensaje.cs" />
+    <Compile Include="OpenSSL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Valores.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Valores.settings</DependentUpon>
+    </Compile>
+    <Compile Include="VariablesGlobales.cs" />
+    <Compile Include="XML.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Valores.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Valores.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SolucionPruebas.AccesoDatos\SolucionPruebas.AccesoDatos.csproj">
+      <Project>{5DAC5BC7-A86B-44A4-8D14-9D7A54BF1A22}</Project>
+      <Name>SolucionPruebas.AccesoDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SolucionPruebas.Entidades\SolucionPruebas.Entidades.csproj">
+      <Project>{78FB21BA-3E6A-4AA6-9E4D-CDDDE4225681}</Project>
+      <Name>SolucionPruebas.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SolucionPruebas.Negocios.Validacion\SolucionPruebas.Negocios.Validacion.vbproj">
+      <Project>{F15E4F7B-299D-47A0-A088-1EF0F48A0078}</Project>
+      <Name>SolucionPruebas.Negocios.Validacion</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

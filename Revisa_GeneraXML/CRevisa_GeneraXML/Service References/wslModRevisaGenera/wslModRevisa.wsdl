@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="fnRevisaTexto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="psXmlTexto" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnRevisaTextoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fnRevisaTextoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnRevisaDocumento">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pxdDocumento">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnRevisaDocumentoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fnRevisaDocumentoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="fnRevisaTextoSoapIn">
+    <wsdl:part name="parameters" element="tns:fnRevisaTexto" />
+  </wsdl:message>
+  <wsdl:message name="fnRevisaTextoSoapOut">
+    <wsdl:part name="parameters" element="tns:fnRevisaTextoResponse" />
+  </wsdl:message>
+  <wsdl:message name="fnRevisaDocumentoSoapIn">
+    <wsdl:part name="parameters" element="tns:fnRevisaDocumento" />
+  </wsdl:message>
+  <wsdl:message name="fnRevisaDocumentoSoapOut">
+    <wsdl:part name="parameters" element="tns:fnRevisaDocumentoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wslModRevisaSoap">
+    <wsdl:operation name="fnRevisaTexto">
+      <wsdl:input message="tns:fnRevisaTextoSoapIn" />
+      <wsdl:output message="tns:fnRevisaTextoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="fnRevisaDocumento">
+      <wsdl:input message="tns:fnRevisaDocumentoSoapIn" />
+      <wsdl:output message="tns:fnRevisaDocumentoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wslModRevisaSoap" type="tns:wslModRevisaSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnRevisaTexto">
+      <soap:operation soapAction="http://tempuri.org/fnRevisaTexto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnRevisaDocumento">
+      <soap:operation soapAction="http://tempuri.org/fnRevisaDocumento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wslModRevisaSoap12" type="tns:wslModRevisaSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnRevisaTexto">
+      <soap12:operation soapAction="http://tempuri.org/fnRevisaTexto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnRevisaDocumento">
+      <soap12:operation soapAction="http://tempuri.org/fnRevisaDocumento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wslModRevisa">
+    <wsdl:port name="wslModRevisaSoap" binding="tns:wslModRevisaSoap">
+      <soap:address location="http://localhost:1773/wslModRevisa.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wslModRevisaSoap12" binding="tns:wslModRevisaSoap12">
+      <soap12:address location="http://localhost:1773/wslModRevisa.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

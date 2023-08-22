@@ -1,0 +1,132 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PAXConectorFTPGTCFDI33.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Hilos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="BufferInterno" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8192</Value>
+    </Setting>
+    <Setting Name="Usuario" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WSDL_PAX</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">w4DDiMSiw5fFisWOxZHEmMOIw7sjdjFr77++wqDCin/CgMON776Q772w77+a776aTe+/se+9su++tQ==</Value>
+    </Setting>
+    <Setting Name="Lapso" Type="System.TimeSpan" Scope="User">
+      <Value Profile="(Default)">00:00:05</Value>
+    </Setting>
+    <Setting Name="LogFlush" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ValidacionHash" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Conexion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Nj7Di3dIwqrCtT5owqXvvrskYO+/v++/qmtC776x776+JFEB77+zYUIK776LCFzvv7Lvv7A1FO+/su+/lzJT77+H77+WazMD776LCDLvv4nvv6VdQe+/su+/nTFd77+477+tZwnvv5rvv5koYu+/te+/omTvv67vv5Tvv4wzT++/uO+/sF8L77+h77+dKGHvv7nvv6JKMwHvv5AzV++/sO+/sGsJ77+V77+MM0/vvqzvv5RnQwPvv44kK+++ve++uirvv7zvv4LvvqHvv7cc776/776vKe+/vu+/h+++pg9P77+/77+0bz0D77+P77+8NO+/gO+/pGxDA++/jDcf776877+v</Value>
+    </Setting>
+    <Setting Name="Color" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Navy</Value>
+    </Setting>
+    <Setting Name="LinkSAT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://verificacfdi.facturaelectronica.sat.gob.mx/default.aspx?</Value>
+    </Setting>
+    <Setting Name="Origen" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PaxConectorFTPSantanderTUIIO</Value>
+    </Setting>
+    <Setting Name="LugarExpedicion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">01219</Value>
+    </Setting>
+    <Setting Name="TipoMultiPAC" Type="System.String" Scope="User">
+      <Value Profile="(Default)">XML</Value>
+    </Setting>
+    <Setting Name="UsuarioMultiPAC" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AAA010101AAA</Value>
+    </Setting>
+    <Setting Name="PWDMultiPAC" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PWD</Value>
+    </Setting>
+    <Setting Name="Modo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">T</Value>
+    </Setting>
+    <Setting Name="RutaCertificado" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Certificados\</Value>
+    </Setting>
+    <Setting Name="RutaOpenSSL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\openssl\openssl.exe</Value>
+    </Setting>
+    <Setting Name="LogFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Log\</Value>
+    </Setting>
+    <Setting Name="MonitorFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Entrada\</Value>
+    </Setting>
+    <Setting Name="FolderSalida" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Respuesta\</Value>
+    </Setting>
+    <Setting Name="FolderIncorrectos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Errores\</Value>
+    </Setting>
+    <Setting Name="FolderPendientes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Pendientes\</Value>
+    </Setting>
+    <Setting Name="FolderRespaldo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Respaldo\</Value>
+    </Setting>
+    <Setting Name="LogRespaldo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\LogRespaldo\</Value>
+    </Setting>
+    <Setting Name="RutaCO" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Generacion\</Value>
+    </Setting>
+    <Setting Name="RutaSello" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Sello\</Value>
+    </Setting>
+    <Setting Name="Logo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Imagenes\LogoTrasparentPAX.png</Value>
+    </Setting>
+    <Setting Name="FolderCopia" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\EntradaCopia\</Value>
+    </Setting>
+    <Setting Name="RutaPEM" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\PEM\CSD01_AAA010101AAA.pem</Value>
+    </Setting>
+    <Setting Name="RutaCancelacionEntrada" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Cancelaciones\Entrada\</Value>
+    </Setting>
+    <Setting Name="RutaCancelacionErrores" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Cancelaciones\Errores\</Value>
+    </Setting>
+    <Setting Name="RutaCancelacionRespaldo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Cancelaciones\Respaldo\</Value>
+    </Setting>
+    <Setting Name="RutaDocsCancelacionError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Cancelaciones\TXTErrorCancelacion\</Value>
+    </Setting>
+    <Setting Name="RutaCancelacionSalida" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Cancelaciones\Salida\</Value>
+    </Setting>
+    <Setting Name="RutaCancelacionLogRespaldo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Cancelaciones\LogRespaldo\</Value>
+    </Setting>
+    <Setting Name="RutaDocsCancelados" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Cancelaciones\TXTCancelados\</Value>
+    </Setting>
+    <Setting Name="RutaCancelacionLog" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Cancelaciones\Log\</Value>
+    </Setting>
+    <Setting Name="FolderProcesados" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Z:\Conectores FTP\generacion_timbrado_ftp_SantanderTUIIO\Procesados\</Value>
+    </Setting>
+    <Setting Name="URIMultiPAC" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://pruebas2.comercio-digital.mx/timbre/timbrarV5.aspx</Value>
+    </Setting>
+    <Setting Name="HOSTMultiPAC" Type="System.String" Scope="User">
+      <Value Profile="(Default)">pruebas2.comercio-digital.mx</Value>
+    </Setting>
+    <Setting Name="IdPac" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ClienteCancelacion.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RutaCertificados" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\pfx\certificados\</Value>
+    </Setting>
+    <Setting Name="Rutapfx" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\pfx\</Value>
+    </Setting>
+    <Setting Name="RutaOpenSSL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\OpenSSL-Win32\bin\openssl.exe</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

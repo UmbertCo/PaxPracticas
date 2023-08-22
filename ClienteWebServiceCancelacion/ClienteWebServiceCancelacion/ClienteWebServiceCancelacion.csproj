@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9D563EE9-A2EF-44C7-B46E-EA7AB63D3E61}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClienteWebServiceCancelacion</RootNamespace>
+    <AssemblyName>ClienteWebServiceCancelacion</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CadOri_3_2_11, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CadOri_3_2_11.dll</HintPath>
+    </Reference>
+    <Reference Include="Encriptacion">
+      <HintPath>..\..\PAXFacturacionPago_3_2\PAXFacturacionPago_3_2\Bin\Encriptacion.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.StorageClient, Version=1.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\PaxFacturacionPago_WS_C_G\Bin\Microsoft.WindowsAzure.StorageClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Utilerias2010">
+      <HintPath>..\..\PAXFacturacionPago_3_2\PAXFacturacionPago_3_2\Bin\Utilerias2010.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\ServicioRecepcionAutenticacionCFDI\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServicioRecepcionCFDI\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\SVCCANCELACIONPRUEBAS2\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\SVCCANCELACIONPRUEBAS_SECTORPRIMARIO\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\ServicioRecepcionAutenticacionCFDI\Autenticacion.wsdl" />
+    <None Include="Service References\ServicioRecepcionAutenticacionCFDI\Autenticacion.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServicioRecepcionAutenticacionCFDI\Autenticacion1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServicioRecepcionCFDI\ClienteWebServiceCancelacion.ServicioRecepcionCFDI.Acuse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicioRecepcionCFDI\RecibeCFDIService.wsdl" />
+    <None Include="Service References\ServicioRecepcionCFDI\RecibeCFDIService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServicioRecepcionCFDI\RecibeCFDIService1.wsdl" />
+    <None Include="Service References\ServicioRecepcionCFDI\RecibeCFDIService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServicioRecepcionCFDI\RecibeCFDIService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SVCCANCELACIONPRUEBAS2\wcfCancelaASMX1.wsdl" />
+    <None Include="Service References\SVCCANCELACIONPRUEBAS_SECTORPRIMARIO\CancelaCFDServiceSP.wsdl" />
+    <None Include="Service References\SVCCANCELACIONPRUEBAS_SECTORPRIMARIO\CancelaCFDServiceSP.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SVCCANCELACIONPRUEBAS_SECTORPRIMARIO\CancelaCFDServiceSP1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SVCCANCELACIONPRUEBAS_SECTORPRIMARIO\ClienteWebServiceCancelacion.SVCCANCELACIONPRUEBAS_SECTORPRIMARIO.Acuse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServicioRecepcionAutenticacionCFDI\" />
+    <WCFMetadataStorage Include="Service References\ServicioRecepcionCFDI\" />
+    <WCFMetadataStorage Include="Service References\SVCCANCELACIONPRUEBAS2\" />
+    <WCFMetadataStorage Include="Service References\SVCCANCELACIONPRUEBAS_SECTORPRIMARIO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioRecepcionAutenticacionCFDI\Autenticacion.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioRecepcionAutenticacionCFDI\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioRecepcionAutenticacionCFDI\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioRecepcionAutenticacionCFDI\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioRecepcionCFDI\RecibeCFDIService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioRecepcionCFDI\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioRecepcionCFDI\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicioRecepcionCFDI\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SVCCANCELACIONPRUEBAS2\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SVCCANCELACIONPRUEBAS2\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SVCCANCELACIONPRUEBAS2\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SVCCANCELACIONPRUEBAS_SECTORPRIMARIO\CancelaCFDServiceSP.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SVCCANCELACIONPRUEBAS_SECTORPRIMARIO\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SVCCANCELACIONPRUEBAS_SECTORPRIMARIO\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SVCCANCELACIONPRUEBAS_SECTORPRIMARIO\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

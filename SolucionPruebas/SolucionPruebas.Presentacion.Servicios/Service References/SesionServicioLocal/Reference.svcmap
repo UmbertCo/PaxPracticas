@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8804d61d-b2e3-454d-9632-cb72f1a94fe7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="SolucionPruebas.Entidades" />
+      <ReferencedAssembly AssemblyName="System.Data" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4067/ServiceSesion.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceSesion.xsd" MetadataType="Schema" ID="0414c68b-2d36-4166-8980-d1d3eb0b71e8" SourceId="1" SourceUrl="http://localhost:4067/ServiceSesion.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceSesion1.xsd" MetadataType="Schema" ID="55e2c82c-d738-4849-93c0-93792069d61e" SourceId="1" SourceUrl="http://localhost:4067/ServiceSesion.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceSesion2.xsd" MetadataType="Schema" ID="050e2340-5335-4276-afbd-5ba939fbd5bb" SourceId="1" SourceUrl="http://localhost:4067/ServiceSesion.svc?xsd=xsd0" />
+    <MetadataFile FileName="SesionService.wsdl" MetadataType="Wsdl" ID="05c02d11-a923-44e8-a0ad-fd6d86dba1c4" SourceId="1" SourceUrl="http://localhost:4067/ServiceSesion.svc?wsdl" />
+    <MetadataFile FileName="ServiceSesion.disco" MetadataType="Disco" ID="6b1e84d9-d45c-4317-bb97-8f4b962c1dba" SourceId="1" SourceUrl="http://localhost:4067/ServiceSesion.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

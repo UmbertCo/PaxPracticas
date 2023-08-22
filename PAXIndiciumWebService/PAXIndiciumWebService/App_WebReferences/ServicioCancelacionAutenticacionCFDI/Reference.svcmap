@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ea37d854-ac51-44ae-8654-60cb025ffad6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://pruebacfdicancelacion.cloudapp.net/Autenticacion/Autenticacion.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Autenticacion.xsd" MetadataType="Schema" ID="1c621be5-64fd-47ea-9e1c-b039225bf095" SourceId="1" SourceUrl="https://pruebacfdicancelacion.cloudapp.net/Autenticacion/Autenticacion.svc?xsd=xsd0" />
+    <MetadataFile FileName="Autenticacion.disco" MetadataType="Disco" ID="44c6888d-d923-4a8a-b03e-44191d0721e8" SourceId="1" SourceUrl="https://pruebacfdicancelacion.cloudapp.net/Autenticacion/Autenticacion.svc?disco" />
+    <MetadataFile FileName="Autenticacion.wsdl" MetadataType="Wsdl" ID="0e87ae44-ea54-4ca6-a6c5-ab8f9892b7f7" SourceId="1" SourceUrl="https://pruebacfdicancelacion.cloudapp.net/Autenticacion/Autenticacion.svc?wsdl" />
+    <MetadataFile FileName="Autenticacion1.xsd" MetadataType="Schema" ID="3f95f6ae-f3e0-4256-8295-adf63ea9d20a" SourceId="1" SourceUrl="https://pruebacfdicancelacion.cloudapp.net/Autenticacion/Autenticacion.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

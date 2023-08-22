@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PaxApplicationPoolService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="emailAppFrom" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cesar.rodriguez@paxfacturacion.com</Value>
+    </Setting>
+    <Setting Name="emailPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">P4ssw0rd.</Value>
+    </Setting>
+    <Setting Name="emailHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">smtp.gmail.com</Value>
+    </Setting>
+    <Setting Name="emailPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="emailCC" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="emailCCo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cesaralmaximo@gmail.com</Value>
+    </Setting>
+    <Setting Name="emailAsunto" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="emailMensaje" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="emailTo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cesarrofi@gmail.com</Value>
+    </Setting>
+    <Setting Name="Intervalo" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30000</Value>
+    </Setting>
+    <Setting Name="LogError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PaxApplicationPoolService\LogErrores\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

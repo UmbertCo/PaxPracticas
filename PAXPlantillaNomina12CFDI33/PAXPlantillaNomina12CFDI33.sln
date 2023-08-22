@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAXPlantillaNomina12CFDI33", "PAXPlantillaNomina12CFDI33\PAXPlantillaNomina12CFDI33.csproj", "{BFF49085-D9F1-4240-ACF6-55F735A647FB}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.3.105:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PAXPlantillaNomina12CFDI33\\PAXPlantillaNomina12CFDI33.csproj
+		SccProjectName1 = PAXPlantillaNomina12CFDI33
+		SccLocalPath1 = PAXPlantillaNomina12CFDI33
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFF49085-D9F1-4240-ACF6-55F735A647FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF49085-D9F1-4240-ACF6-55F735A647FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF49085-D9F1-4240-ACF6-55F735A647FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF49085-D9F1-4240-ACF6-55F735A647FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

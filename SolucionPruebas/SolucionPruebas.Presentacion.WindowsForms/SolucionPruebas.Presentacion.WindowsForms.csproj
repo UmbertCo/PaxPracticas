@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E98E06D4-EC58-48C4-81D2-ABADA10EDD90}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SolucionPruebas.Presentacion.WindowsForms</RootNamespace>
+    <AssemblyName>SolucionPruebas.Presentacion.WindowsForms</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>pax_ico_24x24.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\SolucionPruebas.Presentacion.WindowsForms.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\SolucionPruebas.Presentacion.WindowsForms.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CadOri_3_2, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CadOri_3_2.DLL</HintPath>
+    </Reference>
+    <Reference Include="ChilkatDotNet4, Version=9.4.1.0, Culture=neutral, PublicKeyToken=eb5fc1fc52ef09bd, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ChilkatDotNet4.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ManagedOpenSsl, Version=0.6.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Mis Documentos\OpenSSL\openssl-net-master\openssl-net-master\bin\Debug\ManagedOpenSsl.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSSL_Lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\OpenSSL_Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="PAXCrypto, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\PAXCrypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Reports, Version=0.9.2507.41548, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Reports.dll</HintPath>
+    </Reference>
+    <Reference Include="SolucionPruebas.Presentacion.Servicios, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SolucionPruebas.Presentacion.Servicios\bin\Debug\SolucionPruebas.Presentacion.Servicios.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.QRCode, Version=1.0.4058.19167, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ThoughtWorks.QRCode.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesoDisco.cs" />
+    <Compile Include="clsConvertirComprobante.cs" />
+    <Compile Include="clsLlenarClases.cs" />
+    <Compile Include="CMS.cs" />
+    <Compile Include="Comprobante.cs" />
+    <Compile Include="frmAcusePAC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAcusePAC.Designer.cs">
+      <DependentUpon>frmAcusePAC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCancelacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCancelacion.Designer.cs">
+      <DependentUpon>frmCancelacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCancelacionRetencion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCancelacionRetencion.Designer.cs">
+      <DependentUpon>frmCancelacionRetencion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCargarLCO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCargarLCO.Designer.cs">
+      <DependentUpon>frmCargarLCO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmComprobantesActualizados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComprobantesActualizados.Designer.cs">
+      <DependentUpon>frmComprobantesActualizados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsumirServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsumirServicios.Designer.cs">
+      <DependentUpon>frmConsumirServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEncriptacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEncriptacion.Designer.cs">
+      <DependentUpon>frmEncriptacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConvertirComprobante22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConvertirComprobante22.Designer.cs">
+      <DependentUpon>frmConvertirComprobante22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExcel.Designer.cs">
+      <DependentUpon>frmExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLCO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLCO.Designer.cs">
+      <DependentUpon>frmLCO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManifiesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManifiesto.Designer.cs">
+      <DependentUpon>frmManifiesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModulo.Designer.cs">
+      <DependentUpon>frmModulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpenSSL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpenSSL.Designer.cs">
+      <DependentUpon>frmOpenSSL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPAXEncriptacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPAXEncriptacion.Designer.cs">
+      <DependentUpon>frmPAXEncriptacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPermutaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPermutaciones.Designer.cs">
+      <DependentUpon>frmPermutaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistroUsuario.Designer.cs">
+      <DependentUpon>frmRegistroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSellarFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSellarFactura.Designer.cs">
+      <DependentUpon>frmSellarFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimbrado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimbrado.Designer.cs">
+      <DependentUpon>frmTimbrado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmToken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmToken.Designer.cs">
+      <DependentUpon>frmToken.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmValidarLayout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmValidarLayout.Designer.cs">
+      <DependentUpon>frmValidarLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmValidarLayoutsNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmValidarLayoutsNomina.Designer.cs">
+      <DependentUpon>frmValidarLayoutsNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZip.Designer.cs">
+      <DependentUpon>frmZip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenerarLayouts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenerarLayouts.Designer.cs">
+      <DependentUpon>frmGenerarLayouts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenerarSello.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenerarSello.Designer.cs">
+      <DependentUpon>frmGenerarSello.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOutlook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOutlook.Designer.cs">
+      <DependentUpon>frmOutlook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nomina11.cs" />
+    <Compile Include="Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="frmValidarXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmValidarXML.Designer.cs">
+      <DependentUpon>frmValidarXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Win32.cs" />
+    <EmbeddedResource Include="frmAcusePAC.resx">
+      <DependentUpon>frmAcusePAC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCancelacion.resx">
+      <DependentUpon>frmCancelacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCancelacionRetencion.resx">
+      <DependentUpon>frmCancelacionRetencion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCargarLCO.resx">
+      <DependentUpon>frmCargarLCO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComprobantesActualizados.resx">
+      <DependentUpon>frmComprobantesActualizados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsumirServicios.resx">
+      <DependentUpon>frmConsumirServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEncriptacion.resx">
+      <DependentUpon>frmEncriptacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConvertirComprobante22.resx">
+      <DependentUpon>frmConvertirComprobante22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExcel.resx">
+      <DependentUpon>frmExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLCO.resx">
+      <DependentUpon>frmLCO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManifiesto.resx">
+      <DependentUpon>frmManifiesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModulo.resx">
+      <DependentUpon>frmModulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpenSSL.resx">
+      <DependentUpon>frmOpenSSL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPermutaciones.resx">
+      <DependentUpon>frmPermutaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistroUsuario.resx">
+      <DependentUpon>frmRegistroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSellarFactura.resx">
+      <DependentUpon>frmSellarFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimbrado.resx">
+      <DependentUpon>frmTimbrado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmToken.resx">
+      <DependentUpon>frmToken.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmValidarLayout.resx">
+      <DependentUpon>frmValidarLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmValidarLayoutsNomina.resx">
+      <DependentUpon>frmValidarLayoutsNomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZip.resx">
+      <DependentUpon>frmZip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenerarLayouts.resx">
+      <DependentUpon>frmGenerarLayouts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenerarSello.resx">
+      <DependentUpon>frmGenerarSello.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOutlook.resx">
+      <DependentUpon>frmOutlook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="frmValidarXML.resx">
+      <DependentUpon>frmValidarXML.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pax.ico" />
+    <Content Include="pax_ico_24x24.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

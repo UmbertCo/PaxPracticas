@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://test.paxfacturacion.com.mx:454" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="https://test.paxfacturacion.com.mx:454" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="https://test.paxfacturacion.com.mx:454">
+      <s:element name="fnEnviarTXT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="psComprobante" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psTipoDocumento" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pnId_Estructura" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sContraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOrigen" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnEnviarTXTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fnEnviarTXTResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnEnviarTXTPAX001">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="psComprobante" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psTipoDocumento" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pnId_Estructura" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sContraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOrigen" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="fnEnviarTXTPAX001Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fnEnviarTXTPAX001Result" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="fnEnviarTXTSoapIn">
+    <wsdl:part name="parameters" element="tns:fnEnviarTXT" />
+  </wsdl:message>
+  <wsdl:message name="fnEnviarTXTSoapOut">
+    <wsdl:part name="parameters" element="tns:fnEnviarTXTResponse" />
+  </wsdl:message>
+  <wsdl:message name="fnEnviarTXTPAX001SoapIn">
+    <wsdl:part name="parameters" element="tns:fnEnviarTXTPAX001" />
+  </wsdl:message>
+  <wsdl:message name="fnEnviarTXTPAX001SoapOut">
+    <wsdl:part name="parameters" element="tns:fnEnviarTXTPAX001Response" />
+  </wsdl:message>
+  <wsdl:portType name="wcfRecepcionASMXSoap">
+    <wsdl:operation name="fnEnviarTXT">
+      <wsdl:input message="tns:fnEnviarTXTSoapIn" />
+      <wsdl:output message="tns:fnEnviarTXTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="fnEnviarTXTPAX001">
+      <wsdl:input message="tns:fnEnviarTXTPAX001SoapIn" />
+      <wsdl:output message="tns:fnEnviarTXTPAX001SoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wcfRecepcionASMXSoap" type="tns:wcfRecepcionASMXSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnEnviarTXT">
+      <soap:operation soapAction="https://test.paxfacturacion.com.mx:454/fnEnviarTXT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnEnviarTXTPAX001">
+      <soap:operation soapAction="https://test.paxfacturacion.com.mx:454/fnEnviarTXTPAX001" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wcfRecepcionASMXSoap12" type="tns:wcfRecepcionASMXSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnEnviarTXT">
+      <soap12:operation soapAction="https://test.paxfacturacion.com.mx:454/fnEnviarTXT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fnEnviarTXTPAX001">
+      <soap12:operation soapAction="https://test.paxfacturacion.com.mx:454/fnEnviarTXTPAX001" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wcfRecepcionASMX">
+    <wsdl:port name="wcfRecepcionASMXSoap" binding="tns:wcfRecepcionASMXSoap">
+      <soap:address location="https://test.paxfacturacion.com.mx:454/webservices/wcfRecepcionasmx.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wcfRecepcionASMXSoap12" binding="tns:wcfRecepcionASMXSoap12">
+      <soap12:address location="https://test.paxfacturacion.com.mx:454/webservices/wcfRecepcionasmx.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

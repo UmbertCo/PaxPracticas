@@ -1,0 +1,1586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCrearCuenta" xml:space="preserve">
+    <value>Crear Cuenta</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="btnReactivarCuenta" xml:space="preserve">
+    <value>Reactivar Cuenta</value>
+    <comment>webInicioSesionReactivar</comment>
+  </data>
+  <data name="btnRecuperaCuenta" xml:space="preserve">
+    <value>Recuperar Contraseña</value>
+    <comment>webInicioSesionRecupera</comment>
+  </data>
+  <data name="btnSiguiente" xml:space="preserve">
+    <value>Siguiente</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="hpkReactivar" xml:space="preserve">
+    <value>Reactivar Cuenta</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="hpkRecuperar" xml:space="preserve">
+    <value>Recuperar Contraseña</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblBienvenida" xml:space="preserve">
+    <value>Bienvenidos al Servicio de HELP DESK de Facturación Electrónica PAX Facturación.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblCer" xml:space="preserve">
+    <value>Certificado:</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="lblContrasenia" xml:space="preserve">
+    <value>Contraseña:</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblContraseniaRequerida" xml:space="preserve">
+    <value>Contraseña requerida.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblCorreo" xml:space="preserve">
+    <value>Correo Electronico:</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="lblCorreoRequerido" xml:space="preserve">
+    <value>Correo Requerido.</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="lblCreaCuenta" xml:space="preserve">
+    <value>Registrar cuenta nueva</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="lblCuentaCreada" xml:space="preserve">
+    <value>Cuenta creada.</value>
+    <comment>webInicioSesionCorrecto</comment>
+  </data>
+  <data name="lblCuentaDetalle" xml:space="preserve">
+    <value>La cuenta se ha creado correctamente, favor de revisar su correo para activar la cuenta.</value>
+    <comment>webInicioSesionCorrecto</comment>
+  </data>
+  <data name="lblCuentaRacDetalle" xml:space="preserve">
+    <value>La contraseña se ha recuperado correctamente,  favor de revisar su correo para activar la cuenta.</value>
+    <comment>webInicioSesionReactivar</comment>
+  </data>
+  <data name="lblCuentaRecDetalle" xml:space="preserve">
+    <value>La contraseña se ha recuperado correctamente,  favor de revisar su correo para activar la cuenta.</value>
+    <comment>webInicioSesionCorrecto</comment>
+  </data>
+  <data name="lblCuentaRecuperada" xml:space="preserve">
+    <value>Contraseña Recuperada.</value>
+    <comment>webInicioSesionCorrecto</comment>
+  </data>
+  <data name="lblDatos" xml:space="preserve">
+    <value>Capture los datos necesarios para crear la cuenta.</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="lblDatosFiscales" xml:space="preserve">
+    <value>Datos fiscales contribuyente</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="lblInicioSesion" xml:space="preserve">
+    <value>INICIO DE SESION</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblKey" xml:space="preserve">
+    <value>Llave privada:</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="lblMotivo" xml:space="preserve">
+    <value>Motivo:</value>
+    <comment>webInicioSesionReactivar</comment>
+  </data>
+  <data name="lblMotivoRequerido" xml:space="preserve">
+    <value>Motivo Requerido.</value>
+    <comment>webInicioSesionReactivar</comment>
+  </data>
+  <data name="lblNomEmpresa" xml:space="preserve">
+    <value>CORPUS Facturación </value>
+    <comment>webGlobalMaster</comment>
+  </data>
+  <data name="lblProveedor" xml:space="preserve">
+    <value>Este servicio se otorga por disposición del SAT ya que somos un Proveedor Autorizado de Certificación.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblRazonSocial" xml:space="preserve">
+    <value>Razón Social</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="lblReacDatos" xml:space="preserve">
+    <value>Capture los datos necesarios para reactivar la cuenta.</value>
+    <comment>webInicioSesionReactivar</comment>
+  </data>
+  <data name="lblReactivar" xml:space="preserve">
+    <value>Reactivar Cuenta</value>
+    <comment>webInicioSesionReactivar</comment>
+  </data>
+  <data name="lblRecuperaCuenta" xml:space="preserve">
+    <value>Recuperar Contraseña</value>
+    <comment>webInicioSesionRecupera</comment>
+  </data>
+  <data name="lblRecuperaDatos" xml:space="preserve">
+    <value>Capture los datos necesarios para recuperar la contraseña.</value>
+    <comment>webInicioSesionRecupera</comment>
+  </data>
+  <data name="lblRegistrar" xml:space="preserve">
+    <value>Registrar</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblRegistrate" xml:space="preserve">
+    <value>Registrarse como nuevo usuario:</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblRFC" xml:space="preserve">
+    <value>RFC</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="lblUsuario" xml:space="preserve">
+    <value>Usuario:</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblUsuarioRequerido" xml:space="preserve">
+    <value>Nombre de usuario requerido.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="lblValidaciones" xml:space="preserve">
+    <value>Revisar las validacion para la matriz de control.</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="txtRazonSocial" xml:space="preserve">
+    <value>Razón Social Requerida</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="txtRFC" xml:space="preserve">
+    <value>RFC Requerido</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="lblCambiar" xml:space="preserve">
+    <value>Cambiar contraseña</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="lblCambiarDetalle" xml:space="preserve">
+    <value>Escriba su contraseña anterior y la nueva para activar.</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="lblConfirmaNueva" xml:space="preserve">
+    <value>Confirmar Contraseña Nueva:</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="lblContraseniaAnterior" xml:space="preserve">
+    <value>Contraseña Anterior:</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="lblContraseniaNueva" xml:space="preserve">
+    <value>Contraseña Nueva:</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="valConfirmaNueva" xml:space="preserve">
+    <value>La confirmación de contraseña es requerida.</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="valConNewConf" xml:space="preserve">
+    <value>La contraseña nueva tiene que ser igual a la confirmación de contraseña.</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="valContraseniaAnterior" xml:space="preserve">
+    <value>La contraseña anterior es requerida</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="valContraseniaNueva" xml:space="preserve">
+    <value>La contraseña nueva es requerida</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="btnGuardar" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="lblCalle" xml:space="preserve">
+    <value>Calle</value>
+    <comment>webOperacionSucursales, webGlobalCuenta</comment>
+  </data>
+  <data name="lblColonia" xml:space="preserve">
+    <value>Colonia</value>
+    <comment>webOperacionSucursales</comment>
+  </data>
+  <data name="lblNoExterior" xml:space="preserve">
+    <value>No. Exterior</value>
+    <comment>webOperacionSucursales</comment>
+  </data>
+  <data name="lblNoInterior" xml:space="preserve">
+    <value>No. Interior</value>
+    <comment>webOperacionSucursales</comment>
+  </data>
+  <data name="lblNombreSucursal" xml:space="preserve">
+    <value>Sucursal</value>
+    <comment>webOperacionSucursales</comment>
+  </data>
+  <data name="valCalle" xml:space="preserve">
+    <value>El nombre de la calle es requerido.</value>
+  </data>
+  <data name="btnActualizar" xml:space="preserve">
+    <value>Actualizar</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="lblCodigoPostal" xml:space="preserve">
+    <value>Código Postal</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="lblEstado" xml:space="preserve">
+    <value>Estado</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="lblLocalidad" xml:space="preserve">
+    <value>Localidad</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="lblMunicipio" xml:space="preserve">
+    <value>Municipio</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="lblPais" xml:space="preserve">
+    <value>País</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="lblReferenciaDom" xml:space="preserve">
+    <value>Referencia</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="valCodigoPostal" xml:space="preserve">
+    <value>El código postal es requerido.</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="valEstado" xml:space="preserve">
+    <value>El estado es requerido.</value>
+  </data>
+  <data name="valMunicipio" xml:space="preserve">
+    <value>El municipio es requerido.</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="valPais" xml:space="preserve">
+    <value>El país es requerido.</value>
+  </data>
+  <data name="valSucursal" xml:space="preserve">
+    <value>El nombre de sucursal es requerido.</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="valCer" xml:space="preserve">
+    <value>El certificado es requerido.</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="valContrasenia" xml:space="preserve">
+    <value>Contraseña de certificado requerido.</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="valKey" xml:space="preserve">
+    <value>La llave privada es requerida.</value>
+    <comment>webInicioSesionRegDatos.aspx</comment>
+  </data>
+  <data name="lblNombreCompleto" xml:space="preserve">
+    <value>Nombre o Razón Social:</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="varContribuyente" xml:space="preserve">
+    <value>USUARIO</value>
+    <comment>clsComun</comment>
+  </data>
+  <data name="varAlta" xml:space="preserve">
+    <value>Guardado correctamente</value>
+  </data>
+  <data name="varBaja" xml:space="preserve">
+    <value>Eliminado correctamente</value>
+  </data>
+  <data name="varCambio" xml:space="preserve">
+    <value>Actualizado correctamente</value>
+  </data>
+  <data name="varErrorAlta" xml:space="preserve">
+    <value>No se pudo guardar</value>
+  </data>
+  <data name="varErrorBaja" xml:space="preserve">
+    <value>No se pudo eliminar</value>
+  </data>
+  <data name="varErrorCambio" xml:space="preserve">
+    <value>No se pudo actualizar</value>
+  </data>
+  <data name="btnCancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="lblEditar" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="lblEliminar" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="lblGridVacio" xml:space="preserve">
+    <value>No se encontraron registros</value>
+    <comment>webOperacionesSucursales</comment>
+  </data>
+  <data name="lblSeleccionar" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="lblDescSoporte" xml:space="preserve">
+    <value>Se ha enviado un correo con el Ticket generado. Guarde su ticket para futuras referencias.</value>
+    <comment>webInicioSesionCorrecto</comment>
+  </data>
+  <data name="lblTitSoporte" xml:space="preserve">
+    <value>SOPORTE</value>
+    <comment>webInicioSesionCorrecto</comment>
+  </data>
+  <data name="btnReactivar" xml:space="preserve">
+    <value>Reactivar</value>
+  </data>
+  <data name="lblReactivarSucursal" xml:space="preserve">
+    <value>Ractivación de sucursales</value>
+    <comment>webGlobalSucursales</comment>
+  </data>
+  <data name="lblEfectoDocumento" xml:space="preserve">
+    <value>Efecto</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="lblFolio" xml:space="preserve">
+    <value>Folio</value>
+    <comment>webOperacionSeriesFolios</comment>
+  </data>
+  <data name="lblImpuesto" xml:space="preserve">
+    <value>Impuesto</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="lblSerie" xml:space="preserve">
+    <value>Serie</value>
+    <comment>webOperacionSeriesFolios</comment>
+  </data>
+  <data name="lblTasaImpuesto" xml:space="preserve">
+    <value>Tasa</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="lblTipoDocumento" xml:space="preserve">
+    <value>Documento</value>
+    <comment>webOperacionSeriesFolios, webOperacionDocImpuestos</comment>
+  </data>
+  <data name="valEfectoDocumento" xml:space="preserve">
+    <value>El tipo de efecto es requerido.</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="valFolio" xml:space="preserve">
+    <value>El número de folio es requerido</value>
+    <comment>webOperacionSeriesFolios</comment>
+  </data>
+  <data name="valImpuesto" xml:space="preserve">
+    <value>El tipo de impuesto es requerido.</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="valSerie" xml:space="preserve">
+    <value>El nombre de la serie es requerido.</value>
+    <comment>webOperacionSeriesFolios</comment>
+  </data>
+  <data name="valTasaNoValida" xml:space="preserve">
+    <value>El valor de la tasa de impuesto debe ser un valor entre 0 y 100</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="valTasaReq" xml:space="preserve">
+    <value>El valor de la tasa de impuesto es requerido.</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="valTipoDocumento" xml:space="preserve">
+    <value>El tipo de documento es requerido.</value>
+    <comment>webOperacionSeriesFolios, webOperacionDocImpuestos</comment>
+  </data>
+  <data name="varErrorSerieEnUso" xml:space="preserve">
+    <value>La serie ya está en uso</value>
+    <comment>webOperacionSeriesFolios</comment>
+  </data>
+  <data name="varErrorSerieYaAsignada" xml:space="preserve">
+    <value>La serie ya está asignada</value>
+    <comment>webOperacionSeriesFolios</comment>
+  </data>
+  <data name="valEmisionCer" xml:space="preserve">
+    <value>El certificado no fue emitido por el SAT</value>
+    <comment>clsValCertificado</comment>
+  </data>
+  <data name="valExtensionCer" xml:space="preserve">
+    <value>El archivo de llave pública debe tener extensión .Cer</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="valExtensionKey" xml:space="preserve">
+    <value>El archivo de llave privada debe tener extensión .Key</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="valFechaCer" xml:space="preserve">
+    <value>El certificado está fuera de fecha</value>
+    <comment>clsValCertificado</comment>
+  </data>
+  <data name="valRfcCer" xml:space="preserve">
+    <value>El RFC contenido en el certificado no corresponde</value>
+    <comment>clsValCertificado</comment>
+  </data>
+  <data name="msg30diasInactividad" xml:space="preserve">
+    <value>Su usuario se ha inactivado por estar más de 30 días sin uso.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="msgBloquearCon" xml:space="preserve">
+    <value>Bloquear Contribuyente.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="msgNoCorreo" xml:space="preserve">
+    <value>No se ha enviado el correo.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="msgPassIncorrecto" xml:space="preserve">
+    <value>Contraseña incorrecta.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="msgSeUsuarioBloqueado" xml:space="preserve">
+    <value>Se ha bloqueado su usuario.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="msgUsuarioBloqueado" xml:space="preserve">
+    <value>Usuario bloqueado.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="msgUsuNoExiste" xml:space="preserve">
+    <value>El usuario no existe.</value>
+    <comment>webInicioSesionLogin</comment>
+  </data>
+  <data name="msgClaveExistente" xml:space="preserve">
+    <value>Clave de Usuario Existente, utilice otra.</value>
+    <comment>webInicioSesionRegistro.aspx</comment>
+  </data>
+  <data name="msgExpira" xml:space="preserve">
+    <value>Cada 30 dias expira su contraseña, favor de cambiarla.</value>
+    <comment>usrGlobalPwd.ascx</comment>
+  </data>
+  <data name="msgMalCaptcha" xml:space="preserve">
+    <value>Numero Incorrecto en el Captcha</value>
+    <comment>webInicioSesionRegistro.aspx</comment>
+  </data>
+  <data name="msgNoPassCon" xml:space="preserve">
+    <value>La contraseña no es del contribuyente registrado.</value>
+    <comment>usrGlobalPwd.ascx</comment>
+  </data>
+  <data name="msgNoPassUsu" xml:space="preserve">
+    <value>No puede ser igual el Usuario a la contraseña.</value>
+    <comment>usrGlobalPwd.ascx</comment>
+  </data>
+  <data name="msgNoResCuenta" xml:space="preserve">
+    <value>No se ha restaurado la cuenta, intente de nuevo.</value>
+    <comment>webInicioSesionReactivar.aspx</comment>
+  </data>
+  <data name="msgNoUsuCorreo" xml:space="preserve">
+    <value>No se ha encontrado al usuario,o correo invalido.</value>
+    <comment>webInicioSesionReactivar.aspx</comment>
+  </data>
+  <data name="msgPassUsado" xml:space="preserve">
+    <value>Ya se utilizo esta contraseña, utilice otra.</value>
+    <comment>usrGlobalPwd.ascx</comment>
+  </data>
+  <data name="msgReactivaCon" xml:space="preserve">
+    <value>Reactivar Contribuyente.</value>
+    <comment>webInicioSesionReactivar.aspx</comment>
+  </data>
+  <data name="msgRecuperaCon" xml:space="preserve">
+    <value>Recupera Contribuyente.</value>
+    <comment>webInicioSesionReactivar.aspx</comment>
+  </data>
+  <data name="msgRegistroCon" xml:space="preserve">
+    <value>Registro Contribuyente.</value>
+    <comment>webInicioSesionRegistro.aspx</comment>
+  </data>
+  <data name="mailBloqueo" xml:space="preserve">
+    <value>&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;Al Contribuyente:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Se le ha enviado un correo para informar que su cuenta se ha bloqueado por 3 intentos erróneos.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;Proceso:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Para poder recuperar su cuenta, favor de entrar a recuperar contraseña.&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</value>
+    <comment>webInicioSesionLogin.aspx</comment>
+  </data>
+  <data name="valRazonSocial" xml:space="preserve">
+    <value>La razón social es requerida.</value>
+  </data>
+  <data name="valRfc" xml:space="preserve">
+    <value>El RFC es requerido.</value>
+  </data>
+  <data name="valKeyCer" xml:space="preserve">
+    <value>El certificado no corresponde a la llave privada</value>
+    <comment>clsValCertificado</comment>
+  </data>
+  <data name="lblBajaCuenta" xml:space="preserve">
+    <value>Para dar de baja a este usuario primero debe confirmar su contraseña.</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="varConfirmacionBaja" xml:space="preserve">
+    <value>¿Está seguro de querer dar de baja la cuenta?</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="btnAgregar" xml:space="preserve">
+    <value>Agregar</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="varKeyPass" xml:space="preserve">
+    <value>La contraseña proporcionada no es la correcta</value>
+    <comment>clsValCertificados</comment>
+  </data>
+  <data name="btnPassBaja" xml:space="preserve">
+    <value>Para dar de baja esta cuenta dé click aquí</value>
+    <comment>clsGlobalCuenta</comment>
+  </data>
+  <data name="btnPassBajaProc" xml:space="preserve">
+    <value>Dar de baja</value>
+    <comment>webGlobalCuenta</comment>
+  </data>
+  <data name="regxKey" xml:space="preserve">
+    <value>No es un archivo .Key</value>
+    <comment>webInicioSesionRegDatos</comment>
+  </data>
+  <data name="regxRFC" xml:space="preserve">
+    <value>RFC incompleto</value>
+    <comment>webInicioSesionRegDatos</comment>
+  </data>
+  <data name="rfvCer" xml:space="preserve">
+    <value>No es un archivo .Cer</value>
+    <comment>webInicioSesionRegDatos</comment>
+  </data>
+  <data name="txtCorreo" xml:space="preserve">
+    <value>E-mail inválido</value>
+    <comment>webInicioSesionRegistro.aspx</comment>
+  </data>
+  <data name="txtNombre" xml:space="preserve">
+    <value>El Nombre Completo es requerido.</value>
+    <comment>webInicioSesionRegistro.aspx</comment>
+  </data>
+  <data name="txtNumero" xml:space="preserve">
+    <value>Captcha es requerido.</value>
+    <comment>webInicioSesionRegistro.aspx</comment>
+  </data>
+  <data name="txtUsuario" xml:space="preserve">
+    <value>Tienen que ser minimo 8 caracteres.</value>
+    <comment>webInicioSesionRegistro.aspx</comment>
+  </data>
+  <data name="lblConsultar" xml:space="preserve">
+    <value>Consultar</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblEstatus" xml:space="preserve">
+    <value>Estatus</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblFechaFin" xml:space="preserve">
+    <value>A la fecha</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblFechaIni" xml:space="preserve">
+    <value>De la fecha</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblFolioFin" xml:space="preserve">
+    <value>Al folio</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblFolioIni" xml:space="preserve">
+    <value>Del folio</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblReceptor" xml:space="preserve">
+    <value>Receptor</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblCancelar" xml:space="preserve">
+    <value>Cancelar</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="lblDescargar" xml:space="preserve">
+    <value>Descargar</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="lblFecha" xml:space="preserve">
+    <value>Fecha</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="lblImporte" xml:space="preserve">
+    <value>Importe</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="lblMoneda" xml:space="preserve">
+    <value>Moneda</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="VarDropTodos" xml:space="preserve">
+    <value>Todos</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="varEstatusActivo" xml:space="preserve">
+    <value>Activo</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="varEstatusCancelado" xml:space="preserve">
+    <value>Cancelado</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="lblCantidad" xml:space="preserve">
+    <value>Cantidad</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="lblCodigo" xml:space="preserve">
+    <value>Codigo</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="lblDescripcion" xml:space="preserve">
+    <value>Descripción</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="lblPrecio" xml:space="preserve">
+    <value>Precio</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="lblSubtotal" xml:space="preserve">
+    <value>Subtotal:</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="lblTotal" xml:space="preserve">
+    <value>Total:</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="lblUnidad" xml:space="preserve">
+    <value>Unidad</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="regxCantidad" xml:space="preserve">
+    <value>Cantidad requerida.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="regxPrecio" xml:space="preserve">
+    <value>Formato Incorrecto.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="revDesc" xml:space="preserve">
+    <value>Descripcion requerida.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="revPrecio" xml:space="preserve">
+    <value>Precio requerido.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="rfvCodigo" xml:space="preserve">
+    <value>Codigo requerido.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="rfvUnidad" xml:space="preserve">
+    <value>Unidad requerida.</value>
+    <comment>webTimbradoGeneracion.aspx</comment>
+  </data>
+  <data name="hlkTerminos" xml:space="preserve">
+    <value>Términos de Uso del Servicio</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="lblDeclaro" xml:space="preserve">
+    <value>Declaro haber leído los términos de uso, y acepto las condiciones del Servicio Gratuito para la Emisión de CFDI</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="lblDetReactivar" xml:space="preserve">
+    <value>Capture los datos necesarios para recuperar la contraseña. Recuerda que su usuario se a desactivado por tener más de 30 días de inactividad.</value>
+    <comment>webInicioSesionReactivar</comment>
+  </data>
+  <data name="lblDetRecupera" xml:space="preserve">
+    <value>Capture los datos necesarios para recuperar la contraseña. Recuerda que se ha bloqueado al fallar mínimo en 3 intentos.</value>
+    <comment>webInicioSesionRecupera</comment>
+  </data>
+  <data name="lblProcesoRegistro" xml:space="preserve">
+    <value>Para proceder a su registro como usuario de la Aplicación para la Emisión de 
+                CFDI debe aceptar previamente los Términos de Uso del Servicio Gratuito de 
+                Emisión de Comprobantes Fiscales Digitales a Través de Internet.</value>
+    <comment>webInicioSesionRegistro</comment>
+  </data>
+  <data name="lblRestricciones" xml:space="preserve">
+    <value>La contraseña debe tener al  menos 8 caracteres, incluir al menos una mayúscula e incluir al menos un caracter especial. Ejemplo: +*{}[]-.,.</value>
+    <comment>webInicioSesionCambiarPWD</comment>
+  </data>
+  <data name="varErrorDescarga" xml:space="preserve">
+    <value>No fue posible descargar el documento</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="txtImporte" xml:space="preserve">
+    <value>El importe es requerido</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="varConceptos" xml:space="preserve">
+    <value>No hay conceptos capturados.</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="valFechaConsulta" xml:space="preserve">
+    <value>La fecha es requerida</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="valFormatoFecha" xml:space="preserve">
+    <value>El formato de la fecha es incorrecto</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="btnEnviar" xml:space="preserve">
+    <value>Enviar</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="lblSoporteAgradecimiento" xml:space="preserve">
+    <value>Gracias por elegir nuestro servicio de facturación electrónica PAX Facturación.</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="lblSoporteAsunto" xml:space="preserve">
+    <value>Cual es su asunto?</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="lblSoporteDescipcion" xml:space="preserve">
+    <value>Describa su duda o problema</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="lblSoporteLeyenda" xml:space="preserve">
+    <value>Para cualquier duda o problema con la plataforma, consulte nuestra sección de Preguntas Frecuentes. o si lo desea ingrese su inquietud a través del formulario siguiente:</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="valSoporteDescripcion" xml:space="preserve">
+    <value>Debe proporcionar la descripción de su duda o problema</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="varTicket" xml:space="preserve">
+    <value>Su ticket es {0}</value>
+    <comment>clsGlobalSoporte</comment>
+  </data>
+  <data name="varTicketMailBody" xml:space="preserve">
+    <value>Estimado usuario es importante que guarde su clave para futuro seguimiento de su problema.&lt;br /&gt;&lt;br /&gt;Su clave es {0}&lt;br /&gt;Este ticket será atendido por {1}&lt;br /&gt;&lt;br /&gt;Gracias por su atención. Estamos a sus servicios.&lt;br /&gt;&lt;br /&gt;PAX Facturación</value>
+    <comment>clsGlobalSoporte</comment>
+  </data>
+  <data name="varTicketSubject" xml:space="preserve">
+    <value>Se ha levantado el ticket {0} a través del usuario {1}</value>
+    <comment>clsGlobalSoporte</comment>
+  </data>
+  <data name="msgCompGenerado" xml:space="preserve">
+    <value>Comprobante generado, en el area de consultas se encuentra disponible sus comprobantes.</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="msgNoCertificado" xml:space="preserve">
+    <value>No se recupero el certificado para la generacion, intente de nuevo.</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="msgNoCompGenerado" xml:space="preserve">
+    <value>No se ha generado el comprobante, intente de nuevo.</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="msgRedireccionar" xml:space="preserve">
+    <value>Le queda un minuto para que su sesión termine, para evitar esto mantenga actividad en el sistema.</value>
+  </data>
+  <data name="varErrorBajaUsu" xml:space="preserve">
+    <value>No se pudo dar de baja la cuenta del usuario</value>
+    <comment>clsGlobalCuenta</comment>
+  </data>
+  <data name="varCancelacionCfd" xml:space="preserve">
+    <value>El comprobante ha sido cancelado ante hacienda</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="varValidacionError" xml:space="preserve">
+    <value>Hay errores en los datos</value>
+    <comment>clsComun</comment>
+  </data>
+  <data name="hlkRegresar" xml:space="preserve">
+    <value>Regresar al sitio.</value>
+  </data>
+  <data name="lblErroProblema" xml:space="preserve">
+    <value>Ha ocurrido un problema en el sistema.</value>
+  </data>
+  <data name="lblErrorDet" xml:space="preserve">
+    <value>Por razones de seguridad es necesario ingresar de nuevo al sistema.</value>
+  </data>
+  <data name="lblNonScript" xml:space="preserve">
+    <value>Este sitio necesita que esté activado JavaScript.&lt;br /&gt;Si usted no activa la configuracion de Javascript en su navegador, algunas funciones no trabajaran correctamente.</value>
+  </data>
+  <data name="mnuAyuda" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="mnuCatalogos" xml:space="preserve">
+    <value>Catalogos</value>
+  </data>
+  <data name="mnuClientes" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="mnuConsultas" xml:space="preserve">
+    <value>Consultas</value>
+  </data>
+  <data name="mnuCuenta" xml:space="preserve">
+    <value>Cuenta</value>
+  </data>
+  <data name="mnuDocImpuestos" xml:space="preserve">
+    <value>Documentos e Impuestos</value>
+  </data>
+  <data name="mnuSalir" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="mnuSeriesFolios" xml:space="preserve">
+    <value>Series y Folios</value>
+  </data>
+  <data name="mnuSoporte" xml:space="preserve">
+    <value>Soporte</value>
+  </data>
+  <data name="mnuSucursales" xml:space="preserve">
+    <value>Sucursales</value>
+  </data>
+  <data name="mnuTimbrado" xml:space="preserve">
+    <value>Timbrado</value>
+  </data>
+  <data name="varConfirmacionCancelacion" xml:space="preserve">
+    <value>¿Está seguro de querer cancelar este comprobante?</value>
+    <comment>webOperacionConsulta</comment>
+  </data>
+  <data name="lblSubConsulta" xml:space="preserve">
+    <value>Consulta</value>
+  </data>
+  <data name="lblSubCuenta" xml:space="preserve">
+    <value>Datos fiscales matriz</value>
+  </data>
+  <data name="lblSubCuentaCertificados" xml:space="preserve">
+    <value>Certificados</value>
+  </data>
+  <data name="lblSubDocumentos" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="lblSubSeries" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="lblSubUsrPass" xml:space="preserve">
+    <value>Cambio de contraseña</value>
+  </data>
+  <data name="lblTituloConsultas" xml:space="preserve">
+    <value>CONSULTA DE COMPROBANTES</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblTituloCuenta" xml:space="preserve">
+    <value>CUENTA DE USUARIO</value>
+    <comment>clsGlobalCuenta</comment>
+  </data>
+  <data name="lblTituloDocumentos" xml:space="preserve">
+    <value>CATALOGO DE DOCUMENTOS E IMPUESTOS</value>
+    <comment>webOperacionDocImpuestos</comment>
+  </data>
+  <data name="lblTituloReceptores" xml:space="preserve">
+    <value>CATALOGO DE CONTRIBUYENTES RECEPTORES</value>
+    <comment>webOperacionClientes</comment>
+  </data>
+  <data name="lblTituloSeries" xml:space="preserve">
+    <value>CATALOGO DE SERIES Y FOLIOS</value>
+    <comment>webOperacionSeriesFolios</comment>
+  </data>
+  <data name="lblTituloSucReceptores" xml:space="preserve">
+    <value>CATALOGO DE SUCURSALES DEL CONTRIBUYENTE RECEPTOR</value>
+    <comment>webOperacionClientes</comment>
+  </data>
+  <data name="lblTituloSucursales" xml:space="preserve">
+    <value>CATALOGO DE SUCURSALES DEL CONTRIBUYENTE EMISOR</value>
+    <comment>clsOperacionSucursales</comment>
+  </data>
+  <data name="varPDF" xml:space="preserve">
+    <value>PDF</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="varXML" xml:space="preserve">
+    <value>XML</value>
+    <comment>clsOperacionConsulta</comment>
+  </data>
+  <data name="lblCFDI" xml:space="preserve">
+    <value>Generacion de CFDI</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="lblConceptos" xml:space="preserve">
+    <value>Conceptos</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="lblConEmisor" xml:space="preserve">
+    <value>Contribuyente Emisor</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="lblConReceptor" xml:space="preserve">
+    <value>Contribuyente Receptor</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="lblDetalles" xml:space="preserve">
+    <value>Detalles</value>
+    <comment>webTimbradoGeneracion</comment>
+  </data>
+  <data name="lblSubSoporte" xml:space="preserve">
+    <value>Forma</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="lblTituloSoporte" xml:space="preserve">
+    <value>SOPORTE TECNICO PARA USUARIOS</value>
+    <comment>webGlobalSoporte</comment>
+  </data>
+  <data name="lblAddSucursal" xml:space="preserve">
+    <value>Sucursales</value>
+    <comment>webOperacionClientes</comment>
+  </data>
+  <data name="lblAgregar" xml:space="preserve">
+    <value>Agregar</value>
+    <comment>webOperacionClientes</comment>
+  </data>
+  <data name="lblSubReceptor" xml:space="preserve">
+    <value>Receptor</value>
+    <comment>webOperacionClientes</comment>
+  </data>
+  <data name="lblSubReceptorSuc" xml:space="preserve">
+    <value>Datos fiscales receptor</value>
+  </data>
+  <data name="lblSubSucursales" xml:space="preserve">
+    <value>Datos fiscales sucursal</value>
+  </data>
+  <data name="mnuBajaCuenta" xml:space="preserve">
+    <value>Baja Cuenta</value>
+  </data>
+  <data name="lblSubBajaCuenta" xml:space="preserve">
+    <value>Autenticación de usuario</value>
+    <comment>webOperacionCuentaBaja</comment>
+  </data>
+  <data name="varBajaExitosa" xml:space="preserve">
+    <value>Su cuenta se ha dado de baja.</value>
+  </data>
+  <data name="varBajaMailBody" xml:space="preserve">
+    <value>&lt;h1&gt;Cancelación de cuenta&lt;/h1&gt;
+&lt;p&gt;
+Estimado usuario.
+&lt;br /&gt;
+Recibimos una notificación para cancelar tu cuenta de CORPUS Facturación, para continuar con el procesos necesitamos de tu confirmación
+&lt;br /&gt;&lt;br /&gt;
+• 	Si deseas deshabilitar el servicio haz clic &lt;a href="{2}CORPUSCFDI/webGlobalProcesoBaja.aspx?dub={3}"&gt;aquí&lt;/a&gt;
+&lt;br /&gt;
+• 	Si no deseas cancelar tu cuenta haz caso omiso a este correo
+&lt;br /&gt;
+&lt;br /&gt;
+Si el link de arriba no funciona, copia y pega la siguiente dirección en tu navegador:
+&lt;br /&gt;
+{2}CORPUSCFDI/webGlobalProcesoBaja.aspx?dub={3}
+&lt;br /&gt;&lt;br /&gt;
+Te recomendamos que antes de deshabilitar la cuenta, respaldes los CFDs que tienes almacenados, ya que al momento de cancelar perderás el acceso a ellos.
+&lt;br /&gt;
+La cuenta que se cancelará es la siguiente:
+&lt;br /&gt;
+{0}
+&lt;br /&gt;
+{1}
+&lt;br /&gt;&lt;br /&gt;
+Gracias por su atención. Estamos a sus servicios.
+&lt;br /&gt;
+CORPUS Facturación
+&lt;/p&gt;</value>
+  </data>
+  <data name="varNotificaciónCorreo" xml:space="preserve">
+    <value>Un correo de autenticación ha sido enviado a su cuenta de correo. Para completar el proceso debe autenticarse con dicho correo.</value>
+  </data>
+  <data name="varSubjectBajaCuenta" xml:space="preserve">
+    <value>Confirmación para baja de cuenta</value>
+  </data>
+  <data name="hedCertificados" xml:space="preserve">
+    <value>Modificar Certificados</value>
+  </data>
+  <data name="hedDatosFisc" xml:space="preserve">
+    <value>Modificar Datos Fiscales</value>
+  </data>
+  <data name="hedPass" xml:space="preserve">
+    <value>Modificar Contraseña</value>
+  </data>
+  <data name="lblAceptar" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="btnRegresar" xml:space="preserve">
+    <value>Regresar</value>
+  </data>
+  <data name="lblVer" xml:space="preserve">
+    <value>Ver</value>
+  </data>
+  <data name="lblSubtituloBusReceptores" xml:space="preserve">
+    <value>Para realizar la búsqueda puede ingresar parte del RFC o razón social del receptor que quiere encontrar. Si ningún valor es ingresado la consulta devolverá todos los receptores disponibles para la sucursal del emisor seleccionada.</value>
+    <comment>webBusquedareceptores.aspx</comment>
+  </data>
+  <data name="lblTituloBusquedaReceptor" xml:space="preserve">
+    <value>BUSQUEDA DE RECEPTORES</value>
+    <comment>webBusquedareceptores.aspx</comment>
+  </data>
+  <data name="btnGuardarSop" xml:space="preserve">
+    <value>Guardar</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lblConfirmarPwdSop" xml:space="preserve">
+    <value>Confirmación Password</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="Can" xml:space="preserve">
+    <value>Correo Electrónico</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lblCorreoUsuarioSop" xml:space="preserve">
+    <value>Correo Electrónico</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>Correo Electrónico</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lblidusuario" xml:space="preserve">
+    <value>IdUsuario</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lblIncidenciaSop" xml:space="preserve">
+    <value>Tipo Incidencia</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lblincidente" xml:space="preserve">
+    <value>Tipo Incidencia</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lblNombreSop" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lblnombreusuarioSop" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lblPasswordSop" xml:space="preserve">
+    <value>Password</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lblUsuarioSop" xml:space="preserve">
+    <value>Usuario</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lblusuariosopg" xml:space="preserve">
+    <value>Usuario</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lblNomEmpresaHD" xml:space="preserve">
+    <value>Sistema de soporte PAX Facturación.</value>
+    <comment>Privada.Master</comment>
+  </data>
+  <data name="lblDescripcionin" xml:space="preserve">
+    <value>Descripción</value>
+    <comment>webCatalogoIncidencias</comment>
+  </data>
+  <data name="lblTicketi" xml:space="preserve">
+    <value>Ticket </value>
+    <comment>webCatalogoIncidencias</comment>
+  </data>
+  <data name="lblTipoIncidencia" xml:space="preserve">
+    <value>Descripción Incidencia</value>
+    <comment>webCatalogoIncidencias</comment>
+  </data>
+  <data name="lblNumTicket" xml:space="preserve">
+    <value />
+    <comment>webCatalogoIncidencias</comment>
+  </data>
+  <data name="lblEstatusI" xml:space="preserve">
+    <value>Estatus</value>
+    <comment>webCatalogoIncidencias</comment>
+  </data>
+  <data name="btnNuevaIncidencia" xml:space="preserve">
+    <value>Nueva Incidencia</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="btnProblema" xml:space="preserve">
+    <value>Crear Problema</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="lblMensajeGrid" xml:space="preserve">
+    <value>Para convertir las incidencias en problemas deben ser 6 o más tickets seleccionados</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="lblSinSeleccionarGrid" xml:space="preserve">
+    <value>No se selecciono ningún ticket</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="lblConfirmaError" xml:space="preserve">
+    <value>Se ha generado un nuevo problema con los tickets seleccionados</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="btnGuardarI" xml:space="preserve">
+    <value>Guardar Solución Usuario</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblDescripcionI" xml:space="preserve">
+    <value>Descripción</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblSolucionSoporte" xml:space="preserve">
+    <value>Solución Soporte</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblSolucionUsuario" xml:space="preserve">
+    <value>Solución Usuario</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblTicketText" xml:space="preserve">
+    <value>Ticket</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="btnTerminar" xml:space="preserve">
+    <value>Terminar Incidencia</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblSoporteSolucion" xml:space="preserve">
+    <value>Debe escribir una solución de soporte para poder guardar</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblUsuarioSolucion" xml:space="preserve">
+    <value>Debe escribir una solución de usuario para poder guardar</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblGuardado" xml:space="preserve">
+    <value>Se ha guardado satisfactoriamente</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblConfirmaProblema" xml:space="preserve">
+    <value>Se ha generado un nuevo problema satisfactoriamente</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="btnEnviaCorreo" xml:space="preserve">
+    <value>Atender</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="btnGuardarS" xml:space="preserve">
+    <value>Guardar Solución Soporte</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="btnReasignar" xml:space="preserve">
+    <value>Reasignar</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblCorreoI" xml:space="preserve">
+    <value>Correo de notificación de atención de incidencia</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblfechareg" xml:space="preserve">
+    <value>Fecha de registro</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblReasignar" xml:space="preserve">
+    <value>Reasignar Incidencia</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblusuariorep" xml:space="preserve">
+    <value>Usuario que reporta</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblReasignado" xml:space="preserve">
+    <value>Se ha reasignado la incidencia correctamente</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblEnvioCorreo" xml:space="preserve">
+    <value>Se ha enviado la notificacion de atención de la incidencia</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="btnGuardarSolucionPrueba" xml:space="preserve">
+    <value>Guardar Solución Prueba</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblSolucionPruebas" xml:space="preserve">
+    <value>Solución Pruebas</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblPruebasGuardado" xml:space="preserve">
+    <value>Se ha guardado la solución de pruebas satisfactoriamente</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblGuardadoSolucionSoporte" xml:space="preserve">
+    <value>La solución de soporte se guardo satisfactoriamente</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblGuardadoSolucionUsuario" xml:space="preserve">
+    <value>La solución de usuario se guardo satisfactoriamente</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblTerminarIncidencia" xml:space="preserve">
+    <value>La incidencia ha sido solucionada satisfactoriamente</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblTicketProblemaGenerado" xml:space="preserve">
+    <value>Esta incidencia ya pertenece a un problema</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="lblPerfil" xml:space="preserve">
+    <value>Perfil</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="btnNuevoUsuario" xml:space="preserve">
+    <value>Nuevo Usuario</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lbldescSAT" xml:space="preserve">
+    <value>Notificación SAT</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblplanaccion" xml:space="preserve">
+    <value>Plan de acción</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="btnSAT" xml:space="preserve">
+    <value>Notificar SAT</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="btnAutorizaSat" xml:space="preserve">
+    <value>Autorización</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblautorizador" xml:space="preserve">
+    <value>Persona que Autoriza</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="varTicketAtencion" xml:space="preserve">
+    <value>Su ticket esta siendo atendido</value>
+    <comment>clsComun</comment>
+  </data>
+  <data name="varTicketSATSubject" xml:space="preserve">
+    <value>Notificación de Incidencias de Seguridad al SAT</value>
+    <comment>clsComun</comment>
+  </data>
+  <data name="btnBuscarB" xml:space="preserve">
+    <value>Buscar</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="lblestatusb" xml:space="preserve">
+    <value>Estatus</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="lblfecharegb" xml:space="preserve">
+    <value>De</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="lblticketprob" xml:space="preserve">
+    <value>Ticket del problema</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="lbltipoincb" xml:space="preserve">
+    <value>Tipo de incidente</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="lblusuariosopb" xml:space="preserve">
+    <value>Usuario de soporte</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="lblFechas" xml:space="preserve">
+    <value>Rango de fechas de registro</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="lblfecharegb0" xml:space="preserve">
+    <value>Hasta</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="lblTipoProblema" xml:space="preserve">
+    <value>Tipo Problema</value>
+    <comment>webCatalogoProblemas</comment>
+  </data>
+  <data name="btnNuevoProblema" xml:space="preserve">
+    <value>Nuevo Problema</value>
+    <comment>webConsultaProblemas</comment>
+  </data>
+  <data name="lbltipoincp" xml:space="preserve">
+    <value>Tipo de Problema</value>
+    <comment>webConsultaProblemas</comment>
+  </data>
+  <data name="btnTerminarP" xml:space="preserve">
+    <value>Terminar Problema</value>
+    <comment>webAtencionProblemas</comment>
+  </data>
+  <data name="lblCorreoP" xml:space="preserve">
+    <value>Correo de notificación del problema</value>
+    <comment>webAtencionProblemas</comment>
+  </data>
+  <data name="varTicketMailBody1" xml:space="preserve">
+    <value>Estimado usuario es importante que guarde su clave para futuro seguimiento de su problema.&lt;br /&gt;&lt;br /&gt;Su clave es {0}&lt;br/&gt;&lt;br /&gt;&lt;br /&gt;Gracias por su atención. Estamos a sus servicios.&lt;br /&gt;&lt;br /&gt;PAX Facturación</value>
+    <comment>clsGlobalSoporte</comment>
+  </data>
+  <data name="lblfechanot" xml:space="preserve">
+    <value>Fecha autorización</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblfechaprue" xml:space="preserve">
+    <value>Fecha prueba</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblfecharatn" xml:space="preserve">
+    <value>Fecha atención</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblfechasop" xml:space="preserve">
+    <value>Fecha solución soporte</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblfechater" xml:space="preserve">
+    <value>Fecha Terminación</value>
+  </data>
+  <data name="lblfechausu" xml:space="preserve">
+    <value>Fecha solución usuario</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblfechaautnot" xml:space="preserve">
+    <value>Fecha notificación</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblDescPerfil" xml:space="preserve">
+    <value>Descripción perfil</value>
+    <comment>webUsuariosPerfiles</comment>
+  </data>
+  <data name="lbldatosprueba" xml:space="preserve">
+    <value>Subir archivo</value>
+    <comment>webAtencionProblemas</comment>
+  </data>
+  <data name="VarTicketPrueba" xml:space="preserve">
+    <value>Su ticket fue probado para calidad</value>
+    <comment>webAtencionIncidentes</comment>
+  </data>
+  <data name="lblencatninc" xml:space="preserve">
+    <value>Atención de Incidencias</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblencatnpro" xml:space="preserve">
+    <value>Atención de Problemas</value>
+    <comment>webAtencionProblemas</comment>
+  </data>
+  <data name="lblenccatinc" xml:space="preserve">
+    <value>Registro de Incidencias</value>
+    <comment>webCatalogoIncidencias</comment>
+  </data>
+  <data name="lblenccatpro" xml:space="preserve">
+    <value>Registro de Problemas</value>
+    <comment>webCatalogoProblemas</comment>
+  </data>
+  <data name="lblenccatusu" xml:space="preserve">
+    <value>Catálogo de Usuarios</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lblencconerr" xml:space="preserve">
+    <value>Errores Conocidos</value>
+    <comment>webErroresConocidos</comment>
+  </data>
+  <data name="lblencconinc" xml:space="preserve">
+    <value>Consulta de Incidencias</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="lblencconpro" xml:space="preserve">
+    <value>Consulta de Problemas</value>
+    <comment>webConsultaProblemas</comment>
+  </data>
+  <data name="varErrorArchivo" xml:space="preserve">
+    <value>Extensión del archivo inválida, intente con archivos </value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="varErrorTamanio" xml:space="preserve">
+    <value>El tamaño del archivo excede el máximo de 2MB</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="btnExcel" xml:space="preserve">
+    <value>Exportar a Excel</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="lblAutorizado" xml:space="preserve">
+    <value>Se ha guardado la autorización del SAT correctamente</value>
+    <comment>webAtencionIncidencias</comment>
+  </data>
+  <data name="lblticket" xml:space="preserve">
+    <value>Ticket</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="btncolor" xml:space="preserve">
+    <value>Descripción Colores</value>
+    <comment>webConsultaIncidencias</comment>
+  </data>
+  <data name="varEnvioCorreo" xml:space="preserve">
+    <value>Se ha enviado un correo con la contraseña a la cuenta de correo</value>
+    <comment>webRecuperacionPassword</comment>
+  </data>
+  <data name="btnCambiarPwd" xml:space="preserve">
+    <value>Cambiar Contraseña</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lnkPwdCambio" xml:space="preserve">
+    <value>Cambio de Contraseña</value>
+    <comment>webUsuariosGeneracion</comment>
+  </data>
+  <data name="lblIdioma" xml:space="preserve">
+    <value>Idioma:</value>
+  </data>
+  <data name="btnEntrar" xml:space="preserve">
+    <value>Entrar</value>
+  </data>
+  <data name="cbAprobado" xml:space="preserve">
+    <value>Aprobado</value>
+  </data>
+  <data name="lblCorreoSop" xml:space="preserve">
+    <value>Correo Electrónico</value>
+  </data>
+  <data name="lblHorasRestantes" xml:space="preserve">
+    <value>Horas Restantes</value>
+  </data>
+  <data name="lblReasignaDesc" xml:space="preserve">
+    <value>En caso de que la incidencia no corresponda a su tipo y/o no le corresponde a este usuario favor de llevar a cabo la reasignación de la incidencia según su tipo.</value>
+  </data>
+  <data name="lblcheck" xml:space="preserve">
+    <value>Revisar</value>
+  </data>
+  <data name="lblconinc" xml:space="preserve">
+    <value>Consultar Incidencias</value>
+  </data>
+  <data name="lblconpro" xml:space="preserve">
+    <value>Consultar Problemas</value>
+  </data>
+  <data name="lblerrcon" xml:space="preserve">
+    <value>Errores Conocidos</value>
+  </data>
+  <data name="lblmenuinc" xml:space="preserve">
+    <value>Incidencias</value>
+  </data>
+  <data name="lblmenupro" xml:space="preserve">
+    <value>Problemas</value>
+  </data>
+  <data name="lblmenuusu" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="lblreastickpro" xml:space="preserve">
+    <value>En caso de que el problema no corresponda a su tipo y/o no le corresponde a este usuario favor de llevar a cabo la reasignación del problema según su tipo.</value>
+  </data>
+  <data name="lblreginc" xml:space="preserve">
+    <value>Registrar Incidencias</value>
+  </data>
+  <data name="lblregpro" xml:space="preserve">
+    <value>Registrar Problemas</value>
+  </data>
+  <data name="VarErrorUsuNue" xml:space="preserve">
+    <value>El nombre de usuario ya esta asignado a otro usuario</value>
+  </data>
+  <data name="mnuInicio" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="lblMsjInc" xml:space="preserve">
+    <value>El usuario no puede ser eliminado porque tiene incidencias asignadas</value>
+  </data>
+  <data name="lblMsjPro" xml:space="preserve">
+    <value>El usuario no puede ser eliminado porque tiene problemas asignados</value>
+  </data>
+  <data name="lblNotSat" xml:space="preserve">
+    <value>Favor de adjuntar un plan de acción</value>
+  </data>
+  <data name="lblTerminarProblema" xml:space="preserve">
+    <value>El Problema ha sido solucionado satisfactoriamente</value>
+  </data>
+  <data name="lblBienvenido" xml:space="preserve">
+    <value>Bienvenido</value>
+  </data>
+  <data name="lbllogout" xml:space="preserve">
+    <value>Cerrar sesión</value>
+  </data>
+</root>

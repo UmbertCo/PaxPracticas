@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAXYargs", "PAXYargs\PAXYargs.csproj", "{026C716D-E7C6-4FC7-BDC3-A024914BF55A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaYargs", "PruebaYargs\PruebaYargs.csproj", "{FEA09333-3B41-4E4C-A6A8-3E262864998D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{026C716D-E7C6-4FC7-BDC3-A024914BF55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026C716D-E7C6-4FC7-BDC3-A024914BF55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026C716D-E7C6-4FC7-BDC3-A024914BF55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026C716D-E7C6-4FC7-BDC3-A024914BF55A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEA09333-3B41-4E4C-A6A8-3E262864998D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA09333-3B41-4E4C-A6A8-3E262864998D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA09333-3B41-4E4C-A6A8-3E262864998D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA09333-3B41-4E4C-A6A8-3E262864998D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {245EEE82-231D-40B8-8B00-C684D52588EF}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.3.105:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PAXYargs\\PAXYargs.csproj
+		SccProjectName1 = PAXYargs
+		SccLocalPath1 = PAXYargs
+		SccProjectUniqueName2 = PruebaYargs\\PruebaYargs.csproj
+		SccProjectName2 = PruebaYargs
+		SccLocalPath2 = PruebaYargs
+	EndGlobalSection
+EndGlobal

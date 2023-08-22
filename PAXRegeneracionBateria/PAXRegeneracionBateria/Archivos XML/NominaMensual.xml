@@ -1,0 +1,63 @@
+﻿<cfdi:Comprobante xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/nomina http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina11.xsd" version="3.2" fecha="2014-11-13T23:42:57" sello="" formaDePago="Pago en una sola exhibición" noCertificado="" certificado="" condicionesDePago="Deposito" subTotal="31914.03" descuento="1286.15" motivoDescuento="Deducciones nómina" TipoCambio="1.00" total="27777.09" tipoDeComprobante="egreso" metodoDePago="otro3" LugarExpedicion="Tamaulipas MEXICO" NumCtaPago="otro4" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfdi:Emisor rfc="" nombre="Fortia Technology Test">
+    <cfdi:ExpedidoEn calle="Hidalgo 108" colonia="Mexico" localidad="Tampico" estado="Tamaulipas" pais="MEXICO" codigoPostal="89348" />
+    <cfdi:RegimenFiscal Regimen="No aplica" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="XXXX010101XX1" nombre="Aguirre Avechuco Alma Aurora">
+    <cfdi:Domicilio calle="Sopoya No 45" colonia="Pimentel" municipio="Hermosillo" estado="Sonora" pais="MEXICO" codigoPostal="42036" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1" unidad="otro2" noIdentificacion="1" descripcion="Pago de Nómina" valorUnitario="31914.03" importe="31914.03" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosRetenidos="2850.79">
+    <cfdi:Retenciones>
+      <cfdi:Retencion impuesto="ISR" importe="2850.79" />
+    </cfdi:Retenciones>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <nomina:Nomina Version="1.1" RegistroPatronal="F9912076564" NumEmpleado="16426" CURP="AUAA831103MSRGVL04" TipoRegimen="2" NumSeguridadSocial="24048325203" FechaPago="2013-12-15" FechaInicialPago="2013-12-02" FechaFinalPago="2013-12-15" NumDiasPagados="14.00" Departamento="Gerencia de Zona GDV" CLABE="072068001678596559" Banco="021" FechaInicioRelLaboral="2011-11-23" Antiguedad="108" Puesto="Gerente de Zona" TipoContrato="por leyenda" TipoJornada="por turnos" PeriodicidadPago="Catorcenal" RiesgoPuesto="2" SalarioDiarioIntegrado="697.61" xmlns:nomina="http://www.sat.gob.mx/nomina">
+      <nomina:Percepciones TotalGravado="7379.58" TotalExento="0.00">
+        <nomina:Percepcion TipoPercepcion="001" Clave="100" Concepto="SUELDO" ImporteGravado="2379.58" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="016" Clave="129" Concepto="BONO POR COBERTURA PLAN DE PED" ImporteGravado="5000.00" ImporteExento="0.00" />
+      </nomina:Percepciones>
+      <nomina:Deducciones TotalGravado="0.00" TotalExento="1708.65">
+        <nomina:Deduccion TipoDeduccion="002" Clave="600" Concepto="IMPUESTO RETENIDO" ImporteGravado="0.00" ImporteExento="1065.78" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="609" Concepto="FONDO DE AHORRO" ImporteGravado="0.00" ImporteExento="238.00" />
+        <nomina:Deduccion TipoDeduccion="021" Clave="611" Concepto="SEGURO SOCIAL CUOTA OBRERA" ImporteGravado="0.00" ImporteExento="150.22" />
+        <nomina:Deduccion TipoDeduccion="003" Clave="613" Concepto="CESANTIA Y VEJEZ CUOTA OBRERA" ImporteGravado="0.00" ImporteExento="109.90" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="711" Concepto="AVISO DE CARGO" ImporteGravado="0.00" ImporteExento="84.75" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="716" Concepto="FOMPADE" ImporteGravado="0.00" ImporteExento="60.00" />
+      </nomina:Deducciones>
+    </nomina:Nomina>
+    <nomina:Nomina Version="1.1" RegistroPatronal="F9912076564" NumEmpleado="16426" CURP="AUAA831103MSRGVL04" TipoRegimen="2" NumSeguridadSocial="24048325203" FechaPago="2013-12-31" FechaInicialPago="2013-12-16" FechaFinalPago="2013-12-31" NumDiasPagados="16.00" Departamento="Gerencia de Zona GDV" CLABE="072068001678596559" Banco="021" FechaInicioRelLaboral="2011-11-23" Antiguedad="110" Puesto="Gerente de Zona" TipoContrato="por leyenda" TipoJornada="por turnos" PeriodicidadPago="Catorcenal" RiesgoPuesto="2" SalarioDiarioIntegrado="697.61" xmlns:nomina="http://www.sat.gob.mx/nomina">
+      <nomina:Percepciones TotalGravado="9392.73" TotalExento="0.00">
+        <nomina:Percepcion TipoPercepcion="001" Clave="100" Concepto="SUELDO" ImporteGravado="2855.50" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="016" Clave="129" Concepto="BONO POR COBERTURA PLAN DE PED" ImporteGravado="5000.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="028" Clave="130" Concepto="COMIS. POR COBERTURA PLAN DE V" ImporteGravado="1537.23" ImporteExento="0.00" />
+      </nomina:Percepciones>
+      <nomina:Deducciones TotalGravado="0.00" TotalExento="2066.15">
+        <nomina:Deduccion TipoDeduccion="002" Clave="600" Concepto="IMPUESTO RETENIDO" ImporteGravado="0.00" ImporteExento="1422.87" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="609" Concepto="FONDO DE AHORRO" ImporteGravado="0.00" ImporteExento="286.00" />
+        <nomina:Deduccion TipoDeduccion="021" Clave="611" Concepto="SEGURO SOCIAL CUOTA OBRERA" ImporteGravado="0.00" ImporteExento="171.68" />
+        <nomina:Deduccion TipoDeduccion="003" Clave="613" Concepto="CESANTIA Y VEJEZ CUOTA OBRERA" ImporteGravado="0.00" ImporteExento="125.60" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="716" Concepto="FOMPADE" ImporteGravado="0.00" ImporteExento="60.00" />
+      </nomina:Deducciones>
+    </nomina:Nomina>
+    <nomina:Nomina Version="1.1" RegistroPatronal="F9912076564" NumEmpleado="16426" CURP="AUAA831103MSRGVL04" TipoRegimen="2" NumSeguridadSocial="24048325203" FechaPago="2013-12-31" FechaInicialPago="2013-01-01" FechaFinalPago="2013-12-31" NumDiasPagados="0.00" Departamento="Gerencia de Zona GDV" CLABE="072068001678596559" Banco="021" FechaInicioRelLaboral="2011-11-23" Antiguedad="110" Puesto="Gerente de Zona" TipoContrato="por leyenda" TipoJornada="por turnos" PeriodicidadPago="Catorcenal" RiesgoPuesto="2" SalarioDiarioIntegrado="697.61" xmlns:nomina="http://www.sat.gob.mx/nomina">
+      <nomina:Percepciones TotalGravado="3328.53" TotalExento="1841.40">
+        <nomina:Percepcion TipoPercepcion="002" Clave="205" Concepto="AGUINALDO ANUAL EXENTO" ImporteGravado="0.00" ImporteExento="1841.40" />
+        <nomina:Percepcion TipoPercepcion="002" Clave="209" Concepto="AGUINALDO ANUAL" ImporteGravado="3328.53" ImporteExento="0.00" />
+      </nomina:Percepciones>
+      <nomina:Deducciones TotalGravado="0.00" TotalExento="362.14">
+        <nomina:Deduccion TipoDeduccion="002" Clave="602" Concepto="I.S.P.T.ESPECIAL" ImporteGravado="0.00" ImporteExento="362.14" />
+      </nomina:Deducciones>
+    </nomina:Nomina>
+    <nomina:Nomina Version="1.1" RegistroPatronal="F9912076564" NumEmpleado="16426" CURP="AUAA831103MSRGVL04" TipoRegimen="2" NumSeguridadSocial="24048325203" FechaPago="2013-12-01" FechaInicialPago="2013-11-18" FechaFinalPago="2013-12-01" NumDiasPagados="0.00" Departamento="Gerencia de Zona GDV" CLABE="072068001678596559" Banco="021" FechaInicioRelLaboral="2011-11-23" Antiguedad="106" Puesto="Gerente de Zona" TipoContrato="por leyenda" TipoJornada="por turnos" PeriodicidadPago="Catorcenal" RiesgoPuesto="2" SalarioDiarioIntegrado="697.61" xmlns:nomina="http://www.sat.gob.mx/nomina">
+      <nomina:Percepciones TotalGravado="0.00" TotalExento="9971.79">
+        <nomina:Percepcion TipoPercepcion="005" Clave="211" Concepto="DEVOLUCION DE FONDO DE AHORRO" ImporteGravado="0.00" ImporteExento="4913.00" />
+        <nomina:Percepcion TipoPercepcion="005" Clave="212" Concepto="DEVOLUCION F.A. TRABAJADOR" ImporteGravado="0.00" ImporteExento="4913.00" />
+        <nomina:Percepcion TipoPercepcion="005" Clave="213" Concepto="RENDIMIENTOS F.A" ImporteGravado="0.00" ImporteExento="145.79" />
+      </nomina:Percepciones>
+    </nomina:Nomina>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

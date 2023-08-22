@@ -1,0 +1,180 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Privada.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+
+    <title></title>
+    <%------------------------JQuery----------------------------%>
+    <script src="../../Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+    <script src="../../Scripts/jquery-ui-1.8.11.custom.min.js" type="text/javascript"></script>
+    <script src="../../Scripts/jquery.ui.core.js" type="text/javascript"></script>
+    <script src="../../Scripts/jquery.ui.draggable.js" type="text/javascript"></script>
+    <script src="../../Scripts/alerts/jquery.alerts.js" type="text/javascript"></script>
+    <link href="Scripts/alerts/jquery.alerts.css" rel="stylesheet" type="text/css" />
+    <%------------------------JQuery----------------------------%>
+     <link href="Styles/menu_style.css" rel="stylesheet" type="text/css" />
+   <link href="~/Styles/webGlobalStyle.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 97%;
+        }
+        .style6
+        {
+            width: 134%;
+        }
+        .style7
+        {
+            width: 168px;
+        }
+        .style9
+        {
+            width: 434px;
+        }
+        .style8
+        {
+            width: 40px;
+        }
+        </style>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="loginDisplay">
+                <table class="style1">
+                    <tr>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td class="TopGrafo">
+                                        </td>                                   
+                                    <td class="style9" align="left">
+
+                    <asp:Label ID="lblNomEmpresa" runat="server" 
+                        Text="<%$ Resources:resCorpusCFDIEs, lblNomEmpresaHD %>" 
+                        ForeColor="#004D71" Font-Size="X-Large"></asp:Label>
+
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td class="style7">
+                                        <table class="style6">
+                                            <tr>
+                                                <td>
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">                    
+                    <LoggedInTemplate>
+                        <asp:Label ID="lblBienvenida" runat="server" 
+                        Text="<%$ Resources:resCorpusCFDIEs, lblBienvenido %>" 
+                        ForeColor="#004D71"></asp:Label>
+                         <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" 
+                            LogoutText="Log Out" 
+                            LogoutPageUrl="~/Pantallas/Login/webInicioSesionLogin.aspx"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                <asp:Label ID="lblIdioma" runat="server" AssociatedControlID="drpIdioma" 
+                                                            Text="<%$ Resources:resCorpusCFDIEs, lblIdioma %>" 
+                                                            style="font-family: 'Century Gothic'" 
+                                ForeColor="#004D71" Visible="False"></asp:Label>
+
+                                                        <asp:DropDownList ID="drpIdioma" runat="server" AutoPostBack="True" 
+                                                            onprerender="drpIdioma_PreRender" 
+                                                            onselectedindexchanged="drpIdioma_SelectedIndexChanged" 
+                                                        Visible="False">
+                                                            <asp:ListItem Value="es-Mx">Español</asp:ListItem>
+                                                            <asp:ListItem Value="en-Us">English</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table style="width: 965px" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="style8">
+                        </td>
+                        <td align="right" valign="middle">
+                            &nbsp;</td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                      <table cellpadding="0" cellspacing="0" >
+            <tr>
+                <td colspan="0"></td>
+                <td class="botonGris" colspan="0" align="right">
+
+                
+                            <table>
+                                <tr>
+                                    <td align="right">
+                                        <asp:LinkButton ID="lnkEnglish" runat="server" ForeColor="#333333" 
+                                            onclick="lnkEnglish_Click" onprerender="lnkEnglish_PreRender">English</asp:LinkButton>
+                                    </td>
+                                    <td>
+                                        <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Names="Arial" 
+                                            ForeColor="#333333" Text="|"></asp:Label>
+                                    </td>
+                                    <td align="left">
+                                        <asp:LinkButton ID="lnkEspañol" runat="server" ForeColor="#333333" 
+                                            onclick="lnkEspañol_Click" onprerender="lnkEspañol_PreRender">Español</asp:LinkButton>
+                                    </td>
+                                    <td align="left">
+                                        &nbsp;</td>
+                                </tr>
+                            </table>
+                </td>
+                <td colspan="0" width="21"></td>
+            </tr>
+            <tr>
+                <td class="menuLeft" colspan="0" rowspan="0"></td>
+                <td class="menuBarra" colspan="0" rowspan="0">
+
+                <ul class="menu">
+	                <li class="top"><a id="A1" href="default.aspx" class="top_link" runat="server"><span><asp:Literal runat="server" ID="mnuInicio" Text="<%$ Resources:resCorpusCFDIEs, mnuInicio %>"></asp:Literal> </span></a></li>	              
+              </ul>                
+                </td>
+                <td class="menuRight" colspan="0" rowspan="0" width="21"></td>
+            </tr>
+        </table> 
+            </div>
+            <div>
+            <asp:Label ID="lblErrorGenerico" runat="server" Font-Size="Medium" 
+                ForeColor="Red"></asp:Label>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                <p>
+                </p>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ConsultaTicket">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="no_ticket" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="no_tienda" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pto_venta" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="fecha_ticket" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="total_ticket" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultaTicketResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultaTicketResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistraTicket">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="psFolio" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pnNoTienda" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pnPtoVenta" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="psFechaTicket" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pnTotalTicket" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="psFolioInterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psUUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegistraTicketResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RegistraTicketResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ConsultaTicketSoapIn">
+    <wsdl:part name="parameters" element="tns:ConsultaTicket" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaTicketSoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultaTicketResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegistraTicketSoapIn">
+    <wsdl:part name="parameters" element="tns:RegistraTicket" />
+  </wsdl:message>
+  <wsdl:message name="RegistraTicketSoapOut">
+    <wsdl:part name="parameters" element="tns:RegistraTicketResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wcfConsultaTicketSoap">
+    <wsdl:operation name="ConsultaTicket">
+      <wsdl:input message="tns:ConsultaTicketSoapIn" />
+      <wsdl:output message="tns:ConsultaTicketSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegistraTicket">
+      <wsdl:input message="tns:RegistraTicketSoapIn" />
+      <wsdl:output message="tns:RegistraTicketSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wcfConsultaTicketSoap" type="tns:wcfConsultaTicketSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConsultaTicket">
+      <soap:operation soapAction="http://tempuri.org/ConsultaTicket" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistraTicket">
+      <soap:operation soapAction="http://tempuri.org/RegistraTicket" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wcfConsultaTicketSoap12" type="tns:wcfConsultaTicketSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConsultaTicket">
+      <soap12:operation soapAction="http://tempuri.org/ConsultaTicket" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegistraTicket">
+      <soap12:operation soapAction="http://tempuri.org/RegistraTicket" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wcfConsultaTicket">
+    <wsdl:port name="wcfConsultaTicketSoap" binding="tns:wcfConsultaTicketSoap">
+      <soap:address location="http://201.116.148.68:82/wcfConsultaTicket.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wcfConsultaTicketSoap12" binding="tns:wcfConsultaTicketSoap12">
+      <soap12:address location="http://201.116.148.68:82/wcfConsultaTicket.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

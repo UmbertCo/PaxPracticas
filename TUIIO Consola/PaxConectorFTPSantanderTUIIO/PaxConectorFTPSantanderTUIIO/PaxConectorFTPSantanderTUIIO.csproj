@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{72AFE5E7-AA5D-42AE-9BD6-C856FF727ED7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PAXConectorFTPGTCFDI33</RootNamespace>
+    <AssemblyName>PaxConectorFTPSantanderTUIIO</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CadOri_4_0">
+      <HintPath>bin\CadOri_4_0.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Encriptacion">
+      <HintPath>..\..\..\..\..\Desktop\Ensamblados\Encriptacion.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\..\..\..\Desktop\Ensamblados\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Build" />
+    <Reference Include="MultiPAC">
+      <HintPath>..\..\..\..\..\Documentos\Documentacion\Dlls\MultiPAC.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TFD11XSLT, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\TFD11XSLT.dll</HintPath>
+    </Reference>
+    <Reference Include="Utilerias2010, Version=1.0.0.0, Culture=neutral, PublicKeyToken=558f4cddefd15516, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Utilerias2010.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsPlantilla.cs" />
+    <Compile Include="Complementos\Aerolineas.cs" />
+    <Compile Include="Complementos\AeromexicoFiscalDigital32.cs" />
+    <Compile Include="Complementos\CertificadoDestruccion.cs" />
+    <Compile Include="Complementos\CFDI33.cs" />
+    <Compile Include="clsCfdi.cs" />
+    <Compile Include="clsColeccionCFDI.cs" />
+    <Compile Include="clsPrincipal.cs" />
+    <Compile Include="clsUtiles.cs" />
+    <Compile Include="Complementos\ComercioExterior.cs" />
+    <Compile Include="Complementos\Complementos.cs" />
+    <Compile Include="Complementos\Concepto\IEDU.cs" />
+    <Compile Include="Complementos\Concepto\Terceros.cs" />
+    <Compile Include="Complementos\Concepto\VentaVehicular.cs" />
+    <Compile Include="Complementos\ConsumodeCombustibles.cs" />
+    <Compile Include="Complementos\Divisas.cs" />
+    <Compile Include="Complementos\Donatarias.cs" />
+    <Compile Include="Complementos\EstadoDeCuentaCombustible.cs" />
+    <Compile Include="Complementos\ImpLocal.cs" />
+    <Compile Include="Complementos\INE.cs" />
+    <Compile Include="Complementos\LeyendasFiscales.cs" />
+    <Compile Include="Complementos\Nomina12.cs" />
+    <Compile Include="Complementos\NotariosPublicos.cs" />
+    <Compile Include="Complementos\ObrasArte.cs" />
+    <Compile Include="Complementos\PagoenEspecie.cs" />
+    <Compile Include="Complementos\Pagos10.cs" />
+    <Compile Include="Complementos\PFIC.cs" />
+    <Compile Include="Complementos\RenovSustVehicular.cs" />
+    <Compile Include="Complementos\ServicioParcialConstruccion.cs" />
+    <Compile Include="Complementos\TPE.cs" />
+    <Compile Include="Complementos\ValesDeDespensa.cs" />
+    <Compile Include="Complementos\VehiculosUsados.cs" />
+    <Compile Include="ExtensionMethod.cs" />
+    <Compile Include="Logs\clsLog.cs" />
+    <Compile Include="Logs\clsLogRespaldoCancelacion.cs" />
+    <Compile Include="Logs\Log.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logs\LogRespaldo.cs" />
+    <Compile Include="MyFileSystemWatcherCancelacion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PAXService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PAXService.Designer.cs">
+      <DependentUpon>PAXService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="rptGenericaGratuita33.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptGenericaGratuita33.Designer.cs">
+      <DependentUpon>rptGenericaGratuita33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\CancelacionASMX\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Worker.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Debug\instalador.bat" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CancelacionASMX\wcfCancelaasmx.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptGenericaGratuita33.resx">
+      <DependentUpon>rptGenericaGratuita33.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\CancelacionASMX\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CancelacionASMX\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CancelacionASMX\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CancelacionASMX\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\CadOri_3_3.DLL" />
+    <Content Include="bin\Debug\CadOri_3_3.DLL" />
+    <Content Include="bin\Debug\Encriptacion.dll" />
+    <Content Include="bin\Debug\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="bin\Debug\OpenSSL_Lib.dll" />
+    <Content Include="bin\Debug\TFD11XSLT.dll" />
+    <Content Include="bin\Debug\Utilerias2010.dll" />
+    <Content Include="bin\Debug\XML\Entidades.xml" />
+    <Content Include="bin\Debug\XML\FormaPago.xml" />
+    <Content Include="bin\Debug\XML\MetodoPago.xml" />
+    <Content Include="bin\Debug\XML\RegimenFiscal.xml" />
+    <Content Include="bin\Debug\XML\TipoComprobante.xml" />
+    <Content Include="bin\Debug\XML\TipoRelacion.xml" />
+    <Content Include="bin\Debug\XML\UsoCFDI.xml" />
+    <Content Include="bin\Encriptacion.dll" />
+    <Content Include="bin\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="bin\MultiPAC.dll" />
+    <Content Include="bin\TFD11XSLT.dll" />
+    <Content Include="bin\Utilerias2010.dll" />
+    <Content Include="XML\Layout_3_3.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

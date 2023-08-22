@@ -1,0 +1,257 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Publica.master.cs" Inherits="SiteMaster" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="cc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+     <%------------------------JQuery----------------------------%>
+    <script src="../../Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+    <script src="../../Scripts/jquery-ui-1.8.11.custom.min.js" type="text/javascript"></script>
+    <script src="../../Scripts/jquery.ui.core.js" type="text/javascript"></script>
+    <script src="../../Scripts/jquery.ui.draggable.js" type="text/javascript"></script>
+    <script src="../../Scripts/alerts/jquery.alerts.js" type="text/javascript"></script>
+    <link href="Scripts/alerts/jquery.alerts.css" rel="stylesheet" type="text/css" />
+    <%------------------------JQuery----------------------------%>
+      <link href="Styles/menu_style.css" rel="stylesheet" type="text/css" />
+   <link href="~/Styles/webGlobalStyle.css" rel="stylesheet" type="text/css" />
+
+     <script type="text/javascript">
+
+           function SessionExpireAlert(timeout) {
+               var seconds = timeout / 1000;
+               document.getElementsByName("secondsIdle").innerHTML = seconds;
+               document.getElementsByName("seconds").innerHTML = seconds;
+               setInterval(function () {
+                   seconds--;
+                   document.getElementById("seconds").innerHTML = seconds;
+                   document.getElementById("secondsIdle").innerHTML = seconds;
+               }, 1000);
+               setTimeout(function () {
+                   //Show Popup before 20 seconds of timeout.
+                   $find("mpeTimeout").show();
+                   self.focus();
+               }, timeout - 20 * 1000);
+               setTimeout(function () {
+                   window.location = "/PAXSoporte_Test/Pantallas/Login/webInicioSesionLogin.aspx";
+               }, timeout);
+           };
+           function ResetSession() {
+               //Redirect to refresh Session.
+               window.location = window.location.href;
+           }
+
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 97%;
+        }
+        .style3
+        {
+            width: 96%;
+        }
+        .style5
+        {
+            width: 324px;
+        }
+        .style6
+        {
+            width: 341px;
+        }
+        .style7
+        {
+            width: 326px;
+        }
+        </style>
+</head>
+<body>
+    <form runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div class="page">
+        <div class="header">
+            <div class="loginDisplay">
+                <table class="style1">
+                    <tr>
+                        <td>
+                            <table>
+                                <tr>
+                                <td class ="TopGrafo">
+                                </td>
+                                 
+                                <td align="left" class="style5">
+                    <asp:Label ID="lblNomEmpresa" runat="server" 
+                        Text="<%$ Resources:resCorpusCFDIEs, lblNomEmpresaHD %>" 
+                        ForeColor="#006666" Font-Size="16pt" Font-Bold="False"></asp:Label>
+                                    </td>
+                                    <td class="style6">
+                                        <table class="style3">
+                                            <tr>
+                                                <td class="style7">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Pantallas/Login/webInicioSesionLogin.aspx" ID="HeadLoginStatus0" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        <asp:Label ID="Label1" runat="server" Text="<%$ Resources:resCorpusCFDIEs, lblBienvenido %>" ForeColor="#006666"></asp:Label>
+&nbsp;<span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" ForeColor="Black" /></span>
+<asp:Label ID="Label2" runat="server" Text="!" ForeColor="#004A4A"></asp:Label>
+                        [ 
+                        <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" 
+                            LogoutText="<%$ Resources:resCorpusCFDIEs, lbllogout %>" LogoutPageUrl="~/" 
+                            onloggedout="HeadLoginStatus_LoggedOut" ForeColor="#006666"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="style7">
+                <asp:Label ID="lblIdioma" runat="server" AssociatedControlID="drpIdioma" 
+                                                            Text="<%$ Resources:resCorpusCFDIEs, lblIdioma %>" 
+                                                            style="font-family: 'Century Gothic'" 
+                                ForeColor="#006666" Visible="False"></asp:Label>
+
+                                                        <asp:DropDownList ID="drpIdioma" runat="server" AutoPostBack="True" 
+                                                            onprerender="drpIdioma_PreRender" 
+                                                            onselectedindexchanged="drpIdioma_SelectedIndexChanged" 
+                                                        Visible="False">
+                                                            <asp:ListItem Value="es-Mx">Español</asp:ListItem>
+                                                            <asp:ListItem Value="en-Us">English</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                              
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+               <%-- <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem Text="<%$ Resources:resCorpusCFDIEs, lblmenuinc%>" Value="Incidencias">
+                            <asp:MenuItem Text="<%$ Resources:resCorpusCFDIEs, lblreginc%>" Value="Registrar Incidencias" 
+                                NavigateUrl="~/Pantallas/Incidentes/webCatalogoIncidencias.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="<%$ Resources:resCorpusCFDIEs, lblconinc%>" Value="Consultar Incidencias" 
+                                NavigateUrl="~/Pantallas/Incidentes/webConsultaIncidencias.aspx">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="<%$ Resources:resCorpusCFDIEs, lblmenupro%>" Value="Problemas">
+                            <asp:MenuItem NavigateUrl="~/Pantallas/Problemas/webCatalogoProblemas.aspx" 
+                                Text="<%$ Resources:resCorpusCFDIEs, lblregpro%>" Value="Registrar Problemas"></asp:MenuItem>
+                            <asp:MenuItem Text="<%$ Resources:resCorpusCFDIEs, lblconpro%>" Value="Consultar Problemas" 
+                                NavigateUrl="~/Pantallas/Problemas/webConsultaProblemas.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Pantallas/Problemas/webErroresConocidos.aspx" 
+                                Text="<%$ Resources:resCorpusCFDIEs, lblerrcon%>" Value="Errores Conocidos"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Pantallas/Usuarios/webUsuariosGeneracion.aspx" 
+                            Text="<%$ Resources:resCorpusCFDIEs, lblmenuusu%>" Value="Usuarios"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                    </Items>
+                </asp:Menu>--%>
+            </div>
+            <div>
+                 <table cellpadding="0" cellspacing="0" >
+            <tr>
+                <td colspan="0">&nbsp;</td>
+                <td colspan="0" class="botonGris" align="right">
+
+                            <table>
+                                <tr>
+                                    <td align="right">
+                                        <asp:LinkButton ID="lnkEnglish" runat="server" ForeColor="#333333" 
+                                            onclick="lnkEnglish_Click" onprerender="lnkEnglish_PreRender">English</asp:LinkButton>
+                                    </td>
+                                    <td>
+                                        <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Names="Arial" 
+                                            ForeColor="#333333" Text="|"></asp:Label>
+                                    </td>
+                                    <td align="left">
+                                        <asp:LinkButton ID="lnkEspañol" runat="server" ForeColor="#333333" 
+                                            onclick="lnkEspañol_Click" onprerender="lnkEspañol_PreRender">Español</asp:LinkButton>
+                                    </td>
+                                    <td align="left">
+                                        &nbsp;</td>
+                                </tr>
+                            </table>
+                
+                </td>
+                <td colspan="0" width="21">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="menuLeft" colspan="0" rowspan="0"></td>
+                <td class="menuBarra" colspan="0" rowspan="0">
+
+                <ul class="menu">
+	                <li class="top"><a id="A1" href="default.aspx" class="top_link" runat="server"><span><asp:Literal runat="server" ID="mnuInicio" Text="<%$ Resources:resCorpusCFDIEs, mnuInicio %>"></asp:Literal> </span></a></li>
+	              
+                    <li class="top"><a href="#" class="top_link"><span><asp:Literal runat="server" ID="mnuEmpresa" Text="<%$ Resources:resCorpusCFDIEs, lblmenuinc%>"></asp:Literal></span></a>
+		                <ul class="sub">
+			                <li><a id="A2" href="Pantallas/Incidentes/webCatalogoIncidencias.aspx" runat="server"><asp:Literal runat="server" ID="mnuRegInc" Text="<%$ Resources:resCorpusCFDIEs, lblreginc%>"></asp:Literal></a></li>			
+			                <li><a id="A3" href="Pantallas/Incidentes/webConsultaIncidencias.aspx" runat="server"><asp:Literal runat="server" ID="mnuConReg" Text="<%$ Resources:resCorpusCFDIEs, lblconinc%>"></asp:Literal></a></li>                           
+		                </ul>
+	                </li>
+
+                    <li class="top"><a href="#" class="top_link"><span><asp:Literal runat="server" ID="Literal1" Text="<%$ Resources:resCorpusCFDIEs, lblmenupro%>"></asp:Literal></span></a>
+		                <ul class="sub">
+			                <li><a id="A4" href="Pantallas/Problemas/webCatalogoProblemas.aspx" runat="server"><asp:Literal runat="server" ID="mnuRegPro" Text="<%$ Resources:resCorpusCFDIEs, lblregpro%>"></asp:Literal></a></li>			
+			                <li><a id="A5" href="Pantallas/Problemas/webConsultaProblemas.aspx" runat="server"><asp:Literal runat="server" ID="mnuRegCon" Text="<%$ Resources:resCorpusCFDIEs, lblconpro%>"></asp:Literal></a></li>                           
+                              <li><a id="A6" href="Pantallas/Problemas/webErroresConocidos.aspx" runat="server"><asp:Literal runat="server" ID="mnuProCon" Text="<%$ Resources:resCorpusCFDIEs, lblerrcon%>"></asp:Literal></a></li>  
+		                </ul>
+	                </li>
+
+                     <li class="top"><a id="A7" href="Pantallas/Usuarios/webUsuariosGeneracion.aspx" class="top_link" runat="server"><span><asp:Literal runat="server" ID="mnuUser" Text="<%$ Resources:resCorpusCFDIEs, lblmenuusu%>"></asp:Literal> </span></a></li>
+                </ul>
+                
+                </td>
+                <td class="menuRight" colspan="0" rowspan="0" width="21"></td>
+            </tr>
+        </table> 
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        <h3>Session Idle:&nbsp;<span id="secondsIdle"></span>&nbsp;seconds.</h3>
+        <asp:LinkButton ID="lnkFake" runat="server" />
+        <cc1:ModalPopupExtender ID="mpeTimeout" BehaviorID ="mpeTimeout" runat="server" 
+            PopupControlID="pnlPopup" TargetControlID="lnkFake"
+            OkControlID="btnYes" CancelControlID="btnNo" 
+            BackgroundCssClass="modalBackground" OnOkScript = "ResetSession()">
+        </cc1:ModalPopupExtender>
+        <asp:Panel ID="pnlPopup" runat="server" CssClass="modalPopup" Style="display: none" BackColor="White" BorderColor="Black" 
+                    BorderStyle="Double">
+            <div class="header">
+                Session Expiring!
+            </div>
+            <div class="body">
+                Su sesión expirará en&nbsp;<span id="seconds"></span>&nbsp;segundos.<br />
+                Desea seguir en el sistema?
+            </div>
+            <div class="footer" align="right">
+                <asp:Button ID="btnYes" runat="server" Text="Si" CssClass="yes" />
+                <asp:Button ID="btnNo" runat="server" Text="No" CssClass="no" />
+            </div>
+        </asp:Panel>
+
+    </div>
+    </form>
+</body>
+</html>

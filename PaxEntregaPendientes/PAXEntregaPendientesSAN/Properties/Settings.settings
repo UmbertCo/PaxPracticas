@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PAXEntregaPendientesSAN.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Conexion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Oo9VDmG8odjzPu6pGzQR0IErk8U+u1KmajseXR8eZAR15n2B+Xeoe7oh4gfKsZlE6zILQjLgPEW1qS8rkL7DT5GJMcPHVdQDPu34iM0CXhvjInw8eV2uG8e1OjIiehCWZB2klilgxf2UGIX13UeVZkzY480GC6enPIbFr41C1HQAKr+7aINyrADDT3c93RdOEUTTUEWs/5uMeCgR8zAfrH5BT3XIL+NVe6n8UzM0rufbB9/Ax9m+MisGzCONTqzbWFWHVLpiH248WUCjKZVDEPu1kgN9AJE2fCFPFV+JRQHXPqhfAALlxSHvE6AkFz8knDOJX0fRyMZ4Wi7yZ2aNnXPPEOD+ztOMo/RqHvcPHbk=</Value>
+    </Setting>
+    <Setting Name="RutaPendientes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Entrega de Pendientes\Pendientes\</Value>
+    </Setting>
+    <Setting Name="ConexionGrandes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ZYwiM2LSaghOnLV+dJ9v+JQpH92e4LSbYFJuMGgseb6hxZLG1JclOJ3fuegB/iZmpNxjQWGlCHEc2CPaBR/+oDqcWEXpjWc/HC1uheph+Zi8BviWmKNX0EeEUbM5zFktb6iZi6SVtVhJ9aXg/fNJET06SptSO8RG3Pou2PBDHSZOy6d1nTV68iswm9yJZ0/rUJlYYa+WZ35r2WmXwCprzpwzB7YdQbE2zJ4G2N+DAkscXMB4rgjaYqQGDXptyaZzBoN/7YtwHUeorQG9jlDtj/DBoKKY2yzqYL4InxncDKBUYV+U9XbtfssDHi6isJMWujWt+DWUXtcKXCPjan5vnQxYMynDZHBjEmrc+b1LXx44XBuymrEVoB+zGi552W1y</Value>
+    </Setting>
+    <Setting Name="LimiteInfGrandes" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="LimiteSupGrandes" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">2680</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

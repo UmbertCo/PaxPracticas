@@ -1,0 +1,21 @@
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.2" serie="AK" folio="276089" fecha="2017-05-24T08:29:27" sello="a2bHKCs21MYbLQgy9KcKkUlMVHmTb+uNDag+mZ9L+kBhqqPSWnM+zn3FNFq9N+1Nn9XcKpwlU4GeTTY5J4Q1slVfwwo2KGziv8IDBgjPRikcQHhIZExXylEv5th4C7Pkzu+Qj7OZmbx26YDja6nBj6TkCWhmwIH0PyTNIqaB0e4dsKfSgsDgBjRqlPWJm907OO9NSLdsvBrs00okBJHzxqry0WLZgYOZOo+T0KRbXun45sD0Ag+srvonGDOIZVYJgxOlJsQloNj19lNl7RDK2DBAgUZ+t7i2I+kwLzEzFsKPT0PkCOk+2JGP+RwlXbW/Z/+uJTBMdPTRBx0l4kTVEg==" formaDePago="Pago en una sola exhibición" noCertificado="00001000000404045571" certificado="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" subTotal="32.48" Moneda="MXN" total="22.84" tipoDeComprobante="ingreso" LugarExpedicion="Mexico,Chihuahua,Delicias" metodoDePago="99" xmlns:cce="http://www.sat.gob.mx/ComercioExterior" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/ComercioExterior http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior/ComercioExterior10.xsd">
+	<cfdi:Emisor rfc="CFA110411FW5" nombre="PAX Facturacion">
+		<cfdi:DomicilioFiscal calle="PASEO TECNOLOGICO" noExterior="1" colonia="NUEVO TERRAZAS" localidad="DELICIAS" municipio="DELICIAS" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="33020" />
+		<cfdi:RegimenFiscal Regimen="PERSONA MORAL DE REGIMEN GENERAL" />
+	</cfdi:Emisor>
+	<cfdi:Receptor rfc="XAXX010101000" nombre="Publico en General">
+		<cfdi:Domicilio calle="CALLE # ZARAGOZA" noExterior="100" colonia="BOQUILLA DEL CONCHOS" localidad="SAN FCO DE CONCHOS" municipio="SAN FRANCISCO DE CONCHOS" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="33690" />
+	</cfdi:Receptor>
+	<cfdi:Conceptos>
+		<cfdi:Concepto cantidad="1" unidad="Servicio" noIdentificacion="00202796" descripcion="COMISION" valorUnitario="10.00" importe="10.00" />
+		<cfdi:Concepto cantidad="1" unidad="Servicio" noIdentificacion="00202796" descripcion="INTERESES" valorUnitario="22.48" importe="22.48" />
+	</cfdi:Conceptos>
+	<cfdi:Impuestos>
+		<cfdi:Retenciones>
+			<cfdi:Retencion impuesto="ISR" importe="11.24" />
+		</cfdi:Retenciones>
+		<cfdi:Traslados>
+			<cfdi:Traslado impuesto="IVA" tasa="16" importe="1.60" />
+		</cfdi:Traslados>
+	</cfdi:Impuestos>
+</cfdi:Comprobante>

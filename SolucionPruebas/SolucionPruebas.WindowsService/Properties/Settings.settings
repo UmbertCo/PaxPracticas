@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SolucionPruebas.WindowsService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WatchPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\SolucionPruebasWindowsService\XML\Documentos</Value>
+    </Setting>
+    <Setting Name="LocationPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\SolucionPruebasWindowsService\XML\Salida\</Value>
+    </Setting>
+    <Setting Name="LogError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\SolucionPruebasWindowsService\XML\LogErrores\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

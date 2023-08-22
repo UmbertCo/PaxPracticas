@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebServidores.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link runat="server" rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="SHORTCUT ICON" href="/favicon.ico"  />
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/flexslider.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- Flex Slider-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	    <script src="../../Scripts/jquery.flexslider-min.js"></script>
+
+        <script type="text/javascript">
+            $(window).load(function () {
+                $('.flexslider').flexslider();
+            });
+	</script>
+    <!-- Fin Flex Slider-->
+</head>
+<body>
+    <form id="Form1" runat="server">
+        <div id="principal">
+  
+            <div id="encabezado">
+                <img src="/Imagenes/logotipo.png" />
+                <asp:ContentPlaceHolder ID="Cencabezado" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            
+           
+                <div id="menu"> 
+                        <asp:Menu ID="Menu1" CssClass="Menu1" runat="server" Orientation="Horizontal" text-align="right">
+                            <LevelMenuItemStyles>
+                                <asp:MenuItemStyle CssClass = "level1" />
+                                <asp:MenuItemStyle CssClass = "level2" />
+                                <asp:MenuItemStyle CssClass = "level3" />
+                                <asp:MenuItemStyle CssClass = "level4" />
+                            </LevelMenuItemStyles>
+                            <StaticHoverStyle CssClass = "SHover" />
+                            <Items>
+                                <asp:MenuItem NavigateUrl="Default.aspx" Text="Inicio" Value="Inicio"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="Contratar.aspx" Text="|     Contratar" Value="Contratar"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="Contacto.aspx" Text="|     Contacto" Value="Contacto"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="servicios.aspx" Text="|     +Servicios" Value="+Servicios">
+</asp:MenuItem>
+                        </Items>
+                    </asp:Menu>     
+                </div>  
+            <asp:ContentPlaceHolder ID="Cmenu" runat="server">
+            </asp:ContentPlaceHolder>
+            
+            <div class="flexslider"> 
+                <asp:ContentPlaceHolder ID="Canuncio" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>  
+
+            <div id="ofrecemos"> 
+                <asp:ContentPlaceHolder ID="Cofrecemos" runat="server">
+                </asp:ContentPlaceHolder>
+            </div> 
+
+            <asp:ContentPlaceHolder ID="Cprincipal" runat="server">
+            </asp:ContentPlaceHolder>
+        </div><!-- fin div principal -->
+
+        <div class="footer">
+               <img ID="IMGseparador" src="/Imagenes/separador.png" />
+               <br />
+               <br />
+               Todos los derechos reservados 2014-2015
+               <img ID="IMGSocial" src="/Imagenes/Social.png" />
+            <asp:ContentPlaceHolder ID="Cfooter" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<cfdi:Comprobante Version="3.3" Serie="R" Folio="80627" Fecha="2017-12-28T04:23:35" Sello="aGZIvhC0/NPMx04g5UQjpWn2UmrHuj9Z6m2zQKwWlRPMF2JUaTnTcbfasnhE7IJaBkK8smH+P/S0xlOdof801woLR6a6fzS036YhY8fosQ8ZF219AkIMP/B9lCz5j8aZ6eBmAJJPP73Hu5qC6iRJ0AX8evbKdobll13AaCEz4YJMptBX27kODpheq7qMUjOmSkdAGxXyUQyBBOjd/k99MZ6xym+c3WgoX7dQPXf0BjpbhiG5dUL37qU4ZOa3z2A+3r8RbZAHh8Tvm17OtklMVdEbT9RmkK5dTUPzYEHsK0cfEOPNgVUIwVkvN0wg59j2j4nbHcfEEltACID4waZ91g==" FormaPago="99" NoCertificado="20001000000300022755" Certificado="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" CondicionesDePago="PAGO EN PARCIALIDADES O DIFERIDO" SubTotal="21258.91" Descuento="0.00" Moneda="MXN" TipoCambio="1.00" Total="24660.35" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="78200" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfdi:Emisor Rfc="MAG041126GT8" Nombre="BALEROS Y ABASTOS DE SAN LUIS, S.A. DE C.V." RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="AIN860410379" Nombre="ABASTECEDORA INDUSTRIAL S.A. DE C.V." UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6000-2RSH" Cantidad="5.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="57.50" Importe="287.52">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="287.52" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="46.00" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6000-2Z" Cantidad="5.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="48.62" Importe="243.10">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="243.10" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="38.90" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6001-2RSH" Cantidad="10.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="65.12" Importe="651.22">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="651.22" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="104.19" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6001-2Z" Cantidad="10.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="54.67" Importe="546.72">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="546.72" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="87.48" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6003-2RSH/C3" Cantidad="10.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="70.49" Importe="704.88">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="704.88" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="112.78" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6003-2Z" Cantidad="10.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="68.05" Importe="680.50">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="680.50" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="108.88" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6004-2RSH" Cantidad="15.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="83.38" Importe="1250.64">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1250.64" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="200.10" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6004-2Z" Cantidad="10.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="75.57" Importe="755.66">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="755.66" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="120.91" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6005-2RSH" Cantidad="5.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="90.31" Importe="451.56">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="451.56" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="72.25" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6006-2RS1/C3" Cantidad="10.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="111.01" Importe="1110.10">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1110.10" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="177.62" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6007-2RS1/C3" Cantidad="5.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="140.69" Importe="703.45">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="703.45" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="112.55" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6203-2RSH/C3LHT" Cantidad="50.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="66.68" Importe="3334.00">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3334.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="533.44" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6204-2RSH/C3" Cantidad="30.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="85.92" Importe="2577.46">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="2577.46" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="412.39" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6205-2RSH/C3GJN" Cantidad="40.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="94.12" Importe="3764.80">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3764.80" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="602.37" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6206-2RS1/C3GJN" Cantidad="30.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="139.91" Importe="4197.30">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4197.30" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="671.57" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+	    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6206-2RS1/C3GJN" Cantidad="30.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="139.91" Importe="4197.30">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4197.30" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="671.57" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+	    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6206-2RS1/C3GJN" Cantidad="30.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="139.91" Importe="4197.30">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4197.30" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="671.57" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+	    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6206-2RS1/C3GJN" Cantidad="30.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="139.91" Importe="4197.30">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4197.30" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="671.57" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+	    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6206-2RS1/C3GJN" Cantidad="30.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="139.91" Importe="4197.30">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4197.30" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="671.57" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+	    <cfdi:Concepto ClaveProdServ="31171504" NoIdentificacion="6206-2RS1/C3GJN" Cantidad="30.00" ClaveUnidad="H87" Unidad="PIEZA" Descripcion="SKF RODAMIENTOS RÍGIDOS DE UNA HILERA DE BOLAS (AUT/IN" ValorUnitario="139.91" Importe="4197.30">
+      <cfdi:ImpuestosConcepto>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4197.30" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.16" Importe="671.57" />
+        </cfdi:Traslados>
+      </cfdi:ImpuestosConcepto>
+    </cfdi:Concepto>
+	
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="3401.44">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" Importe="3401.44" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="3e151a90-780e-47fe-8a21-4c7eaa17b038" FechaTimbrado="2017-12-29T18:02:48" RfcProvCertif="DAL050601L35" SelloCFD="aGZIvhC0/NPMx04g5UQjpWn2UmrHuj9Z6m2zQKwWlRPMF2JUaTnTcbfasnhE7IJaBkK8smH+P/S0xlOdof801woLR6a6fzS036YhY8fosQ8ZF219AkIMP/B9lCz5j8aZ6eBmAJJPP73Hu5qC6iRJ0AX8evbKdobll13AaCEz4YJMptBX27kODpheq7qMUjOmSkdAGxXyUQyBBOjd/k99MZ6xym+c3WgoX7dQPXf0BjpbhiG5dUL37qU4ZOa3z2A+3r8RbZAHh8Tvm17OtklMVdEbT9RmkK5dTUPzYEHsK0cfEOPNgVUIwVkvN0wg59j2j4nbHcfEEltACID4waZ91g==" SelloSAT="iS7mV9HPpJm2mFFX7Mbh5AKajFgm/1DQr6mB2thZ09Lm1RmtJTK80jUIssjJbOLK4jVn78LZj28lQSV1LcdQup4Fb0YbRctjogQ4QRRG4A4wCXX1dH0cd/4OIiJ8RTa90YEkYucQ3+oT5IwyNNXKfDNMm9bqwLGrHGuppm+ZLFhnI77v0KNtd8yYyqSpQN5ZjI+3izuoniBh8ANIVhPU2xIqcTE/jGOW4CbP6NCXyZzhQf+F+rNQDWQx0XIKc8RBrFpzZj8d8rYESQsrxpfPVXyvKHVxtRgZgiFvZ22ApIewHcTELt8LBw053si5w6UXAXB9dij8F//ahMfaBZl7eA==" NoCertificadoSAT="20001000000300022323" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/timbrefiscaldigital/TimbreFiscalDigitalv11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+  </cfdi:Complemento>
+  <cfdi:Addenda>
+    <Baleros>
+      <DatosPlantilla viadeembarque="NA" agente="2" numerodeControl="80627" orden="1264" Operacion="F" correo="facturacion@abastecedoraind.com" />
+    </Baleros>
+  </cfdi:Addenda>
+</cfdi:Comprobante>

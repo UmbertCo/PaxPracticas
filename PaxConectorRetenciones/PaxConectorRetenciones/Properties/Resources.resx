@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cadenaoriginal_TFD_1_0" xml:space="preserve">
+    <value>&lt;xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"&gt;&lt;xsl:output method="text" version="1.0" encoding="UTF-8" indent="no"/&gt;&lt;xsl:template name="Requerido"&gt;&lt;xsl:param name="valor"/&gt;|&lt;xsl:call-template name="ManejaEspacios"&gt;&lt;xsl:with-param name="s" select="$valor"/&gt;&lt;/xsl:call-template&gt;&lt;/xsl:template&gt;&lt;xsl:template name="ManejaEspacios"&gt;&lt;xsl:param name="s"/&gt;&lt;xsl:value-of select="normalize-space(string($s))"/&gt;&lt;/xsl:template&gt;&lt;xsl:template match="/"&gt;|&lt;xsl:apply-templates select="/tfd:TimbreFiscalDigital"/&gt;||&lt;/xsl:template&gt;&lt;xsl:template match="tfd:TimbreFiscalDigital"&gt;&lt;xsl:call-template name="Requerido"&gt;&lt;xsl:with-param name="valor" select="./@version"/&gt;&lt;/xsl:call-template&gt;&lt;xsl:call-template name="Requerido"&gt;&lt;xsl:with-param name="valor" select="./@UUID"/&gt;&lt;/xsl:call-template&gt;&lt;xsl:call-template name="Requerido"&gt;&lt;xsl:with-param name="valor" select="./@FechaTimbrado"/&gt;&lt;/xsl:call-template&gt;&lt;xsl:call-template name="Requerido"&gt;&lt;xsl:with-param name="valor" select="./@selloCFD"/&gt;&lt;/xsl:call-template&gt;&lt;xsl:call-template name="Requerido"&gt;&lt;xsl:with-param name="valor" select="./@noCertificadoSAT"/&gt;&lt;/xsl:call-template&gt;&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="esquemas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\esquemas.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="logo_pax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_pax.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="origenEsquemas" xml:space="preserve">
+    <value>C:\ConectorRetenciones\XML\ListaEsquemas</value>
+  </data>
+  <data name="retenciones" xml:space="preserve">
+    <value>http://www.sat.gob.mx/esquemas/retencionpago/1</value>
+  </data>
+  <data name="retencionpagoV1" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xs:schema xmlns:retenciones="http://www.sat.gob.mx/esquemas/retencionpago/1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:c_retenciones="http://www.sat.gob.mx/esquemas/retencionpago/1/catalogos" targetNamespace="http://www.sat.gob.mx/esquemas/retencionpago/1" elementFormDefault="qualified" attributeFormDefault="unqualified"&gt;
+	&lt;xs:import namespace="http://www.sat.gob.mx/esquemas/retencionpago/1/catalogos" schemaLocation="http://www.sat.gob.mx/esquemas/retencionpago/1/catalogos/catRetenciones.xsd"/&gt;
+	&lt;xs:element name="Retenciones"&gt;
+		&lt;xs:annotation&gt;
+			&lt;xs:documentation&gt;Estándar de Documento Electrónico Retenciones e Información de Pagos.&lt;/xs:documentation&gt;
+		&lt;/xs:annotation&gt;
+		&lt;xs:complexType&gt;
+			&lt;xs:sequence&gt;
+				&lt;xs:element name="Emisor"&gt;
+					&lt;xs:annotation&gt;
+						&lt;xs:documentation&gt;Nodo requerido para expresar la información del contribuyente emisor del documento electrónico de retenciones e información de pagos.&lt;/xs:documentation&gt;
+					&lt;/xs:annotation&gt;
+					&lt;xs:complexType&gt;
+						&lt;xs:attribute name="RFCEmisor" type="retenciones:t_RFC" use="required"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo requerido para incorporar la clave en el Registro Federal de Contribuyentes correspondiente al contribuyente emisor del documento de retención e información de pagos, sin guiones o espacios.&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+						&lt;/xs:attribute&gt;
+						&lt;xs:attribute name="NomDenRazSocE" use="optional"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo opcional para el nombre, denominación o razón social del contribuyente emisor del documento de retención e información de pagos.&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+							&lt;xs:simpleType&gt;
+								&lt;xs:restriction base="xs:string"&gt;
+									&lt;xs:minLength value="1"/&gt;
+									&lt;xs:maxLength value="300"/&gt;
+									&lt;xs:whiteSpace value="collapse"/&gt;
+								&lt;/xs:restriction&gt;
+							&lt;/xs:simpleType&gt;
+						&lt;/xs:attribute&gt;
+						&lt;xs:attribute name="CURPE" type="retenciones:t_CURP" use="optional"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo opcional para la Clave Única del Registro Poblacional del contribuyente emisor del documento de retención e información de pagos.&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+						&lt;/xs:attribute&gt;
+					&lt;/xs:complexType&gt;
+				&lt;/xs:element&gt;
+				&lt;xs:element name="Receptor"&gt;
+					&lt;xs:annotation&gt;
+						&lt;xs:documentation&gt;Nodo requerido para expresar la información del contribuyente receptor del documento electrónico de retenciones e información de pagos.&lt;/xs:documentation&gt;
+					&lt;/xs:annotation&gt;
+					&lt;xs:complexType&gt;
+						&lt;xs:choice&gt;
+							&lt;xs:element name="Nacional"&gt;
+								&lt;xs:annotation&gt;
+									&lt;xs:documentation&gt;Nodo requerido para expresar la información del contribuyente receptor en caso de que sea de nacionalidad mexicana&lt;/xs:documentation&gt;
+								&lt;/xs:annotation&gt;
+								&lt;xs:complexType&gt;
+									&lt;xs:attribute name="RFCRecep" use="required"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo requerido para la clave del Registro Federal de Contribuyentes correspondiente al contribuyente receptor del documento.&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+										&lt;xs:simpleType&gt;
+											&lt;xs:restriction base="retenciones:t_RFC"/&gt;
+										&lt;/xs:simpleType&gt;
+									&lt;/xs:attribute&gt;
+									&lt;xs:attribute name="NomDenRazSocR" use="optional"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo opcional para el nombre, denominación o razón social del contribuyente receptor del documento.&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+										&lt;xs:simpleType&gt;
+											&lt;xs:restriction base="xs:string"&gt;
+												&lt;xs:minLength value="1"/&gt;
+												&lt;xs:maxLength value="300"/&gt;
+												&lt;xs:whiteSpace value="collapse"/&gt;
+											&lt;/xs:restriction&gt;
+										&lt;/xs:simpleType&gt;
+									&lt;/xs:attribute&gt;
+									&lt;xs:attribute name="CURPR" type="retenciones:t_CURP" use="optional"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo opcional para la Clave Única del Registro Poblacional del contribuyente receptor del documento.&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+									&lt;/xs:attribute&gt;
+								&lt;/xs:complexType&gt;
+							&lt;/xs:element&gt;
+							&lt;xs:element name="Extranjero"&gt;
+								&lt;xs:annotation&gt;
+									&lt;xs:documentation&gt;Nodo requerido para expresar la información del contribuyente receptor del documento cuando sea residente en el extranjero&lt;/xs:documentation&gt;
+								&lt;/xs:annotation&gt;
+								&lt;xs:complexType&gt;
+									&lt;xs:attribute name="NumRegIdTrib" use="optional"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo opcional para expresar el número de registro de identificación fiscal del receptor del documento cuando sea residente en el extranjero&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+										&lt;xs:simpleType&gt;
+											&lt;xs:restriction base="xs:string"&gt;
+												&lt;xs:minLength value="1"/&gt;
+												&lt;xs:maxLength value="20"/&gt;
+												&lt;xs:whiteSpace value="collapse"/&gt;
+											&lt;/xs:restriction&gt;
+										&lt;/xs:simpleType&gt;
+									&lt;/xs:attribute&gt;
+									&lt;xs:attribute name="NomDenRazSocR" use="required"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo requerido para expresar el nombre, denominación o razón social del receptor del documento cuando sea residente en el extranjero&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+										&lt;xs:simpleType&gt;
+											&lt;xs:restriction base="xs:string"&gt;
+												&lt;xs:minLength value="1"/&gt;
+												&lt;xs:maxLength value="300"/&gt;
+												&lt;xs:whiteSpace value="collapse"/&gt;
+											&lt;/xs:restriction&gt;
+										&lt;/xs:simpleType&gt;
+									&lt;/xs:attribute&gt;
+								&lt;/xs:complexType&gt;
+							&lt;/xs:element&gt;
+						&lt;/xs:choice&gt;
+						&lt;xs:attribute name="Nacionalidad" use="required"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo requerido para expresar la nacionalidad del receptor del documento.&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+							&lt;xs:simpleType&gt;
+								&lt;xs:restriction base="xs:string"&gt;
+									&lt;xs:whiteSpace value="collapse"/&gt;
+									&lt;xs:enumeration value="Nacional"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Nacionalidad Mexicana&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+									&lt;/xs:enumeration&gt;
+									&lt;xs:enumeration value="Extranjero"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Procedente de otro pais&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+									&lt;/xs:enumeration&gt;
+								&lt;/xs:restriction&gt;
+							&lt;/xs:simpleType&gt;
+						&lt;/xs:attribute&gt;
+					&lt;/xs:complexType&gt;
+				&lt;/xs:element&gt;
+				&lt;xs:element name="Periodo"&gt;
+					&lt;xs:annotation&gt;
+						&lt;xs:documentation&gt;Nodo requerido para expresar el periodo que ampara el documento de retenciones e información de pagos&lt;/xs:documentation&gt;
+					&lt;/xs:annotation&gt;
+					&lt;xs:complexType&gt;
+						&lt;xs:attribute name="MesIni" use="required"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo requerido para la expresión del mes inicial del periodo de la retención e información de pagos&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+							&lt;xs:simpleType&gt;
+								&lt;xs:restriction base="xs:int"&gt;
+									&lt;xs:minInclusive value="1"/&gt;
+									&lt;xs:maxInclusive value="12"/&gt;
+								&lt;/xs:restriction&gt;
+							&lt;/xs:simpleType&gt;
+						&lt;/xs:attribute&gt;
+						&lt;xs:attribute name="MesFin" use="required"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo requerido para la expresión del mes final del periodo de la retención e información de pagos&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+							&lt;xs:simpleType&gt;
+								&lt;xs:restriction base="xs:int"&gt;
+									&lt;xs:minInclusive value="1"/&gt;
+									&lt;xs:maxInclusive value="12"/&gt;
+								&lt;/xs:restriction&gt;
+							&lt;/xs:simpleType&gt;
+						&lt;/xs:attribute&gt;
+						&lt;xs:attribute name="Ejerc" use="required"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo requerido para la expresión del ejercicio fiscal (año) &lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+							&lt;xs:simpleType&gt;
+								&lt;xs:restriction base="xs:int"&gt;
+									&lt;xs:minInclusive value="2004"/&gt;
+									&lt;xs:maxInclusive value="2024"/&gt;
+								&lt;/xs:restriction&gt;
+							&lt;/xs:simpleType&gt;
+						&lt;/xs:attribute&gt;
+					&lt;/xs:complexType&gt;
+				&lt;/xs:element&gt;
+				&lt;xs:element name="Totales"&gt;
+					&lt;xs:annotation&gt;
+						&lt;xs:documentation&gt;Nodo requerido para expresar el total de las retenciones e información de pagos efectuados en el período que ampara el documento.&lt;/xs:documentation&gt;
+					&lt;/xs:annotation&gt;
+					&lt;xs:complexType&gt;
+						&lt;xs:sequence&gt;
+							&lt;xs:element name="ImpRetenidos" minOccurs="0" maxOccurs="unbounded"&gt;
+								&lt;xs:annotation&gt;
+									&lt;xs:documentation&gt;Nodo opcional para expresar el total de los impuestos retenidos que se desprenden de los conceptos expresados en el documento de retenciones e información de pagos.&lt;/xs:documentation&gt;
+								&lt;/xs:annotation&gt;
+								&lt;xs:complexType&gt;
+									&lt;xs:attribute name="BaseRet" type="retenciones:t_Importe" use="optional"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo opcional para expresar la  base del impuesto, que puede ser la diferencia entre los ingresos percibidos y las deducciones autorizadas&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+									&lt;/xs:attribute&gt;
+									&lt;xs:attribute name="Impuesto" use="optional"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo opcional para señalar el tipo de impuesto retenido del periodo o ejercicio conforme al catálogo.&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+										&lt;xs:simpleType&gt;
+											&lt;xs:restriction base="c_retenciones:c_TipoImpuesto"/&gt;
+										&lt;/xs:simpleType&gt;
+									&lt;/xs:attribute&gt;
+									&lt;xs:attribute name="montoRet" type="retenciones:t_Importe" use="required"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo requerido para expresar el importe del impuesto retenido en el periodo o ejercicio&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+									&lt;/xs:attribute&gt;
+									&lt;xs:attribute name="TipoPagoRet" use="required"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo requerido para precisar si el monto de la retención es considerado pago definitivo o pago provisional&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+										&lt;xs:simpleType&gt;
+											&lt;xs:restriction base="xs:string"&gt;
+												&lt;xs:whiteSpace value="collapse"/&gt;
+												&lt;xs:enumeration value="Pago definitivo"&gt;
+													&lt;xs:annotation&gt;
+														&lt;xs:documentation&gt;Pago definitivo&lt;/xs:documentation&gt;
+													&lt;/xs:annotation&gt;
+												&lt;/xs:enumeration&gt;
+												&lt;xs:enumeration value="Pago provisional"&gt;
+													&lt;xs:annotation&gt;
+														&lt;xs:documentation&gt;Pago provisional&lt;/xs:documentation&gt;
+													&lt;/xs:annotation&gt;
+												&lt;/xs:enumeration&gt;
+											&lt;/xs:restriction&gt;
+										&lt;/xs:simpleType&gt;
+									&lt;/xs:attribute&gt;
+								&lt;/xs:complexType&gt;
+							&lt;/xs:element&gt;
+						&lt;/xs:sequence&gt;
+						&lt;xs:attribute name="montoTotOperacion" type="retenciones:t_Importe" use="required"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo requerido para expresar  el total del monto de la operación  que se relaciona en el comprobante &lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+						&lt;/xs:attribute&gt;
+						&lt;xs:attribute name="montoTotGrav" type="retenciones:t_Importe" use="required"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo requerido para expresar el total del monto gravado de la operación  que se relaciona en el comprobante.&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+						&lt;/xs:attribute&gt;
+						&lt;xs:attribute name="montoTotExent" type="retenciones:t_Importe" use="required"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo requerido para expresar el total del monto exento de la operación  que se relaciona en el comprobante.&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+						&lt;/xs:attribute&gt;
+						&lt;xs:attribute name="montoTotRet" type="retenciones:t_Importe" use="required"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo requerido para expresar el monto total de las retenciones. Sumatoria de los montos de retención del nodo ImpRetenidos.&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+						&lt;/xs:attribute&gt;
+					&lt;/xs:complexType&gt;
+				&lt;/xs:element&gt;
+				&lt;xs:element name="Complemento" minOccurs="0"&gt;
+					&lt;xs:annotation&gt;
+						&lt;xs:documentation&gt;Nodo opcional donde se incluirá el complemento Timbre Fiscal Digital de manera obligatoria y los nodos complementarios determinados por el SAT, de acuerdo a las disposiciones particulares a un sector o actividad específica.&lt;/xs:documentation&gt;
+					&lt;/xs:annotation&gt;
+					&lt;xs:complexType&gt;
+						&lt;xs:sequence&gt;
+							&lt;xs:any minOccurs="0" maxOccurs="unbounded"/&gt;
+						&lt;/xs:sequence&gt;
+					&lt;/xs:complexType&gt;
+				&lt;/xs:element&gt;
+				&lt;xs:element name="Addenda" minOccurs="0"&gt;
+					&lt;xs:annotation&gt;
+						&lt;xs:documentation&gt;Nodo opcional para recibir las extensiones al formato que sean de utilidad al contribuyente. Para las reglas de uso del mismo, referirse al formato de origen.
+
+&lt;/xs:documentation&gt;
+					&lt;/xs:annotation&gt;
+					&lt;xs:complexType&gt;
+						&lt;xs:sequence&gt;
+							&lt;xs:any minOccurs="0" maxOccurs="unbounded"/&gt;
+						&lt;/xs:sequence&gt;
+					&lt;/xs:complexType&gt;
+				&lt;/xs:element&gt;
+			&lt;/xs:sequence&gt;
+			&lt;xs:attribute name="Version" use="required" fixed="1.0"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido con valor prefijado que indica la versión del estándar bajo el que se encuentra expresada la retención y/o comprobante de información de pagos.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="FolioInt" use="optional"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo opcional para control interno del contribuyente que expresa el folio del documento que ampara la retención e información de pagos. Permite números y/o letras.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:minLength value="1"/&gt;
+						&lt;xs:maxLength value="20"/&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="Sello" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido para contener el sello digital del documento de retención e información de pagos. El sello deberá ser expresado como una cadena de texto en formato base 64.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="NumCert" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido para expresar el número de serie del certificado de sello digital con el que se selló digitalmente el documento de la retención e información de pagos.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:length value="20"/&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="Cert" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido que sirve para incorporar el certificado de sello digital que ampara el documento de retención e información de pagos como texto, en formato base 64.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="FechaExp" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido para la expresión de la fecha y hora de expedición del documento de retención e información de pagos. Se expresa en la forma yyyy-mm-ddThh:mm:ssTZD-6, de acuerdo con la especificación ISO 8601.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:dateTime"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+						&lt;xs:minInclusive value="2014-01-01T00:00:00-06:00"/&gt;
+						&lt;xs:pattern value="-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])T(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="CveRetenc" type="c_retenciones:c_Retenciones" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido para expresar la clave de la retención e información de pagos de acuerdo al catálogo publicado en internet por el SAT.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="DescRetenc" use="optional"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo opcional que expresa la descripción de la retención e información de pagos en caso de que en el atributo CveRetenc se haya elegido el valor para 'otro tipo de retenciones'&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:minLength value="1"/&gt;
+						&lt;xs:maxLength value="100"/&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+		&lt;/xs:complexType&gt;
+	&lt;/xs:element&gt;
+	&lt;xs:simpleType name="t_RFC"&gt;
+		&lt;xs:annotation&gt;
+			&lt;xs:documentation&gt;Tipo definido para expresar claves del Registro Federal de Contribuyentes&lt;/xs:documentation&gt;
+		&lt;/xs:annotation&gt;
+		&lt;xs:restriction base="xs:string"&gt;
+			&lt;xs:minLength value="12"/&gt;
+			&lt;xs:maxLength value="13"/&gt;
+			&lt;xs:whiteSpace value="collapse"/&gt;
+			&lt;xs:pattern value="[A-Z,Ñ,&amp;amp;]{3,4}[0-9]{2}[0-1][0-9][0-3][0-9][A-Z,0-9][A-Z,0-9][0-9,A-Z]"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:simpleType name="t_Importe"&gt;
+		&lt;xs:annotation&gt;
+			&lt;xs:documentation&gt;Tipo definido para expresar importes numéricos con fracción hasta seis decimales&lt;/xs:documentation&gt;
+		&lt;/xs:annotation&gt;
+		&lt;xs:restriction base="xs:decimal"&gt;
+			&lt;xs:fractionDigits value="6"/&gt;
+			&lt;xs:whiteSpace value="collapse"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:simpleType name="t_CURP"&gt;
+		&lt;xs:annotation&gt;
+			&lt;xs:documentation&gt;Tipo definido para la expresión de una CURP&lt;/xs:documentation&gt;
+		&lt;/xs:annotation&gt;
+		&lt;xs:restriction base="xs:string"&gt;
+			&lt;xs:whiteSpace value="collapse"/&gt;
+			&lt;xs:length value="18"/&gt;
+			&lt;xs:pattern value="[A-Z][A,E,I,O,U,X][A-Z]{2}[0-9]{2}[0-1][0-9][0-3][0-9][M,H][A-Z]{2}[B,C,D,F,G,H,J,K,L,M,N,Ñ,P,Q,R,S,T,V,W,X,Y,Z]{3}[0-9,A-Z][0-9]"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+&lt;/xs:schema&gt;</value>
+  </data>
+</root>

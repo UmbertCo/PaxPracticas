@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<applications_pools>
+  <app_pool>DefaultAppPool</app_pool>
+  <app_pool>ServicioWebRFC</app_pool>
+</applications_pools>

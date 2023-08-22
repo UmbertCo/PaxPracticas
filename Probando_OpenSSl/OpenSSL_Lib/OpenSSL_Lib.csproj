@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2E4F70A6-6294-44E0-8C73-27174CFC54D8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OpenSSL_Lib</RootNamespace>
+    <AssemblyName>OpenSSL_Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PFX\cPEM.cs" />
+    <Compile Include="PFX\cPFX.cs" />
+    <Compile Include="cRevisar_Generar.cs" />
+    <Compile Include="cSello.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="OpenSSLException.cs" />
+    <Compile Include="PFX\cValidacionCertificados.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bftest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bntest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casttest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dhtest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dsatest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ecdhtest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ecdsatest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ectest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enginetest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evp_test.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exptest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hmactest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ideatest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libeay32.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libssl32.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\md2test.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\md4test.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\md5test.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\openssl.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\randtest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rc2test.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rc4test.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rmdtest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsa_test.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sha1test.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sha256t.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sha512t.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shatest.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ssltest.exe" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

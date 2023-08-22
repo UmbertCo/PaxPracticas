@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ClienteWebServiceRetenciones.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Salida" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\Ivan.Hernandez\Desktop\Layouts\Layouts Retenciones\Salida</Value>
+    </Setting>
+    <Setting Name="Logs" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\Ivan.Hernandez\Desktop\SAT CLIENTE Sistema Pruebas 3.2\Ejemplos_SAT\Logs</Value>
+    </Setting>
+    <Setting Name="Acuses" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\Ivan.Hernandez\Desktop\SAT CLIENTE Sistema Pruebas 3.2\Ejemplos_SAT\Guardar Acuse</Value>
+    </Setting>
+    <Setting Name="CFDI" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\Ivan.Hernandez\Desktop\SAT CLIENTE Sistema Pruebas 3.2\Ejemplos_SAT\Mover CFDI</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

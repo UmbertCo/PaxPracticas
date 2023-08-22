@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SolucionPruebas.Presentacion.WindowsForms" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="RutaLlave" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPAXMYERS\XML\Certificados\aaa010101aaa__csd_01.key</Value>
+    </Setting>
+    <Setting Name="RutaPfx" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPAXMYERS\XML\Certificados\RutaPfx\</Value>
+    </Setting>
+    <Setting Name="RutaCertificado" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ConectorPAXMYERS\XML\Certificados\aaa010101aaa__csd_01.cer</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

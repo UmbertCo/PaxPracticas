@@ -1,0 +1,350 @@
+﻿/*Margen*/
+.Top
+{
+    background-position: left center;
+    background-image: url('Imagenes/top2.jpg');
+    width: 400px;
+    height: 108px;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+.siguenos
+{
+    width: 134px;
+    height: 13px;
+}
+
+.BotonGris
+{
+    background-image: url('imagenes/botonGris.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 35px;
+}
+
+/* pantalla master */
+    /*tblEncabezado*/
+ .Encabezado
+ {
+     background-image: url('imagenes/top.jpg');
+     width: 425px;
+     height: 110px;
+     background-repeat: no-repeat;
+ }
+ 
+.page
+{
+    width: 965px;
+    background-color: #FFFFFF;
+    height: auto;
+    text-align: center;
+    margin: 20px auto 0px auto;
+}
+.body
+{
+    background: #FFFFFF;
+    font-size: .80em;
+    font-family: 'Century Gothic';
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+.loginDisplay
+{
+    color: White;
+    display: block;
+    font-size: 1.1em;
+    padding: 10px;
+    text-align: right;
+    width: 946px;
+}
+
+/*Idioma*/
+
+.idioma
+{
+    background-position: center center;
+    background-image: url('imagenes/botonGris.png');
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 40px;
+}
+
+.PAC
+{
+    background-image: url('imagenes/sat.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    width: 53px;
+    height: 62px;
+}
+
+
+
+/*Barra*/
+/*.menu
+{
+    padding: 0 0 0 8px;
+    margin: 0;
+    list-style: none;
+    background: #fff url('imagenes/button1a.gif') repeat-x;
+    font-family: 'Century Gothic';
+    height: 36px;
+    left: 94px;
+    top: 73px;
+    width: 884px;
+}*/
+
+.menu
+{
+    padding: 2px 0 0 8px;
+    margin: 0;
+    list-style: none;
+    background: #fff url('imagenes/button1a.gif') repeat-x;
+    font-family: 'Century Gothic';
+    height: 36px;
+    left: 94px;
+    top: 73px;
+    width: 884px;
+    text-decoration: none;
+    font-size: 13px;
+    position: static;
+}
+
+/*Estilo texto Menu*/
+.menu li a.top_link
+{
+    margin: -8px;
+    background-position: left 50%;
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    cursor: pointer;
+    color: #FFFFFF;
+    line-height: 43px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 0 25px 0 0;
+    text-align: left;
+    height: 42px;
+}
+
+/*Orden Texto*/
+.menu li.topInicio
+{
+    display: block;
+    float: left;
+    position: relative;
+    top: 4px;
+    left: 1px;
+    height: 64px;
+}
+
+/*Acomodo texto submenu*/
+.menu li a.top_link span
+{
+    margin: 0px;
+    float: left;
+    background-position: left center;
+    font-weight:normal;
+    text-align: left;
+    display: block;
+    padding: 0 13px 0 -1;
+    height: 42px;
+    font-family: 'Century Gothic';
+    font-size: 13px;
+    padding: 0 0 0 5px;
+}
+
+/*Seleccion color texto menu*/
+.menu li:hover > a.top_link
+{
+    color: #000;
+}
+
+/*Imagen boton*/
+.menu li a.top_link:hover
+{
+    color: #000;
+    background: url('Imagenes/boton-verde.gif') no-repeat;
+}
+
+.menu li a.top_link:hover span
+{
+    background: url('Imagenes/boton-verde.gif') no-repeat right top;
+}
+
+.menu li:hover > a.top_link
+{
+    /*background-position: center center;*/
+    background-position: right center;
+    color: #000;
+    background-image: url('Imagenes/boton-verde.gif');
+    background-repeat: no-repeat;
+}
+
+.menu li:hover > a.top_link span
+{
+    background: url('Imagenes/boton-verde.gif') no-repeat left center;
+} 
+
+.menuBarra
+{
+    background-position: center;
+    background: url('imagenes/button1a.gif') repeat-x;
+    width: 913px;
+    height: 36px;
+}
+
+.menuLeft
+{
+    background-position: right top;
+    background-image: url('imagenes/left.png');
+    background-repeat: no-repeat;
+    width: 36px;
+}
+.menuRight
+{
+    background-position: left top;
+    background-image: url('imagenes/right.png');
+    background-repeat: no-repeat;
+    width: 49px;
+}
+.menuAncho
+{
+    margin: 0px 0px 12px 0px;
+    float: left;
+    font-weight: bold;
+    display: block;
+    padding: 0 24px 0 12px;
+    height: 40px;
+}
+.skype
+{
+    background-position: left top;
+    color: #336699;
+    font-size: x-small;
+    text-decoration: none;
+}
+
+.hojaPrincipal
+{
+    width: 100%;
+}
+
+/*Inicio*/
+.Mano
+{
+    background-image: url('Imagenes/Imagen1.png');
+    background-position: center center;
+    height:250px;
+}
+
+.BarraGris
+{
+    background-position: center;
+    background-image: url('Imagenes/BarraBlue.png');
+    background-repeat: no-repeat;
+}
+
+/*App-Escritorio*/
+.Lap1
+{
+    background-image: url('Imagenes/2appEscritorio.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*App-Web*/
+
+.app_web
+{
+    background-image: url('Imagenes/AplicacionWeb.jpg');
+    background-repeat: no-repeat;
+    background-position: center 40px;
+}
+
+.app_movile
+{
+    background-image: url('Imagenes/2AppMovil.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*Servicios de Windows*/
+.Ser_Windows
+{
+    background-image: url('Imagenes/2Ser-Windows.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/*Web Service*/
+
+.WebService
+{
+    background-image: url('Imagenes/2WebSer.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/*Seguridad en Aplicaciones*/
+
+.Seguridad_App
+{
+    background-image: url('Imagenes/SeguridadApp.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*Desarrollo de Software*/
+
+.DesarrolloSW
+{
+    background-image: url('Imagenes/desarrollo.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*Contacto*/
+
+.correo
+{
+    }
+    
+    
+.Nuevo
+{
+    background-image: url('imagenes/Azul2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.Terminos
+{
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 280px;
+    height: 50px;
+    background-image: url('imagenes/2-terminos.png');
+}
+
+.Politicas
+{
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 280px;
+    height: 50px;
+    background-image: url('imagenes/2-politicas.png');
+}
+
+.Contactenos
+{
+    background-image: url('Imagenes/2-Contactenos.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+}

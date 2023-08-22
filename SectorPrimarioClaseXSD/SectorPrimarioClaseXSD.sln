@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SectorPrimarioClaseXSD", "SectorPrimarioClaseXSD\SectorPrimarioClaseXSD.csproj", "{250C071D-A203-4D46-9724-202A5EAE7A70}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.3.105:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SectorPrimarioClaseXSD\\SectorPrimarioClaseXSD.csproj
+		SccProjectName1 = SectorPrimarioClaseXSD
+		SccLocalPath1 = SectorPrimarioClaseXSD
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{250C071D-A203-4D46-9724-202A5EAE7A70}.Debug|x86.ActiveCfg = Debug|x86
+		{250C071D-A203-4D46-9724-202A5EAE7A70}.Debug|x86.Build.0 = Debug|x86
+		{250C071D-A203-4D46-9724-202A5EAE7A70}.Release|x86.ActiveCfg = Release|x86
+		{250C071D-A203-4D46-9724-202A5EAE7A70}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,247 @@
+/*Barra*/
+.menu
+{
+    padding: 0 0 0 8px;
+    margin: 0;
+    list-style: none;
+    background: #fff url('../mnu_images/button1a.gif') repeat-x;
+    position: relative;
+    font-family: 'Century Gothic';
+    height: 61px;
+}
+
+/*Estilo texto Menu*/
+.menu li a.top_link
+{
+    margin: 2px;
+    background-position: center center;
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    cursor: pointer;
+    color: #FFFFFF;
+    line-height: 33px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 0 0 0 12px;
+}
+
+/*Orden Texto*/
+.menu li.top
+{
+    display: block;
+    float: left;
+    position: relative;
+}
+
+/*Acomodo texto submenu*/
+.menu li a.top_link span
+{
+    margin: 0px 0px 12px 0px;
+    float: left;
+    font-weight: bold;
+    display: block;
+    padding: 0 24px 0 12px;
+    height: 40px;
+    font-family: 'Century Gothic';
+}
+
+/*Seleccion color texto menu*/
+.menu li:hover > a.top_link
+{
+    color: #000;
+}
+
+
+/*Imagen boton*/
+
+.menu li a.top_link:hover
+{
+    color: #000;
+    background: url('../mnu_images/boton-verde.gif') no-repeat;
+}
+.menu li a.top_link:hover span
+{
+    background: url('../mnu_images/boton-verde.gif') no-repeat right top;
+}
+.menu li:hover > a.top_link
+{
+    color: #000;
+    background: url('../mnu_images/boton-verde.gif') no-repeat;
+}
+.menu li:hover > a.top_link span
+{
+    background: url('../mnu_images/boton-verde.gif') no-repeat right top;
+}
+
+
+
+/*Aminacion submenu*/
+/****************************************************************************************/
+.menu table
+{
+    border-collapse: collapse;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.menu a:hover
+{
+    visibility: visible;
+}
+.menu li:hover
+{
+    position: relative;
+    z-index: 200;
+}
+.menu ul, .menu :hover ul ul, .menu :hover ul :hover ul ul, .menu :hover ul :hover ul :hover ul ul, .menu :hover ul :hover ul :hover ul :hover ul ul
+{
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu :hover ul.sub
+{
+    left: 2px;
+    top: 40px;
+    right: 2px;
+    background: #5a737e;
+    padding: 3px 0;
+    border: 1px solid #333300;
+    white-space: nowrap;
+    width: 200px;
+    height: auto;
+}
+.menu :hover ul.sub li
+{
+    display: block;
+    height: 20px;
+    position: relative;
+    float: left;
+    width: 250px;
+}
+.menu :hover ul.sub li a
+{
+    font-weight: normal;
+    display: block;
+    font-size: 14px;
+    height: 20px;
+    width: 192px;
+    line-height: 20px;
+    text-indent: 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-width: 0 0 0 3px;
+    font-family: 'Century Gothic';
+}
+.menu :hover ul.sub li a:hover
+{
+    background: #92ba41;
+    color: #000000;
+}
+/****************************************************************************************/
+
+.menuBarra
+{
+    background-position: center;
+    background: url('../mnu_images/button1a.gif') repeat-x;
+    width: 950px;
+    height: 61px;
+}
+.menuLeft
+{
+    background-position: right top;
+    background-image: url('../mnu_images/left.png');
+    background-repeat: no-repeat;
+    width: 21px;
+}
+.menuRight
+{
+    background-position: left top;
+    background-image: url('../mnu_images/right.png');
+    background-repeat: no-repeat;
+    width: 21px;
+}
+.menuAncho
+{
+    margin: 0px 0px 12px 0px;
+    float: left;
+    font-weight: bold;
+    display: block;
+    padding: 0 24px 0 12px;
+    height: 40px;
+    font-family: 'Century Gothic';
+}
+
+/****************************************************************************************/
+/****Estilo de los botones***/
+.botonEstilo
+{
+    background-image: url('../mnu_images/boton_entrar.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-style: none;
+    height: 32px;
+    width: 120px;
+    color: #FFFFFF;
+    font-family: 'Century Gothic';
+    font-size: 11px;
+}
+
+.botonGrande
+{
+    background-image: url('../mnu_images/boton_entrar150.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-style: none;
+    height: 32px;
+    width: 150px;
+    color: #FFFFFF;
+    font-family: 'Century Gothic';
+    font-size: 11px;
+}
+
+.botonEstilo:hover
+{
+    background-position: center center;
+    color: #000000;
+    text-decoration: blink;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: 'Century Gothic';
+    cursor: pointer;
+    background-image: url('../mnu_images/boton-entrarVerde.png');
+    background-repeat: no-repeat;
+} 
+
+.botonGrande:hover
+{
+    background-position: center center;
+    color: #000000;
+    text-decoration: blink;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: 'Century Gothic';
+    cursor: pointer;
+    background-image: url('../mnu_images/boton_entrarVerde150.png');
+    background-repeat: no-repeat;
+} 
+
+.botonGris
+{
+    background-image: url('../mnu_images/botonGris.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 35px;  
+}

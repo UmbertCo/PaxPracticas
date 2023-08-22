@@ -1,0 +1,120 @@
+﻿body
+{
+    border: 1px solid #22bb23;
+    width: 863px;
+    position: relative;
+    left: 241px;
+    height: auto;
+    background-color: #395c6c;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px; 
+    width: 65%;
+    height: 108px;
+    background-color: White;
+}
+        
+.page
+{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        width: 1300px;
+}
+
+#contenido
+{
+    position: relative;
+    padding: 0px;
+    width: auto;
+    top: 56px;
+    padding-top: 50px;
+    z-index: 2;
+    background-color: White;
+}
+
+#navegacionMenu
+{
+    position: relative;
+    float: right;
+    top: 7px;
+    left: 295px;
+    margin-bottom: 40px;
+}
+
+.NavegacionMenu
+{
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 14px;
+    color: White;
+    background-image: url('../mnu_images/barra.png');
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    padding: 0px 0px 0px 20px;
+    width: 250px;
+    height: 20px; /*margin: -20px;*/
+    behavior: url(~/Scripts/border-radius.htc);
+}
+   
+/* espaciado entre items */     
+.NavegacionMenu li
+{
+    padding-right: 20px;  
+}   
+     
+/*personalizacion items de submenus*/
+.NavegacionMenu li ul li a{
+    color: White;
+    width: 100px;
+}   
+
+.NavegacionMenu li ul:hover
+{
+    background-color: #22bb23;
+    background-image: none;
+}
+
+/* color de fondo subitems */   
+.NavegacionMenu li ul
+{
+    background-image: url('../mnu_images/barra.png');
+}
+
+/*personalizacion items de submenus*/
+.NavegacionMenu li ul li a:hover{
+    color: White;
+    width: 100px;
+}           
+   
+/*color de letra items*/       
+.NavegacionMenu a
+{
+    color: White;   
+}    
+
+.NavegacionMenu a:hover
+{
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}   
+
+/*formularios*/   
+input.textbox
+{
+    border: 1px solid  #26c024;
+}
+RadioButton.radio
+{
+    border: #26c024;
+}
+
+#form1
+{
+    background-color: White;    
+}

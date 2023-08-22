@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PAXRecepcionProveedores.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PAXRecepcionProveedores_wsTestValidacion_wcfValidaASMX" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://test.paxfacturacion.com.mx:454/webServices/wcfValidaasmx.asmx</Value>
+    </Setting>
+    <Setting Name="PAXRecepcionProveedores_wsProduccionValidacion_wcfValidaASMX" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://www.paxfacturacion.com.mx:454/webServices/wcfValidaasmx.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

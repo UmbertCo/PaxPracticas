@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:4067/CatalogoService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/SolucionPruebas.Entidades" />
+  <xs:element name="fnRegistrarPersona">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/SolucionPruebas.Entidades" minOccurs="0" name="ENPersona" nillable="true" type="q1:Personas" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/SolucionPruebas.Entidades" minOccurs="0" name="ENContacto" nillable="true" type="q2:Contacto" />
+        <xs:element minOccurs="0" name="pbRequiereTransaccion" type="xs:boolean" />
+        <xs:element minOccurs="0" name="pbEnTransaccion" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnRegistrarPersonaResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnRegistrarContacto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/SolucionPruebas.Entidades" minOccurs="0" name="ENContacto" nillable="true" type="q3:Contacto" />
+        <xs:element minOccurs="0" name="pbRequireTransaccion" type="xs:boolean" />
+        <xs:element minOccurs="0" name="pbRequiereTransaccion" type="xs:boolean" />
+        <xs:element minOccurs="0" name="pbEnTransaccion" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fnRegistrarContactoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

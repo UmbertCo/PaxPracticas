@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head id="Head1" runat="server">
+
+    <%------------------------JQuery----------------------------%>
+    <script src="../Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery-ui-1.8.11.custom.min.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery.ui.core.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery.ui.draggable.js" type="text/javascript"></script>
+    <script src="../Scripts/alerts/jquery.alerts.js" type="text/javascript"></script>
+    <link href="Scripts/alerts/jquery.alerts.css" rel="stylesheet" type="text/css" />
+    <%------------------------JQuery----------------------------%>
+
+    <link href="~/Styles/webGlobalStyle.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/menu_style.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Dynamic_Style.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style type="text/css">
+        .menu
+        {
+            font-family: "Century Gothic";
+        }
+    </style>
+
+</head> 
+
+<body onload="window.history.go(1);" oncontextmenu="return false" style="background-color: #FFFFFF">
+
+<noscript><p><span style="color:#FFFFFF; font-weight:bold; padding:2px; background-color:#FF0000">  <asp:Literal ID="noScript" runat="server" Text ="<%$ Resources:Resources, lblNonScript %>"></asp:Literal>  </span></p></noscript>
+
+
+    <form id="Form1" runat="server" autocomplete="off">
+    <asp:ScriptManager ID="ScriptManager" runat="server" EnableScriptGlobalization="True" EnableScriptLocalization="True">
+    </asp:ScriptManager>
+
+    <div class="page">
+
+
+
+        <div style="height: 100px">
+
+        
+         <br />
+
+        </div>
+
+        <div>
+        </div>
+
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+
+        </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsp200607="http://www.w3.org/2006/07/ws-policy" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:ns0="https://www.paxfacturacion.com.mx:453" xmlns:wsp200409="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="https://www.paxfacturacion.com.mx:453" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:schema>
+      <xsd:import schemaLocation="wcfRecepcionasmx.asmx.xsd1.xsd" namespace="https://www.paxfacturacion.com.mx:453" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="fnEnviarXMLSoapIn">
+    <wsdl:part xmlns:xsns="https://www.paxfacturacion.com.mx:453" name="parameters" element="xsns:fnEnviarXML" />
+  </wsdl:message>
+  <wsdl:message name="fnEnviarXMLSoapOut">
+    <wsdl:part xmlns:xsns="https://www.paxfacturacion.com.mx:453" name="parameters" element="xsns:fnEnviarXMLResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wcfRecepcionASMXSoap">
+    <wsdl:operation name="fnEnviarXML">
+      <wsdl:input name="fnEnviarXMLRequest" message="ns0:fnEnviarXMLSoapIn" />
+      <wsdl:output name="fnEnviarXMLResponse" message="ns0:fnEnviarXMLSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wcfRecepcionASMXSoap" type="ns0:wcfRecepcionASMXSoap">
+    <soap11:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnEnviarXML">
+      <soap11:operation soapAction="https://ws.paxfacturacion.com.mx:453/fnEnviarXML" style="document" />
+      <wsdl:input name="fnEnviarXMLRequest">
+        <soap11:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="fnEnviarXMLResponse">
+        <soap11:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wcfRecepcionASMXSoap12" type="ns0:wcfRecepcionASMXSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnEnviarXML">
+      <soap12:operation soapAction="https://ws.paxfacturacion.com.mx:453/fnEnviarXML" style="document" />
+      <wsdl:input name="fnEnviarXMLRequest">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="fnEnviarXMLResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wcfRecepcionASMX">
+    <wsdl:port name="wcfRecepcionASMXSoap" binding="ns0:wcfRecepcionASMXSoap">
+      <soap11:address location="https://ws.paxfacturacion.com.mx:453/webservices/wcfRecepcionasmx.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wcfRecepcionASMXSoap12" binding="ns0:wcfRecepcionASMXSoap12">
+      <soap12:address location="https://ws.paxfacturacion.com.mx:453/webservices/wcfRecepcionasmx.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

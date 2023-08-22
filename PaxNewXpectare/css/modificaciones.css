@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+#suscribete input[type="submit"]{
+	background-image:url(../img/btnGreen.png); !important
+	background-repeat:no-repeat;
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+}
+.btnEnviar{
+	background-image:url(../img/btnGreen.png); !important
+	background-repeat:no-repeat;
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+}
+
+#footer-tel{
+	line-height:29px;
+}
+header nav li {
+	margin-left:4px\9;		
+}
+.emailtexto{
+	border:none;
+	box-shadow:1px 1px 0px #bebebe;
+	color:#006080;
+	display:block;
+	font:12px Arial, Helvetica, sans-serif;
+	height:30px;
+	margin:263px auto 0 auto;
+	margin:0px auto 0 auto\9;
+	border:1px solid #bebebe\9;
+	padding:0 0 0 10px;
+	width:230px;
+}

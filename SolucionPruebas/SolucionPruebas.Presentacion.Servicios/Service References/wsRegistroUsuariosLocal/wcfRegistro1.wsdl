@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://www.paxfacturacion.mx:455" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="https://www.paxfacturacion.mx:455" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="https://www.paxfacturacion.mx:455">
+      <s:element name="fnRegistraUsuario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sNombreUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sContraseñaUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sDatos" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNombreCertificado" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="btCertificado" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="sContraseñaCert" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNombreLlavePriv" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="btLLavePrivada" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUsuarioHijo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sContraseñaUsuarioHijo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEmailUsuHijo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="fnRegistraUsuarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fnRegistraUsuarioResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="fnRegistraUsuarioSoapIn">
+    <wsdl:part name="parameters" element="tns:fnRegistraUsuario" />
+  </wsdl:message>
+  <wsdl:message name="fnRegistraUsuarioSoapOut">
+    <wsdl:part name="parameters" element="tns:fnRegistraUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wcfRegistroSoap">
+    <wsdl:operation name="fnRegistraUsuario">
+      <wsdl:input message="tns:fnRegistraUsuarioSoapIn" />
+      <wsdl:output message="tns:fnRegistraUsuarioSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wcfRegistroSoap" type="tns:wcfRegistroSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnRegistraUsuario">
+      <soap:operation soapAction="https://www.paxfacturacion.mx:455/fnRegistraUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wcfRegistroSoap12" type="tns:wcfRegistroSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="fnRegistraUsuario">
+      <soap12:operation soapAction="https://www.paxfacturacion.mx:455/fnRegistraUsuario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wcfRegistro">
+    <wsdl:port name="wcfRegistroSoap" binding="tns:wcfRegistroSoap">
+      <soap:address location="http://localhost:24965/PAXRegistroUsuario_WS/WebServices/wcfRegistro.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wcfRegistroSoap12" binding="tns:wcfRegistroSoap12">
+      <soap12:address location="http://localhost:24965/PAXRegistroUsuario_WS/WebServices/wcfRegistro.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,32 @@
+<cfdi:Comprobante version="3.2" serie="AK" folio="4309" fecha="2015-08-11T08:31:17" sello="bxdD6bx51aC7QqPLbpCIRlGCLsYqUemJQnRnhlNyZp+LZ3SZqNKlUQTwMGEBYkPnASA0jUnqDYOO51nceHhEDYBR1alxhhFf4+YMnA/HbqvJOeE47kkRVLH7hnspxMrRIEFfJR0LDyj6c/1T2MOsySpHQM4G6DpjikRfe69q1lw=" formaDePago="Pago en una sola exhibición" noCertificado="20001000000100005867" certificado="MIIEdDCCA1ygAwIBAgIUMjAwMDEwMDAwMDAxMDAwMDU4NjcwDQYJKoZIhvcNAQEFBQAwggFvMRgwFgYDVQQDDA9BLkMuIGRlIHBydWViYXMxLzAtBgNVBAoMJlNlcnZpY2lvIGRlIEFkbWluaXN0cmFjacOzbiBUcmlidXRhcmlhMTgwNgYDVQQLDC9BZG1pbmlzdHJhY2nDs24gZGUgU2VndXJpZGFkIGRlIGxhIEluZm9ybWFjacOzbjEpMCcGCSqGSIb3DQEJARYaYXNpc25ldEBwcnVlYmFzLnNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxEjAQBgNVBAcMCUNveW9hY8OhbjEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTIwMAYJKoZIhvcNAQkCDCNSZXNwb25zYWJsZTogSMOpY3RvciBPcm5lbGFzIEFyY2lnYTAeFw0xMjA3MjcxNzAyMDBaFw0xNjA3MjcxNzAyMDBaMIHbMSkwJwYDVQQDEyBBQ0NFTSBTRVJWSUNJT1MgRU1QUkVTQVJJQUxFUyBTQzEpMCcGA1UEKRMgQUNDRU0gU0VSVklDSU9TIEVNUFJFU0FSSUFMRVMgU0MxKTAnBgNVBAoTIEFDQ0VNIFNFUlZJQ0lPUyBFTVBSRVNBUklBTEVTIFNDMSUwIwYDVQQtExxBQUEwMTAxMDFBQUEgLyBIRUdUNzYxMDAzNFMyMR4wHAYDVQQFExUgLyBIRUdUNzYxMDAzTURGUk5OMDkxETAPBgNVBAsTCFVuaWRhZCAxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2TTQSPONBOVxpXv9wLYo8jezBrb34i/tLx8jGdtyy27BcesOav2c1NS/Gdv10u9SkWtwdy34uRAVe7H0a3VMRLHAkvp2qMCHaZc4T8k47Jtb9wrOEh/XFS8LgT4y5OQYo6civfXXdlvxWU/gdM/e6I2lg6FGorP8H4GPAJ/qCNwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEATxMecTpMbdhSHo6KVUg4QVF4Op2IBhiMaOrtrXBdJgzGotUFcJgdBCMjtTZXSlq1S4DG1jr8p4NzQlzxsdTxaB8nSKJ4KEMgIT7E62xRUj15jI49qFz7f2uMttZLNThipunsN/NF1XtvESMTDwQFvas/Ugig6qwEfSZc0MDxMpKLEkEePmQwtZD+zXFSMVa6hmOu4M+FzGiRXbj4YJXn9Myjd8xbL/c+9UIcrYoZskxDvMxc6/6M3rNNDY3OFhBK+V/sPMzWWGt8S1yjmtPfXgFs1t65AZ2hcTwTAuHrKwDatJ1ZPfa482ZBROAAX1waz7WwXp0gso7sDCm2/yUVww==" subTotal="519.03" Moneda="MXN" total="515.92" tipoDeComprobante="ingreso" LugarExpedicion="Mexico,Chihuahua,Delicias" metodoDePago="No identificado" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfdi:Emisor rfc="AAA010101AAA" nombre="AKALA FINANCIERA S.A. DE C.V. S.F.P.">
+    <cfdi:DomicilioFiscal calle="PASEO TECNOLOGICO" noExterior="1" colonia="NUEVO TERRAZAS" localidad="DELICIAS" municipio="DELICIAS" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="33020" />
+    <cfdi:RegimenFiscal Regimen="PERSONA MORAL DE REGIMEN GENERAL" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="BAU861217ND9" nombre="CARMEN CHAVIRA MOLINA">
+    <cfdi:Domicilio calle="C 8A.PTE." noExterior="403" colonia="CENTRO PONIENTE" localidad="DELICIAS" municipio="DELICIAS" estado="CHIHUAHUA" pais="MEXICO" codigoPostal="33000" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1" unidad="Servicio" noIdentificacion="No aplica" descripcion="Intereses Ganados por Deposito a Plazo" valorUnitario="519.03" importe="519.03" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos>
+    <cfdi:Retenciones>
+      <cfdi:Retencion impuesto="ISR" importe="3.11" />
+    </cfdi:Retenciones>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="6ccfa91d-0750-4bea-9f68-87f8746ac3a5" FechaTimbrado="2015-08-11T17:04:33" selloCFD="bxdD6bx51aC7QqPLbpCIRlGCLsYqUemJQnRnhlNyZp+LZ3SZqNKlUQTwMGEBYkPnASA0jUnqDYOO51nceHhEDYBR1alxhhFf4+YMnA/HbqvJOeE47kkRVLH7hnspxMrRIEFfJR0LDyj6c/1T2MOsySpHQM4G6DpjikRfe69q1lw=" noCertificadoSAT="20001000000100005761" selloSAT="FOWqiWbCWHBxJd7kvy+zlOWYKiuFGmYVhAgdZCb2zsz56wlShi9xPISWqhtTrPvmsAOrn7NEu7UOkBpGXhJQOwCNrL4VdqdUXKmbTdJ3FbdUan3dFOoqqdB5S7rMU3acQRHyA1adK7+Ow5Y/0WpY8E2Njnt2OGKcBuQbzdN2RrI=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+  </cfdi:Complemento>
+  <cfdi:Addenda>
+    <UnionProgreso>
+      <ED Timbrado="S" NumeroDeposito="43287" CodigoCliente="00600008279" NombreCliente="CHAVIRA MOLINA CARMEN" RFC="BAU861217ND9" CalleNumero="C 8A.PTE. NUM 403" Colonia="CENTRO PONIENTE" Localidad="DELICIAS,CHIHUAHUA, MEX." CodigoPostal="33000" PeriodoInicio="01/01/2015" PeriodoFin="31/01/2015" FechaExpedicion="16/07/2015" Producto="DEP A PLAZO 90 DIAS" Moneda="PESOS" GraficoRetiros="0.00" Sucursal="023 - OASIS, CD. DELICIAS, CHIH." GraficoComisiones="0.00" SaldoPromedio="65309.42" DiasPeriodo="31" TasaBruta="3.05" InteresBrutos="519.03" ISRRetenido="3.11" GAT="0.00" ComisionesCobradas="0.00" TasaInteres="3.05" InteresPagado="515.92" SaldoAnterior="64793.50" Abonos="0.00" Cargos="0.00" IVAComisiones="0.00" GraficoIntereses="0.79" SaldoFinal="65309.42" SaldoDisponible="65309.42" SaldoCongelado="3.11" FondosPorConfirmar="0.00" GraficoOtrosCargos="0.00" GraficoSaldoAnterior="99.21" GraficoAbonos="0.00" LeyendaInformacionGeneral="AHORRO CRÉDITOS DIVISAS SEGUROS SERVICIOS" LeyendaInformacion="AKALA FINANCIERA LA MEJOR OPCIÓN EN SERVICIOS FINANCIEROS EN EL ESTADO DE CHIHUAHUA" InformacionEmpresa="AKALA S.A. DE C.V. S.F.P., AVENIDA DEL PARQUE ORIENTE, NUMERO 1035, (639) 4708200, INFORMACION¿AKALASFP.COM.MX" GraficoSaldoFinal="100.00">
+        <OD FechaObjetado="06/MAY" ReferenciaObjetado="CCZCZZC" DescripcionObjetado="BONO POR ENVIO SPEI OBJETADO" MontoObjetado="2320.02" />
+        <MD FechaMovimiento="19/01/2015" Referencia="CUPON 1-52799" Descripcion="ABONO BRUTO CUPON" Cargo="0.00" Abono="519.03" Saldo="65312.53" FormaPago="EFECTIVO"/>
+        <MD FechaMovimiento="19/01/2015" Referencia="CUPON 1-52799" Descripcion="ISR DE INTERESES" Cargo="3.11" Abono="0.00" Saldo="65309.42" FormaPago="EFECTIVO"/>
+        <MD FechaMovimiento="19/01/2015" Referencia="CUPON 1-52799" Descripcion="VENCIMIENTO NETO CUPON" Cargo="515.92" Abono="0.00" Saldo="64793.50" FormaPago="EFECTIVO"/>
+        <MD FechaMovimiento="19/01/2015" Referencia="52799" Descripcion="VENCIMIENTO DEPOSITO" Cargo="64793.50" Abono="0.00" Saldo="0.00" FormaPago="EFECTIVO"/>
+        <MD FechaMovimiento="19/01/2015" Referencia="57995" Descripcion="RENOVACION DEPOSITO" Cargo="0.00" Abono="65309.42" Saldo="65309.42" FormaPago="EFECTIVO"/>
+      </ED>
+    </UnionProgreso>
+  </cfdi:Addenda>
+</cfdi:Comprobante>

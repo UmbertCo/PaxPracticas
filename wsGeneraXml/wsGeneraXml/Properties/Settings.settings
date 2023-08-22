@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="wsGeneraXml.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LogError" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\wsGenerarXml\XML\LogErrores\</Value>
+    </Setting>
+    <Setting Name="TipoServicio" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GT</Value>
+    </Setting>
+    <Setting Name="rutaDocs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\wsGenerarXml\XML\Docs\</Value>
+    </Setting>
+    <Setting Name="rutaDesconexion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\wsGenerarXml\XML\TxtDesconexion\</Value>
+    </Setting>
+    <Setting Name="rutaCertificados" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\wsGenerarXml\XML\Certificados\</Value>
+    </Setting>
+    <Setting Name="rutaTXTGen" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\wsGenerarXml\XML\TXTGenerado\</Value>
+    </Setting>
+    <Setting Name="LogTimbrados" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\wsGenerarXml\XML\LogTimbres\</Value>
+    </Setting>
+    <Setting Name="urlHostComercial" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.paxfacturacion.com.mx</Value>
+    </Setting>
+    <Setting Name="tipodocto" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Factura</Value>
+    </Setting>
+    <Setting Name="rutaDocInv" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\wsGenerarXml\XML\DocInvalido\</Value>
+    </Setting>
+    <Setting Name="rutaOpenssl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\wsGenerarXml\OpenSSL\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

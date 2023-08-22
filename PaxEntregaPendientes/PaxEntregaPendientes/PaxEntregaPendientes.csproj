@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{33DF63B8-9B21-4082-A6C5-D493D635AAB7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PaxEntregaPendientes</RootNamespace>
+    <AssemblyName>PaxEntregaPendientes</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CadOri_3_2_11, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CadOri_3_2_11.dll</HintPath>
+    </Reference>
+    <Reference Include="CadOri_3_3, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Debug\CadOri_3_3.DLL</HintPath>
+    </Reference>
+    <Reference Include="CadOri_4_0">
+      <HintPath>bin\CadOri_4_0.dll</HintPath>
+    </Reference>
+    <Reference Include="Encriptacion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=558f4cddefd15516, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Encriptacion.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="PAXCrypto, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Debug\PAXCrypto.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TFD11XSLT">
+      <HintPath>..\..\..\Crypo\Portales\PAXFacturacionPago_3_3\PAXFacturacionPago_3_3\Bin\TFD11XSLT.dll</HintPath>
+    </Reference>
+    <Reference Include="Utilerias2010, Version=1.0.0.0, Culture=neutral, PublicKeyToken=558f4cddefd15516, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Utilerias2010.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Debug\comprobantes_409202304_409-QUINCENA-35063.zip" />
+    <None Include="bin\Debug\PaxEntregaPendientes.vshost.exe.config" />
+    <None Include="bin\Debug\PaxEntregaPendientes.vshost.exe.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\CadOri_3_2_11.dll" />
+    <Content Include="bin\CadOri_3_3.dll" />
+    <Content Include="bin\CadOri_4_0.dll" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_1015.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_5488.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_1001.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_1004.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_1006.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_1009.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_1010.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_1014.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_1015.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_1016.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_1017.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_1018.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4196.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4270.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4302.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4304.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4406.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4443.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4451.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4452.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4708.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4709.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4736.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4754.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4756.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4765.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4766.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4799.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4800.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4862.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_4941.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5086.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5087.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5088.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5089.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5183.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5236.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5326.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5415.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5487.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5488.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5497.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5523.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5551.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5552.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5588.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5589.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5590.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5764.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5861.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_5946.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_6058.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_6144.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_6158.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_6225.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_6226.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_6283.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_6284.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_6316.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_6403.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_6404.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_6433.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_6435.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_6436.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_810.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_811.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_813.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_815.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_819.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_820.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_824.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_827.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_829.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_831.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_832.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_834.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_835.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_836.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_838.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_839.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_840.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_842.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_847.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_849.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_850.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_851.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_852.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_853.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_855.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_857.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_858.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_861.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_862.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_866.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_867.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_871.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_873.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_874.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_875.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_878.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_881.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_884.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_888.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_899.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_900.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_904.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_905.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_908.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_910.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_911.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_913.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_915.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_918.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_920.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_922.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_923.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_924.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_925.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_928.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_930.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_932.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_933.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_937.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_938.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_939.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_942.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_943.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_944.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_945.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_946.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_947.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_950.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_952.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_953.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_954.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_956.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_960.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_962.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_967.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_971.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_972.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_975.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_979.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_982.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_983.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_985.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_986.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_988.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_992.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_993.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_996.xml" />
+    <Content Include="bin\Debug\409202304_409-QUINCENA_884\409202304_409-QUINCENA_999.xml" />
+    <Content Include="bin\Debug\PaxEntregaPendientes.vshost.exe" />
+    <Content Include="bin\Encriptacion.dll" />
+    <Content Include="bin\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="bin\PAXCrypto.dll" />
+    <Content Include="bin\TFD11XSLT.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

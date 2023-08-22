@@ -1,0 +1,21 @@
+﻿/***************Menu Padre*****************/
+
+/****Barra principal con redondeo*****/
+
+.currentNodeStyle, .nodeStyle, .rootNodeStyle, a.siteMapPath
+{
+    text-decoration: none;
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 14px;
+}
+
+/***************************************************************************/
+/*.botonGris
+{
+    background-image: url('../mnu_images/botonGris.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 35px;
+    font-family: 'Avenir LT Std 35 Light';
+    font-size: 12px;
+}*/

@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B2826957-3A2B-43EF-AFD3-8EE3DC51D02A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>practicandoASP</RootNamespace>
+    <AssemblyName>practicandoASP</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="cerrarsesion.aspx" />
+    <Content Include="cuentas\login.aspx" />
+    <Content Include="encabezado.ascx" />
+    <Content Include="encabezado.aspx" />
+    <Content Include="Imagenes\arrowDown.gif" />
+    <Content Include="Imagenes\arrowUp.gif" />
+    <Content Include="Imagenes\backCG.png" />
+    <Content Include="Imagenes\banner-cg.jpg" />
+    <Content Include="Imagenes\banner.jpg" />
+    <Content Include="Imagenes\banner.swf" />
+    <Content Include="Imagenes\bannerA.jpg" />
+    <Content Include="Imagenes\BannerCasaGrande.png" />
+    <Content Include="Imagenes\bannercg.jpg" />
+    <Content Include="Imagenes\bannerIndex.jpg" />
+    <Content Include="Imagenes\BannerPax.xap" />
+    <Content Include="Imagenes\barra.jpg" />
+    <Content Include="Imagenes\barraDelgada.jpg" />
+    <Content Include="Imagenes\barraexpand.png" />
+    <Content Include="Imagenes\barrita.jpg" />
+    <Content Include="Imagenes\barrita280.jpg" />
+    <Content Include="Imagenes\bienvenidoCG.jpg" />
+    <Content Include="Imagenes\blanco.png" />
+    <Content Include="Imagenes\Circulo Azul.png" />
+    <Content Include="Imagenes\Circulo Negro.png" />
+    <Content Include="Imagenes\Circulo Rojo.png" />
+    <Content Include="Imagenes\Circulo Verde.png" />
+    <Content Include="Imagenes\collapse.jpg" />
+    <Content Include="Imagenes\collapse_blue.jpg" />
+    <Content Include="Imagenes\corpus logo.jpg" />
+    <Content Include="Imagenes\cp_button.png" />
+    <Content Include="Imagenes\DescMUsuario.png" />
+    <Content Include="Imagenes\edit.png" />
+    <Content Include="Imagenes\edit_16X16.png" />
+    <Content Include="Imagenes\en_construccion_1.jpg" />
+    <Content Include="Imagenes\error_sign.gif" />
+    <Content Include="Imagenes\expand.jpg" />
+    <Content Include="Imagenes\expand_blue.jpg" />
+    <Content Include="Imagenes\footer.jpg" />
+    <Content Include="Imagenes\footer.png" />
+    <Content Include="Imagenes\Generica_Azul.jpg" />
+    <Content Include="Imagenes\Generica_Negra.jpg" />
+    <Content Include="Imagenes\Generica_Rojo.jpg" />
+    <Content Include="Imagenes\Generica_Verde.jpg" />
+    <Content Include="Imagenes\icono_calendario.gif" />
+    <Content Include="Imagenes\imgAjaxLoader.gif" />
+    <Content Include="Imagenes\Informacion.png" />
+    <Content Include="Imagenes\login.png" />
+    <Content Include="Imagenes\logincgd.png" />
+    <Content Include="Imagenes\logindesbloquear.png" />
+    <Content Include="Imagenes\loginrecupera.png" />
+    <Content Include="Imagenes\loginrecupera2.png" />
+    <Content Include="Imagenes\LogoCasaGrande.png" />
+    <Content Include="Imagenes\logocg.jpg" />
+    <Content Include="Imagenes\Logo_Azul.jpg" />
+    <Content Include="Imagenes\logo_email.jpg" />
+    <Content Include="Imagenes\logo_email.png" />
+    <Content Include="Imagenes\logo_logo.png" />
+    <Content Include="Imagenes\Logo_Negro.jpg" />
+    <Content Include="Imagenes\logo_pax.png" />
+    <Content Include="Imagenes\logo_pax_40.png" />
+    <Content Include="Imagenes\logo_pdf.png" />
+    <Content Include="Imagenes\logo_personalizado.png" />
+    <Content Include="Imagenes\Logo_Rojo.jpg" />
+    <Content Include="Imagenes\logo_sinlogo.png" />
+    <Content Include="Imagenes\Logo_Verde.jpg" />
+    <Content Include="Imagenes\lupa.png" />
+    <Content Include="Imagenes\marca_agua_corpus.png" />
+    <Content Include="Imagenes\marca_agua_corpus_.png" />
+    <Content Include="Imagenes\marca_agua_corpus__.png" />
+    <Content Include="Imagenes\modificar.gif" />
+    <Content Include="Imagenes\paginaEnActualizacion.png" />
+    <Content Include="Imagenes\proveedor-autorizado-de-certificación.jpg" />
+    <Content Include="Imagenes\proveedor-autorizado-de-certificación1.jpg" />
+    <Content Include="Imagenes\proveedor-autorizado-de-certificación_.jpg" />
+    <Content Include="Imagenes\reload_captcha.png" />
+    <Content Include="Imagenes\top.jpg" />
+    <Content Include="Imagenes\topRojo.jpg" />
+    <Content Include="Imagenes\unlock.gif" />
+    <Content Include="Imagenes\up.jpg" />
+    <Content Include="Imagenes\user.jpg" />
+    <Content Include="Imagenes\warning.png" />
+    <Content Include="Imagenes\xml_mediano.png" />
+    <Content Include="Imagenes\ZIP.png" />
+    <Content Include="index.aspx" />
+    <Content Include="menu.aspx" />
+    <Content Include="mnu_images\backmodal.jpg" />
+    <Content Include="mnu_images\barra.png" />
+    <Content Include="mnu_images\boton-entrarVerde.png" />
+    <Content Include="mnu_images\boton-verde.gif" />
+    <Content Include="mnu_images\boton-verde_.gif" />
+    <Content Include="mnu_images\botonGris.png" />
+    <Content Include="mnu_images\boton_entrar.png" />
+    <Content Include="mnu_images\boton_entrar150.png" />
+    <Content Include="mnu_images\boton_entrarChico.png" />
+    <Content Include="mnu_images\boton_entrarChicoVerde.png" />
+    <Content Include="mnu_images\boton_entrarVerde150.png" />
+    <Content Include="mnu_images\btn.jpg" />
+    <Content Include="mnu_images\btn1.jpg" />
+    <Content Include="mnu_images\btn1.png" />
+    <Content Include="mnu_images\btndesbloquear.png" />
+    <Content Include="mnu_images\btndesbloquearover.png" />
+    <Content Include="mnu_images\btnentrar.png" />
+    <Content Include="mnu_images\btnentrarOver.png" />
+    <Content Include="mnu_images\btnG.png" />
+    <Content Include="mnu_images\btnGrande.png" />
+    <Content Include="mnu_images\btnGrandeOver.png" />
+    <Content Include="mnu_images\button1a.gif" />
+    <Content Include="mnu_images\drop-arrow.gif" />
+    <Content Include="mnu_images\left.png" />
+    <Content Include="mnu_images\maincg.png" />
+    <Content Include="mnu_images\maincgempresas.png" />
+    <Content Include="mnu_images\maincgempresas2.png" />
+    <Content Include="mnu_images\maincgrande.png" />
+    <Content Include="mnu_images\right-arrow.gif" />
+    <Content Include="mnu_images\right.png" />
+    <Content Include="prueba.aspx" />
+    <Content Include="registro.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\menu_style.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cerrarsesion.aspx.cs">
+      <DependentUpon>cerrarsesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cerrarsesion.aspx.designer.cs">
+      <DependentUpon>cerrarsesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cuentas\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cuentas\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="encabezado.ascx.cs">
+      <DependentUpon>encabezado.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="encabezado.ascx.designer.cs">
+      <DependentUpon>encabezado.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="encabezado.aspx.cs">
+      <DependentUpon>encabezado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="encabezado.aspx.designer.cs">
+      <DependentUpon>encabezado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menu.aspx.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menu.aspx.designer.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="prueba.aspx.cs">
+      <DependentUpon>prueba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prueba.aspx.designer.cs">
+      <DependentUpon>prueba.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registro.aspx.cs">
+      <DependentUpon>registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registro.aspx.designer.cs">
+      <DependentUpon>registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3778</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

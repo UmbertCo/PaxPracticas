@@ -1,0 +1,283 @@
+﻿/*Modal Popup*/
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup
+{
+    border: solid 3px #BAC405;
+    background-color: #FFFFFF;
+    padding: 25px;
+    color: #646464; 
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.GridView
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tamañoColumna
+{
+    width:auto;
+}
+.GridAlternateRow
+
+{
+    
+overflow: auto;
+
+}
+/*Comienzan estilos generales*/
+body
+{
+    margin:0;
+    padding:0;
+    font-family:Century Gothic;
+}
+.container
+{
+    width: 1150px;
+    margin:auto;
+}
+.top
+{
+    background-image:url('Imagenes/bgtop.jpg');   
+    background-repeat:repeat-x;
+    height:152px
+}
+.top p
+{
+    text-align:right;
+    margin:0;
+    padding:10px 0;
+    color:#FFF;
+    font-weight:bold;
+    font-size:15px;
+    text-shadow: 1px 1px 1px #333;
+}
+.top img
+{
+    margin-top:20px;
+    float:left;
+    
+}
+.top h1
+{
+    float:left;
+    font-size:45px;
+    color:#bac405;
+    font-weight:bold;
+    margin-left:50px;
+    margin-top:70px;
+}
+.sheet
+{
+    width:100%;
+    margin-top: 0px;
+    height: 402px;
+}
+.menu
+{
+    width:226px;
+    float:left;
+    border:1px solid #CCC;
+    background-image: url('Imagenes/bgmenu.jpg');
+    background-repeat: repeat-x;
+    background-color: #d7d7d7;
+    min-height:643px;
+}
+.contenidos
+{
+    width: 920px;
+    min-height: 460px;
+    float:left;
+}
+/*Comienzan estilos del login*/
+.gaffete
+{
+    margin:auto; 
+    width: 450px;
+    height:310px;
+    background-image:url('Imagenes/gafete.jpg');
+    background-repeat:no-repeat;
+    margin:50px 0 0 auto;
+}
+.gaffete .form
+{
+    margin:0 0 0 50px;
+    padding:95px 0 0 0;
+}
+
+.inputLogin
+{
+    width:349px;
+    padding: 5px;
+    border:none;
+    -moz-box-shadow:    inset 0 0 5px #d4d4d4;
+   -webkit-box-shadow: inset 0 0 5px #d4d4d4;
+    box-shadow:        inset 0 0 5px #d4d4d4;   
+   color: #646464;
+}
+.leyendaError
+{
+    position:absolute;
+}
+.btnLogin
+{
+    float:right;
+    margin-right:50px;
+    margin-top:10px;
+    border:none;
+    background-image:url('Imagenes/bgbutton.png');
+    background-position:0 0;
+    width: 81px;
+    height:32px;
+    background-color: transparent;
+    color:#FFF;
+    font-weight:bold;
+    cursor:pointer;
+}
+.btnLogin:hover
+{
+    background-position:0 -32px;
+}
+.Label
+{
+    font-weight:bold;
+    color:#00667f;
+    text-shadow: 1px 1px 1px #FFF;   
+    margin:0 0 2px 0;
+}
+#marco
+{
+    margin-right:130px;
+}
+/*Estilos de la hoja de bienvenida*/
+.sheet .container
+{   
+    border:1px solid #056886;
+    margin-top:75px;
+    min-height: 645px;
+    height: 345px;
+}
+.sheet .container h1
+{
+    color:#056886;
+    font-size:22px;
+    text-align:center;
+    font-size:30px;
+    margin:0;
+    padding:20px 0;
+}
+/*Estilos del menu*/
+#Menu1 li
+{
+    text-align: center;
+    font-weight:bold;
+    width: 225px;
+    height:25px;
+    padding-top:5px;
+    border-bottom: 1px solid #CCCCCC;
+}
+#Menu1 li a
+{
+    color:#8d8c8c;
+    font-size:14px;
+}
+#Menu1 li:hover a
+{
+    color:#373535;
+}
+#Menu1 li:hover
+{
+    background-color: #cccccc;
+}
+#Menu1 ul li ul
+{
+    background-color: #fcfcfc;
+    border: 1px solid #cccccc;
+    -moz-box-shadow:    1px 2px 5px #d4d4d4;
+   -webkit-box-shadow: 1px 2px 5px #d4d4d4;
+    box-shadow:        1px 2px 5px #d4d4d4; 
+}
+
+/*Estilos de las formas*/
+input.txt, textarea.txt
+{
+    border: 1px solid #cccccc;
+    padding:5px;
+    color:#646464;
+    border:none;
+    background-color: #FFFFFF;
+    font-family:Century Gothic;
+    font-size:15px;
+}
+input.btn,input.btn2
+{
+    border: none;
+    outline:none;
+    background-position:0 0;
+    height:32px;
+    color:#FFF;
+    font-weight:bold;
+}
+input.btn
+{
+    background-image: url('Imagenes/bgbutton.png');
+    width:81px;
+}
+input.btn2
+{
+    background-image: url('Imagenes/bgbutton2.png');
+    width:138px;
+}
+input.btn:hover, input.btn2:hover
+{
+    background-position:0 -32px;   
+}
+.formas p
+{
+    margin:0 25px 15px;
+    padding:2px;
+    color:#646464;
+    border-bottom: 2px solid #cccccc;
+    background-color:#FFFFFF;
+    font-weight:bold;
+}
+.formas
+{
+    background-color:#f2f1f1;
+    min-height:635px;
+}
+.tables
+{
+    margin-left:10px;
+    border:1px solid #aaa9a9;
+    background-color:#FFF;
+    max-width:900px;
+    margin:auto;
+}
+.tables th
+{
+    color:#FFFFFF;
+    background-color:#aaa9a9;
+    border:1px solid #aaa9a9;
+    font-size:14px;
+}
+.tables td
+{
+    border:1px solid #aaa9a9;
+    font-size:13px;
+}
+.green
+{
+    color:#FFFFFF;
+    background-image: url('Imagenes/green.png');
+    background-repeat:no-repeat;
+    padding:1px 6px 6px;
+}

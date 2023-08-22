@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PaxEntregaPendientes.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Conexion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">pcOrwzxA591q2tKEdDirKTWkwtKt81CLlaK6HATblPKIvQ9005pl6lmTuQ1P5qH6kv1Swvk3cbUbNoZYpZG/1ck75VHGFHZwXX27SYuyNcxFrJXoNETXbvas+5G0613fk4YlahisQ6paKln2pNzLXeB3nGOa1oMWzwX74t0JKcGY1GaqWpPmHCmANPbJV6UQTbACzs4MDSw38+lx2GzBxL7eouyWOLhSRhpHo2+ItQGCUXJP23P+nBFMX63hj7NYJQ79rf6zZnPakax8OitrKdSU9PCepY+5ZDp8F71BTPMBZ7dWbhvtF+dQvYeh0Vgxr7sXvd2x6qHyinp0CkE6xvCbPsyT1fH7tTA5kmKPxnL//NtlQcCscNS1qQ8VDlm9</Value>
+    </Setting>
+    <Setting Name="RutaPendientes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Entrega de Pendientes\Pendientes\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

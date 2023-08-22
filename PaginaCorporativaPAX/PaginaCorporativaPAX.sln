@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PaginaCorporativaPAX", "..\..\..\..\..\..\testing\PaginaCorporativaPAX", "{020A25DF-128C-42D6-BD17-817F654E1ED2}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/PaginaCorporativaPAX"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\testing\PaginaCorporativaPAX\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PaginaCorporativaPAX\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PaginaCorporativaPAX"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\testing\PaginaCorporativaPAX\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PaginaCorporativaPAX\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4575"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.2.13:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = ..\\..\\..\\..\\..\\..\\testing\\PaginaCorporativaPAX
+		SccProjectName1 = PaginaCorporativaPAX
+		SccLocalPath1 = ..\\..\\..\\..\\..\\..\\testing\\PaginaCorporativaPAX
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{020A25DF-128C-42D6-BD17-817F654E1ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020A25DF-128C-42D6-BD17-817F654E1ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

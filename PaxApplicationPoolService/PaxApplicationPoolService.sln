@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaxApplicationPoolService", "PaxApplicationPoolService\PaxApplicationPoolService.csproj", "{41A5B9CC-EF48-49CC-AC07-9B041A77EB9C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PaxInstaladorApplicationPoolService", "PaxInstaladorApplicationPoolService\PaxInstaladorApplicationPoolService.vdproj", "{F49FB22E-B4DC-4988-9300-B3A372784ABD}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.3.105:8080/tfs/team-practicas
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PaxApplicationPoolService\\PaxApplicationPoolService.csproj
+		SccProjectName1 = PaxApplicationPoolService
+		SccLocalPath1 = PaxApplicationPoolService
+		SccProjectUniqueName2 = PaxInstaladorApplicationPoolService\\PaxInstaladorApplicationPoolService.vdproj
+		SccProjectName2 = PaxInstaladorApplicationPoolService
+		SccLocalPath2 = PaxInstaladorApplicationPoolService
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41A5B9CC-EF48-49CC-AC07-9B041A77EB9C}.Debug|x86.ActiveCfg = Debug|x86
+		{41A5B9CC-EF48-49CC-AC07-9B041A77EB9C}.Debug|x86.Build.0 = Debug|x86
+		{41A5B9CC-EF48-49CC-AC07-9B041A77EB9C}.Release|x86.ActiveCfg = Release|x86
+		{41A5B9CC-EF48-49CC-AC07-9B041A77EB9C}.Release|x86.Build.0 = Release|x86
+		{F49FB22E-B4DC-4988-9300-B3A372784ABD}.Debug|x86.ActiveCfg = Debug
+		{F49FB22E-B4DC-4988-9300-B3A372784ABD}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

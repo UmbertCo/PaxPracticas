@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SolucionPruebas.Presentacion.WindowsForms.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="rutaArchivos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Proyectos\Practicas\SolucionPruebas\SolucionPruebas.Presentacion.WindowsForms\Prueba</Value>
+    </Setting>
+    <Setting Name="rutaLog" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Proyectos\Practicas\SolucionPruebas\SolucionPruebas.Presentacion.WindowsForms\Logs</Value>
+    </Setting>
+    <Setting Name="rutaErrores" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Proyectos\Practicas\SolucionPruebas\SolucionPruebas.Presentacion.WindowsForms\Errores</Value>
+    </Setting>
+    <Setting Name="nombreArchivo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Proyectos\Practicas\SolucionPruebas\SolucionPruebas.Presentacion.WindowsForms\cfdi_prueba.xml</Value>
+    </Setting>
+    <Setting Name="nombreArchivoLayout" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Proyectos\Practicas\SolucionPruebas\SolucionPruebas.Presentacion.WindowsForms\layout_prueba.txt</Value>
+    </Setting>
+    <Setting Name="rutaCertificados" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Proyectos\Practicas\SolucionPruebas\SolucionPruebas.Presentacion.WindowsForms\Certificados</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

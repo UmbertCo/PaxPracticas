@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblAcercaDe" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="lblClientes" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="lblContacto" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="lblDerechos" xml:space="preserve">
+    <value>® Todos los Derechos Reservados 2011. Chihuahua, Chih. México</value>
+  </data>
+  <data name="lblEstructura" xml:space="preserve">
+    <value>Estructura</value>
+  </data>
+  <data name="lblEventos" xml:space="preserve">
+    <value>Eventos</value>
+  </data>
+  <data name="lblleermas" xml:space="preserve">
+    <value>ver más</value>
+  </data>
+  <data name="lblNoticias" xml:space="preserve">
+    <value>Pax Facturación reanuda sus servicios de cancelación debido a las inconsistencias de conexión con el SAT les agradecemos su compresión....</value>
+  </data>
+  <data name="lblOficinaVirtual" xml:space="preserve">
+    <value>Oficina Virtual</value>
+  </data>
+  <data name="lblPolitica" xml:space="preserve">
+    <value>Política de Privacidad</value>
+  </data>
+  <data name="lblQuienesSomos" xml:space="preserve">
+    <value>La empresa se establece a principios del 2011.
+Con la intención de proveer el servicio de Facturación Electrónica.... </value>
+  </data>
+  <data name="lblServicios" xml:space="preserve">
+    <value>Servicios</value>
+  </data>
+  <data name="lblSkype" xml:space="preserve">
+    <value>¡Llámanos por Skype!</value>
+  </data>
+  <data name="lblTelefonoPAX" xml:space="preserve">
+    <value>01 800 00 PAX 00</value>
+  </data>
+  <data name="lblTerminos" xml:space="preserve">
+    <value>Términos y Condiciones</value>
+  </data>
+  <data name="lblvermas" xml:space="preserve">
+    <value>ver mas</value>
+  </data>
+  <data name="mnuInicio" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="lblLogos" xml:space="preserve">
+    <value>Los logotipos de compañias aqui mencionados son marcas registradas de sus respectivos propietarios.</value>
+  </data>
+  <data name="lblFacturacionElectronica" xml:space="preserve">
+    <value>Tan completo como tener un sistema de información, y tan simple como llenar una factura a mano.
+Deja los tramites tediosos, nosostros nos encargamos de ellos
+Si buscas ATENCIÓN, SERVICIO Y SEGURIDAD, somos tu opción.
+SEGURIDAD en su información, Contamos con respaldos y accesos restringidos.
+	Contamos con el SERVICIO y ATÉNCIÓN personalizada con soporte técnico las 24 horas, los 7 días de la semana y los 365 días del año.
+Cuentas con la SEGURIDAD de estar contratando a un equipo capaz de brindar un servicio de alta calidad, disponibilidad y eficiencia a un BAJO COSTO
+Somos un proveedor autorizado por el SAT.</value>
+  </data>
+  <data name="lblTituloFacturacion" xml:space="preserve">
+    <value>Facturación Electrónica</value>
+  </data>
+  <data name="lbliraFacturacion" xml:space="preserve">
+    <value>Ir a la pagina de PAX Facturación</value>
+  </data>
+  <data name="lblServidores" xml:space="preserve">
+    <value>Sin aumentar costos, tienes tu información siempre disponible, sin interrupción por fallas y siempre con personal capacitado para dar respuesta inmediata a sus dudas.
+
+Gestione sus recursos asignados en cualquier momento, pagando solo lo que necesita.</value>
+  </data>
+  <data name="lblTituloServidores" xml:space="preserve">
+    <value>Servidores en la Nube</value>
+  </data>
+  <data name="lbliraServidores" xml:space="preserve">
+    <value>Ir a la pagina de Servidores</value>
+  </data>
+  <data name="lblClientesQue" xml:space="preserve">
+    <value>¡Clientes que confian en PAX!</value>
+  </data>
+  <data name="lblcomprasOnLine" xml:space="preserve">
+    <value>Si estás interesado en alguno de los servicios que ofrecemos, puedes adquirir online, directamente en nuestra pagina de ventas, es muy sencillo utilizarla, compras y de inmediato puedes hacer uso de los recursos adquiridos</value>
+  </data>
+  <data name="lblDesarrollo" xml:space="preserve">
+    <value>Desarrollo de Software a la medida con tecnologías basados en Microsoft y bases de datos SQL.
+Generamos desarrollos basándonos en las necesidades de cada cliente, tomando como meta la completa satisfacción con la calidad del producto final.
+Nuestros principales enfoques son hacia desarrollo tanto en sistemas de escritorio como plataformas web, pudiendo brindar alojamiento a las mismas con nuestra propia infraestructura.</value>
+  </data>
+  <data name="lbliraComprasOnLine" xml:space="preserve">
+    <value>Ir a la pagina de Compras Online</value>
+  </data>
+  <data name="lbliraEventos" xml:space="preserve">
+    <value>Ir a pagina de eventos</value>
+  </data>
+  <data name="lblTextEstructura" xml:space="preserve">
+    <value>A continuación te mostramos un diagrama que muestra las áreas de las que se conforma PAX Facturación como empresa.</value>
+  </data>
+  <data name="lbltextEventos" xml:space="preserve">
+    <value>En PAX, tenemos distintos eventos para clientes y socios comerciales, así como para alumnos de contabilidad que estén interesados en el tema de facturacion electrónica.
+Puedes ver nuestro calendario de eventos así como registrarte al que desees en la siguiente liga.</value>
+  </data>
+  <data name="lblTituloClientes" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="lblTituloComprasOnLine" xml:space="preserve">
+    <value>Compras en Linea</value>
+  </data>
+  <data name="lblTituloDesarrollo" xml:space="preserve">
+    <value>Desarrollo de Software a la Medida</value>
+  </data>
+  <data name="lblTituloEstructura" xml:space="preserve">
+    <value>Estructura</value>
+  </data>
+  <data name="lblTituloEventos" xml:space="preserve">
+    <value>Eventos</value>
+  </data>
+  <data name="lblNuestraHistoria" xml:space="preserve">
+    <value>Todo comienza con una reunión de importantes inversionistas a finales del 2010, con la idea de asociarse para crear una empresa sin precedentes, que lograra satisfacer una de las necesidades más inminentes proporcionando un servicio y calidas únicos en el ramo, aunado a la experiencia y trayectoria que cada una de las empresas tiene, se pensó en construir PAX Facturación. Se realizó una planeación para hacer la búsqueda de el recurso humano, mejor preparado de la región...</value>
+  </data>
+  <data name="lblQuienesPAXFacturacion" xml:space="preserve">
+    <value>PAX Facturación se establece a principios del 2011.
+Con el objetivo de posicionarse a nivel nacional como la empresa líder en servicios de facturación eletrónica, y compitiendo en el mercado proveedor confiable.
+Para ayudar a detonar el desarrollo de las PYMES en México.
+A partir del 8 de Diciembre del 2011, PAX Facturación fue certificado por el SAT como Proveedor Atorizado de Certificación(PAC).</value>
+  </data>
+  <data name="lblTextMision" xml:space="preserve">
+    <value>Ser la empresa líder en servicios de Facturación Electrónica, desarrollo de software a la medida y alojamiento de servidores en la nube, en base a las necesidades de nuestros Clientes, convirtiéndonos en la mejor opción en el mercado por calidad, agilidad, innovación, servicio y seguridad a través de la madurez de nuestros procesos con un equipo de trabajo que fomente ideas innovadoras que agregan valor a nuestros Clientes.</value>
+  </data>
+  <data name="lblTextValores" xml:space="preserve">
+    <value>
+                &lt;b&gt;•RESPETO:&lt;/b&gt; Entre los compañeros de trabajo así como hacia los clientes y 
+                proveedores.&lt;br /&gt;
+                &lt;b&gt;•PROFESIONALISMO:&lt;/b&gt; Esfuerzo en la actualización y adquisición de conocimientos, 
+                confidencialidad en los asuntos, empatía y compromiso con el cliente.&lt;br /&gt;
+                &lt;b&gt;•HONESTIDAD:&lt;/b&gt; Transparencia en la información, confianza depositada en las 
+                personas, compromiso con el logro.&lt;br /&gt;
+                &lt;b&gt;•ACTITUD DE SERVICIO:&lt;/b&gt; Brindar atención con una actitud positiva para el logro de 
+                los objetivos de nuestros clientes.&lt;br /&gt;
+                &lt;b&gt;•CALIDAD:&lt;/b&gt; Trabajar Eficaz y eficientemente.&lt;br /&gt;
+                &lt;b&gt;•TRABAJO EN EQUIPO Y COMPAÑERISMO:&lt;/b&gt; Se fomenta la comunicación clara y abierta de 
+                todos los miembros de la organización. Promovemos la participación sin niveles jerárquicos.
+                &lt;br /&gt;
+                &lt;b&gt;•LEALTAD:&lt;/b&gt; Cualidad de aquellas personas que acatan las leyes o cumplen los 
+                acuerdos, tácitos o explícitos.&lt;br /&gt;
+                &lt;b&gt;•RESPONSABILIDAD:&lt;/b&gt; Habilidad de responder. Responsable es aquel que 
+                conscientemente es la causa directa o indirecta de un hecho y que, por lo tanto, es imputable por las consecuencias de ese 
+                hecho. 
+    </value>
+  </data>
+  <data name="lblTextVision" xml:space="preserve">
+    <value>“PAX Facturación” es una empresa que timbra, administra y controla todo Comprobante Fiscal Digital por Internet (CFDI) emitido y recibido por todo tipo de contribuyente, basado en un servicio personalizado, para el correcto cumplimiento de ésta obligación fiscal. Proporciona también servicio de desarrollo a la medida y alojamiento de servidores en la nube.</value>
+  </data>
+  <data name="lblTituloMision" xml:space="preserve">
+    <value>Misión</value>
+  </data>
+  <data name="lblTituloNuestraHistoria" xml:space="preserve">
+    <value>Nuestra Historia</value>
+  </data>
+  <data name="lblTituloQuienesPAXFacturacion" xml:space="preserve">
+    <value>Quién es PAX Facturación</value>
+  </data>
+  <data name="lblTituloValores" xml:space="preserve">
+    <value>Valores</value>
+  </data>
+  <data name="lblTituloVision" xml:space="preserve">
+    <value>Visión</value>
+  </data>
+  <data name="lblTituloOficinaVirtual" xml:space="preserve">
+    <value>Oficinas</value>
+  </data>
+  <data name="lblQuienesPAX" xml:space="preserve">
+    <value>¿Quién es PAX?</value>
+  </data>
+  <data name="lblSubMenuCotizar" xml:space="preserve">
+    <value>Cotizar</value>
+  </data>
+  <data name="lblSubMenuDesarrolloSW" xml:space="preserve">
+    <value>Desarrollo de Software</value>
+  </data>
+  <data name="lblSubMenuFacturacionElectronica" xml:space="preserve">
+    <value>Facturación Electrónica</value>
+  </data>
+  <data name="lblSubMenuHistoria" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="lblSubMenuMisionVision" xml:space="preserve">
+    <value>Misión y Visión</value>
+  </data>
+  <data name="lblSubMenuQuienesSomos" xml:space="preserve">
+    <value>Quiénes Somos</value>
+  </data>
+  <data name="lblSubMenuServidoresenlaNube" xml:space="preserve">
+    <value>Servidores en la Nube</value>
+  </data>
+  <data name="lblSubMenuValores" xml:space="preserve">
+    <value>Valores</value>
+  </data>
+  <data name="lblTituloclientesQue" xml:space="preserve">
+    <value>Clientes que Confian en PAX</value>
+  </data>
+  <data name="lblTituloNoticias" xml:space="preserve">
+    <value>Noticias</value>
+  </data>
+  <data name="lblContacto3" xml:space="preserve">
+    <value>Envíe un correo electrónico al servicio al cliente</value>
+  </data>
+  <data name="lblContacto4" xml:space="preserve">
+    <value>Llame al servicio al cliente</value>
+  </data>
+  <data name="lblContacto5" xml:space="preserve">
+    <value>Envíe un correo electrónico al servicio al cliente para obtener asistencia. En general, los representantes responden a las consultas en el plazo de un día laborable.</value>
+  </data>
+  <data name="lblContacto6" xml:space="preserve">
+    <value>Comuníquese por teléfono con el servicio al cliente.</value>
+  </data>
+  <data name="lblContacto7" xml:space="preserve">
+    <value>Chat en línea con el servicio al cliente</value>
+  </data>
+  <data name="lblContacto8" xml:space="preserve">
+    <value>Rápido, fácil y sin inconvenientes! Converse en línea con un representante del servicio al cliente de PAX y obtenga rápidamente las respuestas que necesita.</value>
+  </data>
+  <data name="lblContacto9" xml:space="preserve">
+    <value>Correo Electrónico</value>
+  </data>
+  <data name="lblTelefono" xml:space="preserve">
+    <value>01 800 00 729 00</value>
+  </data>
+  <data name="lblTelefonoOficina" xml:space="preserve">
+    <value>(614) 424 04 44</value>
+  </data>
+  <data name="btnEntrar" xml:space="preserve">
+    <value>Entrar</value>
+  </data>
+  <data name="lblAgregarNot" xml:space="preserve">
+    <value>Agregar Noticia</value>
+  </data>
+  <data name="lblContrasenia" xml:space="preserve">
+    <value>Contraseña:</value>
+  </data>
+  <data name="lblContraseniaRequerida" xml:space="preserve">
+    <value>Contraseña requerida</value>
+  </data>
+  <data name="lblPasswordError" xml:space="preserve">
+    <value>La combinación de usuario y contraseña es incorrecta</value>
+  </data>
+  <data name="lblTitNoticias" xml:space="preserve">
+    <value>Noticias</value>
+  </data>
+  <data name="lblUsuario" xml:space="preserve">
+    <value>Usuario:</value>
+  </data>
+  <data name="lblUsuarioRequerido" xml:space="preserve">
+    <value>Nombre de usuario requerido.</value>
+  </data>
+  <data name="btnGuardarSop" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="lblDescripcionin" xml:space="preserve">
+    <value>Noticias</value>
+  </data>
+  <data name="lblNoticiasError" xml:space="preserve">
+    <value>La noticia solo debe contener hasta 140 caracteres y no debe de quedar en blanco</value>
+  </data>
+  <data name="varAceptar" xml:space="preserve">
+    <value>Se ha guardado y publicado satisfactoriamente en Twitter</value>
+  </data>
+  <data name="lblpoliticasdesc" xml:space="preserve">
+    <value>&lt;table&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+La presente política de seguridad detalla las debidas condiciones de uso en este sitio. Al acceder al sitio,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; usted da su consentimiento para la recopilación de datos y las prácticas de uso descritas en esta &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+declaración de privacidad.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;
+Protección de Datos Personales
+&lt;/b&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/tr&gt;&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+La información personal es cualquier información que te identifica, o mediante la cual se pudiera deducir tu identidad. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+Para utilizar algunos de los servicios o acceder a determinados contenidos, deberá proporcionar previamente ciertos datos &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;de carácter personal, que solo serán utilizados para el propósito que fueron recopilados.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+El tipo de la posible Información que se le sea solicitada incluye, de manera enunciativa más no limitativa, &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;su nombre, R.F.C., dirección de correo electrónico (e-mail), calle, ciudad de origen, código postal, &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;entre otros, no toda la Información solicitada al momento de participar en el sitio es obligatoria de &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;proporcionarse, salvo aquella que consideremos conveniente y que así se le haga saber. Cómo principio &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+general, este sitio no comparte ni revela información obtenida, excepto cuando haya sido autorizada por usted, &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;o en los siguientes casos: &lt;/td&gt;&lt;/tr&gt;&lt;/br&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+•	Cuando le sea requerido por una autoridad competente y previo el cumplimiento del trámite legal correspondiente. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+•	Cuando a juicio de este sitio sea necesario para hacer cumplir las condiciones de uso y demás términos de esta página,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; o para salvaguardar la integridad de los demás usuarios o del sitio.&lt;/td&gt;&lt;/tr&gt;
+&lt;/br&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+La información personal recopilada en este sitio se utilizará para hacer funcionar el sitio y para proporcionar &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;los servicios o efectuar las transacciones que usted solicite. Para apoyar tales usos, PAX puede emplear &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;la información personal para proporcionarle un servicio al cliente más efectivo y brindarle información &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;importante sobre el producto o servicio que está siendo utilizado, lo que incluye actualizaciones críticas &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;y notificaciones. Adicionalmente, podemos enviarle información sobre otros productos y servicios de PAX&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+PAX tiene el compromiso de proteger la seguridad de su información personal. Usamos muy diversas tecnologías y &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;procedimientos de seguridad para ayudar a proteger su información personal contra el acceso, uso o revelación &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;no autorizados. Por ejemplo, almacenamos la información personal que se nos es proporcionada en servidores de &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;computadora con acceso limitado que se ubican en instalaciones controladas.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+Una vez recabados sus datos personales se almacenan en el servidor de manera cifrada junto con otras medidas &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;adicionales de protección. No obstante Ud. deberá responsabilizarse del uso de su cuenta y contraseña &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;manteniéndola privada y no poniéndola a disposición de terceros.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+Toda la información que facilite deberá ser veraz. A estos efectos, usted garantiza la autenticidad de todos aquellos&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; datos que comunique como consecuencia de la cumplimentación de los formularios necesarios para la suscripción &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;de los Servicios, acceso a contenidos o áreas restringidas del sitio. En todo caso usted será el único responsable &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;de las manifestaciones falsas o inexactas que realice y de los perjuicios que cause a este sitio o a terceros por &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;la información que facilite. 
+&lt;tr&gt;&lt;td&gt;
+Usted se compromete a actuar en forma responsable en este sitio y a tratar a otros visitantes con respeto.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+En caso de cancelación de servicio de algún cliente PAX, las medidas de privacidad de la información mencionadas &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;anteriormente se mantienen vigentes. La información será eliminada de nuestros sistemas de acuerdo a lo&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; reglamentado por la autoridad tributaria para estos casos.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+PAX actualizará la presente política en los casos que se requiera de acuerdo a cambios en la legislación. En estos &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;casos serán informados nuestros clientes con suficiente tiempo de antelación.&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</value>
+  </data>
+  <data name="lblTerminosyCondiciones" xml:space="preserve">
+    <value>&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;
+Tómese un tiempo para revisar las Condiciones de Uso, porque con la sola utilización del Portal se compromete &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;sin reservas a cumplirlas. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+PAX se reserva el derecho de modificar sin previo aviso éstas Condiciones de Uso, así como el contrato que estas&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;suponen, mediante la sola actualización de este texto.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+Todo el material existente en el sitio, que no corresponda a un tercero, constituye propiedad intelectual y exclusiva de PAX. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;A título meramente enunciativo, se entenderán incluidos el texto, software, nombres, logotipos, marcas comerciales,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;marcas registradas, nombres comerciales, imágenes, fotografías, dibujos, música y vídeos.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+PAX se reserva todos los derechos sobre el mencionado material, no cede ni transfiere a favor del usuario ningún derecho sobre &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;su propiedad intelectual o la de terceros. En consecuencia, el usuario puede descargar el contenido únicamente para su &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;uso personal, nunca para fines comerciales, siempre y cuando se conserven todos los mensajes de copyright, propiedad &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;intelectual y marcas comerciales, no se realicen modificaciones a los mismos, no se haga uso de los contenidos de forma &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;que aparente estar vinculado con alguno de nuestros productos, servicios, eventos o marcas, y no se almacene los contenidos &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;en una base de datos, servidor, u ordenador personal para su uso con fines comerciales. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+No obstante, usted no está autorizado, bajo ningún concepto, a copiar, reproducir, publicar, tanto físicamente como &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;electrónicamente, transmitir o distribuir los contenidos en línea, a no ser que haya solicitado y obtenido, por escrito,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;nuestra autorización expresa. Tampoco podrá añadir, eliminar, alterar o tergiversar cualquier contenido de la Web de PAX. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Se prohíbe expresamente cualquier intento de modificar cualquier material en línea, o de forzar o evadir nuestras medidas &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;de seguridad. El usuario se obliga a usar los contenidos de forma correcta y lícita y no está autorizado a revender o vender&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;el material ni a utilizar técnicas de ingeniería inversa, descompilar o desensamblar el software, o convertirlo a cualquier &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;otro formato que permitiera su uso por parte de terceros.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;
+Límite de responsabilidad
+&lt;/b&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+PAX excluye cualquier responsabilidad por los daños y perjuicios de toda naturaleza que puedan deberse a la transmisión, &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;difusión, almacenamiento, puesta a disposición, recepción, obtención o acceso a los contenidos, y en particular, &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;aunque no de modo exclusivo, por los daños y perjuicios que puedan deberse a (a) el incumplimiento de la ley, la &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;moral y las buenas costumbres generalmente aceptadas o el orden público como consecuencia de la transmisión, difusión,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;almacenamiento, puesta a disposición, recepción, obtención o acceso a los contenidos;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; (b) la infracción de los derechos de propiedad intelectual e industrial, de compromisos contractuales de cualquier &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;clase, de los derechos al honor, a la intimidad personal y familiar y a la imagen de las personas, de los derechos &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;de propiedad y de toda otra naturaleza pertenecientes a un tercero como consecuencia de la transmisión, difusión, &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;almacenamiento, puesta a disposición, recepción, obtención o acceso a los contenidos; (c) la realización de actos &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;de competencia desleal y publicidad ilícita como consecuencia de la transmisión, difusión, almacenamiento, puesta &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;a disposición, recepción, obtención o acceso a los contenidos; (d) la falta de veracidad, exactitud, exhaustividad,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;pertinencia y/o actualidad de los contenidos; (e) la inadecuación para cualquier clase de propósito de y la defraudación&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;de las expectativas generadas por los contenidos; f) los vicios y defectos de toda clase de los contenidos transmitidos,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;difundidos, almacenados, puestos a disposición o de otra forma transmitidos o puestos a disposición, recibidos, obtenidos &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;o a los que se haya accedido a través del portal o de los servicios.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;b&gt;
+Extinción del presente Contrato 
+&lt;/b&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;
+PAX puede dar por finalizado el presente contrato en cualquier momento, sin necesidad de previo aviso, en el caso de que, &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;a su propio juicio, usted haya violado alguna de las condiciones del mismo.&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</value>
+  </data>
+  <data name="lbliraDesarrollo" xml:space="preserve">
+    <value>Ir a la pagina de Desarrollo de Software</value>
+  </data>
+</root>

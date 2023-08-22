@@ -1,0 +1,253 @@
+<cfdi:Comprobante version="3.2" serie="A" folio="123" fecha="2014-07-17T08:50:34" sello="S6hHTp8boFgTIKbNW61Wirbq3Cpb4e+lD7DGA3ARnWZXZmzD/1Uyx4wt95yNZ9OzZsgCxdSS6iFNWNJHbAT+V5FzwZv+rDBkoynAdugM1Qxjp/pFfCaSSDUcUgP600DaDMEejThAHcut5YRx6z8Dbm4+Qr/FgiUtGfBIpuAnLLM=" formaDePago="Pago en una sola exhibicion" noCertificado="20001000000100005867" certificado="MIIEdDCCA1ygAwIBAgIUMjAwMDEwMDAwMDAxMDAwMDU4NjcwDQYJKoZIhvcNAQEFBQAwggFvMRgwFgYDVQQDDA9BLkMuIGRlIHBydWViYXMxLzAtBgNVBAoMJlNlcnZpY2lvIGRlIEFkbWluaXN0cmFjacOzbiBUcmlidXRhcmlhMTgwNgYDVQQLDC9BZG1pbmlzdHJhY2nDs24gZGUgU2VndXJpZGFkIGRlIGxhIEluZm9ybWFjacOzbjEpMCcGCSqGSIb3DQEJARYaYXNpc25ldEBwcnVlYmFzLnNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxEjAQBgNVBAcMCUNveW9hY8OhbjEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTIwMAYJKoZIhvcNAQkCDCNSZXNwb25zYWJsZTogSMOpY3RvciBPcm5lbGFzIEFyY2lnYTAeFw0xMjA3MjcxNzAyMDBaFw0xNjA3MjcxNzAyMDBaMIHbMSkwJwYDVQQDEyBBQ0NFTSBTRVJWSUNJT1MgRU1QUkVTQVJJQUxFUyBTQzEpMCcGA1UEKRMgQUNDRU0gU0VSVklDSU9TIEVNUFJFU0FSSUFMRVMgU0MxKTAnBgNVBAoTIEFDQ0VNIFNFUlZJQ0lPUyBFTVBSRVNBUklBTEVTIFNDMSUwIwYDVQQtExxBQUEwMTAxMDFBQUEgLyBIRUdUNzYxMDAzNFMyMR4wHAYDVQQFExUgLyBIRUdUNzYxMDAzTURGUk5OMDkxETAPBgNVBAsTCFVuaWRhZCAxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2TTQSPONBOVxpXv9wLYo8jezBrb34i/tLx8jGdtyy27BcesOav2c1NS/Gdv10u9SkWtwdy34uRAVe7H0a3VMRLHAkvp2qMCHaZc4T8k47Jtb9wrOEh/XFS8LgT4y5OQYo6civfXXdlvxWU/gdM/e6I2lg6FGorP8H4GPAJ/qCNwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEATxMecTpMbdhSHo6KVUg4QVF4Op2IBhiMaOrtrXBdJgzGotUFcJgdBCMjtTZXSlq1S4DG1jr8p4NzQlzxsdTxaB8nSKJ4KEMgIT7E62xRUj15jI49qFz7f2uMttZLNThipunsN/NF1XtvESMTDwQFvas/Ugig6qwEfSZc0MDxMpKLEkEePmQwtZD+zXFSMVa6hmOu4M+FzGiRXbj4YJXn9Myjd8xbL/c+9UIcrYoZskxDvMxc6/6M3rNNDY3OFhBK+V/sPMzWWGt8S1yjmtPfXgFs1t65AZ2hcTwTAuHrKwDatJ1ZPfa482ZBROAAX1waz7WwXp0gso7sDCm2/yUVww==" condicionesDePago="8 dias fecha factura" subTotal="4938.53" descuento="448.69" motivoDescuento="Deducciones nómina" TipoCambio="0.0" Moneda="XEU" total="4079.22" tipoDeComprobante="egreso" metodoDePago="99" LugarExpedicion="Mexico,Juarez" NumCtaPago="1238" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/nomina http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina11.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfdi:Emisor rfc="AAA010101AAA" nombre="KEYTRONIC JUAREZ S.A. DE C.V.">
+    <cfdi:DomicilioFiscal calle="THOMAS BECKET" noExterior="2220" noInterior="1-A" colonia="PARQUE IND. GEMA" localidad="JUAREZ" referencia="Despues de las Vias" municipio="JUAREZ" estado="CHIHUAHUA" pais="México" codigoPostal="32380" />
+    <cfdi:ExpedidoEn calle="CONSTITUCION" noExterior="404 SUR" noInterior="2-A" colonia="DURANGO CENTRO" localidad="VICTORIA DE DURANGO" referencia="Despues del Puente" municipio="DURANGO" estado="DURANGO" pais="México" codigoPostal="34000" />
+    <cfdi:RegimenFiscal Regimen="Regimen General de Ley" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="MAMR850719LT8" nombre="MARTINEZ MUNOZ RICARDO">
+    <cfdi:Domicilio calle="Entre calle Encino y Sicomoro" noExterior="7597" noInterior="478" colonia="INDEPENDENCIA 1" localidad="JUAREZ" referencia="Entre calle Encino y Sicomoro" municipio="JUAREZ" estado="CHIHUAHUA" pais="México" codigoPostal="32640" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="Servicio" noIdentificacion="2014NO7" descripcion="PAGO DE NÓMINA" valorUnitario="4938.53" importe="0" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosRetenidos="410.62">
+    <cfdi:Retenciones>
+      <cfdi:Retencion impuesto="ISR" importe="0" />
+    </cfdi:Retenciones>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital version="1.0" UUID="1046f079-358f-40d1-b9ee-4cf4bdaa4265" FechaTimbrado="2014-07-17T12:55:48" selloCFD="S6hHTp8boFgTIKbNW61Wirbq3Cpb4e+lD7DGA3ARnWZXZmzD/1Uyx4wt95yNZ9OzZsgCxdSS6iFNWNJHbAT+V5FzwZv+rDBkoynAdugM1Qxjp/pFfCaSSDUcUgP600DaDMEejThAHcut5YRx6z8Dbm4+Qr/FgiUtGfBIpuAnLLM=" noCertificadoSAT="20001000000100005761" selloSAT="qej+zZy2nQ04nB8j8SNVPwXHtuarZ5khSq/O6mp/JQXz/XW8xqzm03eHdZeLHvbiuJsmg0RE+7mkO4H0aY+7E2ZpyN/pcce6X3NRIi6k9Ao8VblmkYpoivAQV+o4X6ibkS9nGrbfrFvcFSOelSa8NrPOq/ELNgkzpYrM7EY3dF8=" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+    <nomina:Nomina Version="1.1" RegistroPatronal="A83182441011" NumEmpleado="30379" CURP="MAMR850719HCHRXC03" TipoRegimen="2" NumSeguridadSocial="333068504035" FechaPago="2014-02-15" FechaInicialPago="2014-02-09" FechaFinalPago="2014-02-15" NumDiasPagados="7" Departamento="BRAUN" CLABE="002150700703379655" Banco="002" FechaInicioRelLaboral="2008-01-04" Antiguedad="322" Puesto="AUXILIAR DE PROCESOS IMATION III" TipoContrato="PLANTA" TipoJornada="Completa" PeriodicidadPago="Semanal" SalarioBaseCotApor="254.10" RiesgoPuesto="1" SalarioDiarioIntegrado="356.65" xmlns:nomina="http://www.sat.gob.mx/nomina">
+      <nomina:Percepciones TotalGravado="3439.34" TotalExento="1499.19">
+        <nomina:Percepcion TipoPercepcion="001" Clave="1001" Concepto="SUELDO NORMAL" ImporteGravado="1219.68" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1002" Concepto="TIEMPO EXTRA DOBLE" ImporteGravado="326.71" ImporteExento="326.69" />
+        <nomina:Percepcion TipoPercepcion="021" Clave="1003" Concepto="PRIMA VACACIONAL" ImporteGravado="0.00" ImporteExento="137.21" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1005" Concepto="VACACIONES" ImporteGravado="355.74" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1006" Concepto="SEPTIMO DIA" ImporteGravado="203.28" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="020" Clave="1008" Concepto="PRIMA DOMINICAL" ImporteGravado="27.99" ImporteExento="67.29" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1009" Concepto="DESCANSO LABORADO" ImporteGravado="871.20" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="038" Clave="1010" Concepto="BONO ASISTENCIA" ImporteGravado="65.94" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1013" Concepto="BONO DESPENSA" ImporteGravado="55.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1014" Concepto="TIEMPO EXTRA TRIPLE" ImporteGravado="217.80" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="010" Clave="1015" Concepto="BONO PUNTUALIDAD" ImporteGravado="46.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1017" Concepto="BONO TURNO" ImporteGravado="50.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1019" Concepto="BONO CCC" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1021" Concepto="BONO MENSUAL" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1001" Concepto="SUELDO NORMAL" ImporteGravado="1219.68" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1002" Concepto="TIEMPO EXTRA DOBLE" ImporteGravado="326.71" ImporteExento="326.69" />
+        <nomina:Percepcion TipoPercepcion="021" Clave="1003" Concepto="PRIMA VACACIONAL" ImporteGravado="0.00" ImporteExento="137.21" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1005" Concepto="VACACIONES" ImporteGravado="355.74" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1006" Concepto="SEPTIMO DIA" ImporteGravado="203.28" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="020" Clave="1008" Concepto="PRIMA DOMINICAL" ImporteGravado="27.99" ImporteExento="67.29" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1009" Concepto="DESCANSO LABORADO" ImporteGravado="871.20" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="038" Clave="1010" Concepto="BONO ASISTENCIA" ImporteGravado="65.94" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1013" Concepto="BONO DESPENSA" ImporteGravado="55.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1014" Concepto="TIEMPO EXTRA TRIPLE" ImporteGravado="217.80" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="010" Clave="1015" Concepto="BONO PUNTUALIDAD" ImporteGravado="46.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1017" Concepto="BONO TURNO" ImporteGravado="50.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1019" Concepto="BONO CCC" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1021" Concepto="BONO MENSUAL" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1001" Concepto="SUELDO NORMAL" ImporteGravado="1219.68" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1002" Concepto="TIEMPO EXTRA DOBLE" ImporteGravado="326.71" ImporteExento="326.69" />
+        <nomina:Percepcion TipoPercepcion="021" Clave="1003" Concepto="PRIMA VACACIONAL" ImporteGravado="0.00" ImporteExento="137.21" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1005" Concepto="VACACIONES" ImporteGravado="355.74" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1006" Concepto="SEPTIMO DIA" ImporteGravado="203.28" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="020" Clave="1008" Concepto="PRIMA DOMINICAL" ImporteGravado="27.99" ImporteExento="67.29" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1009" Concepto="DESCANSO LABORADO" ImporteGravado="871.20" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="038" Clave="1010" Concepto="BONO ASISTENCIA" ImporteGravado="65.94" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1013" Concepto="BONO DESPENSA" ImporteGravado="55.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1014" Concepto="TIEMPO EXTRA TRIPLE" ImporteGravado="217.80" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="010" Clave="1015" Concepto="BONO PUNTUALIDAD" ImporteGravado="46.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1017" Concepto="BONO TURNO" ImporteGravado="50.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1019" Concepto="BONO CCC" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1021" Concepto="BONO MENSUAL" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1001" Concepto="SUELDO NORMAL" ImporteGravado="1219.68" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1002" Concepto="TIEMPO EXTRA DOBLE" ImporteGravado="326.71" ImporteExento="326.69" />
+        <nomina:Percepcion TipoPercepcion="021" Clave="1003" Concepto="PRIMA VACACIONAL" ImporteGravado="0.00" ImporteExento="137.21" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1005" Concepto="VACACIONES" ImporteGravado="355.74" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1006" Concepto="SEPTIMO DIA" ImporteGravado="203.28" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="020" Clave="1008" Concepto="PRIMA DOMINICAL" ImporteGravado="27.99" ImporteExento="67.29" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1009" Concepto="DESCANSO LABORADO" ImporteGravado="871.20" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="038" Clave="1010" Concepto="BONO ASISTENCIA" ImporteGravado="65.94" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1013" Concepto="BONO DESPENSA" ImporteGravado="55.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1014" Concepto="TIEMPO EXTRA TRIPLE" ImporteGravado="217.80" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="010" Clave="1015" Concepto="BONO PUNTUALIDAD" ImporteGravado="46.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1017" Concepto="BONO TURNO" ImporteGravado="50.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1019" Concepto="BONO CCC" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1021" Concepto="BONO MENSUAL" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1001" Concepto="SUELDO NORMAL" ImporteGravado="1219.68" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1002" Concepto="TIEMPO EXTRA DOBLE" ImporteGravado="326.71" ImporteExento="326.69" />
+        <nomina:Percepcion TipoPercepcion="021" Clave="1003" Concepto="PRIMA VACACIONAL" ImporteGravado="0.00" ImporteExento="137.21" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1005" Concepto="VACACIONES" ImporteGravado="355.74" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1006" Concepto="SEPTIMO DIA" ImporteGravado="203.28" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="020" Clave="1008" Concepto="PRIMA DOMINICAL" ImporteGravado="27.99" ImporteExento="67.29" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1009" Concepto="DESCANSO LABORADO" ImporteGravado="871.20" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="038" Clave="1010" Concepto="BONO ASISTENCIA" ImporteGravado="65.94" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1013" Concepto="BONO DESPENSA" ImporteGravado="55.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1014" Concepto="TIEMPO EXTRA TRIPLE" ImporteGravado="217.80" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="010" Clave="1015" Concepto="BONO PUNTUALIDAD" ImporteGravado="46.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1017" Concepto="BONO TURNO" ImporteGravado="50.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1019" Concepto="BONO CCC" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1021" Concepto="BONO MENSUAL" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1001" Concepto="SUELDO NORMAL" ImporteGravado="1219.68" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1002" Concepto="TIEMPO EXTRA DOBLE" ImporteGravado="326.71" ImporteExento="326.69" />
+        <nomina:Percepcion TipoPercepcion="021" Clave="1003" Concepto="PRIMA VACACIONAL" ImporteGravado="0.00" ImporteExento="137.21" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1005" Concepto="VACACIONES" ImporteGravado="355.74" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1006" Concepto="SEPTIMO DIA" ImporteGravado="203.28" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="020" Clave="1008" Concepto="PRIMA DOMINICAL" ImporteGravado="27.99" ImporteExento="67.29" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1009" Concepto="DESCANSO LABORADO" ImporteGravado="871.20" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="038" Clave="1010" Concepto="BONO ASISTENCIA" ImporteGravado="65.94" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1013" Concepto="BONO DESPENSA" ImporteGravado="55.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1014" Concepto="TIEMPO EXTRA TRIPLE" ImporteGravado="217.80" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="010" Clave="1015" Concepto="BONO PUNTUALIDAD" ImporteGravado="46.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1017" Concepto="BONO TURNO" ImporteGravado="50.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1019" Concepto="BONO CCC" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1021" Concepto="BONO MENSUAL" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1001" Concepto="SUELDO NORMAL" ImporteGravado="1219.68" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1002" Concepto="TIEMPO EXTRA DOBLE" ImporteGravado="326.71" ImporteExento="326.69" />
+        <nomina:Percepcion TipoPercepcion="021" Clave="1003" Concepto="PRIMA VACACIONAL" ImporteGravado="0.00" ImporteExento="137.21" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1005" Concepto="VACACIONES" ImporteGravado="355.74" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1006" Concepto="SEPTIMO DIA" ImporteGravado="203.28" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="020" Clave="1008" Concepto="PRIMA DOMINICAL" ImporteGravado="27.99" ImporteExento="67.29" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1009" Concepto="DESCANSO LABORADO" ImporteGravado="871.20" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="038" Clave="1010" Concepto="BONO ASISTENCIA" ImporteGravado="65.94" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1013" Concepto="BONO DESPENSA" ImporteGravado="55.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1014" Concepto="TIEMPO EXTRA TRIPLE" ImporteGravado="217.80" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="010" Clave="1015" Concepto="BONO PUNTUALIDAD" ImporteGravado="46.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1017" Concepto="BONO TURNO" ImporteGravado="50.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1019" Concepto="BONO CCC" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1021" Concepto="BONO MENSUAL" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1001" Concepto="SUELDO NORMAL" ImporteGravado="1219.68" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1002" Concepto="TIEMPO EXTRA DOBLE" ImporteGravado="326.71" ImporteExento="326.69" />
+        <nomina:Percepcion TipoPercepcion="021" Clave="1003" Concepto="PRIMA VACACIONAL" ImporteGravado="0.00" ImporteExento="137.21" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1005" Concepto="VACACIONES" ImporteGravado="355.74" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1006" Concepto="SEPTIMO DIA" ImporteGravado="203.28" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="020" Clave="1008" Concepto="PRIMA DOMINICAL" ImporteGravado="27.99" ImporteExento="67.29" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1009" Concepto="DESCANSO LABORADO" ImporteGravado="871.20" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="038" Clave="1010" Concepto="BONO ASISTENCIA" ImporteGravado="65.94" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1013" Concepto="BONO DESPENSA" ImporteGravado="55.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1014" Concepto="TIEMPO EXTRA TRIPLE" ImporteGravado="217.80" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="010" Clave="1015" Concepto="BONO PUNTUALIDAD" ImporteGravado="46.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1017" Concepto="BONO TURNO" ImporteGravado="50.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1019" Concepto="BONO CCC" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1021" Concepto="BONO MENSUAL" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1001" Concepto="SUELDO NORMAL" ImporteGravado="1219.68" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1002" Concepto="TIEMPO EXTRA DOBLE" ImporteGravado="326.71" ImporteExento="326.69" />
+        <nomina:Percepcion TipoPercepcion="021" Clave="1003" Concepto="PRIMA VACACIONAL" ImporteGravado="0.00" ImporteExento="137.21" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1005" Concepto="VACACIONES" ImporteGravado="355.74" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1006" Concepto="SEPTIMO DIA" ImporteGravado="203.28" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="020" Clave="1008" Concepto="PRIMA DOMINICAL" ImporteGravado="27.99" ImporteExento="67.29" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1009" Concepto="DESCANSO LABORADO" ImporteGravado="871.20" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="038" Clave="1010" Concepto="BONO ASISTENCIA" ImporteGravado="65.94" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1013" Concepto="BONO DESPENSA" ImporteGravado="55.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1014" Concepto="TIEMPO EXTRA TRIPLE" ImporteGravado="217.80" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="010" Clave="1015" Concepto="BONO PUNTUALIDAD" ImporteGravado="46.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1017" Concepto="BONO TURNO" ImporteGravado="50.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1019" Concepto="BONO CCC" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1021" Concepto="BONO MENSUAL" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1001" Concepto="SUELDO NORMAL" ImporteGravado="1219.68" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1002" Concepto="TIEMPO EXTRA DOBLE" ImporteGravado="326.71" ImporteExento="326.69" />
+        <nomina:Percepcion TipoPercepcion="021" Clave="1003" Concepto="PRIMA VACACIONAL" ImporteGravado="0.00" ImporteExento="137.21" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1005" Concepto="VACACIONES" ImporteGravado="355.74" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1006" Concepto="SEPTIMO DIA" ImporteGravado="203.28" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="020" Clave="1008" Concepto="PRIMA DOMINICAL" ImporteGravado="27.99" ImporteExento="67.29" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1009" Concepto="DESCANSO LABORADO" ImporteGravado="871.20" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="038" Clave="1010" Concepto="BONO ASISTENCIA" ImporteGravado="65.94" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1013" Concepto="BONO DESPENSA" ImporteGravado="55.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1014" Concepto="TIEMPO EXTRA TRIPLE" ImporteGravado="217.80" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="010" Clave="1015" Concepto="BONO PUNTUALIDAD" ImporteGravado="46.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1017" Concepto="BONO TURNO" ImporteGravado="50.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1019" Concepto="BONO CCC" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1021" Concepto="BONO MENSUAL" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1001" Concepto="SUELDO NORMAL" ImporteGravado="1219.68" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1002" Concepto="TIEMPO EXTRA DOBLE" ImporteGravado="326.71" ImporteExento="326.69" />
+        <nomina:Percepcion TipoPercepcion="021" Clave="1003" Concepto="PRIMA VACACIONAL" ImporteGravado="0.00" ImporteExento="137.21" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1005" Concepto="VACACIONES" ImporteGravado="355.74" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1006" Concepto="SEPTIMO DIA" ImporteGravado="203.28" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="020" Clave="1008" Concepto="PRIMA DOMINICAL" ImporteGravado="27.99" ImporteExento="67.29" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1009" Concepto="DESCANSO LABORADO" ImporteGravado="871.20" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="038" Clave="1010" Concepto="BONO ASISTENCIA" ImporteGravado="65.94" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1013" Concepto="BONO DESPENSA" ImporteGravado="55.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1014" Concepto="TIEMPO EXTRA TRIPLE" ImporteGravado="217.80" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="010" Clave="1015" Concepto="BONO PUNTUALIDAD" ImporteGravado="46.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1017" Concepto="BONO TURNO" ImporteGravado="50.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1019" Concepto="BONO CCC" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1021" Concepto="BONO MENSUAL" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1001" Concepto="SUELDO NORMAL" ImporteGravado="1219.68" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1002" Concepto="TIEMPO EXTRA DOBLE" ImporteGravado="326.71" ImporteExento="326.69" />
+        <nomina:Percepcion TipoPercepcion="021" Clave="1003" Concepto="PRIMA VACACIONAL" ImporteGravado="0.00" ImporteExento="137.21" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1005" Concepto="VACACIONES" ImporteGravado="355.74" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="001" Clave="1006" Concepto="SEPTIMO DIA" ImporteGravado="203.28" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="020" Clave="1008" Concepto="PRIMA DOMINICAL" ImporteGravado="27.99" ImporteExento="67.29" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1009" Concepto="DESCANSO LABORADO" ImporteGravado="871.20" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="038" Clave="1010" Concepto="BONO ASISTENCIA" ImporteGravado="65.94" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1013" Concepto="BONO DESPENSA" ImporteGravado="55.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="019" Clave="1014" Concepto="TIEMPO EXTRA TRIPLE" ImporteGravado="217.80" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="010" Clave="1015" Concepto="BONO PUNTUALIDAD" ImporteGravado="46.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1017" Concepto="BONO TURNO" ImporteGravado="50.00" ImporteExento="0.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1019" Concepto="BONO CCC" ImporteGravado="0.00" ImporteExento="484.00" />
+        <nomina:Percepcion TipoPercepcion="029" Clave="1021" Concepto="BONO MENSUAL" ImporteGravado="0.00" ImporteExento="484.00" />
+
+      </nomina:Percepciones>
+      <nomina:Deducciones TotalGravado="0.00" TotalExento="859.31">
+        <nomina:Deduccion TipoDeduccion="002" Clave="2001" Concepto="I.S.P.T. ART 113" ImporteGravado="0.00" ImporteExento="380.84" />
+        <nomina:Deduccion TipoDeduccion="001" Clave="2004" Concepto="SEGURO SOCIAL" ImporteGravado="0.00" ImporteExento="63.63" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2005" Concepto="RET. FONDO AHORRO" ImporteGravado="0.00" ImporteExento="231.23" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2008" Concepto="ISPT ART 112" ImporteGravado="0.00" ImporteExento="29.78" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2012" Concepto="RET. CAFETERIA" ImporteGravado="0.00" ImporteExento="53.83" />
+        <nomina:Deduccion TipoDeduccion="006" Clave="2010" Concepto="INCAPACIDAD" ImporteGravado="0.00" ImporteExento="100" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2001" Concepto="I.S.P.T. ART 113" ImporteGravado="0.00" ImporteExento="380.84" />
+        <nomina:Deduccion TipoDeduccion="001" Clave="2004" Concepto="SEGURO SOCIAL" ImporteGravado="0.00" ImporteExento="63.63" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2005" Concepto="RET. FONDO AHORRO" ImporteGravado="0.00" ImporteExento="231.23" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2008" Concepto="ISPT ART 112" ImporteGravado="0.00" ImporteExento="29.78" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2012" Concepto="RET. CAFETERIA" ImporteGravado="0.00" ImporteExento="53.83" />
+        <nomina:Deduccion TipoDeduccion="006" Clave="2010" Concepto="INCAPACIDAD" ImporteGravado="0.00" ImporteExento="100" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2001" Concepto="I.S.P.T. ART 113" ImporteGravado="0.00" ImporteExento="380.84" />
+        <nomina:Deduccion TipoDeduccion="001" Clave="2004" Concepto="SEGURO SOCIAL" ImporteGravado="0.00" ImporteExento="63.63" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2005" Concepto="RET. FONDO AHORRO" ImporteGravado="0.00" ImporteExento="231.23" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2008" Concepto="ISPT ART 112" ImporteGravado="0.00" ImporteExento="29.78" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2012" Concepto="RET. CAFETERIA" ImporteGravado="0.00" ImporteExento="53.83" />
+        <nomina:Deduccion TipoDeduccion="006" Clave="2010" Concepto="INCAPACIDAD" ImporteGravado="0.00" ImporteExento="100" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2001" Concepto="I.S.P.T. ART 113" ImporteGravado="0.00" ImporteExento="380.84" />
+        <nomina:Deduccion TipoDeduccion="001" Clave="2004" Concepto="SEGURO SOCIAL" ImporteGravado="0.00" ImporteExento="63.63" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2005" Concepto="RET. FONDO AHORRO" ImporteGravado="0.00" ImporteExento="231.23" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2008" Concepto="ISPT ART 112" ImporteGravado="0.00" ImporteExento="29.78" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2012" Concepto="RET. CAFETERIA" ImporteGravado="0.00" ImporteExento="53.83" />
+        <nomina:Deduccion TipoDeduccion="006" Clave="2010" Concepto="INCAPACIDAD" ImporteGravado="0.00" ImporteExento="100" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2001" Concepto="I.S.P.T. ART 113" ImporteGravado="0.00" ImporteExento="380.84" />
+        <nomina:Deduccion TipoDeduccion="001" Clave="2004" Concepto="SEGURO SOCIAL" ImporteGravado="0.00" ImporteExento="63.63" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2005" Concepto="RET. FONDO AHORRO" ImporteGravado="0.00" ImporteExento="231.23" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2008" Concepto="ISPT ART 112" ImporteGravado="0.00" ImporteExento="29.78" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2012" Concepto="RET. CAFETERIA" ImporteGravado="0.00" ImporteExento="53.83" />
+        <nomina:Deduccion TipoDeduccion="006" Clave="2010" Concepto="INCAPACIDAD" ImporteGravado="0.00" ImporteExento="100" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2001" Concepto="I.S.P.T. ART 113" ImporteGravado="0.00" ImporteExento="380.84" />
+        <nomina:Deduccion TipoDeduccion="001" Clave="2004" Concepto="SEGURO SOCIAL" ImporteGravado="0.00" ImporteExento="63.63" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2005" Concepto="RET. FONDO AHORRO" ImporteGravado="0.00" ImporteExento="231.23" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2008" Concepto="ISPT ART 112" ImporteGravado="0.00" ImporteExento="29.78" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2012" Concepto="RET. CAFETERIA" ImporteGravado="0.00" ImporteExento="53.83" />
+        <nomina:Deduccion TipoDeduccion="006" Clave="2010" Concepto="INCAPACIDAD" ImporteGravado="0.00" ImporteExento="100" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2001" Concepto="I.S.P.T. ART 113" ImporteGravado="0.00" ImporteExento="380.84" />
+        <nomina:Deduccion TipoDeduccion="001" Clave="2004" Concepto="SEGURO SOCIAL" ImporteGravado="0.00" ImporteExento="63.63" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2005" Concepto="RET. FONDO AHORRO" ImporteGravado="0.00" ImporteExento="231.23" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2008" Concepto="ISPT ART 112" ImporteGravado="0.00" ImporteExento="29.78" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2012" Concepto="RET. CAFETERIA" ImporteGravado="0.00" ImporteExento="53.83" />
+        <nomina:Deduccion TipoDeduccion="006" Clave="2010" Concepto="INCAPACIDAD" ImporteGravado="0.00" ImporteExento="100" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2001" Concepto="I.S.P.T. ART 113" ImporteGravado="0.00" ImporteExento="380.84" />
+        <nomina:Deduccion TipoDeduccion="001" Clave="2004" Concepto="SEGURO SOCIAL" ImporteGravado="0.00" ImporteExento="63.63" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2005" Concepto="RET. FONDO AHORRO" ImporteGravado="0.00" ImporteExento="231.23" />
+        <nomina:Deduccion TipoDeduccion="002" Clave="2008" Concepto="ISPT ART 112" ImporteGravado="0.00" ImporteExento="29.78" />
+        <nomina:Deduccion TipoDeduccion="004" Clave="2012" Concepto="RET. CAFETERIA" ImporteGravado="0.00" ImporteExento="53.83" />
+        <nomina:Deduccion TipoDeduccion="006" Clave="2010" Concepto="INCAPACIDAD" ImporteGravado="0.00" ImporteExento="100" />        
+        
+      </nomina:Deducciones>
+      <nomina:Incapacidades>
+        <nomina:Incapacidad DiasIncapacidad="1" TipoIncapacidad="2" Descuento="100" />
+      </nomina:Incapacidades>
+      <nomina:HorasExtras>
+        <nomina:HorasExtra Dias="3" TipoHoras="Dobles" HorasExtra="9" ImportePagado="653.40" />
+        <nomina:HorasExtra Dias="3" TipoHoras="Triples" HorasExtra="2" ImportePagado="217.80" />
+        <nomina:HorasExtra Dias="1" TipoHoras="Dobles" HorasExtra="4" ImportePagado="100" />
+      </nomina:HorasExtras>
+    </nomina:Nomina>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

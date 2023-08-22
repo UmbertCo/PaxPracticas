@@ -1,0 +1,1025 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="esquema" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!-- edited with XMLSpy v2010 rel. 3 (http://www.altova.com) by SAT (SAT) --&gt;
+&lt;xs:schema xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.sat.gob.mx/cfd/3" elementFormDefault="qualified" attributeFormDefault="unqualified"&gt;
+	&lt;xs:element name="Comprobante"&gt;
+		&lt;xs:annotation&gt;
+			&lt;xs:documentation&gt;Estándar de Comprobante fiscal digital a través de Internet.&lt;/xs:documentation&gt;
+		&lt;/xs:annotation&gt;
+		&lt;xs:complexType&gt;
+			&lt;xs:sequence&gt;
+				&lt;xs:element name="Emisor"&gt;
+					&lt;xs:annotation&gt;
+						&lt;xs:documentation&gt;Nodo requerido para expresar la información del contribuyente emisor del comprobante.&lt;/xs:documentation&gt;
+					&lt;/xs:annotation&gt;
+					&lt;xs:complexType&gt;
+						&lt;xs:sequence&gt;
+							&lt;xs:element name="DomicilioFiscal" type="cfdi:t_UbicacionFiscal" minOccurs="0"&gt;
+								&lt;xs:annotation&gt;
+									&lt;xs:documentation&gt;Nodo opcional para precisar la información de ubicación del domicilio fiscal del contribuyente emisor&lt;/xs:documentation&gt;
+								&lt;/xs:annotation&gt;
+							&lt;/xs:element&gt;
+							&lt;xs:element name="ExpedidoEn" type="cfdi:t_Ubicacion" minOccurs="0"&gt;
+								&lt;xs:annotation&gt;
+									&lt;xs:documentation&gt;Nodo opcional para precisar la información de ubicación del domicilio en donde es emitido el comprobante fiscal en caso de que sea distinto del domicilio fiscal del contribuyente emisor.&lt;/xs:documentation&gt;
+								&lt;/xs:annotation&gt;
+							&lt;/xs:element&gt;
+							&lt;xs:sequence&gt;
+								&lt;xs:element name="RegimenFiscal" maxOccurs="unbounded"&gt;
+									&lt;xs:annotation&gt;
+										&lt;xs:documentation&gt;Nodo requerido para incorporar los regímenes en los que tributa el contribuyente emisor. Puede contener más de un régimen.&lt;/xs:documentation&gt;
+									&lt;/xs:annotation&gt;
+									&lt;xs:complexType&gt;
+										&lt;xs:attribute name="Regimen" use="required"&gt;
+											&lt;xs:annotation&gt;
+												&lt;xs:documentation&gt;Atributo requerido para incorporar el nombre del régimen en el que tributa el contribuyente emisor.&lt;/xs:documentation&gt;
+											&lt;/xs:annotation&gt;
+											&lt;xs:simpleType&gt;
+												&lt;xs:restriction base="xs:string"&gt;
+													&lt;xs:minLength value="1"/&gt;
+													&lt;xs:whiteSpace value="collapse"/&gt;
+												&lt;/xs:restriction&gt;
+											&lt;/xs:simpleType&gt;
+										&lt;/xs:attribute&gt;
+									&lt;/xs:complexType&gt;
+								&lt;/xs:element&gt;
+							&lt;/xs:sequence&gt;
+						&lt;/xs:sequence&gt;
+						&lt;xs:attribute name="rfc" type="cfdi:t_RFC" use="required"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo requerido para la Clave del Registro Federal de Contribuyentes correspondiente al contribuyente emisor del comprobante sin guiones o espacios.&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+						&lt;/xs:attribute&gt;
+						&lt;xs:attribute name="nombre"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo opcional para el nombre, denominación o razón social del contribuyente emisor del comprobante.&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+							&lt;xs:simpleType&gt;
+								&lt;xs:restriction base="xs:string"&gt;
+									&lt;xs:minLength value="1"/&gt;
+									&lt;xs:whiteSpace value="collapse"/&gt;
+								&lt;/xs:restriction&gt;
+							&lt;/xs:simpleType&gt;
+						&lt;/xs:attribute&gt;
+					&lt;/xs:complexType&gt;
+				&lt;/xs:element&gt;
+				&lt;xs:element name="Receptor"&gt;
+					&lt;xs:annotation&gt;
+						&lt;xs:documentation&gt;Nodo requerido para precisar la información del contribuyente receptor del comprobante.&lt;/xs:documentation&gt;
+					&lt;/xs:annotation&gt;
+					&lt;xs:complexType&gt;
+						&lt;xs:sequence&gt;
+							&lt;xs:element name="Domicilio" type="cfdi:t_Ubicacion" minOccurs="0"&gt;
+								&lt;xs:annotation&gt;
+									&lt;xs:documentation&gt;Nodo opcional para la definición de la ubicación donde se da el domicilio del receptor del comprobante fiscal.&lt;/xs:documentation&gt;
+								&lt;/xs:annotation&gt;
+							&lt;/xs:element&gt;
+						&lt;/xs:sequence&gt;
+						&lt;xs:attribute name="rfc" type="cfdi:t_RFC" use="required"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo requerido para precisar la Clave del Registro Federal de Contribuyentes correspondiente al contribuyente receptor del comprobante.&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+						&lt;/xs:attribute&gt;
+						&lt;xs:attribute name="nombre" use="optional"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo opcional para el nombre, denominación o razón social del contribuyente receptor del comprobante.&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+							&lt;xs:simpleType&gt;
+								&lt;xs:restriction base="xs:string"&gt;
+									&lt;xs:minLength value="1"/&gt;
+									&lt;xs:whiteSpace value="collapse"/&gt;
+								&lt;/xs:restriction&gt;
+							&lt;/xs:simpleType&gt;
+						&lt;/xs:attribute&gt;
+					&lt;/xs:complexType&gt;
+				&lt;/xs:element&gt;
+				&lt;xs:element name="Conceptos"&gt;
+					&lt;xs:annotation&gt;
+						&lt;xs:documentation&gt;Nodo requerido para enlistar los conceptos cubiertos por el comprobante.&lt;/xs:documentation&gt;
+					&lt;/xs:annotation&gt;
+					&lt;xs:complexType&gt;
+						&lt;xs:sequence&gt;
+							&lt;xs:element name="Concepto" maxOccurs="unbounded"&gt;
+								&lt;xs:annotation&gt;
+									&lt;xs:documentation&gt;Nodo para introducir la información detallada de un bien o servicio amparado en el comprobante.&lt;/xs:documentation&gt;
+								&lt;/xs:annotation&gt;
+								&lt;xs:complexType&gt;
+									&lt;xs:choice minOccurs="0"&gt;
+										&lt;xs:element name="InformacionAduanera" type="cfdi:t_InformacionAduanera" minOccurs="0" maxOccurs="unbounded"&gt;
+											&lt;xs:annotation&gt;
+												&lt;xs:documentation&gt;Nodo opcional para introducir la información aduanera aplicable cuando se trate de ventas de primera mano de mercancías importadas.&lt;/xs:documentation&gt;
+											&lt;/xs:annotation&gt;
+										&lt;/xs:element&gt;
+										&lt;xs:element name="CuentaPredial" minOccurs="0"&gt;
+											&lt;xs:annotation&gt;
+												&lt;xs:documentation&gt;Nodo opcional para asentar el número de cuenta predial con el que fue registrado el inmueble, en el sistema catastral de la entidad federativa de que trate, o bien para incorporar los datos de identificación del certificado de participación inmobiliaria no amortizable.&lt;/xs:documentation&gt;
+											&lt;/xs:annotation&gt;
+											&lt;xs:complexType&gt;
+												&lt;xs:attribute name="numero" use="required"&gt;
+													&lt;xs:annotation&gt;
+														&lt;xs:documentation&gt;Atributo requerido para precisar el número de la cuenta predial del inmueble cubierto por el presente concepto, o bien para incorporar los datos de identificación del certificado de participación inmobiliaria no amortizable, tratándose de arrendamiento.&lt;/xs:documentation&gt;
+													&lt;/xs:annotation&gt;
+													&lt;xs:simpleType&gt;
+														&lt;xs:restriction base="xs:string"&gt;
+															&lt;xs:whiteSpace value="collapse"/&gt;
+															&lt;xs:minLength value="1"/&gt;
+														&lt;/xs:restriction&gt;
+													&lt;/xs:simpleType&gt;
+												&lt;/xs:attribute&gt;
+											&lt;/xs:complexType&gt;
+										&lt;/xs:element&gt;
+										&lt;xs:element name="ComplementoConcepto" minOccurs="0"&gt;
+											&lt;xs:annotation&gt;
+												&lt;xs:documentation&gt;Nodo opcional donde se incluirán los nodos complementarios de extensión al concepto, definidos por el SAT, de acuerdo a disposiciones particulares a un sector o actividad especifica.&lt;/xs:documentation&gt;
+											&lt;/xs:annotation&gt;
+											&lt;xs:complexType&gt;
+												&lt;xs:sequence&gt;
+													&lt;xs:any minOccurs="0" maxOccurs="unbounded"/&gt;
+												&lt;/xs:sequence&gt;
+											&lt;/xs:complexType&gt;
+										&lt;/xs:element&gt;
+										&lt;xs:element name="Parte" minOccurs="0" maxOccurs="unbounded"&gt;
+											&lt;xs:annotation&gt;
+												&lt;xs:documentation&gt;Nodo opcional para expresar las partes o componentes que integran la totalidad del concepto expresado en el comprobante fiscal digital a través de Internet&lt;/xs:documentation&gt;
+											&lt;/xs:annotation&gt;
+											&lt;xs:complexType&gt;
+												&lt;xs:sequence&gt;
+													&lt;xs:element name="InformacionAduanera" type="cfdi:t_InformacionAduanera" minOccurs="0" maxOccurs="unbounded"&gt;
+														&lt;xs:annotation&gt;
+															&lt;xs:documentation&gt;Nodo opcional para introducir la información aduanera aplicable cuando se trate de partes o componentes importados vendidos de primera mano.&lt;/xs:documentation&gt;
+														&lt;/xs:annotation&gt;
+													&lt;/xs:element&gt;
+												&lt;/xs:sequence&gt;
+												&lt;xs:attribute name="cantidad" use="required"&gt;
+													&lt;xs:annotation&gt;
+														&lt;xs:documentation&gt;Atributo requerido para precisar la cantidad de bienes o servicios del tipo particular definido por la presente parte.&lt;/xs:documentation&gt;
+													&lt;/xs:annotation&gt;
+													&lt;xs:simpleType&gt;
+														&lt;xs:restriction base="xs:decimal"&gt;
+															&lt;xs:whiteSpace value="collapse"/&gt;
+														&lt;/xs:restriction&gt;
+													&lt;/xs:simpleType&gt;
+												&lt;/xs:attribute&gt;
+												&lt;xs:attribute name="unidad" use="optional"&gt;
+													&lt;xs:annotation&gt;
+														&lt;xs:documentation&gt;Atributo opcional para precisar la unidad de medida aplicable para la cantidad expresada en la parte.&lt;/xs:documentation&gt;
+													&lt;/xs:annotation&gt;
+													&lt;xs:simpleType&gt;
+														&lt;xs:restriction base="xs:string"&gt;
+															&lt;xs:whiteSpace value="collapse"/&gt;
+															&lt;xs:minLength value="1"/&gt;
+														&lt;/xs:restriction&gt;
+													&lt;/xs:simpleType&gt;
+												&lt;/xs:attribute&gt;
+												&lt;xs:attribute name="noIdentificacion" use="optional"&gt;
+													&lt;xs:annotation&gt;
+														&lt;xs:documentation&gt;Atributo opcional para expresar el número de serie del bien o identificador del servicio amparado por la presente parte.&lt;/xs:documentation&gt;
+													&lt;/xs:annotation&gt;
+													&lt;xs:simpleType&gt;
+														&lt;xs:restriction base="xs:string"&gt;
+															&lt;xs:minLength value="1"/&gt;
+															&lt;xs:whiteSpace value="collapse"/&gt;
+														&lt;/xs:restriction&gt;
+													&lt;/xs:simpleType&gt;
+												&lt;/xs:attribute&gt;
+												&lt;xs:attribute name="descripcion" use="required"&gt;
+													&lt;xs:annotation&gt;
+														&lt;xs:documentation&gt;Atributo requerido para precisar la descripción del bien o servicio cubierto por la presente parte.&lt;/xs:documentation&gt;
+													&lt;/xs:annotation&gt;
+													&lt;xs:simpleType&gt;
+														&lt;xs:restriction base="xs:string"&gt;
+															&lt;xs:minLength value="1"/&gt;
+															&lt;xs:whiteSpace value="collapse"/&gt;
+														&lt;/xs:restriction&gt;
+													&lt;/xs:simpleType&gt;
+												&lt;/xs:attribute&gt;
+												&lt;xs:attribute name="valorUnitario" type="cfdi:t_Importe" use="optional"&gt;
+													&lt;xs:annotation&gt;
+														&lt;xs:documentation&gt;Atributo opcional para precisar el valor o precio unitario del bien o servicio cubierto por la presente parte.&lt;/xs:documentation&gt;
+													&lt;/xs:annotation&gt;
+												&lt;/xs:attribute&gt;
+												&lt;xs:attribute name="importe" type="cfdi:t_Importe" use="optional"&gt;
+													&lt;xs:annotation&gt;
+														&lt;xs:documentation&gt;Atributo opcional para precisar el importe total de los bienes o servicios de la presente parte. Debe ser equivalente al resultado de multiplicar la cantidad por el valor unitario expresado en la parte.&lt;/xs:documentation&gt;
+													&lt;/xs:annotation&gt;
+												&lt;/xs:attribute&gt;
+											&lt;/xs:complexType&gt;
+										&lt;/xs:element&gt;
+									&lt;/xs:choice&gt;
+									&lt;xs:attribute name="cantidad" use="required"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo requerido para precisar la cantidad de bienes o servicios del tipo particular definido por el presente concepto.&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+										&lt;xs:simpleType&gt;
+											&lt;xs:restriction base="xs:decimal"&gt;
+												&lt;xs:whiteSpace value="collapse"/&gt;
+											&lt;/xs:restriction&gt;
+										&lt;/xs:simpleType&gt;
+									&lt;/xs:attribute&gt;
+									&lt;xs:attribute name="unidad" use="required"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo requerido para precisar la unidad de medida aplicable para la cantidad expresada en el concepto.&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+										&lt;xs:simpleType&gt;
+											&lt;xs:restriction base="xs:string"&gt;
+												&lt;xs:whiteSpace value="collapse"/&gt;
+												&lt;xs:minLength value="1"/&gt;
+											&lt;/xs:restriction&gt;
+										&lt;/xs:simpleType&gt;
+									&lt;/xs:attribute&gt;
+									&lt;xs:attribute name="noIdentificacion" use="optional"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo opcional para expresar el número de serie del bien o identificador del servicio amparado por el presente concepto.&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+										&lt;xs:simpleType&gt;
+											&lt;xs:restriction base="xs:string"&gt;
+												&lt;xs:minLength value="1"/&gt;
+												&lt;xs:whiteSpace value="collapse"/&gt;
+											&lt;/xs:restriction&gt;
+										&lt;/xs:simpleType&gt;
+									&lt;/xs:attribute&gt;
+									&lt;xs:attribute name="descripcion" use="required"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo requerido para precisar la descripción del bien o servicio cubierto por el presente concepto.&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+										&lt;xs:simpleType&gt;
+											&lt;xs:restriction base="xs:string"&gt;
+												&lt;xs:minLength value="1"/&gt;
+												&lt;xs:whiteSpace value="collapse"/&gt;
+											&lt;/xs:restriction&gt;
+										&lt;/xs:simpleType&gt;
+									&lt;/xs:attribute&gt;
+									&lt;xs:attribute name="valorUnitario" type="cfdi:t_Importe" use="required"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo requerido para precisar el valor o precio unitario del bien o servicio cubierto por el presente concepto.&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+									&lt;/xs:attribute&gt;
+									&lt;xs:attribute name="importe" type="cfdi:t_Importe" use="required"&gt;
+										&lt;xs:annotation&gt;
+											&lt;xs:documentation&gt;Atributo requerido para precisar el importe total de los bienes o servicios del presente concepto. Debe ser equivalente al resultado de multiplicar la cantidad por el valor unitario expresado en el concepto.&lt;/xs:documentation&gt;
+										&lt;/xs:annotation&gt;
+									&lt;/xs:attribute&gt;
+								&lt;/xs:complexType&gt;
+							&lt;/xs:element&gt;
+						&lt;/xs:sequence&gt;
+					&lt;/xs:complexType&gt;
+				&lt;/xs:element&gt;
+				&lt;xs:element name="Impuestos"&gt;
+					&lt;xs:annotation&gt;
+						&lt;xs:documentation&gt;Nodo requerido para capturar los impuestos aplicables.&lt;/xs:documentation&gt;
+					&lt;/xs:annotation&gt;
+					&lt;xs:complexType&gt;
+						&lt;xs:sequence&gt;
+							&lt;xs:element name="Retenciones" minOccurs="0"&gt;
+								&lt;xs:annotation&gt;
+									&lt;xs:documentation&gt;Nodo opcional para capturar los impuestos retenidos aplicables&lt;/xs:documentation&gt;
+								&lt;/xs:annotation&gt;
+								&lt;xs:complexType&gt;
+									&lt;xs:sequence&gt;
+										&lt;xs:element name="Retencion" maxOccurs="unbounded"&gt;
+											&lt;xs:annotation&gt;
+												&lt;xs:documentation&gt;Nodo para la información detallada de una retención de impuesto específico&lt;/xs:documentation&gt;
+											&lt;/xs:annotation&gt;
+											&lt;xs:complexType&gt;
+												&lt;xs:attribute name="impuesto" use="required"&gt;
+													&lt;xs:annotation&gt;
+														&lt;xs:documentation&gt;Atributo requerido para señalar el tipo de impuesto retenido&lt;/xs:documentation&gt;
+													&lt;/xs:annotation&gt;
+													&lt;xs:simpleType&gt;
+														&lt;xs:restriction base="xs:string"&gt;
+															&lt;xs:whiteSpace value="collapse"/&gt;
+															&lt;xs:enumeration value="ISR"&gt;
+																&lt;xs:annotation&gt;
+																	&lt;xs:documentation&gt;Impuesto sobre la renta&lt;/xs:documentation&gt;
+																&lt;/xs:annotation&gt;
+															&lt;/xs:enumeration&gt;
+															&lt;xs:enumeration value="IVA"&gt;
+																&lt;xs:annotation&gt;
+																	&lt;xs:documentation&gt;Impuesto al Valor Agregado&lt;/xs:documentation&gt;
+																&lt;/xs:annotation&gt;
+															&lt;/xs:enumeration&gt;
+														&lt;/xs:restriction&gt;
+													&lt;/xs:simpleType&gt;
+												&lt;/xs:attribute&gt;
+												&lt;xs:attribute name="importe" type="cfdi:t_Importe" use="required"&gt;
+													&lt;xs:annotation&gt;
+														&lt;xs:documentation&gt;Atributo requerido para señalar el importe o monto del impuesto retenido&lt;/xs:documentation&gt;
+													&lt;/xs:annotation&gt;
+												&lt;/xs:attribute&gt;
+											&lt;/xs:complexType&gt;
+										&lt;/xs:element&gt;
+									&lt;/xs:sequence&gt;
+								&lt;/xs:complexType&gt;
+							&lt;/xs:element&gt;
+							&lt;xs:element name="Traslados" minOccurs="0"&gt;
+								&lt;xs:annotation&gt;
+									&lt;xs:documentation&gt;Nodo opcional para asentar o referir los impuestos trasladados aplicables&lt;/xs:documentation&gt;
+								&lt;/xs:annotation&gt;
+								&lt;xs:complexType&gt;
+									&lt;xs:sequence&gt;
+										&lt;xs:element name="Traslado" maxOccurs="unbounded"&gt;
+											&lt;xs:annotation&gt;
+												&lt;xs:documentation&gt;Nodo para la información detallada de un traslado de impuesto específico&lt;/xs:documentation&gt;
+											&lt;/xs:annotation&gt;
+											&lt;xs:complexType&gt;
+												&lt;xs:attribute name="impuesto" use="required"&gt;
+													&lt;xs:annotation&gt;
+														&lt;xs:documentation&gt;Atributo requerido para señalar el tipo de impuesto trasladado&lt;/xs:documentation&gt;
+													&lt;/xs:annotation&gt;
+													&lt;xs:simpleType&gt;
+														&lt;xs:restriction base="xs:string"&gt;
+															&lt;xs:whiteSpace value="collapse"/&gt;
+															&lt;xs:enumeration value="IVA"&gt;
+																&lt;xs:annotation&gt;
+																	&lt;xs:documentation&gt;Impuesto al Valor Agregado&lt;/xs:documentation&gt;
+																&lt;/xs:annotation&gt;
+															&lt;/xs:enumeration&gt;
+															&lt;xs:enumeration value="IEPS"&gt;
+																&lt;xs:annotation&gt;
+																	&lt;xs:documentation&gt;Impuesto especial sobre productos y servicios&lt;/xs:documentation&gt;
+																&lt;/xs:annotation&gt;
+															&lt;/xs:enumeration&gt;
+														&lt;/xs:restriction&gt;
+													&lt;/xs:simpleType&gt;
+												&lt;/xs:attribute&gt;
+												&lt;xs:attribute name="tasa" type="cfdi:t_Importe" use="required"&gt;
+													&lt;xs:annotation&gt;
+														&lt;xs:documentation&gt;Atributo requerido para señalar la tasa del impuesto que se traslada por cada concepto amparado en el comprobante&lt;/xs:documentation&gt;
+													&lt;/xs:annotation&gt;
+												&lt;/xs:attribute&gt;
+												&lt;xs:attribute name="importe" type="cfdi:t_Importe" use="required"&gt;
+													&lt;xs:annotation&gt;
+														&lt;xs:documentation&gt;Atributo requerido para señalar el importe del impuesto trasladado&lt;/xs:documentation&gt;
+													&lt;/xs:annotation&gt;
+												&lt;/xs:attribute&gt;
+											&lt;/xs:complexType&gt;
+										&lt;/xs:element&gt;
+									&lt;/xs:sequence&gt;
+								&lt;/xs:complexType&gt;
+							&lt;/xs:element&gt;
+						&lt;/xs:sequence&gt;
+						&lt;xs:attribute name="totalImpuestosRetenidos" type="cfdi:t_Importe" use="optional"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo opcional para expresar el total de los impuestos retenidos que se desprenden de los conceptos expresados en el comprobante fiscal digital a través de Internet.&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+						&lt;/xs:attribute&gt;
+						&lt;xs:attribute name="totalImpuestosTrasladados" type="cfdi:t_Importe" use="optional"&gt;
+							&lt;xs:annotation&gt;
+								&lt;xs:documentation&gt;Atributo opcional para expresar el total de los impuestos trasladados que se desprenden de los conceptos expresados en el comprobante fiscal digital a través de Internet.&lt;/xs:documentation&gt;
+							&lt;/xs:annotation&gt;
+						&lt;/xs:attribute&gt;
+					&lt;/xs:complexType&gt;
+				&lt;/xs:element&gt;
+				&lt;xs:element name="Complemento" minOccurs="0"&gt;
+					&lt;xs:annotation&gt;
+						&lt;xs:documentation&gt;Nodo opcional donde se incluirá el complemento Timbre Fiscal Digital de manera obligatoria y los nodos complementarios determinados por el SAT, de acuerdo a las disposiciones particulares a un sector o actividad específica.&lt;/xs:documentation&gt;
+					&lt;/xs:annotation&gt;
+					&lt;xs:complexType&gt;
+						&lt;xs:sequence&gt;
+							&lt;xs:any minOccurs="0" maxOccurs="unbounded"/&gt;
+						&lt;/xs:sequence&gt;
+					&lt;/xs:complexType&gt;
+				&lt;/xs:element&gt;
+				&lt;xs:element name="Addenda" minOccurs="0"&gt;
+					&lt;xs:annotation&gt;
+						&lt;xs:documentation&gt;Nodo opcional para recibir las extensiones al presente formato que sean de utilidad al contribuyente. Para las reglas de uso del mismo, referirse al formato de origen.&lt;/xs:documentation&gt;
+					&lt;/xs:annotation&gt;
+					&lt;xs:complexType&gt;
+						&lt;xs:sequence&gt;
+							&lt;xs:any minOccurs="0" maxOccurs="unbounded"/&gt;
+						&lt;/xs:sequence&gt;
+					&lt;/xs:complexType&gt;
+				&lt;/xs:element&gt;
+			&lt;/xs:sequence&gt;
+			&lt;xs:attribute name="version" use="required" fixed="3.2"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido con valor prefijado a 3.2 que indica la versión del estándar bajo el que se encuentra expresado el comprobante.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="serie" use="optional"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo opcional para precisar la serie para control interno del contribuyente. Este atributo acepta una cadena de caracteres alfabéticos de 1 a 25 caracteres sin incluir caracteres acentuados.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:minLength value="1"/&gt;
+						&lt;xs:maxLength value="25"/&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="folio"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo opcional para control interno del contribuyente que acepta un valor numérico entero superior a 0 que expresa el folio del comprobante.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:minLength value="1"/&gt;
+						&lt;xs:maxLength value="20"/&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="fecha" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido para la expresión de la fecha y hora de expedición  del comprobante fiscal. Se expresa en la forma aaaa-mm-ddThh:mm:ss, de acuerdo con la especificación ISO 8601.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:dateTime"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="sello" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido para contener el sello digital del comprobante fiscal, al que hacen referencia las reglas de resolución miscelánea aplicable. El sello deberá ser expresado cómo una cadena de texto en formato Base 64.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="formaDePago" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido para precisar la forma de pago que aplica para este comprobnante fiscal digital a través de Internet. Se utiliza para expresar Pago en una sola exhibición o número de parcialidad pagada contra el total de parcialidades, Parcialidad 1 de X. &lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="noCertificado" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt; Atributo requerido para expresar el número de serie del certificado de sello digital que ampara al comprobante, de acuerdo al acuse correspondiente a 20 posiciones otorgado por el sistema del SAT.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:length value="20"/&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="certificado" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido que sirve para expresar el certificado de sello digital que ampara al comprobante como texto, en formato base 64.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="condicionesDePago" use="optional"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo opcional para expresar las condiciones comerciales aplicables para el pago del comprobante fiscal digital a través de Internet.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+						&lt;xs:minLength value="1"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="subTotal" type="cfdi:t_Importe" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido para representar la suma de los importes antes de descuentos e impuestos.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="descuento" type="cfdi:t_Importe" use="optional"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo opcional para representar el importe total de los descuentos aplicables antes de impuestos.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="motivoDescuento" use="optional"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo opcional para expresar el motivo del descuento aplicable.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:minLength value="1"/&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="TipoCambio"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo opcional para representar el tipo de cambio conforme a la moneda usada&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="Moneda"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo opcional para expresar la moneda utilizada para expresar los montos &lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="total" type="cfdi:t_Importe" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido para representar la suma del subtotal, menos los descuentos aplicables, más los impuestos trasladados, menos los impuestos retenidos.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="tipoDeComprobante" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido para expresar el efecto del comprobante fiscal para el contribuyente emisor.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:enumeration value="ingreso"/&gt;
+						&lt;xs:enumeration value="egreso"/&gt;
+						&lt;xs:enumeration value="traslado"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="metodoDePago" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido de texto libre para expresar el método de pago de los bienes o servicios amparados por el comprobante. Se entiende como método de pago leyendas tales como: cheque, tarjeta de crédito o debito, depósito en cuenta, etc.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:minLength value="1"/&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="LugarExpedicion" use="required"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo requerido para incorporar el lugar de expedición del comprobante.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:minLength value="1"/&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="NumCtaPago"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo Opcional para incorporar al menos los cuatro últimos digitos del número de cuenta con la que se realizó el pago.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:minLength value="4"/&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="FolioFiscalOrig"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo opcional para señalar el número de folio fiscal del comprobante que se hubiese expedido por el valor total del comprobante, tratándose del pago en parcialidades.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="SerieFolioFiscalOrig"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo opcional para señalar la serie del folio del comprobante que se hubiese expedido por el valor total del comprobante, tratándose del pago en parcialidades.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="FechaFolioFiscalOrig"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo opcional para señalar la fecha de expedición del comprobante que se hubiese emitido por el valor total del comprobante, tratándose del pago en parcialidades. Se expresa en la forma aaaa-mm-ddThh:mm:ss, de acuerdo con la especificación ISO 8601.&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:dateTime"&gt;
+						&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:attribute&gt;
+			&lt;xs:attribute name="MontoFolioFiscalOrig" type="cfdi:t_Importe"&gt;
+				&lt;xs:annotation&gt;
+					&lt;xs:documentation&gt;Atributo opcional para señalar el total del comprobante que se hubiese expedido por el valor total de la operación, tratándose del pago en parcialidades&lt;/xs:documentation&gt;
+				&lt;/xs:annotation&gt;
+			&lt;/xs:attribute&gt;
+		&lt;/xs:complexType&gt;
+	&lt;/xs:element&gt;
+	&lt;xs:complexType name="t_Ubicacion"&gt;
+		&lt;xs:annotation&gt;
+			&lt;xs:documentation&gt;Tipo definido para expresar domicilios o direcciones&lt;/xs:documentation&gt;
+		&lt;/xs:annotation&gt;
+		&lt;xs:attribute name="calle" use="optional"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Este atributo opcional sirve para precisar la avenida, calle, camino o carretera donde se da la ubicación.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="noExterior" use="optional"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Este atributo opcional sirve para expresar el número particular en donde se da la ubicación sobre una calle dada.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="noInterior" use="optional"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Este atributo opcional sirve para expresar información adicional para especificar la ubicación cuando calle y número exterior (noExterior) no resulten suficientes para determinar la ubicación de forma precisa.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="colonia" use="optional"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Este atributo opcional sirve para precisar la colonia en donde se da la ubicación cuando se desea ser más específico en casos de ubicaciones urbanas.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="localidad" use="optional"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo opcional que sirve para precisar la ciudad o población donde se da la ubicación.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="referencia" use="optional"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo opcional para expresar una referencia de ubicación adicional.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="municipio" use="optional"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo opcional que sirve para precisar el municipio o delegación (en el caso del Distrito Federal) en donde se da la ubicación.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="estado" use="optional"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo opcional que sirve para precisar el estado o entidad federativa donde se da la ubicación.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="pais" use="required"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo requerido que sirve para precisar el país donde se da la ubicación.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="codigoPostal" use="optional"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo opcional que sirve para asentar el código postal en donde se da la ubicación.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="t_UbicacionFiscal"&gt;
+		&lt;xs:annotation&gt;
+			&lt;xs:documentation&gt;Tipo definido para expresar domicilios o direcciones&lt;/xs:documentation&gt;
+		&lt;/xs:annotation&gt;
+		&lt;xs:attribute name="calle" use="required"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Este atributo requerido sirve para precisar la avenida, calle, camino o carretera donde se da la ubicación.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="noExterior" use="optional"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Este atributo opcional sirve para expresar el número particular en donde se da la ubicación sobre una calle dada.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="noInterior" use="optional"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Este atributo opcional sirve para expresar información adicional para especificar la ubicación cuando calle y número exterior (noExterior) no resulten suficientes para determinar la ubicación de forma precisa.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="colonia" use="optional"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Este atributo opcional sirve para precisar la colonia en donde se da la ubicación cuando se desea ser más específico en casos de ubicaciones urbanas.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="localidad" use="optional"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo opcional que sirve para precisar la ciudad o población donde se da la ubicación.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="referencia" use="optional"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo opcional para expresar una referencia de ubicación adicional.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;xs:minLength value="1"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="municipio" use="required"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo requerido que sirve para precisar el municipio o delegación (en el caso del Distrito Federal) en donde se da la ubicación.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="estado" use="required"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo requerido que sirve para precisar el estado o entidad federativa donde se da la ubicación.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="pais" use="required"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo requerido que sirve para precisar el país donde se da la ubicación.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="codigoPostal" use="required"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo requerido que sirve para asentar el código postal en donde se da la ubicación.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+					&lt;xs:length value="5"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:simpleType name="t_RFC"&gt;
+		&lt;xs:annotation&gt;
+			&lt;xs:documentation&gt;Tipo definido para expresar claves del Registro Federal de Contribuyentes&lt;/xs:documentation&gt;
+		&lt;/xs:annotation&gt;
+		&lt;xs:restriction base="xs:string"&gt;
+			&lt;xs:minLength value="12"/&gt;
+			&lt;xs:maxLength value="13"/&gt;
+			&lt;xs:whiteSpace value="collapse"/&gt;
+			&lt;xs:pattern value="[A-Z,Ñ,&amp;amp;]{3,4}[0-9]{2}[0-1][0-9][0-3][0-9][A-Z,0-9]?[A-Z,0-9]?[0-9,A-Z]?"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:simpleType name="t_Importe"&gt;
+		&lt;xs:annotation&gt;
+			&lt;xs:documentation&gt;Tipo definido para expresar importes numéricos con fracción hasta seis decimales&lt;/xs:documentation&gt;
+		&lt;/xs:annotation&gt;
+		&lt;xs:restriction base="xs:decimal"&gt;
+			&lt;xs:fractionDigits value="6"/&gt;
+			&lt;xs:whiteSpace value="collapse"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:complexType name="t_InformacionAduanera"&gt;
+		&lt;xs:annotation&gt;
+			&lt;xs:documentation&gt;Tipo definido para expresar información aduanera&lt;/xs:documentation&gt;
+		&lt;/xs:annotation&gt;
+		&lt;xs:attribute name="numero" use="required"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo requerido para expresar el número del documento aduanero que ampara la importación del bien.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="fecha" use="required"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo requerido para expresar la fecha de expedición del documento aduanero que ampara la importación del bien. Se expresa en el formato aaaa-mm-dd&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:date"&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+		&lt;xs:attribute name="aduana"&gt;
+			&lt;xs:annotation&gt;
+				&lt;xs:documentation&gt;Atributo opcional para precisar el nombre de la aduana por la que se efectuó la importación del bien.&lt;/xs:documentation&gt;
+			&lt;/xs:annotation&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"&gt;
+					&lt;xs:minLength value="1"/&gt;
+					&lt;xs:whiteSpace value="collapse"/&gt;
+				&lt;/xs:restriction&gt;
+			&lt;/xs:simpleType&gt;
+		&lt;/xs:attribute&gt;
+	&lt;/xs:complexType&gt;
+&lt;/xs:schema&gt;</value>
+  </data>
+</root>

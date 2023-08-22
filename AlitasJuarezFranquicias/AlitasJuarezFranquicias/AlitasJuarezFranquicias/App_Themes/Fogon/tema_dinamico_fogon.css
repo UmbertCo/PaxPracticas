@@ -1,0 +1,400 @@
+﻿/*body 
+{
+    
+}
+
+@font-face {
+ font-family: Prozak;
+ src: url('Prozak.eot');/* EOT file for IE
+ font-weight:lighter;
+}
+@font-face {
+ font-family: Prozak;
+ src: url('Prozak.ttf'); /* TTF file for CSS3 browsers 
+ font-weight:lighter;
+}
+
+.roundedPanel
+{
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+}
+
+.cuadro
+{
+    height: 240px;
+    width: 530px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../../Imagenes/bc_F.png');
+}
+
+.fondo1
+{
+    background-color: #ccc3a0;
+    margin: 0;
+    padding: 0;
+}
+
+.fondo2
+{
+    background-color: #231f20;
+    margin: 0;
+    padding: 0;
+}
+
+.fondoMaster
+{
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: url('../../Imagenes/pa-fogon.jpg');
+    background-position: left top;
+    height: 100%;
+}
+
+
+.TopGrafo
+{
+    background-image: url('../../Imagenes/ba-fogon.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 105%;
+    height: 105%;
+}
+
+.BotomGrafo
+{
+    background-image: url('../../Imagenes/botomGrafo-fogon.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    width:80%;
+    height:80%;
+}
+
+.TablaBackGround
+{
+    background-color: #ccc3a0;
+}
+
+.Titulo
+{
+    font-family: 'Prozak';
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #231f20;
+}
+
+.TituloBlanco
+{
+    font-family: 'Prozak';
+    font-size: xx-large;
+    font-weight: bolder;
+    color:White;
+}
+
+
+.HiperLink
+{
+    font-family: 'Prozak';
+    font-size: small;
+    font-weight: bolder;
+    color: #a33826;
+}
+
+input.textEntry
+{
+    width: 320px;
+    border: 1px solid #ccc;
+    color: #0078AD;
+    color:Black;
+    font-family: 'Prozak';
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+    color: #0078AD;
+    color:#231f20;
+    font-family: 'Prozak';
+}
+
+
+.NavigationMenuMaster
+{
+    font-family: 'Century Gothic';
+    font-family: 'Prozak';
+    font-size: 20px;
+    color: #FFFFFF;
+    background-image: url('../../mnu_images/button1a-fogon.gif');
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    padding: 0px 0px 0px 20px;
+    margin: 0 auto;
+}
+
+.NavigationMenu
+{
+    font-family: 'Prozak';
+    font-size: 16px;
+    color: #a33826;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    padding: 0px 0px 100px 0px;
+    width: 100px;
+    height: 40px;
+}
+
+.staticMenuItemStyleMaster
+{
+    margin: 3px;
+    border: 1px solid #ccc3a0; #5a737e
+    display: block;
+    font-size: 20px; /*font-family: 'Century Gothic';
+    font-family: 'Prozak';
+    color: #231f20;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.staticMenuItemStyle
+{
+    color: #a33826;
+    font-size: 16px; font-family: 'century Gothic';
+    font-family: 'Prozak';
+    cursor: pointer;
+    line-height: 20px;
+    background-color: #ccc3a0;
+    text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 120px;
+}
+
+.staticHoverStyleMaster
+{
+    margin: 3px;
+    display: block;
+    border: 1px solid #000; #5a737e
+    color: #FFFFFF;
+    font-family: 'Prozak';
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    cursor: pointer;
+    line-height: 20px;
+    background-color: #ccc3a0;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+
+
+.staticHoverStyle
+{
+    color: #231f20;
+    font-size: 16px; font-family: 'century Gothic';
+    font-family: 'Prozak';
+    cursor: pointer;
+    line-height: 20px;
+    background-color: #ccc3a0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    width: 120px;
+}
+
+.dynamicMenuItemStyleMaster
+{
+    border: 1px solid #000; #5a737e
+    padding: 2px 10px 2px 10px;
+    background-color: #ccc3a0;
+    color: #231f20; /*font-family: 'Century Gothic';
+    font-family: 'Prozak';
+    font-size: 18px;
+    height: 30px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    text-align: left;
+}
+
+.dynamicMenuItemStyle
+{
+    border: solid 1px #000;
+    background-color: #ccc3a0;
+    color: #231f20; font-family: 'Avenir LT Std 35 Light';
+    font-family: 'Prozak';
+    font-size: 16px;
+    height: 30px;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+}
+
+
+
+.menuItemMouseOver, .menuItemSelected
+{
+    background: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.menuItemMaster
+{
+    display: block;
+}
+
+.menuItem
+{
+    color: #FFFFFF;
+    display: block;
+}
+
+
+.botonGris
+{
+    background-image: url('../../mnu_images/botonGris-fogon.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 35px; /*font-family: 'Century Gothic';
+    font-family: 'Prozak';
+    font-size: 16px;
+}
+
+.botonEstilo
+{
+    background-image: url('../../mnu_images/boton_entrar-fogon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    border-color: #FFFFFF;
+    border-style: none;
+    color: #231f20; font-family: 'Century Gothic';
+    font-family: 'Prozak';
+    font-size: 16px;
+    width: 77px;
+    height: 32px;
+}
+
+.botonEstilo:hover
+{
+    background-image: url('../../mnu_images/boton-entrarVerde-fogon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    border-color: #FFFFFF;
+    border-style: none;
+    color: #FFFFFF;
+    font-family: 'Prozak';
+    font-size: 16px;
+    width: 77px;
+    height: 32px; /*cursor: pointer;
+}
+
+.botonGrande
+{
+    background-image: url('../../mnu_images/botonGris-fogon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-style: none;
+    color: #231f20;
+    font-family: 'Prozak';
+    font-size: 16px;
+    height: 32px;
+}
+
+.botonGrande:hover
+{
+    background-position: center center;
+    color: #FFFFFF;
+    text-decoration: blink;
+    font-size: 16px;
+    font-family: 'Prozak';
+    cursor: pointer;
+    background-image: url('../../mnu_images/btnA-fogon.png');
+    background-repeat: no-repeat;
+    height: 32px;
+} 
+
+.fondoBienvenida
+{
+    src: url('../../Imagenes/entrada-fogoncito.png');
+    background-image: url('../../Imagenes/entrada-fogoncito.png');
+}
+
+
+
+.fondoBackground
+{
+    background-repeat: no-repeat;
+    background-image: url('../../Imagenes/backfogoncito.jpg');
+    background-position: center top;
+    width: 100%;
+}
+
+.fondoDerechos
+{
+    background-repeat: no-repeat;
+    src: url('../../Imagenes/footer.png');
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 0px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    background-position: right;
+    line-height: normal;
+    background-image: url('../../Imagenes/botomGrafo-fogon.png');
+    height: 50px;
+    width: 97%;
+    background-repeat: no-repeat;
+}
+
+.leyendasfilsed
+{
+    width: auto;
+    color: #231f20;
+    font-family: Prozak;
+    font-weight: bold;
+}
+
+.labelCaptura
+{
+    color: #231f20;
+    font-family: Prozak;
+}
+
+.color
+{
+    background-color: #0073aa;
+}
+*/

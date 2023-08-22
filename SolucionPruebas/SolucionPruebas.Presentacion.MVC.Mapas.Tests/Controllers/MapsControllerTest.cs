@@ -1,0 +1,26 @@
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Web.Mvc;
+using SolucionPruebas.Presentacion.MVC.Mapas;
+using SolucionPruebas.Presentacion.MVC.Mapas.Controllers;
+
+namespace SolucionPruebas.Presentacion.MVC.Mapas.Tests.Controllers
+{
+    [TestClass]
+    public class MapsControllerTest
+    {
+        [TestMethod]
+        public void VerMapas()
+        {
+            Mapas.Controllers.MapsController mcControlador = new Mapas.Controllers.MapsController();
+
+            ViewResult vrResultado = mcControlador.ViewMaps() as ViewResult;
+
+            Assert.IsNotNull(vrResultado);
+            
+        }
+    }
+}

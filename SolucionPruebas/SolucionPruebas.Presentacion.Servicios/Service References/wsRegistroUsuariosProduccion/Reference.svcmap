@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="90551e84-1ca9-4df7-8958-7fdacee87475" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="System" />
+      <ReferencedAssembly AssemblyName="System.Data" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://www.paxfacturacion.com.mx:455/WebServices/wcfRegistroSVC.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="wcfRegistroSVC.xsd" MetadataType="Schema" ID="6a26555d-c0e4-4ef7-aa47-cf7b93b2113e" SourceId="1" SourceUrl="https://www.paxfacturacion.com.mx:455/WebServices/wcfRegistroSVC.svc?xsd=xsd1" />
+    <MetadataFile FileName="wcfRegistroSVC1.xsd" MetadataType="Schema" ID="11d29726-65f1-4f2c-bdaa-accf7abfbbdb" SourceId="1" SourceUrl="https://www.paxfacturacion.com.mx:455/WebServices/wcfRegistroSVC.svc?xsd=xsd2" />
+    <MetadataFile FileName="wcfRegistroSVC2.xsd" MetadataType="Schema" ID="a7405a4b-1b74-4d9d-b499-b017b07cfeea" SourceId="1" SourceUrl="https://www.paxfacturacion.com.mx:455/WebServices/wcfRegistroSVC.svc?xsd=xsd0" />
+    <MetadataFile FileName="wcfRegistroSVC.wsdl" MetadataType="Wsdl" ID="8809267d-50d8-47b1-a8d7-1a2931ce8bdd" SourceId="1" SourceUrl="https://www.paxfacturacion.com.mx:455/WebServices/wcfRegistroSVC.svc?wsdl" />
+    <MetadataFile FileName="wcfRegistroSVC.disco" MetadataType="Disco" ID="15b9d943-1a3a-4f4c-a3a2-89b2bd6c1ed0" SourceId="1" SourceUrl="https://www.paxfacturacion.com.mx:455/WebServices/wcfRegistroSVC.svc?disco" />
+    <MetadataFile FileName="wcfRegistroSVC1.wsdl" MetadataType="Wsdl" ID="7ada44d6-4aa6-4de2-91a1-03d747269e87" SourceId="1" SourceUrl="https://www.paxfacturacion.com.mx:455/WebServices/wcfRegistroSVC.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

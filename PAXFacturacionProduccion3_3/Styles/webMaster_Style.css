@@ -1,0 +1,338 @@
+﻿.jumbotron { /*---------------------------------JUMBOTRON----------------------------------*/
+    padding-top: 0px;
+    background-color: white;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.TituloInicio {
+    font-size:18pt;
+    color:#a5d10f;
+    font-weight:bold;
+}
+.merged .input-group-addon {
+    border: 0px;
+    background-color: transparent;
+
+}
+.SubTituloInicio {
+    font-size:14pt;
+    color:#a5d10f;
+    font-weight:bold;
+}
+.styleMenu:hover {
+    text-decoration: none;
+    background-color:#006080;
+    color:white;
+}
+.menuLink {
+
+}
+.hrbottom {
+    border-color:#a5d10f;
+    border-width: 3px;
+}
+@media (min-width: 768px) {
+.Imag {
+  float:right;
+  position: relative;
+  top: -140px;
+  margin-right:120px;
+  max-width: 100%;
+    height: auto;
+    width: auto; /* Bug de ie8 */
+    }
+    .BotonSinTop {
+        position: relative;
+        top: -140px;
+        float:right;
+    }
+}
+.tooltiptext {
+    /*width: 120px;*/
+    background-color: #f72e2c;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    box-shadow: 0px 0px 20px 0px red;
+    position: absolute;
+    z-index: 1;
+    top: 110%;
+    /*left: 10%;
+    margin-left: -60px;*/
+}
+.tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 10%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #f72e2c transparent;
+    z-index:1;
+}
+.input-group-btn > .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 34px;
+    border-left: 0;
+    }
+.form-group
+{
+    position:relative!important;
+}
+.container-slim {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom:auto;
+}
+@media (min-width: 768px) {
+  .container-slim {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container-slim {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-slim {
+    width: 970px;
+  }
+}
+.well{
+  min-height: 20px;
+  /*padding: 19px;*/
+  padding-bottom:0px;
+  padding-top:19px;
+  padding-left:0px;
+  padding-right:19px;
+  margin-bottom: 0px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+.well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, .15);
+}
+.well-lg {
+  padding: 24px;
+  border-radius: 6px;
+}
+.well-sm {
+  padding: 9px;
+  border-radius: 3px;
+}
+
+.navbar-default-pax {
+  background-color: #006080;
+  border-color: #e7e7e7;
+  border-radius:0px;
+}
+.navbar-default-pax .navbar-brand {
+  color: #777;
+}
+.navbar-default-pax .navbar-brand:hover,
+.navbar-default-pax .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-default-pax .navbar-text {
+  color: #777;
+}
+.navbar-default-pax .navbar-nav > li > a {
+  color: #777;
+}
+.navbar-default-pax .navbar-nav > li > a:hover,
+.navbar-default-pax .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-default-pax .navbar-nav > .active > a,
+.navbar-default-pax .navbar-nav > .active > a:hover,
+.navbar-default-pax .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.navbar-default-pax .navbar-nav > .disabled > a,
+.navbar-default-pax .navbar-nav > .disabled > a:hover,
+.navbar-default-pax .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-default-pax .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-default-pax .navbar-toggle:hover,
+.navbar-default-pax .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-default-pax .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-default-pax .navbar-collapse,
+.navbar-default-pax .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-default-pax .navbar-nav > .open > a,
+.navbar-default-pax .navbar-nav > .open > a:hover,
+.navbar-default-pax .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-default-pax .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-default-pax .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default-pax .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-default-pax .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default-pax .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default-pax .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-default-pax .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default-pax .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default-pax .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-default-pax .navbar-link {
+  color: #777;
+}
+.navbar-default-pax .navbar-link:hover {
+  color: #333;
+}
+.navbar-default-pax .btn-link {
+  color: #777;
+}
+.navbar-default-pax .btn-link:hover,
+.navbar-default-pax .btn-link:focus {
+  color: #333;
+}
+.navbar-default-pax .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default-pax .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+  color: #ccc;
+}
+
+/*------------------------------------------------PANEL HEADING--------------------------------------------------*/
+.panel-heading-pax {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: #006080;
+}
+.panel-heading-pax > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+.panel > .panel-heading-pax + .panel-collapse > .list-group .list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.panel-heading-pax + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+.panel-group .panel-heading-pax {
+  border-bottom: 0;
+}
+.panel-group .panel-heading-pax + .panel-collapse > .panel-body,
+.panel-group .panel-heading-pax + .panel-collapse > .list-group {
+  border-top: 1px solid #ddd;
+}
+.panel-group .panel-footer {
+  border-top: 0;
+}
+.panel-group .panel-footer + .panel-collapse .panel-body {
+  border-bottom: 1px solid #ddd;
+}
+.panel-default {
+  border-color: #ddd;
+}
+.panel-default > .panel-heading-pax {
+  color: #fff;
+  background-color: #006080;
+  border-color: #ddd;
+}
+.panel-default > .panel-heading-pax + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+  background-color: #f5f5f5;
+}
+.panel-default > .panel-heading-pax .badge {
+  color: #f5f5f5;
+  background-color: #333;
+}
+.panel-primary > .panel-heading-pax {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+.panel-primary > .panel-heading-pax + .panel-collapse > .panel-body {
+  border-top-color: #337ab7;
+}
+.panel-primary > .panel-heading-pax .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+.panel-success > .panel-heading-pax {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.panel-success > .panel-heading-pax + .panel-collapse > .panel-body {
+  border-top-color: #d6e9c6;
+}
+.panel-success > .panel-heading-pax .badge {
+  color: #dff0d8;
+  background-color: #3c763d;
+}
+.panel-info > .panel-heading-pax {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.panel-info > .panel-heading-pax + .panel-collapse > .panel-body {
+  border-top-color: #bce8f1;
+}
+.panel-info > .panel-heading-pax .badge {
+  color: #d9edf7;
+  background-color: #31708f;
+}
+.panel-warning > .panel-heading-pax {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+.panel-warning > .panel-heading-pax + .panel-collapse > .panel-body {
+  border-top-color: #faebcc;
+}
+.panel-warning > .panel-heading-pax .badge {
+  color: #fcf8e3;
+  background-color: #8a6d3b;
+}
+.panel-danger > .panel-heading-pax {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.panel-danger > .panel-heading-pax + .panel-collapse > .panel-body {
+  border-top-color: #ebccd1;
+}
+.panel-danger > .panel-heading-pax .badge {
+  color: #f2dede;
+  background-color: #a94442;
+}
